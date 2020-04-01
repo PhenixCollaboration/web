@@ -8,7 +8,9 @@ be 100% functional or have immediately useful content.
 
 # SCOPE
 
-This is a static site intended to preserve curated documentation for the PHENIX experiment,
+This is a static site built using the Jekyll static site generator.
+
+It is intended to preserve curated documentation for the PHENIX experiment,
 including technical write-ups on the PHENIX software and its infrastructure. It is not
 a document server although it does host a limited number of documents (primarily in
 PDF formats) and as well as some diagrams.
