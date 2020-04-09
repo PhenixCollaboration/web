@@ -1,24 +1,50 @@
+### DAP Taskforce
 - name: akiba
   full: Yasuyuki Akiba
   email: akiba@bnl.gov
   role: PHENIX Spokesperson
+  teams: [taskforce,]
 
 - name: david
   full: Gabor David
   email: david@bnl.gov
   role: Collaborative Tools Coordinator
+  teams: [taskforce,]
 
 - name: pinkenburg
   full: Chris Pinkenburg
   email: pinkenburg@bnl.gov
   role: Software Infrastructure Architect
+  teams: [taskforce,]
 
 - name: potekhin
   full: Maxim Potekhin
   email: potekhin@bnl.gov
   role: Designer of this Website
+  teams: [taskforce,]
 
 - name: todoroki
   full: Takahito Todoroki
   email: todoroki@bnl.gov
   role: Analysis Coordinator
+  teams: [retired,]
+
+### Contributors
+- name: belmont
+  full: Ron Belmont
+  email: belmonrj@gmail.com
+  role: TOF, Central Arm, FVTX expert
+  teams: [contributor,]
+
+- name: fitzgerald
+  full: Dillon Fitzgerald
+  email: dillfitz@umich.edu
+  role: Editor, liaison for junior members
+  teams: [contributor,]
+
+- name: sharma
+  full: Deepali Sharma
+  email: deeps.sharma@gmail.com
+  role: PISA, HBD detector and dielectron analysis expert
+  teams: [contributor,]
+

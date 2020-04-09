@@ -9,16 +9,10 @@ div: yes
 
 {% include title.md %}
 
-These pages are designed and maintained by the PHENIX Data and Analysis Preservation task force members:<br/>
+**PHENIX Data and Analysis Preservation task force members**<br/>
+{% include people/simple_table.md team='taskforce' %}
 <p/>
-
-<table width="80%">
-{% for who in site.data.people %}
-<tr>
-<td>{{ who.full }}</td>
-<td><a href="mailto:{{ who.email }}">{{ who.email }}</a></td>
-<td>{{ who.role }}</td>
-</tr>
-{% endfor %}
-</table>
+<p/>
+**Active contributors**:
+{% include people/simple_table.md team='contributor' %}
 
