@@ -7,6 +7,7 @@ weight: 7
 level: 1
 category: central
 ---
-# {{ page.title }}
-### Archived papers
-[PHENIX Time-of-flight detector West (TOFW) – Detector Basicss]({{ '/assets/detectors/tofw/tofw_shortdoc.pdf' | relative_url }})
+
+{% include title.md %}
+#### Archived papers
+[PHENIX Time-of-flight detector West (TOFW) – Detector Basics]({{ '/assets/detectors/tofw/tofw_shortdoc.pdf' | relative_url }})

@@ -32,11 +32,6 @@
   abbrev: rich
   category: central
 
-- title: Ring Imaging Cherenkov
-  role: Identifies Electrons.
-  abbrev: rich
-  category: central
-
 - title: Hadron Blind Detector
   role: Identifies electrons without detecting hadrons.
   abbrev: hbd
