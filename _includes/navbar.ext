@@ -9,11 +9,9 @@
 
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav">
-
-	    
 	    <!----------------- EXPERIMENT ----------------------------------------------->
             <li class="dropdown dropright">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="activities_menu">The Experiment<span class="caret"></span></a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/index.html" id="experiment_menu">The Experiment<span class="caret"></span></a>
                 <ul class="dropdown-menu" aria-labelledby="experiment_menu">
 		 {% assign items = site.experiment | sort: 'weight' %}
                  {% for item in items %}

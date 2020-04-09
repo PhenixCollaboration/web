@@ -42,5 +42,3 @@ and its leadership. Special thanks to members of the <a href="https://npps.bnl.g
 Design of this site was inspired by the <a href="http://hepsoftwarefoundation.org/">HEP Software Foundation</a> Web site.
 We are grateful to the authors and maintainers of the following technologies: <a href="https://pages.github.com/">GitHub Pages</a>,
  <a href="http://jekyllrb.com/">Jekyll</a>, <a href="https://shopify.github.io/liquid/">Liquid</a>, <a href="http://getbootstrap.com/">Bootstrap</a>.
-
-<iframe src="https://github.com/PhenixCollaboration/web/" height="600" width="800">test</iframe>
