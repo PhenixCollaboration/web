@@ -1,10 +1,11 @@
 ---
-title: Fun4All_tutorials
+title: Fun4All Tutorials
 abbrev: fun4all_tutorials
-layout: default
+layout: newbase
 weight: 2
 ---
-## Tutorials
+{% include title.md %}
+
 [A 2006 short intro tutorial]({{ '/assets/fun4all/Fun4Spin.pdf' | relative_url }})
 
 

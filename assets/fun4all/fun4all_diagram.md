@@ -1,10 +1,10 @@
 ---
 title: Fun4All Diagram
 abbrev: fun4all_diagram
-layout: default
+layout: newbase
 weight: 2
 ---
-# Fun4all Diagram
 
+{% include title.md %}
 ![fun4all diagram]({{ '/images/fun4all/fun4all_diagram_1.png' | relative_url }}){:class="img-responsive"}
 
