@@ -13,6 +13,8 @@ exclude: [vendor]
 # !!! Important as we are not serving from the top folder !!!
 baseurl: /web
 
+github: "https://github.com/PhenixCollaboration/web"
+
 plugins:
   - jekyll-mentions
   - jekyll-sitemap
