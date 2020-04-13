@@ -20,12 +20,11 @@ and was successfully operated for all running periods thereafter.
 The individual component of the TOFW detector is the mult-gap resistive plate chamber
 (MRPC).  Each MRPC has six 230 micron gaps separated by glass plates.  The gaps are filled
 with a gas mixture.
+
 * During the commissioning run in 2007 (Run7), the gas mixture was 95%
 R134a (1,1,1,2-Tetrafluoroethane) and 5% isobutane (2-Methylpropane).
-
 * In the 2008 operational period (Run8) the gas mixture was changed to 95% R134a, 4.5% isobutane,
 and 0.5% sulfur hexafluoride (SF6).
-
 * Starting in the operational period in 2011 (Run11), the gas mixture was changed to 92%
 R134a, 5% isobutane, and 3% SF6.
 
