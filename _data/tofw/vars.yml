@@ -1,0 +1,145 @@
+- name: get_tofwid
+  type: short
+  code: virtual short get_tofwid(/*args*/) const;
+  desc: Ron needs to double check
+
+- name: get_ptofwx
+  type: float
+  code: virtual float get_ptofwx(/*args*/) const;
+  desc: x-component of the projection of the cgl track onto the TOFW
+
+- name: get_ptofwy
+  type: float
+  code: virtual float get_ptofwy(/*args*/) const;
+  desc: y-component of the projection of the cgl track onto the TOFW
+
+- name: get_ptofwz
+  type: float
+  code: virtual float get_ptofwz(/*args*/) const;
+  desc: z-component of the projection of the cgl track onto the TOFW
+
+- name: get_pltofw
+  type: float
+  code: virtual float get_pltofw(/*args*/) const;
+  desc: pathlength of the track from the collision to the TOFW
+
+- name: get_tofwdphi
+  type: float
+  code: virtual float get_tofwdphi(/*args*/) const;
+  desc: difference between track projection and the track hit in the phi direction (viz dphi means delta phi)
+
+- name: get_tofwdz
+  type: float
+  code: virtual float get_tofwdz(/*args*/) const;
+  desc: difference between track projection and the track hit in the z direction (viz dz means delta z)
+
+- name: get_striptofw
+  type: int
+  code: virtual int get_striptofw(/*args*/) const;
+  desc: the unique id number of the strip of the track hit
+
+- name: get_tofwx
+  type: float
+  code: virtual float get_tofwx(/*args*/) const;
+  desc: x-component of the TOFW track hit
+
+- name: get_tofwy
+  type: float
+  code: virtual float get_tofwy(/*args*/) const;
+  desc: y-component of the TOFW track hit
+
+- name: get_tofwz
+  type: float
+  code: virtual float get_tofwz(/*args*/) const;
+  desc: z-component of the TOFW track hit
+
+- name: get_ttofw
+  type: float
+  code: virtual float get_ttofw(/*args*/) const;
+  desc: time of flight from the vertex to the TOFW (the BBC start time for the event is subtracted)
+
+- name: get_qtofw
+  type: float
+  code: virtual float get_qtofw(/*args*/) const;
+  desc: the total charge (ADC) of the TOFW track hit
+
+- name: get_tofwadcup
+  type: float
+  code: virtual float get_tofwadcup(/*args*/) const;
+  desc: the charge (ADC) from the upper side of the TOFW track hit
+
+- name: get_tofwadcdw
+  type: float
+  code: virtual float get_tofwadcdw(/*args*/) const;
+  desc: the charge (ADC) from the lower side of the TOFW track hit
+
+- name: get_tofwtdcup
+  type: float
+  code: virtual float get_tofwtdcup(/*args*/) const;
+  desc: the raw time (TDC) from the upper side of the TOFW track hit
+
+- name: get_tofwtdcdw
+  type: float
+  code: virtual float get_tofwtdcdw(/*args*/) const;
+  desc: the raw time (TDC) from the lower side of the TOFW track hit
+
+- name: get_tofwsdz
+  type: float
+  code: virtual float get_tofwsdz(/*args*/) const;
+  desc: the sigmalized version of tofwdz
+
+- name: get_tofwsdphi
+  type: float
+  code: virtual float get_tofwsdphi(/*args*/) const;
+  desc: the sigmalized version of tofwdphi
+
+- name: get_m2tofw
+  type: float
+  code: virtual float get_m2tofw(/*args*/) const;
+  desc: the calculated mass squared of the TOFW track (using ttofw, pltofw, and mom)
+
+- name: get_idtrk_tofw
+  type: int
+  code: virtual int get_idtrk_tofw(/*args*/) const;
+  desc: Ron needs to double check
+
+- name: get_stofwid
+  type: short
+  code: virtual short get_stofwid(/*args*/) const;
+  desc: Ron needs to double check
+
+- name: get_sptofwx
+  type: float
+  code: virtual float get_sptofwx(/*args*/) const;
+  desc: swapped version of ptofwx
+
+- name: get_sptofwy
+  type: float
+  code: virtual float get_sptofwy(/*args*/) const;
+  desc: swapped version of ptofwy
+
+- name: get_sptofwz
+  type: float
+  code: virtual float get_sptofwz(/*args*/) const;
+  desc: swapped version of ptofwz
+
+- name: get_stofwdphi
+  type: float
+  code: virtual float get_stofwdphi(/*args*/) const;
+  desc: swapped version of tofwdphi
+
+- name: get_stofwdz
+  type: float
+  code: virtual float get_stofwdz(/*args*/) const;
+  desc: swapped version of tofwdz
+
+- name: get_stofwsdphi
+  type: float
+  code: virtual float get_stofwsdphi(/*args*/) const;
+  desc: swapped version of tofwsdphi
+
+- name: get_stofwsdz
+  type: float
+  code: virtual float get_stofwsdz(/*args*/) const;
+  desc: swapped version of tofwsdz
+
