@@ -46,8 +46,10 @@ Each box has four high voltage busses in two rows.  Each high voltage buss power
 for a total of 32 per box and 128 total, meaning there are 1024 readout channels in total.
 
 #### Archived papers
-[PHENIX Time-of-flight detector West (TOFW) – Detector Basics]({{ '/assets/detectors/tofw/tofw_shortdoc.pdf' | relative_url }})
-
+[PHENIX Time-of-flight detector West (TOFW) – Detector Basics]({{ '/assets/detectors/tofw/tofw_shortdoc.pdf' | relative_url }})  
+[Brian Love's M.S. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2009/Love_Brian-thesis_BrianLove.pdf)  
+[Hugo Valle's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2008/Valle_Hugo-thesisHugoValle.pdf)  
+[Ron Belmont's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2012/Belmont_Ron-belmont.pdf)  
 
 #### Variables and Accessors
 These “get” methods give access to the TOFW variables used for analysis. The variable type, name of the get method, and a brief description are given below.
