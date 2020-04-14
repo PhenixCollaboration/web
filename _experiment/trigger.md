@@ -31,8 +31,16 @@ the presence of heavy flavor decays.
 {% if run.ert_thresholds %}
 <b>{{ run.run }}</b>: {{ run. ert_comment }}
 {% include layouts/table.md headers='Date, Run, 4x4a, 4x4b, 4x4c, 2x2, RICH, Comment' rows=run.ert_thresholds width="100%" %}
-<p/><br/>
+
+{% if run.ert_notes %}
+<b>Notes</b><br/>
+{{ run.ert_notes }}
 {% endif %}
+<p/><br/>
+
+<hr/>
+{% endif %}
+
 
 {% endfor %}
 

@@ -266,7 +266,21 @@
        lumi: '155/− <i>pb</i><sup>-1</sup>',
        Nevents: 
       }
-  
+  ert_comment: thresholds (DAC values). Values in parentheses are for the PbGl.
+  ert_thresholds:
+    - '3/10/13, 368358, 30(29), 31(30), 29(29), 34(25), 920, Run13pp510 - EMCal dynamic range ~50GeV'
+  ert_notes: |
+    ~50GeV dynamic range (sqrt(s)=510GeV)<br/>
+    this is basically taken from run12, and need to be updated<br/>
+    2x2 DAC-values correspond approximately to [energy/tile]:    39 = 2.2 GeV (The analysis was done with 39(37).)<br/>
+    4x4 DAC-values correspond approximately to [energy/tile]:    29 = 3.7 GeV, 30 = 4.7 GeV , and 31 = 5.6 GeV<br/>
+    RICH4x5 ADC-values correspond approximately to: 920 = 3 p.e.<br/>
+    
+    These values are estimated from Run 9 ADC sum analysis. The real thresholds have to be determined offline.
+    They depend on the gains/HV settings of the EMCal modules. The EMCal values in parantheses correspond to the
+    threshold of the PbGl.
+
+
 - run: run14
   period: 2014
   coordinator: Klaus Dehmelt, SUNYSB.
