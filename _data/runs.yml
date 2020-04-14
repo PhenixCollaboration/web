@@ -255,7 +255,29 @@
        lumi: '-',
        Nevents: Very short
       }
+  ert_comment: Summary of thresholds (DAC values). Values in parentheses are for the PbGl.
+  ert_thresholds:
+    - '2/9/12, 358208, 30(29), 31(30), 29(29), 29(25), 920, Run12pp200 - Pedestal tuned - EMCal dynamic range ~25GeV'
+    - '3/20/12, 364957, 30(29), 31(30), 29(29), 29(25), 920, Run12pp510 - EMCal dynamic range ~50GeV'
+    - '4/23/12, 369200, 30(29), 31(30), 29(29), 29(25), 920, Run12UU193 - EMCal dynamic range ~25GeV'
+    - '5/16/12, 372155, 31(30), 32(31), 30(29), 49(45), 920, Run12CuAu200 - EMCal dynamic range ~25GeV'
+  ert_notes: |
+    ~50GeV dynamic range (sqrt(s)=500GeV)<br/>
+    2x2 DAC-values correspond approximately to [energy/tile]: 39=2.2GeV (The analysis was done with 39(37))<br/>
+    4x4 DAC-values correspond approximately to [energy/tile]: 29=3.7GeV, 30=4.7GeV, and 31=5.6GeV<br/>
+    RICH4x5 ADC-values correspond approximately to: 920=3p.e.<br/>
 
+    These values are estimated from Run 9 ADC sum analysis. The real thresholds have to be determined offline. They depend on the gains/HV settings of the EMCal modules. The EMCal values in parantheses correspond to the threshold of the PbGl.
+    
+    ~25GeV dynamic range (sqrt(s)=200GeV)<br/>
+    2x2 DAC-values correspond approximately to [energy/tile]: 24=400MeV, 29=600MeV and 34=800MeV<br/>
+    4x4 DAC-values correspond approximately to [energy/tile]: 29=1.4GeV, 30=2.1GeV, 31=2.8GeV and 32=3.5GeV<br/>
+    RICH4x5 ADC-values correspond approximately to: 920=3p.e.
+
+    These values are estimated from Run 2 and a laser scan. The real thresholds have to be determined offline.
+    They depend on the gains/HV settings of the EMCal modules.
+    The EMCal values in parantheses correspond to the threshold of the PbGl.
+    
 - run: run13
   period: 2013
   coordinator: Hubert van Hecke, LANL.
@@ -272,9 +294,9 @@
   ert_notes: |
     ~50GeV dynamic range (sqrt(s)=510GeV)<br/>
     this is basically taken from run12, and need to be updated<br/>
-    2x2 DAC-values correspond approximately to [energy/tile]:    39=2.2 GeV (The analysis was done with 39(37).)<br/>
+    2x2 DAC-values correspond approximately to [energy/tile]:    39=2.2 GeV (The analysis was done with 39(37))<br/>
     4x4 DAC-values correspond approximately to [energy/tile]:    29=3.7 GeV, 30=4.7 GeV , and 31=5.6 GeV<br/>
-    RICH4x5 ADC-values correspond approximately to: 920=3 p.e.<br/>
+    RICH4x5 ADC-values correspond approximately to: 920=3p.e.<br/>
     
     These values are estimated from Run 9 ADC sum analysis. The real thresholds have to be determined offline.
     They depend on the gains/HV settings of the EMCal modules. The EMCal values in parantheses correspond to the
