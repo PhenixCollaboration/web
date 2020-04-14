@@ -266,7 +266,7 @@
        lumi: '155/− <i>pb</i><sup>-1</sup>',
        Nevents: 
       }
-  ert_comment: thresholds (DAC values). Values in parentheses are for the PbGl.
+  ert_comment: Summary of thresholds (DAC values). Values in parentheses are for the PbGl.
   ert_thresholds:
     - '3/10/13, 368358, 30(29), 31(30), 29(29), 34(25), 920, Run13pp510 - EMCal dynamic range ~50GeV'
   ert_notes: |
@@ -279,7 +279,8 @@
     These values are estimated from Run 9 ADC sum analysis. The real thresholds have to be determined offline.
     They depend on the gains/HV settings of the EMCal modules. The EMCal values in parantheses correspond to the
     threshold of the PbGl.
-
+  ert_masks:
+    - 'pp510GeV, 2013/03/10 17:30, 386830, addmask.txt_20130310, yes, Used ERT online monitoring. CHC add in 4x4C E3 SM10.'
 
 - run: run14
   period: 2014
@@ -303,7 +304,7 @@
        lumi: '24<i>nb</i><sup>-1</sup>',
        Nevents: 
       }
-  ert_comment: thresholds (DAC values). Values in parentheses are for the PbGl.
+  ert_comment: Summary of thresholds (DAC values). Values in parentheses are for the PbGl.
   ert_thresholds:
     - '02/07/14, 401984, 30(29), 31(30), 29(29), 29(26), 920, Run14AuAu15 pedestal tuned'
     - '03/12/14, 405357, 31(30), 32(31), 30(29), 39(36), 920, Run14AuAu200 pedestal tuned'
@@ -331,7 +332,7 @@
        lumi: '− /0.5 <i>pb</i><sup>-1</sup>',
        Nevents: 
       }
-  ert_comment: thresholds (DAC values). Values in parentheses are for the PbGl.
+  ert_comment: Summary of thresholds (DAC values). Values in parentheses are for the PbGl.
   ert_thresholds:
     - '02/05/15, 421025, 30(29), 31(30), 29(28), 34(31), 920, Run15pp200 pedestal tuned'
     - '02/13/15, 422089, 30(29), 31(30), 29(28), 39(36), 920, Run15pp200 threshold of 2x2 is raised'
