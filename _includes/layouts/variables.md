@@ -11,4 +11,4 @@
     <td>&nbsp;&nbsp;&nbsp;{{ var.desc }}</td>  
   </tr>
   {% endfor %}
-  
+</table>

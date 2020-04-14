@@ -14,6 +14,7 @@ exclude: [vendor]
 baseurl: /web
 
 github: "https://github.com/PhenixCollaboration/web"
+tablepadding: "&nbsp;&nbsp;&nbsp;"
 
 plugins:
   - jekyll-mentions

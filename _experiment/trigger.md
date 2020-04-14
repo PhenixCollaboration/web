@@ -10,11 +10,11 @@ document_folder: '/assets/documents/'
 {% include title.md %}
 
 
-### EMCal/RICH trigger (ERT)
+#### EMCal/RICH trigger (ERT)
 The EMCal/RICH trigger (ERT) selects events with high-p<sub>T</sub> electromagnetic probes or
 the presence of heavy flavor decays.
 
-<b>References</b>
+#### References
 {% assign items = site.data.documents %}
 <ul>
 {% for item in items %}
@@ -23,3 +23,16 @@ the presence of heavy flavor decays.
 {% endif %}
 {% endfor %}
 </ul>
+
+<hr/>
+#### ERT Info
+{% for run in site.data.runs %}
+
+{% if run.ert_thresholds %}
+<b>{{ run.run }}</b>: {{ run. ert_comment }}
+{% include layouts/table.md headers='Date, Run, 4x4a, 4x4b, 4x4c, 2x2, RICH, Comment' rows=run.ert_thresholds width="100%" %}
+<p/><br/>
+{% endif %}
+
+{% endfor %}
+
