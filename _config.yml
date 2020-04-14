@@ -16,6 +16,11 @@ baseurl: /web
 github: "https://github.com/PhenixCollaboration/web"
 tablepadding: "&nbsp;&nbsp;&nbsp;"
 
+# Assets steering
+document_folder: '/assets/documents/'
+ert_mask_folder: '/assets/trigger/ert/'
+
+
 plugins:
   - jekyll-mentions
   - jekyll-sitemap

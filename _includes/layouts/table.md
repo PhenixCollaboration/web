@@ -15,7 +15,12 @@
   <tr>
     {% assign columns = row | split: ", " %}
     {% for item in columns %}
+    {% if item contains '/assets/' %}
+    {% assign cleave= item | split: ":" %}
+    <td>{{ site.tablepadding }}<a href="{{ item | remove: ':' | relative_url }}">{{ cleave[1] }}</a></td>
+    {% else %}
     <td>{{ site.tablepadding }}{{ item }}</td>
+    {% endif %}
     {% endfor %}
   </tr>
   {% endfor %}
