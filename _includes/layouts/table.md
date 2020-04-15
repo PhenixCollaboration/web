@@ -15,9 +15,9 @@
   <tr>
     {% assign columns = row | split: ", " %}
     {% for item in columns %}
-    {% if item contains '/assets/' %}
-    {% assign cleave= item | split: ":" %}
-    <td>{{ site.tablepadding }}<a href="{{ item | remove: ':' | relative_url }}">{{ cleave[1] }}</a></td>
+    {% if item contains 'ERT_MASK' %}
+    {% assign name = item | split: ":" | last %}
+    <td>{{ site.tablepadding }}<a href="{{ site.ert_mask_folder | append: name | relative_url }}" {{ include.download }}>{{ name }}</a></td>
     {% else %}
     <td>{{ site.tablepadding }}{{ item }}</td>
     {% endif %}

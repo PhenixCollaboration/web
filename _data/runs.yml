@@ -277,7 +277,15 @@
     These values are estimated from Run 2 and a laser scan. The real thresholds have to be determined offline.
     They depend on the gains/HV settings of the EMCal modules.
     The EMCal values in parantheses correspond to the threshold of the PbGl.
-    
+  ert_masks:
+    - 'pp200GeV, 2012/02/09 23:55, 358513, ERT_MASK:mask_120209.txt, no, W0-SM5,E1-SM3 are masked. They kill the laser by prefiring.'
+    - 'pp200GeV, 2012/02/11 12:56, 358629, - , no, ERTLL1_E timing is fixed.'
+    - 'pp200GeV, 2012/02/27 16:47, 361051, ERT_MASK:mask_120227.txt, no, Masked 4x4a E0-16,E1-5. They had been noisy.'
+    - 'pp200GeV, 2012/03/20 13:15, 364962, ERT_MASK:mask_120320.txt, no, Prepare for pp510. W0-4,10,16 LV off. Neighbors got noisy,other noisy SMs. Dead ROC in the west.'
+    - 'pp200GeV, 2012/03/25 3:20, 365720, ERT_MASK:mask_120325.txt, no, Add mask E3-SM0 4x4a,b,c.'
+    - 'pp200GeV, 2012/03/28 16:30, 366182, ERT_MASK:mask_120328.txt, no, Reset masks after the access.'
+    - 'pp200GeV, 2012/03/28 23:30, 366269, ERT_MASK:mask_120328_2.txt, no, Still hot channels,W0-15-a,c,W0-16-a,b,c,W3-4-c.'
+    - 'pp200GeV, 2012/03/29 17:00, 366394, ERT_MASK:mask_120329.txt, no, Add w0-15-b.'
 - run: run13
   period: 2013
   coordinator: Hubert van Hecke, LANL.
@@ -302,7 +310,7 @@
     They depend on the gains/HV settings of the EMCal modules. The EMCal values in parantheses correspond to the
     threshold of the PbGl.
   ert_masks:
-    - 'pp510GeV, 2013/03/10 17:30, 386830, /assets/trigger/ert/:addmask.txt_20130310, yes, Used ERT online monitoring. CHC add in 4x4C E3 SM10.'
+    - 'pp510GeV, 2013/03/10 17:30, 386830, ERT_MASK:addmask.txt_20130310, yes, Used ERT online monitoring. CHC add in 4x4C E3 SM10.'
 
 - run: run14
   period: 2014

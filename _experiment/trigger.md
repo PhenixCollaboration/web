@@ -39,7 +39,7 @@ the presence of heavy flavor decays.
 {% endif %}
 {% if run.ert_masks %}
 <b>Masks</b><br/>
-{% include layouts/table.md headers='Run Period, Date, Run, Download Link, DB, Comment' rows=run.ert_masks width="100%" %}
+{% include layouts/table.md headers='Run Period, Date, Run, Download Link, DB, Comment' rows=run.ert_masks width="100%" download='download' %}
 {% endif %}
 <hr/>
 <hr/>
