@@ -4,7 +4,6 @@ abbrev: documents
 layout: newbase
 level: 0
 weight: 10
-document_folder: '/assets/documents/'
 items:
    - {title: 'General Overviews',			category: 'overview'}
    - {title: 'Detector Subsystems',			category: 'detector'}

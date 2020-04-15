@@ -255,7 +255,41 @@
        lumi: '-',
        Nevents: Very short
       }
+  ert_comment: Summary of thresholds (DAC values). Values in parentheses are for the PbGl.
+  ert_thresholds:
+    - '02/09/12, 358208, 30(29), 31(30), 29(29), 29(25), 920, Run12pp200 - Pedestal tuned - EMCal dynamic range ~25GeV'
+    - '03/20/12, 364957, 30(29), 31(30), 29(29), 29(25), 920, Run12pp510 - EMCal dynamic range ~50GeV'
+    - '04/23/12, 369200, 30(29), 31(30), 29(29), 29(25), 920, Run12UU193 - EMCal dynamic range ~25GeV'
+    - '05/16/12, 372155, 31(30), 32(31), 30(29), 49(45), 920, Run12CuAu200 - EMCal dynamic range ~25GeV'
+  ert_notes: |
+    ~50GeV dynamic range (&#8730;s=500GeV)<br/>
+    2x2 DAC-values correspond approximately to [energy/tile]: 39=2.2GeV (The analysis was done with 39(37))<br/>
+    4x4 DAC-values correspond approximately to [energy/tile]: 29=3.7GeV, 30=4.7GeV, and 31=5.6GeV<br/>
+    RICH4x5 ADC-values correspond approximately to: 920=3p.e.<br/>
 
+    These values are estimated from Run 9 ADC sum analysis. The real thresholds have to be determined offline. They depend on the gains/HV settings of the EMCal modules. The EMCal values in parantheses correspond to the threshold of the PbGl.
+    
+    ~25GeV dynamic range (&#8730;s=200GeV)<br/>
+    2x2 DAC-values correspond approximately to [energy/tile]: 24=400MeV, 29=600MeV and 34=800MeV<br/>
+    4x4 DAC-values correspond approximately to [energy/tile]: 29=1.4GeV, 30=2.1GeV, 31=2.8GeV and 32=3.5GeV<br/>
+    RICH4x5 ADC-values correspond approximately to: 920=3p.e.
+
+    These values are estimated from Run 2 and a laser scan. The real thresholds have to be determined offline.
+    They depend on the gains/HV settings of the EMCal modules.
+    The EMCal values in parantheses correspond to the threshold of the PbGl.
+  ert_masks:
+    - '02/09/12 23:55, 358513, ERT_MASK:mask_120209.txt, no, W0-SM5,E1-SM3 are masked. They kill the laser by prefiring.'
+    - '02/11/12 12:56, 358629, - , no, ERTLL1_E timing is fixed.'
+    - '02/27/12 16:47, 361051, ERT_MASK:mask_120227.txt, no, Masked 4x4a E0-16,E1-5. They had been noisy.'
+    - '03/20/12 13:15, 364962, ERT_MASK:mask_120320.txt, no, Prepare for pp510. W0-4,10,16 LV off. Neighbors got noisy,other noisy SMs. Dead ROC in the west.'
+    - '03/25/12 3:20, 365720, ERT_MASK:mask_120325.txt, no, Add mask E3-SM0 4x4a,b,c.'
+    - '03/28/12 16:30, 366182, ERT_MASK:mask_120328.txt, no, Reset masks after the access.'
+    - '03/28/12 23:30, 366269, ERT_MASK:mask_120328_2.txt, no, Still hot channels,W0-15-a,c,W0-16-a,b,c,W3-4-c.'
+    - '03/29/12 17:00, 366394, ERT_MASK:mask_120329.txt, no, Add w0-15-b.'
+    - '03/31/12 14:30, 366637, - , no, Add mask on E3-SM8-4x4c.'
+    - '04/04/12 14:30, 367214, - , no, Add mask on RICH W3N 16 channels.'
+    - '05/16/12 12:25, 372190, ERT_MASK:mask_120516.txt, no, Add mask on RICH W3N 16 channels.'
+    - '06/03/12 10:00, - , ERT_MASK:mask_120603.txt, no, Add mask on 4x4c E0-24,E1-7.'
 - run: run13
   period: 2013
   coordinator: Hubert van Hecke, LANL.
@@ -266,7 +300,22 @@
        lumi: '155/− <i>pb</i><sup>-1</sup>',
        Nevents: 
       }
-  
+  ert_comment: Summary of thresholds (DAC values). Values in parentheses are for the PbGl.
+  ert_thresholds:
+    - '03/10/13, 368358, 30(29), 31(30), 29(29), 34(25), 920, Run13pp510 - EMCal dynamic range ~50GeV'
+  ert_notes: |
+    ~50GeV dynamic range (&#8730;s=510GeV)<br/>
+    this is basically taken from run12, and need to be updated<br/>
+    2x2 DAC-values correspond approximately to [energy/tile]:    39=2.2 GeV (The analysis was done with 39(37))<br/>
+    4x4 DAC-values correspond approximately to [energy/tile]:    29=3.7 GeV, 30=4.7 GeV , and 31=5.6 GeV<br/>
+    RICH4x5 ADC-values correspond approximately to: 920=3p.e.<br/>
+    
+    These values are estimated from Run 9 ADC sum analysis. The real thresholds have to be determined offline.
+    They depend on the gains/HV settings of the EMCal modules. The EMCal values in parantheses correspond to the
+    threshold of the PbGl.
+  ert_masks:
+    - '03/10/13 17:30, 386830, ERT_MASK:addmask.txt_20130310, yes, Used ERT online monitoring. CHC add in 4x4C E3 SM10.'
+
 - run: run14
   period: 2014
   coordinator: Klaus Dehmelt, SUNYSB.
@@ -289,7 +338,12 @@
        lumi: '24<i>nb</i><sup>-1</sup>',
        Nevents: 
       }
-  
+  ert_comment: Summary of thresholds (DAC values). Values in parentheses are for the PbGl.
+  ert_thresholds:
+    - '02/07/14, 401984, 30(29), 31(30), 29(29), 29(26), 920, Run14AuAu15 pedestal tuned'
+    - '03/12/14, 405357, 31(30), 32(31), 30(29), 39(36), 920, Run14AuAu200 pedestal tuned'
+    - '06/17/14, 415200, 32(31), 33(32), 31(30), 44(40), 920, Run14He3Au200 pedestal tuned'
+
 - run: run15
   period: 2015
   coordinator: Douglas Fields, UNM; Itaru Nakagawa, Riken/RBRC (spin).
@@ -312,7 +366,13 @@
        lumi: '− /0.5 <i>pb</i><sup>-1</sup>',
        Nevents: 
       }
-  
+  ert_comment: Summary of thresholds (DAC values). Values in parentheses are for the PbGl.
+  ert_thresholds:
+    - '02/05/15, 421025, 30(29), 31(30), 29(28), 34(31), 920, Run15pp200 pedestal tuned'
+    - '02/13/15, 422089, 30(29), 31(30), 29(28), 39(36), 920, Run15pp200 threshold of 2x2 is raised'
+    - '05/01/15, 432322, 31(30), 32(31), 30(29), 44(41), 920, Run15pAu pedestal tuned'
+    - '05/01/15, 415200, 31(30), 32(31), 30(29), 41(38), 920, Run15pAu200 and Run15pAl200'
+
 - run: run16
   period: 2016
   coordinator: Denis Jouan, IPNO.
