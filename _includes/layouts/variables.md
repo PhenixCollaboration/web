@@ -1,4 +1,4 @@
-<table border="1" width="80%">
+<table border="1" width="95%">
   <tr>
     <th>&nbsp;&nbsp;&nbsp;Type</th>
     <th>&nbsp;&nbsp;&nbsp;Name</th>

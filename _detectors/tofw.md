@@ -20,12 +20,11 @@ and was successfully operated for all running periods thereafter.
 The individual component of the TOFW detector is the mult-gap resistive plate chamber
 (MRPC).  Each MRPC has six 230 micron gaps separated by glass plates.  The gaps are filled
 with a gas mixture.
+
 * During the commissioning run in 2007 (Run7), the gas mixture was 95%
 R134a (1,1,1,2-Tetrafluoroethane) and 5% isobutane (2-Methylpropane).
-
 * In the 2008 operational period (Run8) the gas mixture was changed to 95% R134a, 4.5% isobutane,
 and 0.5% sulfur hexafluoride (SF6).
-
 * Starting in the operational period in 2011 (Run11), the gas mixture was changed to 92%
 R134a, 5% isobutane, and 3% SF6.
 
@@ -47,8 +46,10 @@ Each box has four high voltage busses in two rows.  Each high voltage buss power
 for a total of 32 per box and 128 total, meaning there are 1024 readout channels in total.
 
 #### Archived papers
-[PHENIX Time-of-flight detector West (TOFW) – Detector Basics]({{ '/assets/detectors/tofw/tofw_shortdoc.pdf' | relative_url }})
-
+[PHENIX Time-of-flight detector West (TOFW) – Detector Basics]({{ '/assets/detectors/tofw/tofw_shortdoc.pdf' | relative_url }})  
+[Brian Love's M.S. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2009/Love_Brian-thesis_BrianLove.pdf)  
+[Hugo Valle's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2008/Valle_Hugo-thesisHugoValle.pdf)  
+[Ron Belmont's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2012/Belmont_Ron-belmont.pdf)  
 
 #### Variables and Accessors
 These “get” methods give access to the TOFW variables used for analysis. The variable type, name of the get method, and a brief description are given below.

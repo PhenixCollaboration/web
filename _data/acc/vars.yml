@@ -1,0 +1,40 @@
+- name: get_aerindex
+  type: int
+  code: virtual int PHSnglCentralTrack::get_aerindex() const;
+  desc: The AccCluster index for the track
+
+- name: get_cluster
+  type: AccSnglCluster*
+  code: virtual AccSnglCluster* AccCluster::get_cluster(const unsigned int) const;
+  desc: The single cluster from the cluster container with the cluster index as the argument
+
+- name: get_aerhitid
+  type: int
+  code: virtual int AccSnglCluster::get_aerhitid() const;
+  desc: The global box id number of the single cluster
+
+- name: get_aerhitconfig
+  type: int
+  code: virtual int AccSnglCluster::get_aerhitconfig() const;
+  desc: The loacl box id number of the single cluster
+
+- name: get_aerph1
+  type: float
+  code: virtual float AccSnglCluster::get_aerph1(const unsigned int) const;
+  desc: Number of photoelectrons from PMT1 with aerhitconfig as the argument
+
+- name: get_aerph2
+  type: float
+  code: virtual float AccSnglCluster::get_aerph2(const unsigned int) const;
+  desc: Number of photoelectrons from PMT2 with aerhitconfig as the argument
+
+- name: get_aert1
+  type: float
+  code: virtual float AccSnglCluster::get_aert1(const unsigned int) const;
+  desc: Timing information from PMT1 with aerhitconfig as the argument
+
+- name: get_aert2
+  type: float
+  code: virtual float AccSnglCluster::get_aert2(const unsigned int) const;
+  desc: Timing information from PMT2 with aerhitconfig as the argument
+
