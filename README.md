@@ -7,6 +7,8 @@ The site is under heavy development and is not officially in produciton.
 At present, and until firther notice, it is not expected to be 100% functional
 or have immediately useful content.
 
+Release archival on Zenodo:
+[![DOI](https://zenodo.org/badge/237520599.svg)](https://zenodo.org/badge/latestdoi/237520599)
 
 # SCOPE
 
