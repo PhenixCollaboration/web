@@ -1,0 +1,185 @@
+- name: get_tofid
+  type: short
+  code: virtual short get_tofid(/*args*/) const;
+  desc: Ron needs to double check
+
+- name: get_ptofx
+  type: float
+  code: virtual float get_ptofx(/*args*/) const;
+  desc: x-component of the projection of the cgl track onto the TOF
+
+- name: get_ptofy
+  type: float
+  code: virtual float get_ptofy(/*args*/) const;
+  desc: y-component of the projection of the cgl track onto the TOF
+
+- name: get_ptofz
+  type: float
+  code: virtual float get_ptofz(/*args*/) const;
+  desc: z-component of the projection of the cgl track onto the TOF
+
+- name: get_pltof
+  type: float
+  code: virtual float get_pltof(/*args*/) const;
+  desc: pathlength of the track from the collision to the TOF
+
+- name: get_tofdphi
+  type: float
+  code: virtual float get_tofdphi(/*args*/) const;
+  desc: difference between track projection and the track hit in the phi direction (viz dphi means delta phi)
+
+- name: get_tofdz
+  type: float
+  code: virtual float get_tofdz(/*args*/) const;
+  desc: difference between track projection and the track hit in the z direction (viz dz means delta z)
+
+- name: get_slat
+  type: int
+  code: virtual int get_slat(/*args*/) const;
+  desc: the unique id number of the slat of the track hit
+
+- name: get_tofphi
+  type: float
+  code: virtual float get_tofphi(/*args*/) const;
+  desc: phi-component of the TOF track hit
+
+- name: get_tofz
+  type: float
+  code: virtual float get_tofz(/*args*/) const;
+  desc: z-component of the TOF track hit
+
+- name: get_ttof
+  type: float
+  code: virtual float get_ttof(/*args*/) const;
+  desc: time of flight from the vertex to the TOF (the BBC start time for the event is subtracted)
+
+- name: get_etof
+  type: float
+  code: virtual float get_etof(/*args*/) const;
+  desc: the energy of the TOF track hit
+
+- name: get_tofph1
+  type: float
+  code: virtual float get_tofph1(/*args*/) const;
+  desc: the charge (ADC) from the upper side of the TOF track hit
+
+- name: get_tofph2
+  type: float
+  code: virtual float get_tofph2(/*args*/) const;
+  desc: the charge (ADC) from the lower side of the TOF track hit
+
+- name: get_toftdc1
+  type: float
+  code: virtual float get_toftdc1(/*args*/) const;
+  desc: the raw time (TDC) from the upper side of the TOF track hit
+
+- name: get_toftdc2
+  type: float
+  code: virtual float get_toftdc2(/*args*/) const;
+  desc: the raw time (TDC) from the lower side of the TOF track hit
+
+- name: get_tofsdz
+  type: float
+  code: virtual float get_tofsdz(/*args*/) const;
+  desc: the sigmalized version of tofdz
+
+- name: get_tofsdphi
+  type: float
+  code: virtual float get_tofsdphi(/*args*/) const;
+  desc: the sigmalized version of tofdphi
+
+- name: get_m2tof
+  type: float
+  code: virtual float get_m2tof(/*args*/) const;
+  desc: the calculated mass squared of the TOF track (using ttof, pltof, and mom)
+
+- name: get_tofecut
+  type: short
+  code: virtual short get_tofecut(/*args*/) const;
+  desc: Ron needs to double check
+
+- name: get_tofsame
+  type: short
+  code: virtual short get_tofsame(/*args*/) const;
+  desc: Ron needs to double check
+
+- name: get_ttofnext
+  type: float
+  code: virtual float get_ttofnext(/*args*/) const;
+  desc: Ron needs to double check
+
+- name: get_etofnext
+  type: float
+  code: virtual float get_etofnext(/*args*/) const;
+  desc: Ron needs to double check
+
+- name: get_idtrk_tof
+  type: int
+  code: virtual int get_idtrk_tof(/*args*/) const;
+  desc: Ron needs to double check
+
+- name: get_stofid
+  type: short
+  code: virtual short get_stofid(/*args*/) const;
+  desc: swapped version of tofid
+
+- name: get_sptofx
+  type: float
+  code: virtual float get_sptofx(/*args*/) const;
+  desc: swapped version of ptofx
+
+- name: get_sptofy
+  type: float
+  code: virtual float get_sptofy(/*args*/) const;
+  desc: swapped version of ptofy
+
+- name: get_sptofz
+  type: float
+  code: virtual float get_sptofz(/*args*/) const;
+  desc: swapped version of ptofz
+
+- name: get_stofdphi
+  type: float
+  code: virtual float get_stofdphi(/*args*/) const;
+  desc: swapped version of tofdphi
+
+- name: get_stofdz
+  type: float
+  code: virtual float get_stofdz(/*args*/) const;
+  desc: swapped version of tofdz
+
+- name: get_stofphi
+  type: float
+  code: virtual float get_stofphi(/*args*/) const;
+  desc: swapped version of tofphi
+
+- name: get_stofz
+  type: float
+  code: virtual float get_stofz(/*args*/) const;
+  desc: swapped version of tofz
+
+- name: get_sttof
+  type: float
+  code: virtual float get_sttof(/*args*/) const;
+  desc: swapped version of ttof
+
+- name: get_setof
+  type: float
+  code: virtual float get_setof(/*args*/) const;
+  desc: swapped version of etof
+
+- name: get_stofsdphi
+  type: float
+  code: virtual float get_stofsdphi(/*args*/) const;
+  desc: swapped version of tofsdphi
+
+- name: get_stofsdz
+  type: float
+  code: virtual float get_stofsdz(/*args*/) const;
+  desc: swapped version of tofsdz
+
+- name: get_idtrk_stof
+  type: int
+  code: virtual int get_idtrk_stof(/*args*/) const;
+  desc: swapped version of idtrk_tof
+
