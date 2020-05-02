@@ -1,0 +1,131 @@
+- name: eic
+  full: EIC
+  exclude: yes
+  submenus:
+    -
+      name: eic_website
+      full: EIC Website
+      link: https://www.bnl.gov/eic/
+    -
+      name: eicug
+      full: EIC User Group
+      link: http://www.eicug.org/web/
+    -
+      name: eicug_phonebook
+      full: The User Group Database
+      link: http://www.eicug.org/pnb/client/
+    -
+      name: eic_software
+      full: The Software Working Group
+      link: http://www.eicug.org/web/content/eic-software
+      div: yes
+    -
+      name: bnl
+      full: Brookhaven National Lab
+      link: http://bnl.gov
+      div: yes
+    -
+      name: jlab
+      full: Jefferson Lab
+      link: https://www.jlab.org
+    -
+      name: jlab
+      full: Yellow Report
+      link: http://www.eicug.org/web/content/yellow-report-initiative
+      div: yes
+- name: software
+  full: Software
+  submenus:
+    -
+      name: overview
+      full: Overview
+      exclude: yes
+      submenus:
+        -
+          name: test
+          full: testing
+          link: https://www.bnl.gov/eic/
+    -
+      name: tools_and_frameworks
+      label: yes
+      full: Tools and Frameworks
+    -
+      name: fun4all_tutorial_1
+      full: Fun4All
+    -
+      name: eicsmear_1
+      full: EIC-smear
+    -
+      name: singularity
+      label: yes
+      full: Singularity Applications
+      div: yes
+    -
+      name: escalate_singularity_1
+      full: Escalate
+    -
+      name: eicsmear_generators_singularity
+      full: EIC-smear and Generators
+    -
+      name: generators
+      label: yes
+      full: Generators
+      div: yes
+    -
+      name: pythia6
+      full: PYTHIA6 
+    -
+      name: pepsi
+      full: PEPSI
+    -
+      name: beast_magnetic_field
+      full: BeAST Magnetic Field
+      div: yes
+    -
+      name: doxygen
+      full: Doxygen
+      link: https://eic.github.io/doxygen/
+      div: yes
+
+- name: computing
+  full: Computing
+  submenus:
+    -
+      name: overview
+      full: Overview
+    -
+      name: sites
+      full: Computing Sites
+    -
+      name: storage
+      full: Storage
+
+- name: teams
+  full: People
+  submenus:
+    -
+      name: overview
+      full: Overview
+      exclude: yes
+    -
+      name: swg
+      full: Software Working Group
+
+    -
+      name: teams
+      full: Software Teams
+
+- name: about
+  full: About
+  right: yes
+  submenus:
+    -
+      name: site
+      full: Information
+    -
+      name: howto
+      full: Website How-To
+    -
+      name: contact
+      full: Get Involved
+      div: yes
