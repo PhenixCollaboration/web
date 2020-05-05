@@ -13,14 +13,20 @@ exclude: [vendor]
 # !!! Important as we are not serving from the top folder !!!
 baseurl: /web
 
+# To simplify references to GitHub:
 github: "https://github.com/PhenixCollaboration/web"
+
+# Various formatting aids:
 tablepadding: "&nbsp;&nbsp;&nbsp;"
+
+# Used in site upgrades:
+navbar: 'new'
 
 # Assets steering
 document_folder: '/assets/documents/'
 ert_mask_folder: '/assets/trigger/ert/'
 
-
+###
 plugins:
   - jekyll-mentions
   - jekyll-sitemap

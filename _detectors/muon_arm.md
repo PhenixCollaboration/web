@@ -1,6 +1,7 @@
 ---
 title: Muon Arm Detectors
 abbrev: muon_arm
+name: muon_arm
 layout: newbase
 weight: 30
 level: 0

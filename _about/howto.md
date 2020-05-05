@@ -2,6 +2,7 @@
 title: How to Contribute
 layout: newbase
 abbrev: howto
+name: howto
 weight: 10
 level: 0
 ---

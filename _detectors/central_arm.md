@@ -1,6 +1,7 @@
 ---
 title: Central Arm Detectors
 abbrev: central_arm
+name: central_arm
 layout: newbase
 weight: 20
 level: 0

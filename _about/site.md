@@ -2,6 +2,7 @@
 title: This Website
 layout: newbase
 abbrev: site
+name: site
 weight: 5
 level: 0
 ---

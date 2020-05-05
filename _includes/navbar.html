@@ -1,10 +1,12 @@
 <nav class="navbar sticky-top navbar-expand-sm navbar-light mx-auto justify-content-center" style="width: 1600px;"><!-- style="width: 1200px;" -->
-  <a class="navbar-brand" href="{{ '/' | relative_url }}" style="color: #fff;font-size: 20px;">Home</a>
+  <a class="navbar-brand" href="{{ '/' | relative_url }}" style="color: #fff;font-size: 20px;">
+    <img src="{{ '/images/logos/phenix_margin.png' | relative_url }}" height="37">&nbsp;&nbsp;Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    {% if site.navbar=='old' %}
     <ul class="navbar-nav mr-auto">
       {% include layouts/autodrop.md title='Experiment'	what=site.experiment %}
       {% include layouts/autodrop.md title='Detectors'	what=site.detectors %}
@@ -16,6 +18,16 @@
       {% include layouts/autodrop.md title='About'	what=site.about %}
 
     </ul>
+    {% else %}
+    <ul class="navbar-nav mr-auto">
+      {% for menu in site.data.menus %}
+      {% if menu.exclude %}{% continue %}{% endif %}
+      {% if menu.right %}</ul><ul class="navbar-nav mr-auto text-right">{% endif %}
+      {% include layouts/autodrop_data.md what=menu.name %}
+      {% endfor %}
+    </ul>
+
+    {% endif %}
   </div>
 </nav>
 

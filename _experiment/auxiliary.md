@@ -2,6 +2,7 @@
 title: Auxiliary Run Info
 layout: newbase
 abbrev: aux
+name: aux
 level: 0
 weight: 1000
 div: yes

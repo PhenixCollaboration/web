@@ -2,6 +2,7 @@
 title: Trigger Information
 layout: newbase
 abbrev: trigger
+name: trigger
 level: 0
 weight: 30
 document_folder: '/assets/documents/'
