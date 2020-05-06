@@ -1,12 +1,10 @@
 ---
-title: Time-of-Flight West
-role: High resolution particle identification.
 abbrev: tofw
 layout: newbase
 category: central
 ---
-
-{% include title.md %}
+{% include layouts/find_detector_title.md abbrev=page.abbrev %}
+# {{ title }}
 
 #### Intro
 The TOFW is a time-of-flight (TOF) detector in the west (W) arm of the PHENIX central

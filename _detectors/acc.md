@@ -1,12 +1,11 @@
 ---
-title: Aerogel Cerenkov Counter
-role: Identifies particles at high transverse momentum.
 abbrev: acc
 layout: newbase
 category: central
 ---
 
-{% include title.md %}
+{% include layouts/find_detector_title.md abbrev=page.abbrev %}
+# {{ title }}
 
 #### Aerogel overview
 

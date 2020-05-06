@@ -1,14 +1,10 @@
 ---
-title: Time-of-Flight
-role: Measures the position of charged particles. Identifies particles.
 abbrev: tof
 layout: newbase
 category: central
 ---
-{% include title.md %}
-
-
-
+{% include layouts/find_detector_title.md abbrev=page.abbrev %}
+# {{ title }}
 
 #### Detector overview
 The TOF
