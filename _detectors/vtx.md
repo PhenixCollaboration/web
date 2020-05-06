@@ -3,8 +3,6 @@ title: Silicon Vertex Tracker
 role: Charged particle tracking near the collision vertex.
 abbrev: vtx
 layout: newbase
-weight: 9
-level: 1
 category: central
 ---
 # {{ page.title }}
