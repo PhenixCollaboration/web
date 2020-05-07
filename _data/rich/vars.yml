@@ -1,0 +1,140 @@
+- name: get_n0
+  type: short
+  code: virtual short get_n0(/*args*/) const;
+  desc: number of phototubes that are fired in the normally sized ring area (inner radius of 3.4 and outer radius of 8.4 cm around the projection point of the track onto the PMT plane of the RICH)
+
+- name: get_npe0
+  type: float
+  code: virtual float get_npe0(/*args*/) const;
+  desc: number of photo-electrons (i.e. summed pulse height) summed over the normally sized ring area
+
+- name: get_n1
+  type: short
+  code: virtual short get_n1(/*args*/) const;
+  desc: number of phototubes in a wider area than n0 (within a radius of 11 cm )
+
+- name: get_npe1
+  type: float
+  code: virtual float get_npe1(/*args*/) const;
+  desc: number of photoelectrons (summed pulse height) over the n1 PMT
+
+- name: get_n2
+  type: short
+  code: virtual short get_n2(/*args*/) const;
+  desc: number of hit PMTs within a radius of 8.4 cm around the projection point of the track onto the PMT plane 
+
+- name: get_npe2
+  type: float
+  code: virtual float get_npe2(/*args*/) const;
+  desc: number of photoelectrons over the n2 PMTs
+
+- name: get_n3
+  type: short
+  code: virtual short get_n3(/*args*/) const;
+  desc: number of hit PMTs in a ring with inner radius of 3.9 and outer radius of 7.9 cm 
+
+- name: get_npe3
+  type: float
+  code: virtual float get_npe3(/*args*/) const;
+  desc: number of photoelectrons over the n3 PMTs
+
+- name: get_center_phi
+  type: float
+  code: virtual float get_center_phi(/*args*/) const;
+  desc: phi coordinate of the measured ring center (i.e., the p.e. weighted mean position of the hit PMTs within a radius < 11 cm)
+
+- name: get_center_z
+  type: float
+  code: virtual float get_center_z(/*args*/) const;
+  desc: z-coordinate of the measured ring center (i.e., the p.e. weighted mean position of the hit PMTs within a radius < 11 cm)
+
+- name: get_cross_phi
+  type: float
+  code: virtual float get_cross_phi(/*args*/) const;
+  desc: phi-coordinate of the projected track on the PMT plane 
+
+- name: get_cross_z
+  type: float
+  code: virtual float get_cross_z(/*args*/) const;
+  desc: zcoordinate of the projected track on the PMT plane 
+
+- name: get_chi2
+  type: float
+  code: virtual float get_chi2(/*args*/) const;
+  desc: evaluates how good the distribution of p.e. within a radius of 11 cm around the track projection point corresponds to a ring with the expected electron radius. The units are cm^2 and typically cuts are placed on chi2/npe0 as a semi-normalized chi^2/dof
+
+- name: get_disp
+  type: float
+  code: virtual float get_disp(/*args*/) const;
+  desc: measures the displacement of ring center w.r.t. the track projection positon in the RICH PMT array
+
+- name: get_tcrk
+  type: short
+  code: virtual short get_tcrk(/*args*/) const;
+  desc: time of the rich ring. It is measured w.r.t an effective "photon flash" time and thereby centers around zero
+
+- name: get_sn0
+  type: short
+  code: virtual short get_sn0(/*args*/) const;
+  desc: swapped version of n0
+
+- name: get_snpe0
+  type: float
+  code: virtual float get_snpe0(/*args*/) const;
+  desc: swapped version of npe0
+
+- name: get_sn1
+  type: short
+  code: virtual short get_sn1(/*args*/) const;
+  desc: swapped version of n1
+
+- name: get_snpe1
+  type: float
+  code: virtual float get_snpe1(/*args*/) const;
+  desc: swapped version of npe1
+
+- name: get_sn2
+  type: short
+  code: virtual short get_sn2(/*args*/) const;
+  desc: swapped version of n2
+
+- name: gets_npe2
+  type: float
+  code: virtual float get_snpe2(/*args*/) const;
+  desc: swapped version of npe2
+
+- name: get_n3
+  type: short
+  code: virtual short get_n3(/*args*/) const;
+  desc: swapped version of n3
+
+- name: get_snpe3
+  type: float
+  code: virtual float get_snpe3(/*args*/) const;
+  desc: swapped version of npe3
+
+- name: get_scross_phi
+  type: float
+  code: virtual float get_scross_phi(/*args*/) const;
+  desc: swapped version of cross_phi
+
+- name: get_scross_z
+  type: float
+  code: virtual float get_scross_z(/*args*/) const;
+  desc: swapped version of cross_z
+
+- name: get_schi2
+  type: float
+  code: virtual float get_schi2(/*args*/) const;
+  desc: swapped version of chi2
+
+- name: get_sdisp
+  type: float
+  code: virtual float get_sdisp(/*args*/) const;
+  desc: swapped version of disp
+
+- name: get_stcrk
+  type: short
+  code: virtual short get_stcrk(/*args*/) const;
+  desc: swapped version of tcrk
+
