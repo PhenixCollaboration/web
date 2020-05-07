@@ -1,14 +1,10 @@
 ---
-title: Time-of-Flight West
-role: High resolution particle identification.
 abbrev: tofw
 layout: newbase
-weight: 7
-level: 1
 category: central
 ---
-
-{% include title.md %}
+{% include layouts/find_detector_title.md abbrev=page.abbrev %}
+# {{ title }}
 
 #### Intro
 The TOFW is a time-of-flight (TOF) detector in the west (W) arm of the PHENIX central
@@ -47,8 +43,11 @@ for a total of 32 per box and 128 total, meaning there are 1024 readout channels
 
 #### Archived papers
 [PHENIX Time-of-flight detector West (TOFW) – Detector Basics]({{ '/assets/detectors/tofw/tofw_shortdoc.pdf' | relative_url }})  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3763901.svg)](https://doi.org/10.5281/zenodo.3763901)
 [Brian Love's M.S. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2009/Love_Brian-thesis_BrianLove.pdf)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3763871.svg)](https://doi.org/10.5281/zenodo.3763871)
 [Hugo Valle's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2008/Valle_Hugo-thesisHugoValle.pdf)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3763862.svg)](https://doi.org/10.5281/zenodo.3763862)
 [Ron Belmont's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2012/Belmont_Ron-belmont.pdf)  
 
 #### Variables and Accessors

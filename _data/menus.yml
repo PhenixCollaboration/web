@@ -1,0 +1,95 @@
+- name: experiment
+  full: Experiment
+  submenus:
+    -
+      name: concept
+      full: Concept and History
+    -
+      name: runs
+      full: Run Summary Table
+    -
+      name: trigger
+      full: Trigger Information
+    -
+      name: aux
+      full: Auxiliary Run Info
+      div: yes
+
+- name: detectors
+  full: Detectors
+  submenus:
+    -
+      name: detectors_overview
+      full: Detectors Overview
+    -
+      name: phenix_photo_gallery
+      full: PHENIX Photo Gallery
+    -
+      name: run_configuration_gallery
+      full: Run Configuration Gallery
+    -
+      name: central_arm
+      full: Central Arm Detectors
+      div: yes
+    -
+      name: muon_arm
+      full: Muon Arm Detectors
+    -
+      name:  event_characterization
+      full: Event Characterization Detectors
+    -
+      name: magnet
+      full: Magnet
+      div: yes
+
+- name: software
+  full: Software
+  submenus:
+    -
+      name: software_overview
+      full: Software Overview
+    -
+      name: fun4all
+      full: Fun4All
+    -
+      name: pisa
+      full: PISA
+
+- name: analysis
+  full: Analysis
+  submenus:
+    -
+      name: analysis_overview
+      full: Analysis Overview
+
+- name: resources
+  full: Resources
+  submenus:
+    -
+      name: publications
+      full: Publications
+    -
+      name: documents
+      full: Documents
+    -
+      name: links
+      full: Links
+      div: yes
+
+- name: about
+  full: About
+  right: yes
+  submenus:
+    -
+      name: dap
+      full: Data and Analysis Preservation
+    -
+      name: site
+      full: This Website
+    -
+      name: howto
+      full: How to Contribute
+    -
+      name: contact
+      full: Contact us
+      div: yes

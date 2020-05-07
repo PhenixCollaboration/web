@@ -1,6 +1,7 @@
 ---
 title: Documents
 abbrev: documents
+name: documents
 layout: newbase
 level: 0
 weight: 10

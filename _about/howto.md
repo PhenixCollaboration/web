@@ -2,6 +2,7 @@
 title: How to Contribute
 layout: newbase
 abbrev: howto
+name: howto
 weight: 10
 level: 0
 ---
@@ -62,7 +63,7 @@ to be declared in the main configuration file
 <a href="{{ site.github }}/blob/master/_config.yml" target="_blank">_config.yml</a>.
 
 The top-level entries (and therefore the folders) included in the navigation bar are defined in a concise way in its
-<a href="{{ site.github }}/blob/master/_includes/navbar_updated.ext" target="_blank">code</a>.
+<a href="{{ site.github }}/blob/master/_includes/navbar.html" target="_blank">code</a>.
 
 #### Dropdown Menus
 The dropdown menus in the navigation bar are populated automatically based on the content of respective folders

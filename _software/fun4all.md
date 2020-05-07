@@ -1,6 +1,7 @@
 ---
 title: Fun4All
 abbrev: fun4all
+name: fun4all
 layout: newbase
 weight: 10
 level: 0

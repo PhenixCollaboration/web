@@ -1,16 +1,12 @@
 ---
-title: Zero Degree Calorimeters and Shower Max Detectors
-role: Measures collision location and centrality.
 abbrev: zdc
 layout: newbase
 image: '/images/detectors/phenix_quartercut_zdc.png'
 image_title: 'PHENIX Quarter Cut with the ZDC highlighted'
-weight: 1
-level: 1
 category: event
 ---
-# {{ page.title }}
-
+{% include layouts/find_detector_title.md abbrev=page.abbrev %}
+# {{ title }}
 
 {% assign detector = page.abbrev %}
 {% assign image = page.image %}

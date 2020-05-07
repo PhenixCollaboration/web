@@ -1,5 +1,0 @@
-- name : Drift Chamber
-  role: Measures the position and momentum of charged particles
-
-- name: Pad Chambers
-  role: Measures the position of charged particles with precision

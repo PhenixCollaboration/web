@@ -1,0 +1,39 @@
+<nav class="navbar sticky-top navbar-expand-sm navbar-light mx-auto justify-content-center" style="width: 1600px;"><!-- style="width: 1200px;" -->
+  <a class="navbar-brand" href="{{ '/' | relative_url }}" style="color: #fff;font-size: 18px;">
+    <img src="{{ '/images/logos/phenix_logo_centered.png' | relative_url }}" height="32">&nbsp;Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      {% for menu in site.data.menus %}
+      {% if menu.exclude %}{% continue %}{% endif %}
+      {% if menu.right %}</ul><ul class="navbar-nav mr-auto text-right">{% endif %}
+      {% include layouts/autodrop_data.md what=menu.name %}
+      {% endfor %}
+    </ul>
+
+  </div>
+</nav>
+
+
+{% comment %}
+#######################################################################################
+This is the first version of the navbar block replaced with iterators - see above -
+
+"Levels" used in "autodrop" have been decomissioned now -mxp- 20200506
+
+<ul class="navbar-nav mr-auto">
+  {% include layouts/autodrop.md title='Experiment'	what=site.experiment %}
+  {% include layouts/autodrop.md title='Detectors'	what=site.detectors %}
+  {% include layouts/autodrop.md title='Software'	what=site.software %}
+  {% include layouts/autodrop.md title='Analysis'	what=site.analysis %}
+  {% include layouts/autodrop.md title='Resources'	what=site.resources %}
+</ul>
+<ul class="navbar-nav mr-auto text-right">
+  {% include layouts/autodrop.md title='About'	what=site.about %}
+  
+</ul>
+{% endcomment %}
+    
