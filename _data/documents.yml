@@ -172,3 +172,24 @@
   format: pdf
   date: 
 
+### Writeups:
+- name: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3833207.svg)](https://doi.org/10.5281/zenodo.3833207)'
+  title: PHENIX Time-of-flight detector West (TOFW) – Detector Basics
+  tags: [tofw]
+  author: G.David
+  venue: 
+  type: document
+  category: writeup
+  format: markdown_link
+  date: 
+
+- name: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3833205.svg)](https://doi.org/10.5281/zenodo.3833205)'
+  title: PHENIX Electromagnetic Calorimeter (EMCal) – Detector Basics
+  tags: [emcal]
+  author: G.David
+  venue: 
+  type: document
+  category: writeup
+  format: markdown_link
+  date: 
+
