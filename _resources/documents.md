@@ -3,7 +3,6 @@ title: Documents
 abbrev: documents
 name: documents
 layout: newbase
-level: 0
 weight: 10
 items:
    - {title: 'General Overviews',			category: 'overview'}

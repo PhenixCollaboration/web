@@ -55,7 +55,7 @@ collections:
     permalink: /about/:title.html
   analysis:
     output: true
-    permalink: /about/:title.html
+    permalink: /analysis/:title.html
   resources:
     output: true
     permalink: /resources/:title.html
