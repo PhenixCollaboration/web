@@ -24,7 +24,7 @@
   title: PHENIX Overview (NIM A 499, 2003)
   author: 
   venue: 
-  type: document
+  type: publication
   category: overview
   format: pdf
   date: 
@@ -53,7 +53,7 @@
   title: Calorimeter (NIM A 499, 2003)
   author: 
   venue: 
-  type: document
+  type: publication
   category: detector
   format: pdf
   date: 
@@ -62,7 +62,7 @@
   title: Inner Detectors (NIM A 499, 2003)
   author: 
   venue: 
-  type: document
+  type: publication
   category: detector
   format: pdf
   date: 
@@ -71,7 +71,7 @@
   title: Magnet System (NIM A 499, 2003)
   author: 
   venue: 
-  type: document
+  type: publication
   category: detector
   format: pdf
   date: 
@@ -80,7 +80,7 @@
   title: Muon Arms (NIM A 499, 2003)
   author: 
   venue: 
-  type: document
+  type: publication
   category: detector
   format: pdf
   date: 
@@ -89,7 +89,7 @@
   title: Central Arm Tracking Detectors (NIM A 499, 2003)
   author: 
   venue: 
-  type: document
+  type: publication
   category: detector
   format: pdf
   date: 
@@ -98,7 +98,7 @@
   title: Central Arm Particle ID Detectors (NIM A 499, 2003)
   author: 
   venue: 
-  type: document
+  type: publication
   category: detector
   format: pdf
   date: 
@@ -107,7 +107,7 @@
   title: A reaction plane detector for PHENIX at RHIC (NIM A 636, 2011)
   author: 
   venue: 
-  type: document
+  type: publication
   category: detector
   format: pdf
   date: 
@@ -116,7 +116,7 @@
   title: Design, construction, operation and performance of a Hadron Blind Detector for the PHENIX experiment (NIM A 646, 2011)
   author: 
   venue: 
-  type: document
+  type: publication
   category: detector
   format: pdf
   date: 
@@ -125,7 +125,7 @@
   title: The PHENIX Forward Silicon Vertex Detector (NIM A 755, 2014)
   author: 
   venue: 
-  type: document
+  type: publication
   category: detector
   format: pdf
   date: 
@@ -135,7 +135,7 @@
   title: Event Reconstruction in the PHENIX Central Arm Spectrometers (NIM A 482, 2002)
   author: 
   venue: 
-  type: document
+  type: publication
   category: dra
   format: pdf
   date: 
@@ -145,7 +145,7 @@
   title: Online Systems (NIM A 499, 2003)
   author: 
   venue: 
-  type: document
+  type: publication
   category: systems
   format: pdf
   date: 
@@ -156,8 +156,8 @@
   tags: [ert, mesons]
   author: M.Naglis
   venue: 
-  type: document
-  category: paper
+  type: publication
+  category: physics
   format: pdf
   date: 
 
@@ -167,8 +167,8 @@
   tags: [ert, spin]
   author: M.Patel
   venue: 
-  type: document
-  category: thesis
+  type: thesis
+  category: physics
   format: pdf
   date: 
 
@@ -178,8 +178,8 @@
   tags: [tofw]
   author: G.David
   venue: 
-  type: document
-  category: writeup
+  type: writeup
+  category: detector
   format: markdown_link
   date: 
 
@@ -188,8 +188,8 @@
   tags: [emcal]
   author: G.David
   venue: 
-  type: document
-  category: writeup
+  type: writeup
+  category: detector
   format: markdown_link
   date: 
 

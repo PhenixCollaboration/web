@@ -3,6 +3,9 @@
 {% endif %}
 
 {% assign items = site.data.documents | where: "category", include.category %}
+{% if include.type %}
+{% assign items = items | where: "type", include.type %}
+{% endif %}
 
 <ul>
 {% for item in items %}

@@ -5,18 +5,16 @@ name: publications
 layout: newbase
 weight: 0
 items:
-   - {title: 'General Overviews',			category: 'overview'}
-   - {title: 'Detector Subsystems',			category: 'detector'}
-   - {title: 'Data Reconstruction and Analysis',	category: 'dra'}
-   - {title: 'PHENIX Systems',				category: 'systems'}
-   - {title: 'Select Theses',				category: 'thesis'}
-   - {title: 'Misc Summaries',				category: 'summary', div: yes }
+   - {title: 'General Overviews',			category: 'overview',	type: 'publication'}
+   - {title: 'Detector Subsystems',			category: 'detector',	type: 'publication'}
+   - {title: 'Data Reconstruction and Analysis',	category: 'dra',	type: 'publication'}
+   - {title: 'PHENIX Systems',				category: 'systems',	type: 'publication'}
 ---
 {% include title.md %}
 
 {% for item in page.items %}
 {% if item.div %}<hr/>{% endif %}
-{% include documents/doc.md title=item.title category=item.category %}
+{% include documents/doc.md title=item.title category=item.category type=item.type %}
 {% endfor %}
 
 {% comment %}
