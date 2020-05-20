@@ -55,9 +55,9 @@ for a total of 32 per box and 128 total, meaning there are 1024 readout channels
 
 ##### Theses
 
-* [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3763901.svg)](https://doi.org/10.5281/zenodo.3763901) [Brian Love's M.S. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2009/Love_Brian-thesis_BrianLove.pdf)  
-* [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3763871.svg)](https://doi.org/10.5281/zenodo.3763871) [Hugo Valle's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2008/Valle_Hugo-thesisHugoValle.pdf)
-* [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3763862.svg)](https://doi.org/10.5281/zenodo.3763862) [Ron Belmont's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2012/Belmont_Ron-belmont.pdf)  
+* [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3836478.svg)](https://doi.org/10.5281/zenodo.3836478) [Brian Love's M.S. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2009/Love_Brian-thesis_BrianLove.pdf)  
+* [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3836538.svg)](https://doi.org/10.5281/zenodo.3836538) [Hugo Valle's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2008/Valle_Hugo-thesisHugoValle.pdf)  
+* [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3836568.svg)](https://doi.org/10.5281/zenodo.3836568) [Ron Belmont's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2012/Belmont_Ron-belmont.pdf)  
 
 #### Variables and Accessors
 These “get” methods give access to the TOFW variables used for analysis. The variable type, name of the get method, and a brief description are given below.
