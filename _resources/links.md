@@ -11,3 +11,4 @@ div: yes
 
 - [PHENIX website](https://www.phenix.bnl.gov/)
 - [PHENIX Collaboration on GitHub](https://github.com/PhenixCollaboration)
+- [PHENIX Community on Zenodo](https://zenodo.org/communities/phenixcollaboration/)

@@ -7,9 +7,11 @@
 {% assign items = items | where: "type", include.type %}
 {% endif %}
 
-<ul>
-{% for item in items %}
-<li><a href="{{ site.document_folder | append: item.name | relative_url }}" target="_blank">{{ item.title }}</a></li>
-{% endfor %}
-</ul>
+  {% for item in items %}
+  {% if item.format=='markdown_link' %}
+* {{ item.name }}&nbsp; &nbsp; {{ item.title }}
+  {% else %}
+  <li><a href="{{ site.document_folder | append: item.name | relative_url }}" target="_blank">{{ item.title }}</a></li>
+  {% endif %}
+  {% endfor %}
 
