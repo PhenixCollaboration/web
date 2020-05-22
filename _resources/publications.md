@@ -1,16 +1,15 @@
 ---
-title: Publications
-abbrev: publications
 name: publications
 layout: newbase
-weight: 0
+
 items:
    - {title: 'General Overviews',			category: 'overview',	type: 'publication'}
    - {title: 'Detector Subsystems',			category: 'detector',	type: 'publication'}
    - {title: 'Data Reconstruction and Analysis',	category: 'dra',	type: 'publication'}
    - {title: 'PHENIX Systems',				category: 'systems',	type: 'publication'}
 ---
-{% include title.md %}
+
+{% include layouts/find_title.md name=page.name %}
 
 {% for item in page.items %}
 {% if item.div %}<hr/>{% endif %}

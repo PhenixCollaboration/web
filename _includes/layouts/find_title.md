@@ -1,2 +1,7 @@
-{% assign found_detector=site.data.detectors | where: "abbrev", include.abbrev | first %}
-{% assign title=found_detector.title %}
+{% for menu in site.data.menus %}
+{% for submenu in menu.submenus %}
+{% if submenu.name==include.name %}
+#### {{ submenu.full }}
+{% endif %}
+{% endfor %}
+{% endfor %}
