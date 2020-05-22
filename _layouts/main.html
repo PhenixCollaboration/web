@@ -1,9 +1,6 @@
 ---
 layout: newbase
 ---
-{% assign find_howto_page=site.about | where: "abbrev", 'howto' %}
-{% assign howto_page_url=find_howto_page[0].url  | relative_url %}
-
 {% include navigation/findpage.md abbrev="howto" %}
 {% assign howto_page_url=found_page %}
 
@@ -38,4 +35,11 @@ layout: newbase
 
   </div>
 </div>
+
+{% comment %}
+----------------------------------------------------------------------
+{% assign find_howto_page=site.about | where: "abbrev", 'howto' %}
+{% assign howto_page_url=find_howto_page[0].url  | relative_url %}
+{% endcomment %}
+
 
