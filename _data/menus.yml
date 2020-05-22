@@ -66,6 +66,9 @@
   full: Resources
   submenus:
     -
+      name: zenodo
+      full: Zenodo
+    -
       name: publications
       full: Publications
     -
@@ -73,7 +76,7 @@
       full: Documents
     -
       name: links
-      full: Links
+      full: Misc Links
       div: yes
 
 - name: about
