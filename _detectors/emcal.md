@@ -14,11 +14,7 @@ category: central
 
 ##### Write-ups
 
-{% for item in items %}
-{% if item.tags contains 'emcal' %}
-* {{ item.name }} {{ item.title }}
-{% endif %}
-{% endfor %}
+{% include documents/linkref.md tag='emcal' %}
 
 
 {% comment %}

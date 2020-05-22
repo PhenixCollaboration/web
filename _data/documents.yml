@@ -191,5 +191,17 @@
   type: writeup
   category: detector
   format: markdown_link
-  date: 
+  date:
+    
+
+### arXiv links:
+- name: '[https://arxiv.org/abs/physics/0307101](https://arxiv.org/abs/physics/0307101)'
+  title: Proposal for a Hadron Blind Detector for PHENIX
+  tags: [hbd]
+  author: A.Kozlov et al
+  venue: 
+  type: document
+  category: detector
+  format: markdown_link
+  date: 07/21/2003
 

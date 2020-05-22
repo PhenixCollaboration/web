@@ -5,7 +5,10 @@ abbrev: hbd
 layout: newbase
 category: central
 ---
-# {{ page.title }}
+{% include layouts/find_detector_title.md abbrev=page.abbrev %}
+## {{ title }}
+
+{% assign items = site.data.documents %}
 
 #### Introduction
 The Hadron Blind Detector (HBD) was a conceptually novel Cherenkov
@@ -41,11 +44,11 @@ collected by the GEM (FB = Forward Bias)(right panel), or by the mesh
 photoelectrons produced on the photocathode are collected with good 
 efficiency into the GEM due to the strong electric field near the
 holes. In the RB mode, only a very small amount of 
-ionization charge produced very near the photocathode (within $\sim
-150~\mu$m) is collected by the GEM. The FB mode is therefore sensitive
+ionization charge produced very near the photocathode (within &#8765;150&mu;m)
+is collected by the GEM. The FB mode is therefore sensitive
 to hadrons and other charged particles, while the RB mode is
 essentially sensitive only to the Cherenkov light produced by
-electrons and hence the term ``Hadron Blind''. A comprehensive R\&D
+electrons and hence the term "Hadron Blind". A comprehensive R&D
 program was carried out to demonstrate the concept validity including
 studies in the lab and also a beam test at KEK. The results are
 published in the two NIM papers.
@@ -61,6 +64,9 @@ were developed and built by BNL Instrumentation and Columbia University.
 [Maxim Naglis's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2009/Naglis_Maxim-thesis.pdf)  
 [Deepali Sharma's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2010/Sharma_Deepali-thesis.pdf)  
 [Yosuke Watanable's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2014/Watanabe_Yosuke-phD_thesis_main.pdf)  
+
+#### Detector Proposal
+{% include documents/linkref.md tag='hbd' %}
 
 #### Accessing HBD variables in the analysis
 
