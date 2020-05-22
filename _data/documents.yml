@@ -2,6 +2,15 @@
 # Items are grouped by categories for ease of navigation within the file.
 
 ### General Overviews:
+- name: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3840266.svg)](https://doi.org/10.5281/zenodo.3840266)'
+  title: The PHENIX Experiment at RHIC - Decadal Plan 2004–2013
+  author: W.Zajc
+  venue: 
+  type: document
+  category: overview
+  format: markdown_link
+  date: 11/01/2003
+
 - name: phenix_decadal10_full_refs.pdf
   title: The PHENIX Experiment at RHIC - Decadal Plan 2011–2020
   author: 
@@ -11,14 +20,15 @@
   format: pdf
   date: 
 
-- name: PHENIXDecadalPlan.pdf
-  title: The PHENIX Experiment at RHIC - Decadal Plan 2004–2013
-  author: 
-  venue: 
-  type: document
-  category: overview
-  format: pdf
-  date: 
+# Replaced local "asset" file with a reference to Zenodo (created for this purpose)
+#- name: PHENIXDecadalPlan.pdf
+#  title: The PHENIX Experiment at RHIC - Decadal Plan 2004–2013
+#  author: 
+#  venue: 
+#  type: document
+#  category: overview
+#  format: pdf
+#  date: 
 
 - name: PHENIX_Overview_NIM499.pdf
   title: PHENIX Overview (NIM A 499, 2003)
