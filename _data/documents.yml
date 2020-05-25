@@ -11,16 +11,25 @@
   format: markdown_link
   date: 11/01/2003
 
-- name: phenix_decadal10_full_refs.pdf
+- name: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3842204.svg)](https://doi.org/10.5281/zenodo.3842204)'
   title: The PHENIX Experiment at RHIC - Decadal Plan 2011–2020
-  author: 
+  author: B.Jacak
   venue: 
   type: document
   category: overview
-  format: pdf
-  date: 
+  format: markdown_link
+  date: 10/01/2010
 
 # Replaced local "asset" file with a reference to Zenodo (created for this purpose)
+#- name: phenix_decadal10_full_refs.pdf
+#  title: The PHENIX Experiment at RHIC - Decadal Plan 2011–2020
+#  author: 
+#  venue: 
+#  type: document
+#  category: overview
+#  format: pdf
+#  date: 
+
 #- name: PHENIXDecadalPlan.pdf
 #  title: The PHENIX Experiment at RHIC - Decadal Plan 2004–2013
 #  author: 
