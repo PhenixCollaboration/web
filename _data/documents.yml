@@ -20,25 +20,6 @@
   format: markdown_link
   date: 10/01/2010
 
-# Replaced local "asset" file with a reference to Zenodo (created for this purpose)
-#- name: phenix_decadal10_full_refs.pdf
-#  title: The PHENIX Experiment at RHIC - Decadal Plan 2011–2020
-#  author: 
-#  venue: 
-#  type: document
-#  category: overview
-#  format: pdf
-#  date: 
-
-#- name: PHENIXDecadalPlan.pdf
-#  title: The PHENIX Experiment at RHIC - Decadal Plan 2004–2013
-#  author: 
-#  venue: 
-#  type: document
-#  category: overview
-#  format: pdf
-#  date: 
-
 - name: PHENIX_Overview_NIM499.pdf
   title: PHENIX Overview (NIM A 499, 2003)
   author: 
@@ -68,13 +49,14 @@
   date: 
 
 ### PHENIX Detector Subsystems:
-- name: PHENIX_EMCAL_NIM499.pdf
-  title: Calorimeter (NIM A 499, 2003)
+- name: '[The PHENIX Calorimeter](https://doi.org/10.1016/S0168-9002(02)01954-X)'
+# - name: PHENIX_EMCAL_NIM499.pdf
+  title: (NIM A 499, 2003)
   author: 
   venue: 
   type: publication
   category: detector
-  format: pdf
+  format: markdown_link
   date: 
 
 - name: PHENIX_Inner_NIM499.pdf
@@ -223,4 +205,23 @@
   category: detector
   format: markdown_link
   date: 07/21/2003
+
+# Replaced local "asset" file with a reference to Zenodo (created for this purpose)
+#- name: phenix_decadal10_full_refs.pdf
+#  title: The PHENIX Experiment at RHIC - Decadal Plan 2011–2020
+#  author: 
+#  venue: 
+#  type: document
+#  category: overview
+#  format: pdf
+#  date: 
+
+#- name: PHENIXDecadalPlan.pdf
+#  title: The PHENIX Experiment at RHIC - Decadal Plan 2004–2013
+#  author: 
+#  venue: 
+#  type: document
+#  category: overview
+#  format: pdf
+#  date: 
 
