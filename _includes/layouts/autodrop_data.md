@@ -1,10 +1,10 @@
 {% case include.what %}
-{% when "experiment" %}	{% assign theCollection=site.experiment %}
-{% when "detectors" %}	{% assign theCollection=site.detectors %}
-{% when "software" %}	{% assign theCollection=site.software %}
-{% when "analysis" %}	{% assign theCollection=site.analysis %}
-{% when "resources" %}	{% assign theCollection=site.resources %}
-{% when "about" %}	{% assign theCollection=site.about %}
+{% when "experiment" %}	{% assign theCollection=site.experiment %}{% assign icon=site.experiment_icon %}
+{% when "detectors" %}	{% assign theCollection=site.detectors %}{% assign icon=site.detectors_icon %}
+{% when "software" %}	{% assign theCollection=site.software %}{% assign icon=site.software_icon %}
+{% when "analysis" %}	{% assign theCollection=site.analysis %}{% assign icon=site.analysis_icon %}
+{% when "resources" %}	{% assign theCollection=site.resources %}{% assign icon=site.resources_icon %}
+{% when "about" %}	{% assign theCollection=site.about %}{% assign icon=site.about_icon %}
 {% endcase %}
 
 {% comment %}
@@ -22,7 +22,12 @@ that file to be accessible from the dropdown.
 {% assign target='' %}
 
 <li class="nav-item dropdown px-4">
-<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #fff;">{{ the_menu.full }}</a>
+  {% if icon.size > 0 %}
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #fff;">{{ the_menu.full }}&nbsp;&nbsp;<img src="{{ icon | relative_url }}" height="24" width="24"></a>
+  {% else %}
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #fff;">{{ the_menu.full }}</a>
+  {% endif %}
+  
 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
 {% for submenu in the_menu.submenus %}{% if submenu.exclude %}{% continue %}{% endif %}

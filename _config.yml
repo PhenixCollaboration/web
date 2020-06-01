@@ -10,14 +10,28 @@ markdown: kramdown
 future: true
 exclude: [vendor]
 
-# !!! Important as we are not serving from the top folder !!!
+###############################################################
+# !!! Important as we are not serving from the top folder !!! #
 baseurl: /web
+###############################################################
 
 # To simplify references to GitHub:
 github: "https://github.com/PhenixCollaboration/web"
 
 # Various formatting aids:
 tablepadding: "&nbsp;&nbsp;&nbsp;"
+
+
+# Logo:
+phenix_logo: /images/logos/phenix_logo_centered.png
+# Icons:
+home_icon: /images/icons/house-32.png
+experiment_icon: /images/icons/atomic-32.png
+detectors_icon: /images/icons/cog-32.png
+software_icon: /images/icons/console-32.png
+analysis_icon: /images/icons/puzzle-2-32.png
+resources_icon: /images/icons/literature-32.png
+about_icon: /images/icons/question-mark-4-32.png
 
 # Used in site upgrades:
 navbar: 'new'
