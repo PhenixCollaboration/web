@@ -1,20 +1,26 @@
 # Metadata used to populate the "documents" section on the PHENIX DAP website.
 # Items are grouped by categories for ease of navigation within the file.
 
+# Example of the old-style Zenodo MD link:
+# - name: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3842204.svg)](https://doi.org/10.5281/zenodo.3842204)'
+
+
 ### General Overviews:
-- name: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3840266.svg)](https://doi.org/10.5281/zenodo.3840266)'
+- name: 3840266
   title: The PHENIX Experiment at RHIC - Decadal Plan 2004–2013
   author: W.Zajc
   venue: 
+  resource: zenodo
   type: document
   category: overview
   format: markdown_link
   date: 11/01/2003
 
-- name: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3842204.svg)](https://doi.org/10.5281/zenodo.3842204)'
+- name: 3842204
   title: The PHENIX Experiment at RHIC - Decadal Plan 2011–2020
   author: B.Jacak
-  venue: 
+  venue:
+  resource: zenodo
   type: document
   category: overview
   format: markdown_link
@@ -174,11 +180,12 @@
   date: 
 
 ### Writeups:
-- name: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3833207.svg)](https://doi.org/10.5281/zenodo.3833207)'
+- name: 3833207
   title: PHENIX Time-of-flight detector West (TOFW) – Detector Basics
-  tags: [tofw]
+  tags: [tofw,]
   author: G.David
   venue: 
+  resource: zenodo
   type: writeup
   category: detector
   format: markdown_link

@@ -46,12 +46,7 @@ for a total of 32 per box and 128 total, meaning there are 1024 readout channels
 {% assign items = site.data.documents %}
 
 ##### Write-ups
-
-{% for item in items %}
-{% if item.tags contains 'tofw' %}
-* {{ item.name }} {{ item.title }}
-{% endif %}
-{% endfor %}
+{% include documents/doc.md title=item.title category='detector' type='writeup' tag='tofw'%}
 
 ##### Theses
 
