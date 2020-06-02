@@ -66,8 +66,12 @@
   full: Resources
   submenus:
     -
+      name: overview
+      full: Overview
+    -
       name: zenodo
       full: Zenodo
+      div: yes
     -
       name: publications
       full: Publications
