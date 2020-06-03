@@ -7,6 +7,9 @@
 - name : decadal plan
   description: Two documents describing the proposed PHENIX research program for two different time periods
 
+- name : Electromagnetic Calorimeter
+  description: Electromagnetic Calorimeter
+
 - name : emcal
   description: Electromagnetic Calorimeter
 
@@ -21,4 +24,11 @@
 
 - name : hadron blind detector
   description: Hadron Blind Detector
+
+- name : time-of-flight
+  description: Time-of-Flight Detector
+
+- name : TOFW
+  description: Time-of-Flight Detector (West)
+
 

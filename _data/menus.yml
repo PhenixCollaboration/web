@@ -66,12 +66,8 @@
   full: Resources
   submenus:
     -
-      name: overview
-      full: Overview
-    -
       name: zenodo
       full: Zenodo
-      div: yes
     -
       name: keywords
       full: Keywords
@@ -102,5 +98,5 @@
       full: How to Contribute
     -
       name: contact
-      full: Contact us
+      full: The Team
       div: yes
