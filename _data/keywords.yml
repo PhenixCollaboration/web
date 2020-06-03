@@ -1,0 +1,24 @@
+- name: RHIC
+  description: Relativistic Heavy Ion Collider
+
+- name : PHENIX
+  description: Pioneering High Energy Nuclear Interaction Experiment
+
+- name : decadal plan
+  description: Two documents describing the proposed PHENIX research program for two different time periods
+
+- name : emcal
+  description: Electromagnetic Calorimeter
+
+- name : PID
+  description: Particle Identification
+
+- name : particle identification
+  description: Particle Identification
+
+- name : HBD
+  description: Hadron Blind Detector
+
+- name : hadron blind detector
+  description: Hadron Blind Detector
+
