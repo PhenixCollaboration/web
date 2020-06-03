@@ -1,7 +1,6 @@
 ---
 title: This Website
 layout: newbase
-abbrev: site
 name: site
 weight: 5
 level: 0
@@ -41,5 +40,8 @@ additional tools (Javascript libraries and advanced stylesheets) for optimal use
 Information collected here was provided and curated by the hard-working members of the PHENIX Collaboration
 and its leadership. Special thanks to members of the <a href="https://npps.bnl.gov/">BNL Nuclear and Particle Physics Software Group</a> for various contributions and technical advice.
 Design of this site was inspired by the <a href="http://hepsoftwarefoundation.org/">HEP Software Foundation</a> Web site.
-We are grateful to the authors and maintainers of the following technologies: <a href="https://pages.github.com/">GitHub Pages</a>,
- <a href="http://jekyllrb.com/">Jekyll</a>, <a href="https://shopify.github.io/liquid/">Liquid</a>, <a href="http://getbootstrap.com/">Bootstrap</a>.
+We are grateful to the authors and maintainers of the following technologies:
+* <a href="https://pages.github.com/">GitHub Pages</a>
+* <a href="http://jekyllrb.com/">Jekyll</a>
+* <a href="https://shopify.github.io/liquid/">Liquid</a>
+* <a href="http://getbootstrap.com/">Bootstrap</a>

@@ -73,8 +73,12 @@
       full: Zenodo
       div: yes
     -
+      name: keywords
+      full: Keywords
+    -
       name: publications
       full: Publications
+      div: yes
     -
       name: documents
       full: Documents

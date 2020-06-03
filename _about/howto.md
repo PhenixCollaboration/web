@@ -1,12 +1,11 @@
 ---
 title: How to Contribute
 layout: newbase
-abbrev: howto
 name: howto
 weight: 10
 level: 0
 ---
-{% assign find_site_page=site.about | where: "abbrev", 'site' %}
+{% assign find_site_page=site.about | where: "name", 'site' %}
 {% assign site_page_url=find_site_page[0].url  | relative_url %}
 
 {% assign find_contacts_page=site.about | where: "abbrev", 'contact' %}
@@ -58,13 +57,15 @@ of the top navigation bar and the dropdown menus
 
 #### The Navigation Bar and Dropdown Menus
 Entries in the navigation bar on top are named in a manner
-similar to the names of the folders in this project, for example the "EIC" entry in the navigation
-bard is a dropdown menu with the content defined in the "_eic" folder, "Software" is associated with the
-folder "_software". These folders are treated as "collections" by the Jekyll framework and they need
-to be declared in the main configuration file <a href="{{ site.github }}/blob/master/_config.yml" target="_blank">_config.yml</a> in order to be properly rendered into HTML.
+similar to the names of the folders in this project, for example the "Resources" entry in the navigation
+bar is a dropdown menu with the content defined in a number of files the "_resources" folder etc.
+These folders are treated as "collections" by the Jekyll framework and they should
+be declared in the main configuration file <a href="{{ site.github }}/blob/master/_config.yml" target="_blank">_config.yml</a>.
 
 The structure of the navigation bar and the content of the dropdown menus are described in
 a dedicated YAML file <a href="{{ site.github }}/blob/master/_data/menus.yml" target="_blank">_data/menus.yml</a>.
+The "name" attribute in each submenu section needs to match the respective attribute in the "Front Matter" of
+the file with the content of the respective page to be properly linked.
 
 #### Managing Data
 Jekyll is flexible when it comes to storing and manipulating structured data.

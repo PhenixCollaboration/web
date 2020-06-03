@@ -1,10 +1,10 @@
 {% case include.what %}
-{% when "experiment" %}	{% assign theCollection=site.experiment %}{% assign icon=site.experiment_icon %}
-{% when "detectors" %}	{% assign theCollection=site.detectors %}{% assign icon=site.detectors_icon %}
-{% when "software" %}	{% assign theCollection=site.software %}{% assign icon=site.software_icon %}
-{% when "analysis" %}	{% assign theCollection=site.analysis %}{% assign icon=site.analysis_icon %}
-{% when "resources" %}	{% assign theCollection=site.resources %}{% assign icon=site.resources_icon %}
-{% when "about" %}	{% assign theCollection=site.about %}{% assign icon=site.about_icon %}
+{% when "experiment" %}	{% assign theCollection=site.experiment %} {% assign icon=site.experiment_icon %}
+{% when "detectors" %}	{% assign theCollection=site.detectors %}  {% assign icon=site.detectors_icon %}
+{% when "software" %}	{% assign theCollection=site.software %}   {% assign icon=site.software_icon %}
+{% when "analysis" %}	{% assign theCollection=site.analysis %}   {% assign icon=site.analysis_icon %}
+{% when "resources" %}	{% assign theCollection=site.resources %}  {% assign icon=site.resources_icon %}
+{% when "about" %}	{% assign theCollection=site.about %}      {% assign icon=site.about_icon %}
 {% endcase %}
 
 {% comment %}
