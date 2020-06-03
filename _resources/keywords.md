@@ -12,4 +12,4 @@ layout: newbase
 {% assign rows=rows | push: row %}
 {% endfor %}
 
-{% include layouts/table.md headers='Keyword, Description' rows=rows width="80%" %}
+{% include layouts/table.md headers='Keyword, Description' rows=rows %}
