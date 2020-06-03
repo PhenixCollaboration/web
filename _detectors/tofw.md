@@ -46,13 +46,12 @@ for a total of 32 per box and 128 total, meaning there are 1024 readout channels
 {% assign items = site.data.documents %}
 
 ##### Write-ups
-{% include documents/doc.md title=item.title category='detector' type='writeup' tag='tofw'%}
+{% include documents/doc.md title=item.title category='detector' type='writeup' tag='tofw' %}
 
 ##### Theses
-
-* [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3836478.svg)](https://doi.org/10.5281/zenodo.3836478) [Brian Love's M.S. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2009/Love_Brian-thesis_BrianLove.pdf)  
-* [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3836538.svg)](https://doi.org/10.5281/zenodo.3836538) [Hugo Valle's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2008/Valle_Hugo-thesisHugoValle.pdf)  
-* [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3836568.svg)](https://doi.org/10.5281/zenodo.3836568) [Ron Belmont's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2012/Belmont_Ron-belmont.pdf)  
+{% include documents/doc.md title=item.title category='detector' type='thesis' tag='brian_love_thesis' %}
+{% include documents/doc.md title=item.title category='detector' type='thesis' tag='hugo_valle_thesis' %}
+{% include documents/doc.md title=item.title category='detector' type='thesis' tag='ron_belmont_thesis' %}
 
 #### Variables and Accessors
 These “get” methods give access to the TOFW variables used for analysis. The variable type, name of the get method, and a brief description are given below.
@@ -61,4 +60,8 @@ These “get” methods give access to the TOFW variables used for analysis. The
 
 {% comment %}
 <!-- [PHENIX Time-of-flight detector West (TOFW) – Detector Basics]({{ '/assets/detectors/tofw/tofw_shortdoc.pdf' | relative_url }}) -->
+* [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3836478.svg)](https://doi.org/10.5281/zenodo.3836478) [Brian Love's M.S. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2009/Love_Brian-thesis_BrianLove.pdf)  
+* [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3836538.svg)](https://doi.org/10.5281/zenodo.3836538) [Hugo Valle's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2008/Valle_Hugo-thesisHugoValle.pdf)  
+* [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3836568.svg)](https://doi.org/10.5281/zenodo.3836568) [Ron Belmont's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2012/Belmont_Ron-belmont.pdf)  
+
 {% endcomment %}

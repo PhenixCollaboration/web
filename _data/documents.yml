@@ -8,7 +8,7 @@
 ### General Overviews:
 - name: 3840266
   title: The PHENIX Experiment at RHIC - Decadal Plan 2004–2013
-  author: W.Zajc
+  author: W.Zajc et al
   venue: 
   resource: zenodo
   type: document
@@ -18,7 +18,7 @@
 
 - name: 3842204
   title: The PHENIX Experiment at RHIC - Decadal Plan 2011–2020
-  author: B.Jacak
+  author: B.Jacak et al
   venue:
   resource: zenodo
   type: document
@@ -169,6 +169,39 @@
   date: 
 
 ### Theses:
+- name: 3836568
+  title: Measurements of identified hadrons in Au+Au and d+Au collisions at 200 GeV
+  tags: [tofw, ron_belmont_thesis]
+  author: Ron Belomont
+  venue: 
+  resource: zenodo
+  type: thesis
+  category: detector
+  format: markdown_link
+  date: 
+
+- name: 3836538
+  title: Source dynamics from deuterons and anti-deuterons in 200 GeV Au+Au collisions
+  tags: [tofw, hugo_valle_thesis]
+  author: Hugo Valle
+  venue: 
+  resource: zenodo
+  type: thesis
+  category: detector
+  format: markdown_link
+  date: 
+
+- name: 3836478
+  title: The Design, Implementation, and Performance of the PHENIX Time-of-Flight West Detector
+  tags: [tofw, brian_love_thesis]
+  author: Brian Love
+  venue: 
+  resource: zenodo
+  type: thesis
+  category: detector
+  format: markdown_link
+  date: 
+
 - name: patel_thesis.pdf
   title: Jet longitudinal double spin asymmetry in PHENIX p + p √s = 510GeV
   tags: [ert, spin]
@@ -191,11 +224,12 @@
   format: markdown_link
   date: 
 
-- name: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3833205.svg)](https://doi.org/10.5281/zenodo.3833205)'
+- name: 3833205
   title: PHENIX Electromagnetic Calorimeter (EMCal) – Detector Basics
   tags: [emcal]
   author: G.David
   venue: 
+  resource: zenodo
   type: writeup
   category: detector
   format: markdown_link
