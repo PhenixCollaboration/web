@@ -65,16 +65,18 @@
   type: run_info
 
 ### RUN CONFIGURATION DIAGRAMS
-- path: /images/logos/under-construction-1-clipart.png
+- path: /images/run_configuration/Phenix_2000.gif
   title: Run 01 Configuration Diagram
   width: 200
   run: run01
+  gallery: main
   type: run_configuration
 
-- path: /images/logos/under-construction-1-clipart.png
+- path: /images/run_configuration/Phenix_2001.gif
   title: Run 02 Configuration Diagram
   width: 200
   run: run02
+  gallery: main
   type: run_configuration
 
 - path: /images/logos/under-construction-1-clipart.png
@@ -137,30 +139,37 @@
   gallery: main
   type: run_configuration
 
-- path: /images/logos/under-construction-1-clipart.png
-  title: Run 13 Configuration Diagram
+- path: /images/run_configuration/Phenix_2012.jpg
+  title: Run 13 Configuration Diagram (same as Run 12)
   width: 200
   run: run13
+  gallery: main
   type: run_configuration
 
-- path: /images/logos/under-construction-1-clipart.png
-  title: Run 14 Configuration Diagram
+- path: /images/run_configuration/Phenix_2012.jpg
+  title: Run 14 Configuration Diagram (same as Run 12)
   width: 200
   run: run14
+  gallery: main
   type: run_configuration
 
-- path: /images/logos/under-construction-1-clipart.png
-  title: Run 15 Configuration Diagram
+- path: /images/run_configuration/Phenix_2012.jpg
+  title: Run 15 Configuration Diagram (same as Run 12)
   width: 200
   run: run15
+  gallery: main
   type: run_configuration
 
-- path: /images/logos/under-construction-1-clipart.png
-  title: Run 16 Configuration Diagram
+- path: /images/run_configuration/Phenix_2012.jpg
+  title: Run 16 Configuration Diagram (same as Run 12)
   width: 200
   run: run16
+  gallery: main
   type: run_configuration
 
+#
+#  /images/logos/under-construction-1-clipart.png
+#
 ### LUMINOSITY PLOTS
 - path: /images/lumi/run14/lumi.gif
   title: 
