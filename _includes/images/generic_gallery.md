@@ -30,7 +30,13 @@
 {% assign length = images | size %}
 
 {% if length!=0 %}
+<center>
 <h3> {{ title }} </h3>
+<hr/>
+{% if include.comment %}
+{{ include.comment }}
+<hr/>
+{% endif %}
 <table width="100%">
 
 {% tablerow image in images cols:cols %}
@@ -50,5 +56,5 @@
 {% endtablerow %}
 
 </table>
-
+</center>
 {% endif %}

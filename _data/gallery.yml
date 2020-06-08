@@ -79,22 +79,25 @@
   gallery: main
   type: run_configuration
 
-- path: /images/logos/under-construction-1-clipart.png
+- path: /images/run_configuration/Phenix_2002.gif
   title: Run 03 Configuration Diagram
   width: 200
   run: run03
+  gallery: main
   type: run_configuration
 
-- path: /images/logos/under-construction-1-clipart.png
-  title: Run 04 Configuration Diagram
+- path: /images/run_configuration/Phenix_2002.gif
+  title: Run 04 Configuration Diagram (same as Run 3)
   width: 200
   run: run04
+  gallery: main
   type: run_configuration
 
-- path: /images/logos/under-construction-1-clipart.png
-  title: Run 05 Configuration Diagram
+- path: /images/run_configuration/Phenix_2002.gif
+  title: Run 05 Configuration Diagram (same as Run 3)
   width: 200
   run: run05
+  gallery: main
   type: run_configuration
 
 - path: /images/run_configuration/Phenix_2006.jpg
@@ -115,10 +118,11 @@
   gallery: main
   type: run_configuration
 
-- path: /images/logos/under-construction-1-clipart.png
-  title: Run 09 Configuration Diagram
+- path: /images/run_configuration/Phenix_2008.jpg
+  title: Run 09 Configuration Diagram (same as Run 8)
   width: 200
   run: run09
+  gallery: main
   type: run_configuration
 
 - path: /images/run_configuration/Phenix_2010.jpg
