@@ -118,8 +118,8 @@
   gallery: main
   type: run_configuration
 
-- path: /images/run_configuration/Phenix_2008.jpg
-  title: Run 09 Configuration Diagram (same as Run 8)
+- path: /images/run_configuration/Phenix_2010.jpg
+  title: Run 09 Configuration Diagram (same as Run 10)
   width: 200
   run: run09
   gallery: main
