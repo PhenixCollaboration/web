@@ -5,7 +5,7 @@ layout: newbase
 items:
    - {title: 'General Overviews',			category: 'overview',	type: 'document'}
    - {title: 'Detector Subsystems (Writeups)',		category: 'detector',	type: 'writeup'}
-   - {title: 'Select Theses',				category: 'physics',	type: 'thesis'}
+   - {title: 'Select Theses',				category: 'detector',	type: 'thesis'}
    - {title: 'Misc Summaries',				category: 'summary',	div: yes }
 ---
 {% include layouts/find_title.md name=page.name %}
