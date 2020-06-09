@@ -26,6 +26,16 @@
   format: markdown_link
   date: 10/01/2010
 
+- name: 3885936
+  title: The PHENIX detector
+  author: Klaus Dehmelt
+  venue:
+  resource: zenodo
+  type: document
+  category: overview
+  format: markdown_link
+  date: 08/01/2018
+
 - name: PHENIX_Overview_NIM499.pdf
   title: PHENIX Overview (NIM A 499, 2003)
   author: 

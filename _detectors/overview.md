@@ -5,12 +5,23 @@ layout: newbase
 ---
 {% include title.md %}
 
-### Archived presentations
+
+#### Overviews
+{% include documents/doc.md category='overview' type='document' %}
+
+{% comment %}
 [Overview of PHENIX detectors, BNL 2018]({{ '/assets/detectors/phenix/PHENIXtheDetector.pdf' | relative_url }})
+{% endcomment %}
 
-### Papers
-{% include documents/doc.md category='detector' %}
+#### Write-ups
+{% include documents/doc.md category='detector' type='writeup' %}
 
-### Links
+#### Theses
+{% include documents/doc.md category='detector' type='thesis' %}
+
+#### Publications
+{% include documents/doc.md category='detector' type='publication' %}
+
+#### Links
 
 - [PHENIX website](https://www.phenix.bnl.gov/)
