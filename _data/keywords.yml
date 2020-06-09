@@ -1,6 +1,9 @@
 - name: RHIC
   description: Relativistic Heavy Ion Collider
 
+- name: RICH
+  description: Ring Imaging Cherenkov Detector
+
 - name : PHENIX
   description: Pioneering High Energy Nuclear Interaction Experiment
 
@@ -28,7 +31,33 @@
 - name : time-of-flight
   description: Time-of-Flight Detector
 
-- name : TOFW
-  description: Time-of-Flight Detector (West)
+- name : heavy ion
+  description: Term applied to relativistic nuclei
 
+- name : zdc
+  description: zero-degree calorimeter
+
+- name : quark gluon plasma
+  description: Quark Gluon Plasma
+
+- name : qgp
+  description: Quark Gluon Plasma
+
+- name : direct photon
+  description: Direct photons produced in nuclear collisions
+
+- name : qcd
+  description: Quantum Chromodynamics
+
+- name : jet
+  description: A jet-like feature of a high-energy nuclear collision
+
+- name : jet quenching
+  description: jet quenching
+
+- name : pythia
+  description: A type of Event Generator
+
+- name : hijing
+  description: A type of Event Generator
 

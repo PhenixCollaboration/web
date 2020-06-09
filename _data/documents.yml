@@ -202,6 +202,28 @@
   format: markdown_link
   date: 
 
+- name: 3885856
+  title: The Quark Gluon Plasma probed by Low Momentum Direct Photons in Au+Au Collisions at √sNN = 62.4 GeV and √sNN = 39 GeV beam energies
+  tags: [emcal, zdc,]
+  author: Vladimir Khachatryan
+  venue: 
+  resource: zenodo
+  type: thesis
+  category: detector
+  format: markdown_link
+  date: 
+
+- name: 3885870
+  title: Inclusive jet production in proton-proton and copper-gold collisions at √sNN = 200 GeV
+  tags: [emcal, zdc,]
+  author: Arbin Timilsina
+  venue: 
+  resource: zenodo
+  type: thesis
+  category: detector
+  format: markdown_link
+  date: 
+
 - name: patel_thesis.pdf
   title: Jet longitudinal double spin asymmetry in PHENIX p + p √s = 510GeV
   tags: [ert, spin]
