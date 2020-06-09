@@ -2,6 +2,7 @@
 title: Hadron Blind Detector
 role: Electron identification while being blind to hadrons
 abbrev: hbd
+name: hbd
 layout: newbase
 category: central
 ---
@@ -61,12 +62,12 @@ done at the Stony Brook University. The analog and digital electronics
 were developed and built by BNL Instrumentation and Columbia University.
 
 #### Important HBD related Thesis/papers
-[Maxim Naglis's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2009/Naglis_Maxim-thesis.pdf)  
-[Deepali Sharma's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2010/Sharma_Deepali-thesis.pdf)  
-[Yosuke Watanable's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2014/Watanabe_Yosuke-phD_thesis_main.pdf)  
+{% include documents/doc.md category='detector' type='thesis' tag='naglis_thesis' %}
+* [Deepali Sharma's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2010/Sharma_Deepali-thesis.pdf)  
+* [Yosuke Watanable's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2014/Watanabe_Yosuke-phD_thesis_main.pdf)  
 
 #### Detector Proposal
-{% include documents/linkref.md tag='hbd' %}
+{% include documents/doc.md category='detector' type='proposal' tag='hbd' %}
 
 #### Accessing HBD variables in the analysis
 

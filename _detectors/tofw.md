@@ -49,9 +49,9 @@ for a total of 32 per box and 128 total, meaning there are 1024 readout channels
 {% include documents/doc.md title=item.title category='detector' type='writeup' tag='tofw' %}
 
 ##### Theses
-{% include documents/doc.md title=item.title category='detector' type='thesis' tag='brian_love_thesis' %}
-{% include documents/doc.md title=item.title category='detector' type='thesis' tag='hugo_valle_thesis' %}
-{% include documents/doc.md title=item.title category='detector' type='thesis' tag='ron_belmont_thesis' %}
+{% include documents/doc.md category='detector' type='thesis' tag='brian_love_thesis' %}
+{% include documents/doc.md category='detector' type='thesis' tag='hugo_valle_thesis' %}
+{% include documents/doc.md category='detector' type='thesis' tag='ron_belmont_thesis' %}
 
 #### Variables and Accessors
 These “get” methods give access to the TOFW variables used for analysis. The variable type, name of the get method, and a brief description are given below.

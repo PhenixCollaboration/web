@@ -8,13 +8,14 @@ category: central
 {% include layouts/find_detector_title.md abbrev=page.abbrev %}
 ## {{ title }}
 
-#### Archived papers
 
 {% assign items = site.data.documents %}
 
 ##### Write-ups
+{% include documents/doc.md category='detector' type='writeup' tag='emcal' %}
 
-{% include documents/linkref.md tag='emcal' %}
+##### Theses
+{% include documents/doc.md category='detector' type='thesis' tag='emcal' %}
 
 
 {% comment %}

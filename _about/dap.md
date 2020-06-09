@@ -1,10 +1,7 @@
 ---
 title: Data and Analysis Preservation
 layout: newbase
-abbrev: dap
 name: dap
-weight: 0
-level: 0
 ---
 
 {% include title.md %}

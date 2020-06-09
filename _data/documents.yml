@@ -169,6 +169,17 @@
   date: 
 
 ### Theses:
+- name: 3839085
+  title: Φ meson production in p+p, d+Au and Au+Au collisions at RHIC using the PHENIX detector
+  tags: [hbd, naglis_thesis]
+  author: Maxim Naglis
+  venue: 
+  resource: zenodo
+  type: thesis
+  category: detector
+  format: markdown_link
+  date: 
+
 - name: 3836568
   title: Measurements of identified hadrons in Au+Au and d+Au collisions at 200 GeV
   tags: [tofw, ron_belmont_thesis]
@@ -264,7 +275,7 @@
   tags: [hbd]
   author: A.Kozlov et al
   venue: 
-  type: document
+  type: proposal
   category: detector
   format: markdown_link
   date: 07/21/2003

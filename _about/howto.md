@@ -8,8 +8,8 @@ level: 0
 {% assign find_site_page=site.about | where: "name", 'site' %}
 {% assign site_page_url=find_site_page[0].url  | relative_url %}
 
-{% assign find_contacts_page=site.about | where: "abbrev", 'contact' %}
-{% assign contacts_page_url=find_contacts_page[0].url  | relative_url %}
+{% assign find_contacts_page=site.about | where: "name", 'contact' | first %}
+{% assign contacts_page_url=find_contacts_page.url  | relative_url %}
 
 {% include title.md %}
 
