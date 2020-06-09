@@ -56,8 +56,26 @@
   description: jet quenching
 
 - name : pythia
-  description: A type of Event Generator
+  description: PYTHIA - a type of Event Generator
 
 - name : hijing
-  description: A type of Event Generator
+  description: HIJING - a type of Event Generator
+
+- name : spin
+  description: Spin
+
+- name : spin physics
+  description: Spin Physics
+
+- name : mpc
+  description: Muon Piston Calorimeter
+
+- name : mpc-ex
+  description: Muon Piston Calorimeter Upgrade
+
+- name : vtx
+  description: Vertex Detector
+
+- name : fvtx
+  description: Vertex Detector (Forward Region)
 
