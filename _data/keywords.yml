@@ -22,9 +22,6 @@
 - name : particle identification
   description: Particle Identification
 
-- name : HBD
-  description: Hadron Blind Detector
-
 - name : hbd
   description: Hadron Blind Detector
 
