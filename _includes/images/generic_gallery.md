@@ -33,18 +33,31 @@
 <center>
 <h3> {{ title }} </h3>
 <hr/>
+
 {% if include.comment %}
 {{ include.comment }}
 <hr/>
 {% endif %}
+
 <table width="100%">
 
 {% tablerow image in images cols:cols %}
 
 {% if image.title !='' %}
-<b>{{ image.title }}</b><br/>
+<center>
+<b>{{ image.title }}</b>
+</center>
 {% endif %}
 
+{% if include.type=='run_configuration' %}
+{% capture run_url %}{% include navigation/findpage.md folder=site.runs name=image.run %}{% endcapture %}
+<center>
+<a href="{{ run_url }}"><u>Run detail page</u></a>
+<p/>  
+</center>  
+{% endif %}
+
+<center>
 <a href="{{ image.path | relative_url }}">
 {% assign height=300 %}
 {% if image.height %}
@@ -53,6 +66,8 @@
 
 <img src="{{ image.path | relative_url }}" alt="{{ image.title}}" height="{{ height }}px"/>&nbsp;<br/><p/>
 </a>
+</center>
+<hr/>
 {% endtablerow %}
 
 </table>
