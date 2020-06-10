@@ -106,7 +106,7 @@
   gallery: main
   type: run_configuration
 
-- path: /images/run_configuration/Phenix_2007.jpg
+- path: /images/run_configuration/Phenix_2007.png
   title: Run 07 Configuration Diagram
   run: run07
   gallery: main
@@ -157,15 +157,15 @@
   gallery: main
   type: run_configuration
 
-- path: /images/run_configuration/Phenix_2012.jpg
-  title: Run 15 Configuration Diagram (same as Run 12)
+- path: /images/run_configuration/Phenix_2015_2016.png
+  title: Run 15/16 Configuration Diagram
   width: 200
   run: run15
   gallery: main
   type: run_configuration
 
-- path: /images/run_configuration/Phenix_2012.jpg
-  title: Run 16 Configuration Diagram (same as Run 12)
+- path: /images/run_configuration/Phenix_2015_2016.png
+  title: Run 15/16 Configuration Diagram
   width: 200
   run: run16
   gallery: main
