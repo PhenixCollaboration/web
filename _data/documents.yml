@@ -64,9 +64,34 @@
   format: pdf
   date: 
 
+### Beam Use Proposals
+# acronym - 'bup'
+- name: 3886886
+  title: PHENIX Beam Use Proposal Run-15 and Run-16
+  tags: [run14, run15, tofw, fvtx, vtx, mpc-ex, mpc ]
+  author: K. Dehmelt
+  venue: 
+  resource: zenodo
+  type: bup
+  category: detector
+  format: markdown_link
+  date: 2013-05-19
+
+- name: 3887304
+  title: PHENIX Beam Use Proposal Run-14 and Run-15
+  tags: [run15, run16, tofw, fvtx, vtx, mpc-ex, mpc, daq, 'data acquisition' ]
+  author: H. van Hecke
+  venue: 
+  resource: zenodo
+  type: bup
+  category: detector
+  format: markdown_link
+  date: 2013-05-19
+
 ### PHENIX Detector Subsystems:
-- name: '[The PHENIX Calorimeter](https://doi.org/10.1016/S0168-9002(02)01954-X)'
+
 # - name: PHENIX_EMCAL_NIM499.pdf
+- name: '[The PHENIX Calorimeter](https://doi.org/10.1016/S0168-9002(02)01954-X)'
   title: (NIM A 499, 2003)
   author: 
   venue: 
@@ -179,6 +204,17 @@
   date: 
 
 ### Theses:
+- name: 3887326
+  title: Low Momentum Direct Photons as a Probe of Heavy Ion Collisions
+  tags: [hbd, HBD, petti_thesis]
+  author: Richard Petti
+  venue: 
+  resource: zenodo
+  type: thesis
+  category: detector
+  format: markdown_link
+  date: 
+
 - name: 3839085
   title: Φ meson production in p+p, d+Au and Au+Au collisions at RHIC using the PHENIX detector
   tags: [hbd, naglis_thesis]

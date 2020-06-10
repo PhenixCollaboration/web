@@ -25,6 +25,9 @@
 - name : HBD
   description: Hadron Blind Detector
 
+- name : hbd
+  description: Hadron Blind Detector
+
 - name : hadron blind detector
   description: Hadron Blind Detector
 
@@ -78,4 +81,13 @@
 
 - name : fvtx
   description: Vertex Detector (Forward Region)
+
+- name : run14
+  description: Run 14
+
+- name : run15
+  description: Run 15
+
+- name : run16
+  description: Run 16
 
