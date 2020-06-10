@@ -1,1 +1,2 @@
-{% assign found_page=site.about | where: "name", include.name | map: "url" | first | relative_url %}
+{% assign found_page=include.folder | where: "name", include.name | map: "url" | first | relative_url %}
+{{ found_page }}

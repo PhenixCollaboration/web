@@ -2,14 +2,9 @@
 name: zenodo
 layout: newbase
 ---
-{% assign find_dap=site.about | where: "name", 'dap' | first %}
-{% assign dap_page_url=find_dap.url  | relative_url %}
-
-{% assign find_kw=site.resources | where: "name", 'keywords' | first %}
-{% assign kw_url=find_kw.url  | relative_url %}
-
-{% assign find_team=site.about | where: "name", 'contact' | first %}
-{% assign team_url=find_team.url  | relative_url %}
+{% capture dap_page_url %}{% include navigation/findpage.md folder=site.about name='dap' %}{% endcapture %}
+{% capture kw_url %}{% include navigation/findpage.md folder=site.resources name='keywords' %}{% endcapture %}
+{% capture team_url %}{% include navigation/findpage.md folder=site.about name='contact' %}{% endcapture %}
 
 {% include layouts/find_title.md name=page.name %}
 

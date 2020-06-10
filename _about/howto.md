@@ -5,11 +5,8 @@ name: howto
 weight: 10
 level: 0
 ---
-{% assign find_site_page=site.about | where: "name", 'site' %}
-{% assign site_page_url=find_site_page[0].url  | relative_url %}
-
-{% assign find_contacts_page=site.about | where: "name", 'contact' | first %}
-{% assign contacts_page_url=find_contacts_page.url  | relative_url %}
+{% capture site_page_url %}{% include navigation/findpage.md folder=site.about name='site' %}{% endcapture %}
+{% capture contacts_page_url %}{% include navigation/findpage.md folder=site.about name='contact' %}{% endcapture %}
 
 {% include title.md %}
 
@@ -101,3 +98,10 @@ a development machine. This way any modification can be validated immediately si
 the locally running development server provided by Jekyll will render the site
 on the local host. Basic knolwede of the <a href="https://shopify.github.io/liquid/" target="_blank">
 Liquid</a> template language and in particular the "filters" that are part of it is extremely helpful.
+
+{% comment %}
+Deprecated way to find pages:
+{% assign find_site_page=site.about | where: "name", 'site' %}
+{% assign site_page_url=find_site_page[0].url  | relative_url %}
+{% endcomment %}
+
