@@ -72,6 +72,10 @@
       name: keywords
       full: Keywords
     -
+      name: hepdata
+      full: HEPData
+      div: yes
+    -
       name: publications
       full: Publications
       div: yes
