@@ -4,8 +4,9 @@ layout: newbase
 ---
 {% include layouts/find_title.md name=page.name %}
 
-Listed on this page are the keywords used to tag materials uploaded to the Zenodo sytem under the umbrella of the PHENIX Collaboration Community.
-Each entry in the table below acts as a query link to Zenodo. Pages will open in a new tab/window.
+Listed on this page are *recommended* keywords used to tag materials uploaded to the Zenodo sytem under the umbrella of the {% include navigation/phenix_zenodo_collection.md %}. The list is compiled to provide better consistency of the subsequent queries. Zenodo is using a complex query mechanism which includes but is not limited to "elastic search" on the submission text (where applicable) so the effect of capitalization on queries is not always straighforward. In the following we adopt lowercase convention for all keywords. Note that "keywords" on Zenodo can actually be combination of words (i.e. phrases), space-separated.
+
+Each entry in the left column of the table below acts as a query link to *Zenodo*. Pages will open in a new tab/window.
 
 {% assign rows="" | split: "" %}
 {% assign sorted_keys=site.data.keywords | sort_natural %}

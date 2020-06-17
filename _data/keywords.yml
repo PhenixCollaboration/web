@@ -1,22 +1,22 @@
-- name: RHIC
-  description: Relativistic Heavy Ion Collider
+- name: rhic
+  description: Relativistic Heavy Ion Collider (RHIC)
 
-- name: RICH
+- name: rich
   description: Ring Imaging Cherenkov Detector
 
-- name : PHENIX
-  description: Pioneering High Energy Nuclear Interaction Experiment
+- name : phenix
+  description: Pioneering High Energy Nuclear Interaction Experiment (PHENIX)
 
 - name : decadal plan
   description: Two documents describing the proposed PHENIX research program for two different time periods
 
-- name : Electromagnetic Calorimeter
+- name : electromagnetic calorimeter
   description: Electromagnetic Calorimeter
 
 - name : emcal
   description: Electromagnetic Calorimeter
 
-- name : PID
+- name : pid
   description: Particle Identification
 
 - name : particle identification
@@ -31,11 +31,32 @@
 - name : time-of-flight
   description: Time-of-Flight Detector
 
+- name : tof
+  description: Time-of-Flight Detector
+
+- name : trigger
+  description: Trigger
+
+- name : event characterization
+  description: Event Characterization
+
+- name : tofw
+  description: Time-of-Flight Detector (west)
+
+- name : tofe
+  description: Time-of-Flight Detector (east)
+
 - name : heavy ion
   description: Term applied to relativistic nuclei
 
 - name : zdc
   description: zero-degree calorimeter
+
+- name : smd
+  description: shower max detector
+
+- name : shower max detector
+  description: shower max detector
 
 - name : quark gluon plasma
   description: Quark Gluon Plasma
