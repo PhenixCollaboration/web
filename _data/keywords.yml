@@ -25,6 +25,12 @@
 - name : hbd
   description: Hadron Blind Detector
 
+- name : bbc
+  description: Beam-Beam Counter
+
+- name : upc
+  description: Ultra-Peripheral Collisions
+
 - name : hadron blind detector
   description: Hadron Blind Detector
 
