@@ -314,7 +314,17 @@
   format: markdown_link
   date:
     
-
+- name: 3893970
+  title: PHENIX ZDC/SMD - detector basics
+  tags: [zdc,smd]
+  author: G.David
+  venue: 
+  resource: zenodo
+  type: writeup
+  category: detector
+  format: markdown_link
+  date:
+    
 ### arXiv links:
 - name: '[https://arxiv.org/abs/physics/0307101](https://arxiv.org/abs/physics/0307101)'
   title: Proposal for a Hadron Blind Detector for PHENIX
