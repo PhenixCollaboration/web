@@ -25,9 +25,6 @@ Each entry in the left column of the table below acts as a query link to *Zenodo
 
 {% for item in sorted_keys %}
 
-{% comment %}
-{% assign link='<a href="http://cnn.com">' | append: item.name | append:'</a>' %}
-{% endcomment %}
 {% include navigation/zenodo_query.md name=item.name %}
 {% assign row=link | append: ", " | append: item.description %}
 {% assign rows=rows | push: row %}

@@ -8,6 +8,9 @@ layout: newbase
 
 {% include layouts/find_title.md name=page.name %}
 
-[HEPData](https://www.hepdata.net/){:target="_blank"} is an open-access repository for scattering data from experimental particle physics which includes data point from several thousand publications.
+{% include navigation/findlink.md name='HEPData' %} is an open-access repository for
+scattering data from experimental particle physics which includes data point from several thousand publications.
 
-The PHENIX Collaboration has started using this platform as one of the components of its <a href="{{ dap_page_url }}">Data and Analysis Preservation (DAP) effort</a>. It is adding to its [collection of HEPData entries](https://www.hepdata.net/search/?q=phenix){:target="_blank"}.
+The PHENIX Collaboration has started using this platform as one of the components of its
+[Data and Analysis Preservation (DAP) effort]({{ dap_page_url }}).
+It is adding to its [collection of HEPData entries](https://www.hepdata.net/search/?q=phenix){:target="_blank"}.

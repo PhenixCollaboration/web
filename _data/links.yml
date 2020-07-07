@@ -14,3 +14,7 @@
   url: 'https://www.hepdata.net/search/?q=phenix'
   category: 'general'
 
+- name: HEPData
+  url: 'https://www.hepdata.net/'
+
+
