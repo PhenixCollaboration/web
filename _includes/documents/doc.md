@@ -18,21 +18,18 @@
 {% endif %}
 
 
-{% for item in items %}
-
-{% if item.format=='markdown_link' %}
-
-{% if item.resource=='zenodo' %}
+{%- for item in items -%}
+{%- if item.format=='markdown_link' -%}
+{%- if item.resource=='zenodo' -%}
 * {% include navigation/zenodo.md item=item %}
-{% else %}
+{%- else -%}
 * {% include navigation/generate_md_link.md item=item %}
-{% endif %}
+{%- endif -%}
 
-{% else %}
+{%- else %}
 * [{{ item.title }}]({{ site.document_folder | append: item.name | relative_url }}){:target="_blank"}
-
-{% endif %}
-{% endfor %}
+{%- endif %}
+{%- endfor -%}
 
 {% comment %}
   <li><a href="{{ site.document_folder | append: item.name | relative_url }}" target="_blank">{{ item.title }}</a></li>
