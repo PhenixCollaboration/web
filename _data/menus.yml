@@ -66,15 +66,21 @@
   full: Resources
   submenus:
     -
-      name: zenodo
-      full: Zenodo
+      name: overview
+      full: Overview
     -
       name: keywords
       full: Keywords
     -
+      name: zenodo
+      full: Zenodo
+      div: yes
+    -
       name: hepdata
       full: HEPData
-      div: yes
+    -
+      name: rivet
+      full: Rivet
     -
       name: publications
       full: Publications

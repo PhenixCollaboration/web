@@ -10,6 +10,7 @@ markdown: kramdown
 future: true
 exclude: [vendor]
 
+
 ###############################################################
 # !!! Important as we are not serving from the top folder !!! #
 baseurl: /web

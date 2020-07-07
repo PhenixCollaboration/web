@@ -1,0 +1,13 @@
+- name: 'PHENIX website'
+  url: 'https://www.phenix.bnl.gov/'
+  comment: (Legacy)
+
+- name: 'PHENIX Collaboration on GitHub'
+  url: 'https://github.com/PhenixCollaboration'
+
+- name: 'PHENIX Community on Zenodo'
+  url: 'https://zenodo.org/communities/phenixcollaboration/'
+
+- name: 'PHENIX on HEPData'
+  url: 'https://www.hepdata.net/search/?q=phenix'
+
