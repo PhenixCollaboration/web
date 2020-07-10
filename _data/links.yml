@@ -11,7 +11,7 @@
   category: 'general'
 
 - name: 'PHENIX on HEPData'
-  url: 'https://www.hepdata.net/search/?q=phenix'
+  url: 'https://www.hepdata.net/search/?collaboration=PHENIX'
   category: 'general'
 
 - name: HEPData
