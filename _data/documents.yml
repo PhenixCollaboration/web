@@ -347,6 +347,19 @@
   format: markdown_link
   date: 07/21/2003
 
+
+### Analysis notes
+- name: ananote_template_final.pdf
+  title: The Analysis Note Template
+  tags: [ananote_template,]
+  author: G.David
+  venue: 
+  type: document
+  category: physics
+  format: pdf
+  date: 
+
+
 # Replaced local "asset" file with a reference to Zenodo (created for this purpose)
 #- name: phenix_decadal10_full_refs.pdf
 #  title: The PHENIX Experiment at RHIC - Decadal Plan 2011–2020

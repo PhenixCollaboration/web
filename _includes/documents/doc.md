@@ -2,7 +2,12 @@
 ##### {{ include.title }}
 {% endif %}
 
+{% if include.category %}
 {% assign items = site.data.documents | where: "category", include.category %}
+{% else %}
+{% assign items = site.data.documents %}
+{% endif %}
+
 {% if include.type %}
 {% assign items = items | where: "type", include.type %}
 {% endif %}
