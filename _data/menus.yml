@@ -60,7 +60,7 @@
   submenus:
     -
       name: analysis_overview
-      full: Analysis Overview
+      full: Overview
 
 - name: resources
   full: Resources
@@ -71,6 +71,7 @@
     -
       name: keywords
       full: Keywords
+      div: yes
     -
       name: zenodo
       full: Zenodo

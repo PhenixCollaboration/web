@@ -347,7 +347,18 @@
   format: markdown_link
   date: 07/21/2003
 
-
+### HEPData
+- name: 64716
+  title: Inclusive double-helicity asymmetries in neutral-pion and eta-meson production in p⃗+p⃗ collisions at √s=200 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev. D90 (2014) 012007, 2014
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
 ### Analysis notes
 - name: ananote_template_final.pdf
   title: The Analysis Note Template
@@ -360,6 +371,7 @@
   date: 
 
 
+## -- ATTIC --
 # Replaced local "asset" file with a reference to Zenodo (created for this purpose)
 #- name: phenix_decadal10_full_refs.pdf
 #  title: The PHENIX Experiment at RHIC - Decadal Plan 2011–2020

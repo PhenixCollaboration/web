@@ -1,5 +1,8 @@
 {%- if include.title -%}
 {%- assign tag=include.title -%}
+{%- endif -%}
+{%- if include.tag -%}
+{%- assign tag=include.tag -%}
 {%- else -%}
 {%- assign tag=include.name -%}
 {%- endif -%}
