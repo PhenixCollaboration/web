@@ -15,7 +15,6 @@ The PHENIX Collaboration is using this platform as one of the components of its
 [Data and Analysis Preservation (DAP) effort]({{ dap_page_url }}), and is adding material to
 its {% include navigation/findlink.md name='PHENIX on HEPData' title='collection of HEPData entries' -%}.
 Members of the PHENIX Collaboration interested in creating materials suitable for submission to HEPData
-are encouraged to contact the [DAP Team]({{ team_url }}). The PHENIX collection on HEPData includes materials
-which are part of published papers, as well as papers in preparation (marked as "PPG" below).
+are encouraged to contact the [DAP Team]({{ team_url }}).
 
 {%- include documents/doc.md category='hepdata' type='publication' title="Publication Materials" -%}
