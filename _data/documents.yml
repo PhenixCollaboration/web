@@ -348,11 +348,88 @@
   date: 07/21/2003
 
 ### HEPData
+- name: 82575
+  title: Measurements of double-helicity asymmetries in inclusive J/ψ production in longitudinally polarized p+p collisions at √s=510 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev. D94 (2016) 112008, 2016
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 73691
+  title: Measurement of parity-violating spin asymmetries in W± production at midrapidity in longitudinally polarized p+p collisions
+  tags: 
+  author: 
+  venue: Phys.Rev. D93 (2016) 051103, 2016
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 71403
+  title: Charged-pion cross sections and double-helicity asymmetries in polarized p+p collisions at √s=200  GeV
+  tags: 
+  author: 
+  venue: Phys.Rev. D91 (2015) 032001, 2015
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
 - name: 64716
   title: Inclusive double-helicity asymmetries in neutral-pion and eta-meson production in p⃗+p⃗ collisions at √s=200 GeV
   tags: 
   author: 
   venue: Phys.Rev. D90 (2014) 012007, 2014
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 64267
+  title: Cross section and transverse single-spin asymmetry of η mesons in p+p collisions at √s=200 GeV at forward rapidity
+  tags: 
+  author: 
+  venue: Phys.Rev. D90 (2014) 072008, 2014
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 64159
+  title: Low-mass vector-meson production at forward rapidity in p+p collisions at √s=200 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev. D90 (2014) 052002, 2014
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 63512
+  title: Transverse-energy distributions at midrapidity in p+p, d+Au, and Au+Au collisions at √s<sub>NN</sub>=62.4–200 GeV and implications for particle-production models
+  tags: 
+  author: 
+  venue: Phys.Rev. C89 (2014) 044905, 2014
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 50270
+  title: Centrality dependence of charged particle multiplicity in Au - Au collisions at √s<sub>NN</sub>=130GeV
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 86 (2001) 3500-3505, 2001
   resource: hepdata
   type: publication
   category: hepdata
