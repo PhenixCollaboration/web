@@ -425,11 +425,187 @@
   format: markdown_link
   date:
     
+- name: 62722
+  title: Quadrupole Anisotropy in Dihadron Azimuthal Correlations in Central dd++Au Collisions at √s<sub>NN</sub>=200 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 111 (2013) 212301, 2013
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 57327
+  title: J/psi Production in √s<sub>NN</sub>=200 GeV Cu+Cu Collisions
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 101 (2008) 122301, 2008
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 63824
+  title: Measurement of Single Muons at Forward Rapidity in p+p Collisions at √s<sub>NN</sub> = 200GeV and Implications for Charm Production
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 103 (2009) 082002, 2009
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 57257
+  title: Nuclear modification of electron spectra and implications for heavy quark energy loss in Au+Au collisions at √s<sub>NN</sub> = 200GeV
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 98 (2007) 172301, 2007
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 73669
+  title: Dilepton mass spectra in p+p collisions at √s = 200-GeV and the contribution from open charm
+  tags: 
+  author: 
+  venue: Phys.Lett. B670 (2009) 313-320, 2009
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 57254
+  title: Centrality dependence of charm production from single electrons measurement in Au + Au collisions at  √s<sub>NN</sub> = 200 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 94 (2005) 082301, 2005
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 57350
+  title: Photoproduction of J/psi and of high mass e+e- in ultra-peripheral Au+Au collisions at √s<sub>NN</sub> = 200 GeV
+  tags: 
+  author: 
+  venue: Phys.Lett. B679 (2009) 321-329, 2009
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 57373
+  title: Cold Nuclear Matter Effects on J/Psi as Constrained by Deuteron-Gold Measurements at √s<sub>NN</sub> = 200 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev. C77 (2008) 024912, 2008
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 57282
+  title: J/ψ Production vs Centrality, Transverse Momentum, and Rapidity in Au+Au Collisions at √s<sub>NN</sub> = 200 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 98 (2007) 232301, 2007
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 57093
+  title: J/ψ production from proton proton collisions at √s = 200GeV
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 92 (2004) 051802, 2004
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 57513
+  title: J/ψ production and nuclear effects for d+Au and p+p collisions at √s<sub>NN</sub> = 200 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 96 (2006) 012304, 2006
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 57253
+  title: J/ψ production in Au Au collisions at √s<sub>NN</sub> = 200 GeV at the Relativistic Heavy Ion Collider
+  tags: 
+  author: 
+  venue: Phys.Rev. C69 (2004) 014901, 2004
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 57021
+  title: Identified charged hadron production in p+p collisions at √s = 200 and 62.4 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev. C83 (2011) 064903, 2011
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 41956
+  title: Mid-rapidity neutral pion production in proton proton collisions at √s = 200 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 91 (2003) 241803, 2003
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 19421
+  title: Centrality dependence of pi+/pi-, K+/K-, p and anti-p production from √s<sub>NN</sub> = 13 GeV Au+Au collisions at RHIC
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 88 (2002) 242301, 2002
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
 - name: 50270
-  title: Centrality dependence of charged particle multiplicity in Au - Au collisions at √s<sub>NN</sub>=130GeV
+  title: Centrality dependence of charged particle multiplicity in Au-Au collisions at √s<sub>NN</sub> = 130 GeV
   tags: 
   author: 
   venue: Phys.Rev.Lett. 86 (2001) 3500-3505, 2001
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 31419
+  title: Measurement of the mid-rapidity transverse energy distribution from √s<sub>NN</sub> = 130 GeV Au+Au collisions at RHIC
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 87 (2001) 052301, 2001
   resource: hepdata
   type: publication
   category: hepdata
