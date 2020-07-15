@@ -6,6 +6,7 @@ items:
    - 'PHENIX Collaboration on GitHub'
    - 'PHENIX Community on Zenodo'
    - 'PHENIX on HEPData'
+   - 'PHENIX on Inspire'
 ---
 #### Links
 {% for item in page.items %}

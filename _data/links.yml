@@ -17,5 +17,16 @@
 - name: HEPData
   url: 'https://www.hepdata.net/'
 
+- name: Inspire
+  url: 'https://inspirehep.net/'
+
+- name: 'PHENIX on Inspire'
+  url: 'https://inspirehep.net/literature?sort=mostrecent&q=collaboration%20phenix'
+  category: 'general'
+
 - name: github
   url: https://github.com/PhenixCollaboration
+
+- name: rivet
+  url: 'https://rivet.hepforge.org/'
+
