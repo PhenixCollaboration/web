@@ -36,13 +36,14 @@
   format: markdown_link
   date: 08/01/2018
 
-- name: PHENIX_Overview_NIM499.pdf
-  title: PHENIX Overview (NIM A 499, 2003)
+# - name: PHENIX_Overview_NIM499.pdf
+- name: '[PHENIX Detector Overview](https://doi.org/10.1016/S0168-9002(02)01950-2)'
+  title: (NIM A 499, 2003, doi.org/10.1016/S0168-9002(02)01950-2)
   author: 
   venue: 
   type: publication
   category: overview
-  format: pdf
+  format: markdown_link
   date: 
 
 ### Summaries:
@@ -140,60 +141,66 @@
   format: markdown_link
   date: 
 
-- name: PHENIX_PID_NIM499.pdf
-  title: Central Arm Particle ID Detectors (NIM A 499, 2003)
+# - name: PHENIX_PID_NIM499.pdf
+- name: '[PHENIX Central Arm Particle ID Detectors](https://doi.org/10.1016/S0168-9002(02)01953-8)'
+  title: (NIM A 499, 2003, doi.org/10.1016/S0168-9002(02)01953-8)
   author: 
   venue: 
   type: publication
   category: detector
-  format: pdf
+  format: markdown_link
   date: 
 
-- name: NIM_RXNP.pdf
-  title: A reaction plane detector for PHENIX at RHIC (NIM A 636, 2011)
+# - name: NIM_RXNP.pdf
+- name: '[A reaction plane detector for PHENIX at RHIC](https://doi.org/10.1016/j.nima.2011.01.034)'
+  title: (NIM A 636, 2011, doi.org/10.1016/j.nima.2011.01.034)
   author: 
   venue: 
   type: publication
   category: detector
-  format: pdf
+  format: markdown_link
   date: 
 
-- name: HBD_NIM.pdf
-  title: Design, construction, operation and performance of a Hadron Blind Detector for the PHENIX experiment (NIM A 646, 2011)
+# - name: HBD_NIM.pdf
+- name: '[Design, construction, operation and performance of a Hadron Blind Detector for the PHENIX experiment](https://doi.org/10.1016/j.nima.2011.04.015)'
+  title: (NIM A 646, 2011, doi.org/10.1016/j.nima.2011.04.015)
   author: 
   venue: 
   type: publication
   category: detector
-  format: pdf
+  format: markdown_link
   date: 
 
-- name: FVTX_NIM.pdf
-  title: The PHENIX Forward Silicon Vertex Detector (NIM A 755, 2014)
+# - name: FVTX_NIM.pdf
+- name: '[The PHENIX Forward Silicon Vertex Detector](http://dx.doi.org/10.1016/j.nima.2014.04.017)'
+  title: (NIM A 755, 2014, dx.doi.org/10.1016/j.nima.2014.04.017)
   author: 
   venue: 
   type: publication
   category: detector
-  format: pdf
+  format: markdown_link
   date: 
 
 ### Data Reconstruction and Analysis
-- name: central_reco_NIMA482.pdf
-  title: Event Reconstruction in the PHENIX Central Arm Spectrometers (NIM A 482, 2002)
+# - name: central_reco_NIMA482.pdf
+- name: '[Event Reconstruction in the PHENIX Central Arm Spectrometers](https://doi.org/10.1016/S0168-9002(01)01512-1)'
+  title: (NIM A 482, 2002, doi.org/10.1016/S0168-9002(01)01512-1)
   author: 
   venue: 
   type: publication
   category: dra
-  format: pdf
+  format: markdown_link
   date: 
 
 ### Systems:
-- name: PHENIX_Online_NIM499.pdf
-  title: Online Systems (NIM A 499, 2003)
+# - name: PHENIX_Online_NIM499.pdf
+- name: '[PHENIX Online Systems](https://doi.org/10.1016/S0168-9002(02)01957-5)'
+  title: (NIM A 499, 2003, doi.org/10.1016/S0168-9002(02)01957-5)
   author: 
   venue: 
   type: publication
   category: systems
-  format: pdf
+  format: markdown_link
   date: 
 
 ### Physics
