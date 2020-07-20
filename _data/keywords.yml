@@ -73,6 +73,9 @@
 - name : direct photon
   description: Direct photons produced in nuclear collisions
 
+- name : helicity
+  description: Helicity
+
 - name : qcd
   description: Quantum Chromodynamics
 
@@ -87,6 +90,9 @@
 
 - name : hijing
   description: HIJING - a type of Event Generator
+
+- name : polarimetry
+  description: Polarimetry
 
 - name : spin
   description: Spin

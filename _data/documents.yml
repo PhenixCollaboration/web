@@ -91,8 +91,8 @@
 ### PHENIX Detector Subsystems:
 
 # - name: PHENIX_EMCAL_NIM499.pdf
-- name: '[The PHENIX Calorimeter](https://doi.org/10.1016/S0168-9002(02)01954-X)'
-  title: (NIM A 499, 2003)
+- name: '[PHENIX Calorimeter](https://doi.org/10.1016/S0168-9002(02)01954-X)'
+  title: (NIM A 499, 2003, doi.org/10.1016/S0168-9002(02)01954-X)
   author: 
   venue: 
   type: publication
@@ -100,40 +100,44 @@
   format: markdown_link
   date: 
 
-- name: PHENIX_Inner_NIM499.pdf
-  title: Inner Detectors (NIM A 499, 2003)
+# - name: PHENIX_Inner_NIM499.pdf
+- name: '[PHENIX Inner Detectors](https://doi.org/10.1016/S0168-9002(02)01956-3)'
+  title: (NIM A 499, 2003, doi.org/10.1016/S0168-9002(02)01956-3)
   author: 
   venue: 
   type: publication
   category: detector
-  format: pdf
+  format: markdown_link
   date: 
 
-- name: PHENIX_Magnet_NIM499.pdf
-  title: Magnet System (NIM A 499, 2003)
+# - name: PHENIX_Magnet_NIM499.pdf
+- name:  '[PHENIX Magnet System](https://doi.org/10.1016/S0168-9002(02)01951-4)'
+  title: (NIM A 499, 2003, doi.org/10.1016/S0168-9002(02)01951-4)
   author: 
   venue: 
   type: publication
   category: detector
-  format: pdf
+  format: markdown_link
   date: 
 
-- name: PHENIX_Muon_NIM499.pdf
-  title: Muon Arms (NIM A 499, 2003)
+# - name: PHENIX_Muon_NIM499.pdf
+- name: '[PHENIX Muon Arms](https://doi.org/10.1016/S0168-9002(02)01955-1)'
+  title: (NIM A 499, 2003, doi.org/10.1016/S0168-9002(02)01955-1)
   author: 
   venue: 
   type: publication
   category: detector
-  format: pdf
+  format: markdown_link
   date: 
 
-- name: PHENIX_CentralTracker_NIM499.pdf
-  title: Central Arm Tracking Detectors (NIM A 499, 2003)
+# - name: PHENIX_CentralTracker_NIM499.pdf
+- name: '[PHENIX Central Arm Tracking Detectors](https://doi.org/10.1016/S0168-9002(02)01952-6)'
+  title: (NIM A 499, 2003, doi.org/10.1016/S0168-9002(02)01952-6)
   author: 
   venue: 
   type: publication
   category: detector
-  format: pdf
+  format: markdown_link
   date: 
 
 - name: PHENIX_PID_NIM499.pdf
@@ -281,14 +285,15 @@
   format: markdown_link
   date: 
 
-- name: patel_thesis.pdf
+- name: 3952842
   title: Jet longitudinal double spin asymmetry in PHENIX p + p √s = 510GeV
-  tags: [ert, spin]
-  author: M.Patel
+  tags: [ert, spin, bbc, ]
+  author: Milap Patel
   venue: 
+  resource: zenodo
   type: thesis
   category: detector
-  format: pdf
+  format: markdown_link
   date: 
 
 ### Writeups:
