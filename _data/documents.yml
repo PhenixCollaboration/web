@@ -79,6 +79,7 @@
   type: bup
   category: detector
   format: markdown_link
+  cached_badge: yes
   date: 2013-05-19
 
 - name: 3887304
@@ -90,6 +91,7 @@
   type: bup
   category: detector
   format: markdown_link
+  cached_badge: yes
   date: 2013-05-19
 
 ### PHENIX Detector Subsystems:
@@ -261,6 +263,7 @@
   type: thesis
   category: detector
   format: markdown_link
+  cached_badge: yes
   date: 
 
 - name: 3836538
@@ -272,6 +275,7 @@
   type: thesis
   category: detector
   format: markdown_link
+  cached_badge: yes
   date: 
 
 - name: 3836478
@@ -283,10 +287,11 @@
   type: thesis
   category: detector
   format: markdown_link
+  cached_badge: yes
   date: 
 
 - name: 3885856
-  title: The Quark Gluon Plasma probed by Low Momentum Direct Photons in Au+Au Collisions at √sNN = 62.4 GeV and √sNN = 39 GeV beam energies
+  title: The Quark Gluon Plasma probed by Low Momentum Direct Photons in Au+Au Collisions at √s<sub>NN</sub>=62.4GeV and √s<sub>NN</sub>=39 GeV beam energies
   tags: [emcal, zdc,]
   author: Vladimir Khachatryan
   venue: 
@@ -294,6 +299,7 @@
   type: thesis
   category: detector
   format: markdown_link
+  cached_badge: yes
   date: 
 
 - name: 3885870
@@ -305,6 +311,7 @@
   type: thesis
   category: detector
   format: markdown_link
+  cached_badge: yes
   date: 
 
 - name: 3952842
@@ -316,6 +323,7 @@
   type: thesis
   category: detector
   format: markdown_link
+  cached_badge: yes
   date: 
 
 ### Writeups:

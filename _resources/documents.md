@@ -4,6 +4,7 @@ layout: newbase
 
 items:
    - {title: 'General Overviews',			category: 'overview',	type: 'document'}
+   - {title: 'Beam Use Proposals',			category: 'detector',	type: 'bup'}
    - {title: 'Detector Subsystems (Writeups)',		category: 'detector',	type: 'writeup'}
    - {title: 'Select Theses',				category: 'detector',	type: 'thesis'}
    - {title: 'Misc Summaries',				category: 'summary',	div: yes }
