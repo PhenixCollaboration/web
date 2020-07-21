@@ -25,6 +25,7 @@ tablepadding: "&nbsp;&nbsp;&nbsp;"
 
 # Logo:
 phenix_logo: /images/logos/phenix_logo_centered.png
+
 # Icons:
 home_icon: /images/icons/house-24.png
 experiment_icon: /images/icons/atomic-24.png
@@ -33,6 +34,9 @@ software_icon: /images/icons/console-24.png
 analysis_icon: /images/icons/puzzle-2-24.png
 resources_icon: /images/icons/literature-24.png
 about_icon: /images/icons/question-mark-4-24.png
+
+# Badges
+zenodo_badges: /images/badges/zenodo/
 
 # Used in site upgrades:
 navbar: 'new'

@@ -14,6 +14,7 @@
   type: document
   category: overview
   format: markdown_link
+  cached_badge: yes
   date: 11/01/2003
 
 - name: 3842204
@@ -24,6 +25,7 @@
   type: document
   category: overview
   format: markdown_link
+  cached_badge: yes
   date: 10/01/2010
 
 - name: 3885936
@@ -34,6 +36,7 @@
   type: document
   category: overview
   format: markdown_link
+  cached_badge: yes
   date: 08/01/2018
 
 # - name: PHENIX_Overview_NIM499.pdf
@@ -323,6 +326,7 @@
   type: writeup
   category: detector
   format: markdown_link
+  cached_badge: yes
   date: 
 
 - name: 3833205
