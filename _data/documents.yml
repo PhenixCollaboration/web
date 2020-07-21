@@ -237,6 +237,7 @@
   type: thesis
   category: detector
   format: markdown_link
+  cached_badge: yes
   date: 
 
 - name: 3839085
@@ -248,6 +249,7 @@
   type: thesis
   category: detector
   format: markdown_link
+  cached_badge: yes
   date: 
 
 - name: 3836568
@@ -338,6 +340,7 @@
   type: writeup
   category: detector
   format: markdown_link
+  cached_badge: yes
   date:
     
 - name: 3893970
@@ -349,6 +352,7 @@
   type: writeup
   category: detector
   format: markdown_link
+  cached_badge: yes
   date:
     
 - name: 3893972
@@ -360,6 +364,7 @@
   type: writeup
   category: detector
   format: markdown_link
+  cached_badge: yes
   date:
     
 ### arXiv links:
