@@ -17,3 +17,8 @@ category: event
 ##### Write-ups
 {% include documents/doc.md category='detector' type='writeup' tag='zdc' %}
 
+
+##### Publications
+{% include documents/doc.md category='detector' type='publication' tag='zdc' %}
+
+

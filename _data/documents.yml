@@ -181,6 +181,16 @@
   format: markdown_link
   date: 
 
+- name: '[The RHIC zero degree calorimeters](https://doi.org/10.1016/S0168-9002(01)00627-1)'
+  title: (NIM A  470, 2001, doi.org/10.1016/S0168-9002(01)00627-1)
+  tags: [zdc,]
+  author: 
+  venue: 
+  type: publication
+  category: detector
+  format: markdown_link
+  date: 
+
 ### Data Reconstruction and Analysis
 # - name: central_reco_NIMA482.pdf
 - name: '[Event Reconstruction in the PHENIX Central Arm Spectrometers](https://doi.org/10.1016/S0168-9002(01)01512-1)'
