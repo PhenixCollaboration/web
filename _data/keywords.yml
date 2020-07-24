@@ -1,162 +1,225 @@
+# General
 - name: rhic
   description: Relativistic Heavy Ion Collider (RHIC)
-
-- name: rich
-  description: Ring Imaging Cherenkov Detector
+  category: general
 
 - name : phenix
   description: Pioneering High Energy Nuclear Interaction Experiment (PHENIX)
+  category: general
 
 - name : decadal plan
   description: Two documents describing the proposed PHENIX research program for two different time periods
+  category: general
+
+# Detector
+- name : bbc
+  description: Beam-Beam Counter
+  category: detector
 
 - name : electromagnetic calorimeter
   description: Electromagnetic Calorimeter
+  category: detector
 
 - name : emcal
   description: Electromagnetic Calorimeter
-
-- name : pid
-  description: Particle Identification
-
-- name : particle identification
-  description: Particle Identification
-
-- name : hbd
-  description: Hadron Blind Detector
-
-- name : bbc
-  description: Beam-Beam Counter
-
-- name : upc
-  description: Ultra-Peripheral Collisions
-
-- name : hadron blind detector
-  description: Hadron Blind Detector
-
-- name : time-of-flight
-  description: Time-of-Flight Detector
-
-- name : tof
-  description: Time-of-Flight Detector
-
-- name : trigger
-  description: Trigger
+  category: detector
 
 - name : event characterization
   description: Event Characterization
-
-- name : tofw
-  description: Time-of-Flight Detector (west)
-
-- name : tofe
-  description: Time-of-Flight Detector (east)
-
-- name : heavy ion
-  description: Term applied to relativistic nuclei
-
-- name : zdc
-  description: zero-degree calorimeter
-
-- name : smd
-  description: shower max detector
-
-- name : shower max detector
-  description: shower max detector
-
-- name : quark gluon plasma
-  description: Quark Gluon Plasma
-
-- name : qgp
-  description: Quark Gluon Plasma
-
-- name : direct photon
-  description: Direct photons produced in nuclear collisions
-
-- name : helicity
-  description: Helicity
-
-- name : qcd
-  description: Quantum Chromodynamics
-
-- name : jet
-  description: A jet-like feature of a high-energy nuclear collision
-
-- name : jet quenching
-  description: jet quenching
-
-- name : pythia
-  description: PYTHIA - a type of Event Generator
-
-- name : hijing
-  description: HIJING - a type of Event Generator
-
-- name : polarimetry
-  description: Polarimetry
-
-- name : spin
-  description: Spin
-
-- name : spin physics
-  description: Spin Physics
-
-- name : mpc
-  description: Muon Piston Calorimeter
-
-- name : mpc-ex
-  description: Muon Piston Calorimeter Upgrade
-
-- name : vtx
-  description: Vertex Detector
+  category: detector
 
 - name : fvtx
   description: Vertex Detector (Forward Region)
+  category: detector
 
+- name : hadron blind detector
+  description: Hadron Blind Detector
+  category: detector
+
+- name : hbd
+  description: Hadron Blind Detector
+  category: detector
+
+- name : mpc
+  description: Muon Piston Calorimeter
+  category: detector
+
+- name : mpc-ex
+  description: Muon Piston Calorimeter Upgrade
+  category: detector
+
+- name: rich
+  description: Ring Imaging Cherenkov Detector
+  category: detector
+
+- name : particle identification
+  description: Particle Identification
+  category: detector
+
+- name : pid
+  description: Particle Identification
+  category: detector
+
+- name : shower max detector
+  description: shower max detector
+  category: detector
+
+- name : smd
+  description: shower max detector
+  category: detector
+
+- name : time-of-flight
+  description: Time-of-Flight Detector
+  category: detector
+
+- name : tof
+  description: Time-of-Flight Detector
+  category: detector
+
+- name : trigger
+  description: Trigger
+  category: detector
+
+- name : tofe
+  description: Time-of-Flight Detector (east)
+  category: detector
+
+- name : tofw
+  description: Time-of-Flight Detector (west)
+  category: detector
+
+- name : vtx
+  description: Vertex Detector
+  category: detector
+
+- name : zdc
+  description: zero-degree calorimeter
+  category: detector
+ 
+# Physics
+- name : direct photon
+  description: Direct photons produced in nuclear collisions
+  category: physics
+
+- name : heavy ion
+  description: Term applied to relativistic nuclei
+  category: physics
+
+- name : helicity
+  description: Helicity
+  category: physics
+
+- name : jet
+  description: A jet-like feature of a high-energy nuclear collision
+  category: physics
+
+- name : jet quenching
+  description: jet quenching
+  category: physics
+
+- name : polarimetry
+  description: Polarimetry
+  category: physics
+
+- name : quark gluon plasma
+  description: Quark Gluon Plasma
+  category: physics
+
+- name : qcd
+  description: Quantum Chromodynamics
+  category: physics
+
+- name : qgp
+  description: Quark Gluon Plasma
+  category: physics
+
+- name : spin
+  description: Spin
+  category: physics
+
+- name : spin physics
+  description: Spin Physics
+  category: physics
+
+- name : upc
+  description: Ultra-Peripheral Collisions
+  category: physics
+
+# Simulation
+- name : hijing
+  description: HIJING - a type of Event Generator
+  category: simulation
+
+- name : pisa
+  description: PISA - the PHENIX Integrated Simulation Application
+  category: simulation
+
+- name : pythia
+  description: PYTHIA - a type of Event Generator
+  category: simulation
+
+# Run
 - name : run01
   description: Run 01
+  category: run
 
 - name : run02
   description: Run 02
+  category: run
 
 - name : run03
   description: Run 03
+  category: run
 
 - name : run04
   description: Run 04
+  category: run
 
 - name : run05
   description: Run 05
+  category: run
 
 - name : run06
   description: Run 06
+  category: run
 
 - name : run07
   description: Run 07
+  category: run
 
 - name : run08
   description: Run 08
+  category: run
 
 - name : run09
   description: Run 09
+  category: run
 
 - name : run10
   description: Run 10
+  category: run
 
 - name : run11
   description: Run 11
+  category: run
 
 - name : run12
   description: Run 12
+  category: run
 
 - name : run13
   description: Run 13
+  category: run
 
 - name : run14
   description: Run 14
+  category: run
 
 - name : run15
   description: Run 15
+  category: run
 
 - name : run16
   description: Run 16
+  category: run
 

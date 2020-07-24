@@ -1,6 +1,21 @@
 ---
 name: keywords
 layout: newbase
+categories:
+- title: 'General'
+  category: 'general'
+
+- title: 'Physics'
+  category: 'physics'
+
+- title: 'Detector'
+  category: 'detector'
+
+- title: 'Simulation'
+  category: 'simulation'
+
+- title: 'PHENIX Runs'
+  category: 'run'
 ---
 {% include layouts/find_title.md name=page.name %}
 {% capture zenodo_page_url %}{% include navigation/findpage.md folder=site.resources name='zenodo' %}{% endcapture %}
@@ -19,11 +34,16 @@ In the following we adopt lowercase convention for all keywords. Note that a key
 can actually be a combination of words and white space (i.e. phrases). Multiple such combinations
 are allowed in a single query.
 
-In the table below, each entry in the left column acts as a query link to *Zenodo*.
-Pages will open in a new tab/window.
+To make navingating the long list of keywords a little easier, they are grouped in categories
+in the tables below. Each entry in the left column acts as a query link to *Zenodo*, for that specific
+keyword. Pages containing results of queries will open in a new tab/window.
 
+{% for cat in page.categories %}
+{% if cat.title %}
+  <br/>
+##### {{ cat.title }}
 {% assign rows="" | split: "" %}
-{% assign sorted_keys=site.data.keywords | sort_natural %}
+{% assign sorted_keys=site.data.keywords | where: "category", cat.category | sort_natural %}
 
 {% for item in sorted_keys %}
 
@@ -33,3 +53,5 @@ Pages will open in a new tab/window.
 {% endfor %}
 
 {% include layouts/table.md headers='Keyword, Description' rows=rows %}
+{% endif %}
+{% endfor %}
