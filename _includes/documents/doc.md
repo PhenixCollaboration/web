@@ -14,7 +14,7 @@
 
 
 {% if include.name %}
-{% assign items = items | where_exp: "item", "item.name"==include.name %}
+{% assign items = items | where_exp: "item", "item.name==include.name" %}
 {% endif %}
 
 {% if include.tag %}
