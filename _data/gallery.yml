@@ -175,6 +175,7 @@
 #  /images/logos/under-construction-1-clipart.png
 #
 ### LUMINOSITY PLOTS
+### -------- Run 14
 - path: /images/lumi/run14/lumi.gif
   title: 
   run: run14
@@ -228,4 +229,72 @@
   run: run14
   gallery: aux
   type: lumi
+
+### -------- Run 16
+- path: /images/lumi/run16/lumi.gif
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/lumi_day.gif
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/events.gif
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/events_day.gif
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/vertex.gif
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/lumi_zdc_day.gif
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/hruntime.gif
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/hoursday.gif
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/cadhoursday.gif
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/plotzdc_2016_200_AuAu.gif
+  title: 
+  run: run16
+  gallery: aux
+  type: lumi
+
+- path: /images/lumi/run16/peff_2016_200_AuAu.gif
+  title: 
+  run: run16
+  gallery: aux
+  type: lumi
+
 
