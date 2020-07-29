@@ -26,7 +26,7 @@ pertaining to a particular topic, so their consistent use is definitely enourage
 
 Importantly, same uniform set of keywords is used for materials uploaded to the
 [Zenodo]({{ zenodo_page_url }}) system under the umbrella of the
-{% include navigation/phenix_zenodo_collection.md %}. The list is compiled
+{% include navigation/findlink.md name='PHENIX Community on Zenodo' %}. The list is compiled
 to provide better consistency of the subsequent queries. Zenodo is using a complex
 query mechanism which includes but is not limited to "elastic search" on the submission
 text (where applicable) so the effect of capitalization on queries is not always straighforward.

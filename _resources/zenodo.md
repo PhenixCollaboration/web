@@ -17,7 +17,7 @@ and is backed up by a [robust infrastructure](https://about.zenodo.org/infrastru
 The PHENIX Collaboration has elected to use this platform as one of the principal components of
 its [Data and Analysis Preservation (DAP) effort]({{ dap_page_url }}). Zenodo supports the concept
 of the "community" whereby documents submitted for archival are curated and become a part of the
-community collection. Correspondingly, the {% include navigation/phenix_zenodo_collection.md -%}
+community collection. Correspondingly, the {% include navigation/findlink.md name='PHENIX Community on Zenodo' %}
 has been created and is actively managed, with new uploads being routinely added.
 
 The [PHENIX DAP team]({{ team_url }}) maintains [a list of keywords]({{ kw_url }}) assigned to materials
