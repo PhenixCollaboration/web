@@ -231,6 +231,7 @@
   type: lumi
 
 ### -------- Run 16
+# period 1
 - path: /images/lumi/run16/1/lumi.gif
   tag: '200GeV Au+Au'
   title: 
@@ -307,5 +308,77 @@
   run: run16
   gallery: aux
   type: lumi
+
+# period 2
+- path: /images/lumi/run16/2/lumi.gif
+  tag: '200GeV Au+Au (2)'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/2/lumi_day.gif
+  tag: '200GeV Au+Au (2)'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/2/events.gif
+  tag: '200GeV Au+Au (2)'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/2/events_day.gif
+  tag: '200GeV Au+Au (2)'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/2/vertex.gif
+  tag: '200GeV Au+Au (2)'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/2/lumi_zdc_day.gif
+  tag: '200GeV Au+Au (2)'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/2/hruntime.gif
+  tag: '200GeV Au+Au (2)'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/2/hoursday.gif
+  tag: '200GeV Au+Au (2)'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/2/cadhoursday.gif
+  tag: '200GeV Au+Au (2)'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/2/plotzdc_2016_200_AuAu2.gif
+  tag: '200GeV Au+Au (2)'
+  title: 
+  run: run16
+  gallery: aux
+  type: lumi
+
 
 

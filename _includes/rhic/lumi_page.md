@@ -3,7 +3,7 @@
 {% if the_run.subruns %}
 {% for subrun in the_run.subruns %}
 
-{% assign lumi_title = the_run.title | append: ", " | append: subrun.name | append: " period: luminosity accumulation and related data" %}
+{% assign lumi_title = the_run.title | append: ", " | append: subrun.name | append: ": luminosity accumulation and related data" %}
 {% include images/generic_gallery.md type="lumi" run=page.run tag=subrun.name title=lumi_title columns=3 %}
 {% include images/generic_gallery.md type="lumi" run=page.run tag=subrun.name title=" " columns=1 gallery="aux" %}
 
