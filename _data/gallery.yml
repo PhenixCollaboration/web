@@ -380,5 +380,97 @@
   gallery: aux
   type: lumi
 
+# period 3
+- path: /images/lumi/run16/3/lumi.gif
+  tag: '200GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/3/lumi_day.gif
+  tag: '200GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/3/events.gif
+  tag: '200GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/3/events_day.gif
+  tag: '200GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/3/lumi_wide.gif
+  tag: '200GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/3/lumi_bbcw_day.gif
+  tag: '200GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/3/vertex.gif
+  tag: '200GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/3/lumi_zdc_day.gif
+  tag: '200GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/3/hruntime.gif
+  tag: '200GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/3/hoursday.gif
+  tag: '200GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/3/cadhoursday.gif
+  tag: '200GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/3/plotzdc_2016_200_dAu.gif
+  tag: '200GeV d+Au'
+  title: 
+  run: run16
+  gallery: aux
+  type: lumi
+
+- path: /images/lumi/run16/3/peff_2016_200_dAu.gif
+  tag: '200GeV d+Au'
+  title: 
+  run: run16
+  gallery: aux
+  type: lumi
+
 
 
