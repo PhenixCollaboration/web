@@ -1,5 +1,5 @@
 ---
-abbrev: embeddingVtx
+name: embeddingVtx
 layout: newbase
 ---
 {% capture build_page_url %}{% include navigation/findpage.md folder=site.software name='build_tools' %}{% endcapture %}
