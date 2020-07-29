@@ -376,7 +376,7 @@
        Nevents: 
       }
     - {
-       species: 'polarized p+<sup>27</sup>Au<sup>13+</sup>',
+       species: 'polarized p+<sup>27</sup>Al<sup>13+</sup>',
        energy: 103.9+98.7,
        lumi: '− /0.5 <i>pb</i><sup>-1</sup>',
        Nevents: 
