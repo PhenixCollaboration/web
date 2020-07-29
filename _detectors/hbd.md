@@ -30,8 +30,11 @@ to &#8773;50-60 cm in the radial direction.
 #### Detector Design
 The Hadron Blind Detector was a windowless Cherenkov detector with a 50cm
 long radiator operated with pure CF<sub>4</sub>, in a proximity focus
-configuration.
-A triple GEM detector element ([sauli](https://www.sciencedirect.com/science/article/pii/S0168900296011722)) avalanches
+configuration. For an introduction to GEM detectors please see
+
+{% include documents/doc.md category='detector' type='publication' tag='sauli_gem' %}
+
+A triple GEM detector element avalanches
 the photoelectrons produced in a 350nm CsI photocathode,
 which is evaporated on the topmost Au plated GEM surface and
 produce a blob on the pad readout plane. The use of CF<sub>4</sub> as a
@@ -70,6 +73,8 @@ were developed and built by BNL Instrumentation and Columbia University.
 {% include documents/doc.md category='detector' type='proposal' tag='hbd' %}
 
 #### Accessing HBD variables in the analysis
+Work in progress
 
-
-
+{% comment %}
+An old style reference: ([sauli](https://www.sciencedirect.com/science/article/pii/S0168900296011722))
+{% endcomment %}

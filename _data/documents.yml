@@ -95,6 +95,16 @@
   date: 2013-05-19
 
 ### PHENIX Detector Subsystems:
+- name: '[GEM: A new concept for electron amplification in gas detectors](https://doi.org/10.1016/S0168-9002(96)01172-2)'
+  title: (NIM A 386, 1997, doi.org/10.1016/S0168-9002(96)01172-2)
+  tags: [gem, sauli_gem,]
+  author: 
+  venue: 
+  type: publication
+  category: detector
+  format: markdown_link
+  date: 
+
 
 # - name: PHENIX_EMCAL_NIM499.pdf
 - name: '[PHENIX Calorimeter](https://doi.org/10.1016/S0168-9002(02)01954-X)'
@@ -169,6 +179,7 @@
 # - name: HBD_NIM.pdf
 - name: '[Design, construction, operation and performance of a Hadron Blind Detector for the PHENIX experiment](https://doi.org/10.1016/j.nima.2011.04.015)'
   title: (NIM A 646, 2011, doi.org/10.1016/j.nima.2011.04.015)
+  tags: [hbd,]
   author: 
   venue: 
   type: publication
