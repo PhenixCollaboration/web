@@ -27,6 +27,10 @@
 {% assign images = images | where: "run", run %}
 {% endif %}
 
+{% if include.tag and include.tag!='' %}
+{% assign images = images | where: "tag", include.tag %}
+{% endif %}
+
 {% assign length = images | size %}
 
 {% if length!=0 %}

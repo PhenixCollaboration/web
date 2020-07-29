@@ -426,12 +426,12 @@
 
   subruns:
     - {
-       name: '200 GeV Au+Au',
+       name: '200GeV Au+Au',
        comment: ''
       }
 
     - {
-       name: '200 GeV Au+Au (part 2)',
+       name: '200GeV Au+Au (part 2)',
        comment: ''
       }
 
