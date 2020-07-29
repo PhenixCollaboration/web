@@ -64,10 +64,13 @@ $\it{CsI}$ evaporation, final assembly and test of detector modules were
 done at the Stony Brook University. The analog and digital electronics
 were developed and built by BNL Instrumentation and Columbia University.
 
-#### Important HBD related Thesis/papers
+#### HBD related Theses
 {% include documents/doc.md category='detector' type='thesis' tag='naglis_thesis' %}
 * [Deepali Sharma's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2010/Sharma_Deepali-thesis.pdf)  
 * [Yosuke Watanable's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2014/Watanabe_Yosuke-phD_thesis_main.pdf)  
+
+#### Papers and Publications
+{% include documents/doc.md category='detector' type='publication' tag='hbd' %}
 
 #### Detector Proposal
 {% include documents/doc.md category='detector' type='proposal' tag='hbd' %}

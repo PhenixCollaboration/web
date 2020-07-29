@@ -95,6 +95,19 @@
   date: 2013-05-19
 
 ### PHENIX Detector Subsystems:
+- name: 3966470
+  title: Performance of PHENIX HBD in Au+Au central collisions (QM2011 poster)
+  tags: [hbd, HBD, ]
+  author: Yosuke Watanabe
+  venue: 
+  resource: zenodo
+  type: publication
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
+  
 - name: '[GEM: A new concept for electron amplification in gas detectors](https://doi.org/10.1016/S0168-9002(96)01172-2)'
   title: (NIM A 386, 1997, doi.org/10.1016/S0168-9002(96)01172-2)
   tags: [gem, sauli_gem,]
