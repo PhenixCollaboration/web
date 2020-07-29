@@ -254,6 +254,30 @@
   date: 
 
 ### Theses:
+- name: 3966485
+  title: Measurements of di-electron production in Au+Au collisions at √s<sub>NN</sub>=200GeV
+  tags: [hbd, HBD,]
+  author: Yosuke Watanabe
+  venue: 
+  resource: zenodo
+  type: thesis
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
+- name: 3966477
+  title: ω- and φ-meson production in p+p and d+Au collisions at RHIC energies, using the PHENIX Detector
+  tags: [hbd, HBD,]
+  author: Deepali Sharma
+  venue: 
+  resource: zenodo
+  type: thesis
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
 - name: 3887326
   title: Low Momentum Direct Photons as a Probe of Heavy Ion Collisions
   tags: [hbd, HBD, petti_thesis]
