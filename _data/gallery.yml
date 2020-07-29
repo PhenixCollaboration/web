@@ -472,5 +472,83 @@
   gallery: aux
   type: lumi
 
+# period 4
+- path: /images/lumi/run16/4/events.gif
+  tag: '62GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/4/events_day.gif
+  tag: '62GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/4/lumi_wide.gif
+  tag: '62GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/4/lumi_bbcw_day.gif
+  tag: '62GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/4/vertex.gif
+  tag: '62GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/4/lumi_zdc_day.gif
+  tag: '62GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/4/hruntime.gif
+  tag: '62GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/4/hoursday.gif
+  tag: '62GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/4/cadhoursday.gif
+  tag: '62GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/4/plotzdc_2016_62_dAu.gif
+  tag: '62GeV d+Au'
+  title: 
+  run: run16
+  gallery: aux
+  type: lumi
+
+- path: /images/lumi/run16/4/peff_2016_62_dAu.gif
+  tag: '62GeV d+Au'
+  title: 
+  run: run16
+  gallery: aux
+  type: lumi
+
 
 
