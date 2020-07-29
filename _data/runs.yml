@@ -423,3 +423,16 @@
        lumi: '2<i>nb</i><sup>-1</sup>',
        Nevents: 
       }
+
+  subruns:
+    - {
+       name: '200 GeV Au+Au',
+       comment: ''
+      }
+
+    - {
+       name: '200 GeV Au+Au (part 2)',
+       comment: ''
+      }
+
+      
