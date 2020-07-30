@@ -32,12 +32,18 @@ that file to be accessible from the dropdown.
 
 {% for submenu in the_menu.submenus %}{% if submenu.exclude %}{% continue %}{% endif %}
 
+{% comment %}
+First, handle external links
+{% endcomment %}
+
 {% if submenu.link %}
 {% assign theLink=submenu.link %}
 {% assign target=site.blank %}
 
 {% else %}
-
+{% comment %}
+Now, internal links
+{% endcomment %}
 {% assign item=theCollection | where: "name", submenu.name | first %}
 {% assign theLink=item.url | relative_url %}
 
@@ -48,7 +54,11 @@ that file to be accessible from the dropdown.
 {% if submenu.label %}
 <div class="dropdown-item" style="color: #fff; background-color: #888;">{{ submenu.full }}</div>
 {% else %}
+{% if submenu.icon %}
+<a class="dropdown-item" href="{{ theLink }}" {{ target }}>{{ submenu.full }} &nbsp; <img src="{{ submenu.icon | relative_url}}" height="16"/></a>
+{% else %}
 <a class="dropdown-item" href="{{ theLink }}" {{ target }}>{{ submenu.full }}</a>
+{% endif %}
 {% endif %}
 
 {% endfor %}

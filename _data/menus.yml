@@ -113,7 +113,8 @@
       full: Data and Analysis Preservation
     -
       name: site
-      full: This Website
+      full: Help Needed!
+      icon: /images/icons/thumbs-up-32.gif
     -
       name: howto
       full: How to Contribute
