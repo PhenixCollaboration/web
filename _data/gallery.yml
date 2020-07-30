@@ -635,5 +635,90 @@
   gallery: aux
   type: lumi
 
+# period 6
+- path: /images/lumi/run16/5/evt_fvtx.gif
+  tag: '20GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/6/evt_fvtx_day.gif
+  tag: '20GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/6/evt_fvtx_central.gif
+  tag: '20GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/6/evt_fvtx_central_day.gif
+  tag: '20GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/6/events.gif
+  tag: '20GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/6/events_day.gif
+  tag: '20GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/6/vertex.gif
+  tag: '20GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/6/lumi_zdc_day.gif
+  tag: '20GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/6/hruntime.gif
+  tag: '20GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/6/hoursday.gif
+  tag: '20GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/6/cadhoursday.gif
+  tag: '20GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/6/plotzdc_2016_20_dAu.gif
+  tag: '20GeV d+Au'
+  title: 
+  run: run16
+  gallery: aux
+  type: lumi
+
 
 
