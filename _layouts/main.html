@@ -1,11 +1,19 @@
 ---
 layout: newbase
 ---
-{% include navigation/findpage.md name="howto" %}
-{% assign howto_page_url=found_page %}
+{% capture howto_page_url %}{% include navigation/findpage.md folder=site.about name='howto' %}{% endcapture %}
+
 
 <div class="row">
   <div class="col-sm-12 blog-main">
+<p class="lead">
+  <center>
+    This website has been created by the PHENIX Collaboration to support long-term Data and Analysis Preservation.<br/>
+    The site is under construction and the materials to be hosted here are being collected and curated.<br/>
+    Your feedback, suggestions and <a href="{{ howto_page_url }}">contributions</a>
+    are very much appreciated.
+  </center>
+</p>
 
 <hr/>
         <div class=row>
@@ -28,16 +36,8 @@ layout: newbase
 </div>
 
 <hr/>
-<p class="lead">{{ t }}
-  <center>
-    This is a prototype of the PHENIX website for long-term data and analysis preservation.<br/>
-    The site is under construction and the materials to be hosted here are being collected and curated.<br/>
-    Your feedback, suggestions and <a href="{{ howto_page_url }}">contributions</a>
-    are very much appreciated.
-  </center>
-<p style="text-align:right;">
+<p style="text-align:center;">
   <em>Site built at {{ site.time }}</em>
-</p>
 </p>
 
 {% comment %}
