@@ -31,7 +31,8 @@ home_icon: /images/icons/house-24.png
 experiment_icon: /images/icons/atomic-24.png
 detectors_icon: /images/icons/cog-24.png
 software_icon: /images/icons/console-24.png
-analysis_icon: /images/icons/puzzle-2-24.png
+#analysis_icon: /images/icons/puzzle-2-24.png
+analysis_icon: /images/icons/research-32.png
 resources_icon: /images/icons/literature-24.png
 about_icon: /images/icons/question-mark-4-24.png
 thumbs_icon: /images/icons/thumbs-up-32.gif
