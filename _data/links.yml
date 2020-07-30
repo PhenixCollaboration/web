@@ -24,6 +24,12 @@
   url: 'https://inspirehep.net/literature?sort=mostrecent&q=collaboration%20phenix'
   category: 'general'
 
+- name: npps
+  url: 'https://npps.bnl.gov/'
+
+- name: hsf
+  url: 'http://hepsoftwarefoundation.org/'
+
 - name: github
   url: https://github.com/PhenixCollaboration
 
