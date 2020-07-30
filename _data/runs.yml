@@ -388,6 +388,12 @@
     - '05/01/15, 432322, 31(30), 32(31), 30(29), 44(41), 920, Run15pAu pedestal tuned'
     - '05/01/15, 415200, 31(30), 32(31), 30(29), 41(38), 920, Run15pAu200 and Run15pAl200'
 
+  subruns:
+    - {
+       name: '200GeV p+p',
+       comment: ''
+      }
+
 - run: run16
   title: Run 16
   period: 2016

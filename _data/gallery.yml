@@ -230,6 +230,107 @@
   gallery: aux
   type: lumi
 
+### -------- Run 15
+# period 1
+- path: /images/lumi/run15/1/lumi.gif
+  tag: '200GeV p+p'
+  title: 
+  run: run15
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run15/1/lumi_day.gif
+  tag: '200GeV p+p'
+  title: 
+  run: run15
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run15/1/fom.gif
+  tag: '200GeV p+p'
+  title: 
+  run: run15
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run15/1/fom_day.gif
+  tag: '200GeV p+p'
+  title: 
+  run: run15
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run15/1/lumimpcex.gif
+  tag: '200GeV p+p'
+  title: 
+  run: run15
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run15/1/fommpcex.gif
+  tag: '200GeV p+p'
+  title: 
+  run: run15
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run15/1/vertex.gif
+  tag: '200GeV p+p'
+  title: 
+  run: run15
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run15/1/lumi_zdc_day.gif
+  tag: '200GeV p+p'
+  title: 
+  run: run15
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run15/1/hruntime.gif
+  tag: '200GeV p+p'
+  title: 
+  run: run15
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run15/1/pol.gif
+  tag: '200GeV p+p'
+  title: 
+  run: run15
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run15/1/hoursday.gif
+  tag: '200GeV p+p'
+  title: 
+  run: run15
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run15/1/cadhoursday.gif
+  tag: '200GeV p+p'
+  title: 
+  run: run15
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run15/1/plotzdc_2015_200_pp.gif
+  tag: '200GeV p+p'
+  title: 
+  run: run15
+  gallery: aux
+  type: lumi
+
+- path: /images/lumi/run15/1/peff_2015_200_pp.gif
+  tag: '200GeV p+p'
+  title: 
+  run: run15
+  gallery: aux
+  type: lumi
+
+
 ### -------- Run 16
 # period 1
 - path: /images/lumi/run16/1/lumi.gif
