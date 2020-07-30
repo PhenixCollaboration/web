@@ -48,6 +48,10 @@
   description: Muon Piston Calorimeter Upgrade
   category: detector
 
+- name : muon arms
+  description: Combination of subsystems to measure muons
+  category: detector
+
 - name: rich
   description: Ring Imaging Cherenkov Detector
   category: detector
@@ -97,6 +101,10 @@
   category: detector
  
 # Physics
+- name : J/Ψ
+  description: J/Ψ
+  category: physics
+
 - name : direct photon
   description: Direct photons produced in nuclear collisions
   category: physics

@@ -1,1 +1,1 @@
-{% assign link='<a href="https://zenodo.org/communities/phenixcollaboration/search?page=1&size=20&q=' | append: include.name | append: '" target="_blank">' | append: include.name | append:'</a>' %}
+{% assign link='<a href="https://zenodo.org/communities/phenixcollaboration/search?page=1&size=20&q=%22' | append: include.name | append: '%22" target="_blank">' | append: include.name | append:'</a>' %}
