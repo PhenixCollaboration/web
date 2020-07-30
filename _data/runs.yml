@@ -414,6 +414,12 @@
        name: '200GeV p+Au',
        comment: ''
       }
+
+    - {
+       name: '200GeV p+Al',
+       comment: ''
+      }
+
 ############################## RUN 16
 - run: run16
   title: Run 16
