@@ -2,6 +2,7 @@
 layout: newbase
 name: site
 ---
+{% capture howto_page_url %}{% include navigation/findpage.md folder=site.about name='howto' %}{% endcapture %}
 
 {% include layouts/find_title.md name=page.name %}
 
