@@ -111,7 +111,7 @@
     -
       name: dap
       full: Data and Analysis Preservation
-      icon: /images/icons/box-3-32.png
+      icon: /images/icons/package-2-32.png
     -
       name: site
       full: Help Needed!
@@ -119,7 +119,7 @@
     -
       name: howto
       full: How to Contribute
-      icon: /images/icons/test-tube-32.png
+      icon: /images/icons/test-tube-5-32.png
     -
       name: contact
       full: The Team
