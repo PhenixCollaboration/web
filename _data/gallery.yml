@@ -550,5 +550,90 @@
   gallery: aux
   type: lumi
 
+# period 5
+- path: /images/lumi/run16/5/evt_fvtx.gif
+  tag: '39GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/5/evt_fvtx_day.gif
+  tag: '39GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/5/evt_fvtx_central.gif
+  tag: '39GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/5/evt_fvtx_central_day.gif
+  tag: '39GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/5/events.gif
+  tag: '39GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/5/events_day.gif
+  tag: '39GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/5/vertex.gif
+  tag: '39GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/5/lumi_zdc_day.gif
+  tag: '39GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/5/hruntime.gif
+  tag: '39GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/5/hoursday.gif
+  tag: '39GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/5/cadhoursday.gif
+  tag: '39GeV d+Au'
+  title: 
+  run: run16
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run16/5/plotzdc_2016_39_dAu.gif
+  tag: '39GeV d+Au'
+  title: 
+  run: run16
+  gallery: aux
+  type: lumi
+
 
 
