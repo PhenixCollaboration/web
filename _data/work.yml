@@ -1,0 +1,17 @@
+- description: Uploading PhD theses of PHENIX researchers to Zenodo
+  expertise: low
+  priority: medium
+
+- description: Uploading preformatted publication data to the HEPData website
+  expertise: medium
+  priority: low
+
+- description: Creation of a fully functional PISA tutorial and documentation
+  expertise: high
+  priority: high
+
+- description: Creation of a fully functional fun4all tutorial and documentation
+  expertise: high
+  priority: high
+
+

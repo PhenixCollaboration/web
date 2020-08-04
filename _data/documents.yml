@@ -435,6 +435,39 @@
   date: 07/21/2003
 
 ### HEPData
+- name: 95817
+  title: High-p<sub>T</sub> π<sup>0</sup> Production with Respect to the Reaction Plane in Au + Au Collisions at √s<sub>NN</sub>=200GeV
+  tags: 
+  author: 
+  venue: Phys.Rev. C80 (2009) 054907, 2009
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 95815
+  title: Quantitative Constraints on the Opacity of Hot Partonic Matter from Semi-Inclusive Single High Transverse Momentum Pion Suppression in Au+Au collisions at  √s<sub>NN</sub>=200GeV
+  tags: 
+  author: 
+  venue: Phys.Rev. C77 (2008) 064907, 2008
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 95790
+  title: Photon-Hadron Jet Correlations in p+p and Au+Au Collisions at  √s=200GeV
+  tags: 
+  author: 
+  venue: Phys.Rev. C80 (2009) 024908, 2009
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
 - name: 82575
   title: Measurements of double-helicity asymmetries in inclusive J/ψ production in longitudinally polarized p+p collisions at √s=510 GeV
   tags: 
