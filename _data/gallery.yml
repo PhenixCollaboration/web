@@ -175,6 +175,79 @@
 #  /images/logos/under-construction-1-clipart.png
 #
 ### LUMINOSITY PLOTS
+### -------- Run 13
+- path: /images/lumi/run13/lumi.gif
+  title: 
+  run: run13
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run13/lumi_day.gif
+  title: 
+  run: run13
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run13/fom.gif
+  title: 
+  run: run13
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run13/fom_day.gif
+  title: 
+  run: run13
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run13/vertex.gif
+  title: 
+  run: run13
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run13/lumi_zdc_day.gif
+  title: 
+  run: run13
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run13/hruntime.gif
+  title: 
+  run: run13
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run13/pol.gif
+  title: 
+  run: run13
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run13/hoursday.gif
+  title: 
+  run: run13
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run13/cadhoursday.gif
+  title: 
+  run: run13
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run13/plotzdc_2013_510_pp.gif
+  title: 
+  run: run13
+  gallery: aux
+  type: lumi
+
+- path: /images/lumi/run13/peff_2013_510_pp.gif
+  title: 
+  run: run13
+  gallery: aux
+  type: lumi
+
 ### -------- Run 14
 - path: /images/lumi/run14/lumi.gif
   title: 
