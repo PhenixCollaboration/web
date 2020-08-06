@@ -254,6 +254,91 @@
   gallery: main
   type: lumi
 
+# period 2
+- path: /images/lumi/run11/2/lumi.gif
+  tag: '500GeV p+p'
+  title: 
+  run: run11
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run11/2/lumi_day.gif
+  tag: '500GeV p+p'
+  title: 
+  run: run11
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run11/2/fom.gif
+  tag: '500GeV p+p'
+  title: 
+  run: run11
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run11/2/fom_day.gif
+  tag: '500GeV p+p'
+  title: 
+  run: run11
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run11/2/pol.gif
+  tag: '500GeV p+p'
+  title: 
+  run: run11
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run11/2/time_on.gif
+  tag: '500GeV p+p'
+  title: 
+  run: run11
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run11/2/gvtx.gif
+  tag: '500GeV p+p'
+  title: 
+  run: run11
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run11/2/vertex.gif
+  tag: '500GeV p+p'
+  title: 
+  run: run11
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run11/2/plotzdc.gif
+  tag: '500GeV p+p'
+  title: 
+  run: run11
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run11/2/plots3n3.gif
+  tag: '500GeV p+p'
+  title: 
+  run: run11
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run11/2/store_length.gif
+  tag: '500GeV p+p'
+  title: 
+  run: run11
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run11/2/hruntime.gif
+  tag: '500GeV p+p'
+  title: 
+  run: run11
+  gallery: main
+  type: lumi
+
 ### -------- Run 12
 # period 1
 - path: /images/lumi/run12/1/lumi.gif
