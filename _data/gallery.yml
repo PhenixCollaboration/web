@@ -176,6 +176,7 @@
 #
 ### LUMINOSITY PLOTS
 ### -------- Run 12
+# period 1
 - path: /images/lumi/run12/1/lumi.gif
   tag: '200GeV p+p'
   title: 
@@ -246,6 +247,7 @@
   gallery: aux
   type: lumi
 
+# period 2
 - path: /images/lumi/run12/2/lumi.gif
   tag: '510GeV p+p'
   title: 
@@ -311,6 +313,56 @@
 
 - path: /images/lumi/run12/2/peff_2012_510_pp.gif
   tag: '510GeV p+p'
+  title: 
+  run: run12
+  gallery: aux
+  type: lumi
+
+# period 3
+- path: /images/lumi/run12/3/lumi.gif
+  tag: '193GeV U+U'
+  title: 
+  run: run12
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run12/3/lumi_day.gif
+  tag: '193GeV U+U'
+  title: 
+  run: run12
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run12/3/vertex.gif
+  tag: '193GeV U+U'
+  title: 
+  run: run12
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run12/3/lumi_zdc_day.gif
+  tag: '193GeV U+U'
+  title: 
+  run: run12
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run12/3/hruntime.gif
+  tag: '193GeV U+U'
+  title: 
+  run: run12
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run12/3/plotzdc_2012_193_UU.gif
+  tag: '193GeV U+U'
+  title: 
+  run: run12
+  gallery: aux
+  type: lumi
+
+- path: /images/lumi/run12/3/peff_2012_193_UU.gif
+  tag: '193GeV U+U'
   title: 
   run: run12
   gallery: aux
