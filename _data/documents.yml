@@ -375,6 +375,18 @@
   date: 
 
 ### Writeups:
+- name: 3974601
+  title: How to make HEPData input
+  tags: [hepdata, nattrass, ]
+  author: C. Nattrass
+  venue: 
+  resource: zenodo
+  type: writeup
+  category: data
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
 - name: 3833207
   title: PHENIX Time-of-flight detector West (TOFW) – Detector Basics
   tags: [tofw,]

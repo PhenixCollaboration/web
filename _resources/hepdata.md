@@ -17,4 +17,9 @@ its {% include navigation/findlink.md name='PHENIX on HEPData' title='collection
 Members of the PHENIX Collaboration interested in creating materials suitable for submission to HEPData
 are encouraged to contact the [DAP Team]({{ team_url }}).
 
+There is a helpful write-up about preparing data for upload:
+{% include documents/doc.md type='writeup' tag='nattrass' %}
+
+Listed below are PHENIX entries uploaded to the HEPData website.
+
 {%- include documents/doc.md category='hepdata' type='publication' title="Publication Materials" -%}
