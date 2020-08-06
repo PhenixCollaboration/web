@@ -315,6 +315,12 @@
     - '05/16/12 12:25, 372190, ERT_MASK:mask_120516.txt, no, Add mask on RICH W3N 16 channels.'
     - '06/03/12 10:00, - , ERT_MASK:mask_120603.txt, no, Add mask on 4x4c E0-24,E1-7.'
 
+  subruns:
+    - {
+       name: '200GeV p+p',
+       comment: ''
+      }
+
 ############################## RUN 13
 - run: run13
   title: Run 13
