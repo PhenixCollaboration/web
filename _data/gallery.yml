@@ -368,6 +368,63 @@
   gallery: aux
   type: lumi
 
+# period 4
+- path: /images/lumi/run12/4/lumi.gif
+  tag: '200GeV Cu+Au'
+  title: 
+  run: run12
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run12/4/lumi_day.gif
+  tag: '200GeV Cu+Au'
+  title: 
+  run: run12
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run12/4/vertex.gif
+  tag: '200GeV Cu+Au'
+  title: 
+  run: run12
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run12/4/lumi_zdc_day.gif
+  tag: '200GeV Cu+Au'
+  title: 
+  run: run12
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run12/4/hruntime.gif
+  tag: '200GeV Cu+Au'
+  title: 
+  run: run12
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run12/4/mass_jpsi.gif
+  tag: '200GeV Cu+Au'
+  title: 
+  run: run12
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run12/4/plotzdc_2012_200_CuAu.gif
+  tag: '200GeV Cu+Au'
+  title: 
+  run: run12
+  gallery: aux
+  type: lumi
+
+- path: /images/lumi/run12/4/peff_2012_200_CuAu.gif
+  tag: '200GeV Cu+Au'
+  title: 
+  run: run12
+  gallery: aux
+  type: lumi
+
 ### -------- Run 13
 - path: /images/lumi/run13/lumi.gif
   title: 
