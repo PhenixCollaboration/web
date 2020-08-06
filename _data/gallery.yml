@@ -175,6 +175,85 @@
 #  /images/logos/under-construction-1-clipart.png
 #
 ### LUMINOSITY PLOTS
+### -------- Run 11
+# period 1
+- path: /images/lumi/run11/1/lumi.gif
+  tag: '200GeV Au+Au'
+  title: 
+  run: run11
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run11/1/lumi_day.gif
+  tag: '200GeV Au+Au'
+  title: 
+  run: run11
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run11/1/plotzdc.gif
+  tag: '200GeV Au+Au'
+  title: 
+  run: run11
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run11/1/vertex.gif
+  tag: '200GeV Au+Au'
+  title: 
+  run: run11
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run11/1/plots1n1.gif
+  tag: '200GeV Au+Au'
+  title: 
+  run: run11
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run11/1/plots2n2.gif
+  tag: '200GeV Au+Au'
+  title: 
+  run: run11
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run11/1/plots3n3.gif
+  tag: '200GeV Au+Au'
+  title: 
+  run: run11
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run11/1/plots4n4.gif
+  tag: '200GeV Au+Au'
+  title: 
+  run: run11
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run11/1/plots5n5.gif
+  tag: '200GeV Au+Au'
+  title: 
+  run: run11
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run11/1/plots6n6.gif
+  tag: '200GeV Au+Au'
+  title: 
+  run: run11
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run11/1/hruntime.gif
+  tag: '200GeV Au+Au'
+  title: 
+  run: run11
+  gallery: main
+  type: lumi
+
 ### -------- Run 12
 # period 1
 - path: /images/lumi/run12/1/lumi.gif

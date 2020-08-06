@@ -243,6 +243,12 @@
        Nevents: 45M
      }
   
+  subruns:
+    - {
+       name: '200GeV Au+Au',
+       comment: ''
+      }
+
 ############################## RUN 12
 - run: run12
   title: Run 12
