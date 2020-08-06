@@ -339,6 +339,13 @@
   gallery: main
   type: lumi
 
+- path: /images/lumi/run11/2/mass_jpsi.gif
+  tag: '500GeV p+p'
+  title: 
+  run: run11
+  gallery: aux
+  type: lumi
+
 ### -------- Run 12
 # period 1
 - path: /images/lumi/run12/1/lumi.gif
