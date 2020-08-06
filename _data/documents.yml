@@ -447,6 +447,39 @@
   date: 07/21/2003
 
 ### HEPData
+- name: 95883
+  title: Measurement of charged pion double spin asymmetries at midrapidity in longitudinally polarized p+p collisions at √s=510GeV
+  tags: 
+  author: 
+  venue: arxiv 2004.02681 (ppg227, inspire 1789851)
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 95877
+  title: Medium modification of jet fragmentation in Au + Au collisions at √s<sub>NN</sub>=200GeV measured in direct photon-hadron correlations
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 111 (2013) 032301, 2013 (ppg113, inspire 1207323)
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 95866
+  title: High p<sub>T</sub> direct photon and π<sup>0</sup> triggered azimuthal jet correlations and measurement of k<sub>T</sub> for isolated direct photons in p+p collisions at √s=200GeV
+  tags: 
+  author: 
+  venue: Phys.Rev. D82 (2010) 072001, 2010 (ppg095, inspire 857187)
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
 - name: 95817
   title: High-p<sub>T</sub> π<sup>0</sup> Production with Respect to the Reaction Plane in Au + Au Collisions at √s<sub>NN</sub>=200GeV
   tags: 
@@ -470,7 +503,7 @@
   date:
     
 - name: 95790
-  title: Photon-Hadron Jet Correlations in p+p and Au+Au Collisions at  √s=200GeV
+  title: Photon-Hadron Jet Correlations in p+p and Au+Au Collisions at √s=200GeV
   tags: 
   author: 
   venue: Phys.Rev. C80 (2009) 024908, 2009 (ppg090, inspire 815824)
