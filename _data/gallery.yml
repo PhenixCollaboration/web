@@ -175,6 +175,35 @@
 #  /images/logos/under-construction-1-clipart.png
 #
 ### LUMINOSITY PLOTS
+### -------- Run 10
+- path: /images/lumi/run10/lumi.gif
+  tag: '200GeV Au+Au'
+  title: 
+  run: run10
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run10/lumi_day.gif
+  tag: '200GeV Au+Au'
+  title: 
+  run: run10
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run10/gvtx.gif
+  tag: '200GeV Au+Au'
+  title: 
+  run: run10
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run10/vertex.gif
+  tag: '200GeV Au+Au'
+  title: 
+  run: run10
+  gallery: main
+  type: lumi
+
 ### -------- Run 11
 # period 1
 - path: /images/lumi/run11/1/lumi.gif
