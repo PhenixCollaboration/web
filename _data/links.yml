@@ -1,0 +1,47 @@
+- name: 'PHENIX website (legacy)'
+  url: 'https://www.phenix.bnl.gov/'
+  category: 'general'
+
+- name: 'PHENIX Collaboration on GitHub'
+  url: 'https://github.com/PhenixCollaboration'
+  category: 'general'
+
+- name: 'PHENIX Community on Zenodo'
+  url: 'https://zenodo.org/communities/phenixcollaboration/'
+  category: 'general'
+
+- name: 'PHENIX on HEPData'
+  url: 'https://www.hepdata.net/search/?collaboration=PHENIX'
+  category: 'general'
+
+- name: HEPData
+  url: 'https://www.hepdata.net/'
+
+- name: Inspire
+  url: 'https://inspirehep.net/'
+
+- name: 'PHENIX on Inspire'
+  url: 'https://inspirehep.net/literature?sort=mostrecent&q=collaboration%20phenix'
+  category: 'general'
+
+- name: npps
+  url: 'https://npps.bnl.gov/'
+
+- name: hsf
+  url: 'http://hepsoftwarefoundation.org/'
+
+- name: github
+  url: https://github.com/PhenixCollaboration
+
+- name: rivet
+  url: 'https://rivet.hepforge.org/'
+
+- name: automake
+  url: 'https://www.gnu.org/software/automake/'
+
+- name: autoconf
+  url: 'https://www.gnu.org/software/autoconf/'
+
+- name: libtool
+  url: 'https://www.gnu.org/software/libtool/'
+

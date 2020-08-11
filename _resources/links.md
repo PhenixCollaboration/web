@@ -1,13 +1,14 @@
 ---
-title: Links
-abbrev: links
 name: links
 layout: newbase
-level: 0
-weight: 20
-div: yes
+items:
+   - 'PHENIX website (legacy)'
+   - 'PHENIX Collaboration on GitHub'
+   - 'PHENIX Community on Zenodo'
+   - 'PHENIX on HEPData'
+   - 'PHENIX on Inspire'
 ---
-# Links
-
-- [PHENIX website](https://www.phenix.bnl.gov/)
-
+#### Links
+{% for item in page.items %}
+{%- include navigation/findlink.md name=item category='general' %}
+{% endfor %}

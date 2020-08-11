@@ -55,25 +55,53 @@
       name: pisa
       full: PISA
 
+    -
+      name: build_tools
+      full: Build Tools
+      div: yes
+
 - name: analysis
   full: Analysis
   submenus:
     -
       name: analysis_overview
-      full: Analysis Overview
+      full: Overview
+
+    -
+      name: embeddingVtx
+      full: Embedding Example (VTX)
+      div: yes
 
 - name: resources
   full: Resources
   submenus:
     -
+      name: overview
+      full: Overview
+    -
+      name: keywords
+      full: Keywords
+      div: yes
+    -
+      name: zenodo
+      full: Zenodo
+      div: yes
+    -
+      name: hepdata
+      full: HEPData
+    -
+      name: rivet
+      full: Rivet
+    -
       name: publications
       full: Publications
+      div: yes
     -
       name: documents
       full: Documents
     -
       name: links
-      full: Links
+      full: Misc Links
       div: yes
 
 - name: about
@@ -83,13 +111,17 @@
     -
       name: dap
       full: Data and Analysis Preservation
+      icon: /images/icons/package-2-32.png
     -
       name: site
-      full: This Website
+      full: Help Needed!
+      icon: /images/icons/lifebuoy-32.png
     -
       name: howto
       full: How to Contribute
+      icon: /images/icons/test-tube-5-32.png
     -
       name: contact
-      full: Contact us
+      full: The Team
+      icon: /images/icons/group-32.png
       div: yes

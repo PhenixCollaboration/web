@@ -1,0 +1,25 @@
+- description: Harvesting and curation of the detector descriptions and material from legacy sources
+  expertise: medium
+  priority: medium
+
+- description: Uploading PhD theses of PHENIX researchers to Zenodo, indexing (keywords)
+  expertise: low
+  priority: medium
+
+- description: Uploading preformatted publication data to the HEPData website
+  expertise: medium
+  priority: low
+
+- description: Documentation of a complete reproducible analysis use case
+  expertise: high
+  priority: high
+
+- description: Creation of a fully functional PISA tutorial and documentation
+  expertise: high
+  priority: high
+
+- description: Creation of a fully functional fun4all tutorial and documentation
+  expertise: high
+  priority: high
+
+

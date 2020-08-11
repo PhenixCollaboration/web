@@ -26,13 +26,13 @@ sector 0 covering full 22.5 degrees in azimuth and the innermost rapidity range.
 
 
 #### Archived papers
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3766511.svg)](https://doi.org/10.5281/zenodo.3766511)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3836437.svg)](https://doi.org/10.5281/zenodo.3836437)
 [Felix Matathias's Ph.D. Thesis (gzipped postscript)](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2004/Matathias_Felix-thesis.ps.gz)
 
 
 
 #### Variables and Accessors
-These “get” methods give access to the TOFW variables used for analysis. The variable type, name of the get method, and a brief description are given below.
+These “get” methods give access to the TOF variables used for analysis. The variable type, name of the get method, and a brief description are given below.
 
 {% include layouts/variables.md rows=site.data.tof.vars %}
 

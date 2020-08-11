@@ -7,27 +7,30 @@ level: 0
 weight: 1000
 div: yes
 ---
+{% capture conf_gallery_url %}{%- include navigation/findpage.md folder=site.detectors name='run_configuration_gallery' -%}{% endcapture %}
 
-## Run Chronology and Coordination
+#### Run Chronology and Coordination
 
 <table width="100%">
 <tr><th>Run</th><th>Period</th><th>Coordinator(s)</th></tr>
 
 {% for run in site.runs %}
-{% include run/run_short.md run=run %}
+{% assign run_record = site.data.runs | where: "run", run.run | first %}
+{% assign run_title = run_record.title %}
+{% assign run_coordinator = run_record.coordinator %}
+{% assign run_period = run_record.period %}
+
+<tr>
+<td><a href="{{ run.url | relative_url }}">{{ run_title }}</a></td><td>{{ run_period }}</td><td>{{ run_coordinator }}</td>
+</tr>
 {% endfor %}
 
 </table>
+<hr/>
+#### Misc Info
 
-## Misc Info
-
-{% assign items = site.detectors | where: "abbrev", "run_configuration_gallery" %}
-{% assign item=items[0] %}
-
-<ul>
-<li><a href="{{ item.url | relative_url }}">{{ item.title }} (graphics)</a></li>
-<li><a href="{{ '/assets/documents/PHENIXSpin.pdf'| relative_url }}">Summary of the PHENIX Spin program (PDF)</a></li>
-</ul>
+* [Run Configuration Gallery]({{ conf_gallery_url }})
+{%- include documents/doc.md name='PHENIXSpin.pdf' category='summary' -%}
 
 <hr/>
 {% include images/generic_gallery.md type="run_info" gallery="aux" title="Archived images of run summary tables (click for a larger image)" %}

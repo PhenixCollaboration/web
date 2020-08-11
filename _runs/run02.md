@@ -2,7 +2,6 @@
 title: Run 02
 layout: run_base
 run: run02
-period: 2001-2002
-coordinator:  Anthony D. Frawley, FSU.
+name: run02
 ---
 {% include run/run_page.md %}

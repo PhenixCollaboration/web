@@ -1,33 +1,34 @@
 ---
 layout: newbase
 ---
-{% assign find_howto_page=site.about | where: "abbrev", 'howto' %}
-{% assign howto_page_url=find_howto_page[0].url  | relative_url %}
+{% capture site_page_url %}{% include navigation/findpage.md folder=site.about name='site' %}{% endcapture %}
 
-<p class="lead">
-  <center>This is a prototype of the PHENIX website for long-term data and analysis preservation.<br/>
-    The site is under construction and the materials to be hosted here are being collected and curated.<br/>
-    Your feedback, suggestions and <a href="{{ howto_page_url }}">contributions</a>
-    are very much appreciated.</center>
-</p>
 
 <div class="row">
   <div class="col-sm-12 blog-main">
+<p class="lead">
+  <center>
+    This website has been created by the PHENIX Collaboration to support long-term Data and Analysis Preservation.<br/>
+    The site is under construction and the materials to be hosted here are being collected and curated.<br/>
+    Your feedback, suggestions and contributions are very much appreciated. If you think you can help to
+    add material to this site or improve it's quality, please do not hesitate to examine
+    <a href="{{ site_page_url }}">the list of work items</a>
+    for which help is needed the most!
+  </center>
+</p>
 
-<hr>
+<hr/>
         <div class=row>
           <div class="col-md-5">
             <img src="{{ '/images/general/phenix_400x400.jpg' | relative_url }}" alt="Photo of the PHENIX experiment" width="400">
           </div>
           <div class="col-md-7">
             <p class="lead">
-
 	      PHENIX, the Pioneering High Energy Nuclear Interaction eXperiment,
 	      is an exploratory experiment for the investigation of high energy collisions of heavy ions and protons.
 	      It is the largest of the four experiments that have taken data at the Relativistic Heavy Ion Collider.
 	      Data-taking was finished in 2016 and the PHENIX Collaboration is now analyzing large data
 	      samples collected, prioritizing those with a unique physics reach.
-
 	    </p>
 
       </div>
@@ -35,4 +36,16 @@ layout: newbase
 
   </div>
 </div>
+
+<hr/>
+<p style="text-align:center;">
+  <em>Site built at {{ site.time }}</em>
+</p>
+
+{% comment %}
+----------------------------------------------------------------------
+{% assign find_howto_page=site.about | where: "abbrev", 'howto' %}
+{% assign howto_page_url=find_howto_page[0].url  | relative_url %}
+{% endcomment %}
+
 

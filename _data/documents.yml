@@ -1,32 +1,52 @@
 # Metadata used to populate the "documents" section on the PHENIX DAP website.
 # Items are grouped by categories for ease of navigation within the file.
 
+# Example of the old-style Zenodo MD link:
+# - name: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3842204.svg)](https://doi.org/10.5281/zenodo.3842204)'
+
+
 ### General Overviews:
-- name: phenix_decadal10_full_refs.pdf
-  title: The PHENIX Experiment at RHIC - Decadal Plan 2011–2020
-  author: 
-  venue: 
-  type: document
-  category: overview
-  format: pdf
-  date: 
-
-- name: PHENIXDecadalPlan.pdf
+- name: 3840266
   title: The PHENIX Experiment at RHIC - Decadal Plan 2004–2013
-  author: 
+  author: W.Zajc et al
   venue: 
+  resource: zenodo
   type: document
   category: overview
-  format: pdf
-  date: 
+  format: markdown_link
+  cached_badge: yes
+  date: 11/01/2003
 
-- name: PHENIX_Overview_NIM499.pdf
-  title: PHENIX Overview (NIM A 499, 2003)
-  author: 
-  venue: 
+- name: 3842204
+  title: The PHENIX Experiment at RHIC - Decadal Plan 2011–2020
+  author: B.Jacak et al
+  venue:
+  resource: zenodo
   type: document
   category: overview
-  format: pdf
+  format: markdown_link
+  cached_badge: yes
+  date: 10/01/2010
+
+- name: 3885936
+  title: The PHENIX detector
+  author: Klaus Dehmelt
+  venue:
+  resource: zenodo
+  type: document
+  category: overview
+  format: markdown_link
+  cached_badge: yes
+  date: 08/01/2018
+
+# - name: PHENIX_Overview_NIM499.pdf
+- name: '[PHENIX Detector Overview](https://doi.org/10.1016/S0168-9002(02)01950-2)'
+  title: (NIM A 499, 2003, doi.org/10.1016/S0168-9002(02)01950-2)
+  author: 
+  venue: 
+  type: publication
+  category: overview
+  format: markdown_link
   date: 
 
 ### Summaries:
@@ -48,106 +68,178 @@
   format: pdf
   date: 
 
+### Beam Use Proposals
+# acronym - 'bup'
+- name: 3886886
+  title: PHENIX Beam Use Proposal Run-15 and Run-16
+  tags: [run14, run15, tofw, fvtx, vtx, mpc-ex, mpc ]
+  author: K. Dehmelt
+  venue: 
+  resource: zenodo
+  type: bup
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date: 2013-05-19
+
+- name: 3887304
+  title: PHENIX Beam Use Proposal Run-14 and Run-15
+  tags: [run15, run16, tofw, fvtx, vtx, mpc-ex, mpc, daq, 'data acquisition' ]
+  author: H. van Hecke
+  venue: 
+  resource: zenodo
+  type: bup
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date: 2013-05-19
+
 ### PHENIX Detector Subsystems:
-- name: PHENIX_EMCAL_NIM499.pdf
-  title: Calorimeter (NIM A 499, 2003)
-  author: 
+- name: 3966470
+  title: Performance of PHENIX HBD in Au+Au central collisions (QM2011 poster)
+  tags: [hbd, HBD, ]
+  author: Yosuke Watanabe
   venue: 
-  type: document
+  resource: zenodo
+  type: publication
   category: detector
-  format: pdf
+  format: markdown_link
+  cached_badge: yes
   date: 
 
-- name: PHENIX_Inner_NIM499.pdf
-  title: Inner Detectors (NIM A 499, 2003)
+  
+- name: '[GEM: A new concept for electron amplification in gas detectors](https://doi.org/10.1016/S0168-9002(96)01172-2)'
+  title: (NIM A 386, 1997, doi.org/10.1016/S0168-9002(96)01172-2)
+  tags: [gem, sauli_gem,]
   author: 
   venue: 
-  type: document
+  type: publication
   category: detector
-  format: pdf
+  format: markdown_link
   date: 
 
-- name: PHENIX_Magnet_NIM499.pdf
-  title: Magnet System (NIM A 499, 2003)
+
+# - name: PHENIX_EMCAL_NIM499.pdf
+- name: '[PHENIX Calorimeter](https://doi.org/10.1016/S0168-9002(02)01954-X)'
+  title: (NIM A 499, 2003, doi.org/10.1016/S0168-9002(02)01954-X)
   author: 
   venue: 
-  type: document
+  type: publication
   category: detector
-  format: pdf
+  format: markdown_link
   date: 
 
-- name: PHENIX_Muon_NIM499.pdf
-  title: Muon Arms (NIM A 499, 2003)
+# - name: PHENIX_Inner_NIM499.pdf
+- name: '[PHENIX Inner Detectors](https://doi.org/10.1016/S0168-9002(02)01956-3)'
+  title: (NIM A 499, 2003, doi.org/10.1016/S0168-9002(02)01956-3)
   author: 
   venue: 
-  type: document
+  type: publication
   category: detector
-  format: pdf
+  format: markdown_link
   date: 
 
-- name: PHENIX_CentralTracker_NIM499.pdf
-  title: Central Arm Tracking Detectors (NIM A 499, 2003)
+# - name: PHENIX_Magnet_NIM499.pdf
+- name:  '[PHENIX Magnet System](https://doi.org/10.1016/S0168-9002(02)01951-4)'
+  title: (NIM A 499, 2003, doi.org/10.1016/S0168-9002(02)01951-4)
   author: 
   venue: 
-  type: document
+  type: publication
   category: detector
-  format: pdf
+  format: markdown_link
   date: 
 
-- name: PHENIX_PID_NIM499.pdf
-  title: Central Arm Particle ID Detectors (NIM A 499, 2003)
+# - name: PHENIX_Muon_NIM499.pdf
+- name: '[PHENIX Muon Arms](https://doi.org/10.1016/S0168-9002(02)01955-1)'
+  title: (NIM A 499, 2003, doi.org/10.1016/S0168-9002(02)01955-1)
   author: 
   venue: 
-  type: document
+  type: publication
   category: detector
-  format: pdf
+  format: markdown_link
   date: 
 
-- name: NIM_RXNP.pdf
-  title: A reaction plane detector for PHENIX at RHIC (NIM A 636, 2011)
+# - name: PHENIX_CentralTracker_NIM499.pdf
+- name: '[PHENIX Central Arm Tracking Detectors](https://doi.org/10.1016/S0168-9002(02)01952-6)'
+  title: (NIM A 499, 2003, doi.org/10.1016/S0168-9002(02)01952-6)
   author: 
   venue: 
-  type: document
+  type: publication
   category: detector
-  format: pdf
+  format: markdown_link
   date: 
 
-- name: HBD_NIM.pdf
-  title: Design, construction, operation and performance of a Hadron Blind Detector for the PHENIX experiment (NIM A 646, 2011)
+# - name: PHENIX_PID_NIM499.pdf
+- name: '[PHENIX Central Arm Particle ID Detectors](https://doi.org/10.1016/S0168-9002(02)01953-8)'
+  title: (NIM A 499, 2003, doi.org/10.1016/S0168-9002(02)01953-8)
   author: 
   venue: 
-  type: document
+  type: publication
   category: detector
-  format: pdf
+  format: markdown_link
   date: 
 
-- name: FVTX_NIM.pdf
-  title: The PHENIX Forward Silicon Vertex Detector (NIM A 755, 2014)
+# - name: NIM_RXNP.pdf
+- name: '[A reaction plane detector for PHENIX at RHIC](https://doi.org/10.1016/j.nima.2011.01.034)'
+  title: (NIM A 636, 2011, doi.org/10.1016/j.nima.2011.01.034)
   author: 
   venue: 
-  type: document
+  type: publication
   category: detector
-  format: pdf
+  format: markdown_link
+  date: 
+
+# - name: HBD_NIM.pdf
+- name: '[Design, construction, operation and performance of a Hadron Blind Detector for the PHENIX experiment](https://doi.org/10.1016/j.nima.2011.04.015)'
+  title: (NIM A 646, 2011, doi.org/10.1016/j.nima.2011.04.015)
+  tags: [hbd,]
+  author: 
+  venue: 
+  type: publication
+  category: detector
+  format: markdown_link
+  date: 
+
+# - name: FVTX_NIM.pdf
+- name: '[The PHENIX Forward Silicon Vertex Detector](http://dx.doi.org/10.1016/j.nima.2014.04.017)'
+  title: (NIM A 755, 2014, dx.doi.org/10.1016/j.nima.2014.04.017)
+  author: 
+  venue: 
+  type: publication
+  category: detector
+  format: markdown_link
+  date: 
+
+- name: '[The RHIC zero degree calorimeters](https://doi.org/10.1016/S0168-9002(01)00627-1)'
+  title: (NIM A  470, 2001, doi.org/10.1016/S0168-9002(01)00627-1)
+  tags: [zdc,]
+  author: 
+  venue: 
+  type: publication
+  category: detector
+  format: markdown_link
   date: 
 
 ### Data Reconstruction and Analysis
-- name: central_reco_NIMA482.pdf
-  title: Event Reconstruction in the PHENIX Central Arm Spectrometers (NIM A 482, 2002)
+# - name: central_reco_NIMA482.pdf
+- name: '[Event Reconstruction in the PHENIX Central Arm Spectrometers](https://doi.org/10.1016/S0168-9002(01)01512-1)'
+  title: (NIM A 482, 2002, doi.org/10.1016/S0168-9002(01)01512-1)
   author: 
   venue: 
-  type: document
+  type: publication
   category: dra
-  format: pdf
+  format: markdown_link
   date: 
 
 ### Systems:
-- name: PHENIX_Online_NIM499.pdf
-  title: Online Systems (NIM A 499, 2003)
+# - name: PHENIX_Online_NIM499.pdf
+- name: '[PHENIX Online Systems](https://doi.org/10.1016/S0168-9002(02)01957-5)'
+  title: (NIM A 499, 2003, doi.org/10.1016/S0168-9002(02)01957-5)
   author: 
   venue: 
-  type: document
+  type: publication
   category: systems
-  format: pdf
+  format: markdown_link
   date: 
 
 ### Physics
@@ -156,19 +248,564 @@
   tags: [ert, mesons]
   author: M.Naglis
   venue: 
-  type: document
-  category: paper
+  type: publication
+  category: physics
   format: pdf
   date: 
 
 ### Theses:
-- name: patel_thesis.pdf
+- name: 3966485
+  title: Measurements of di-electron production in Au+Au collisions at √s<sub>NN</sub>=200GeV
+  tags: [hbd, HBD,]
+  author: Yosuke Watanabe
+  venue: 
+  resource: zenodo
+  type: thesis
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
+- name: 3966477
+  title: ω- and φ-meson production in p+p and d+Au collisions at RHIC energies, using the PHENIX Detector
+  tags: [hbd, HBD,]
+  author: Deepali Sharma
+  venue: 
+  resource: zenodo
+  type: thesis
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
+- name: 3887326
+  title: Low Momentum Direct Photons as a Probe of Heavy Ion Collisions
+  tags: [hbd, HBD, petti_thesis]
+  author: Richard Petti
+  venue: 
+  resource: zenodo
+  type: thesis
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
+- name: 3839085
+  title: Φ meson production in p+p, d+Au and Au+Au collisions at RHIC using the PHENIX detector
+  tags: [hbd, naglis_thesis]
+  author: Maxim Naglis
+  venue: 
+  resource: zenodo
+  type: thesis
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
+- name: 3836568
+  title: Measurements of identified hadrons in Au+Au and d+Au collisions at 200 GeV
+  tags: [tofw, ron_belmont_thesis]
+  author: Ron Belmont
+  venue: 
+  resource: zenodo
+  type: thesis
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
+- name: 3836538
+  title: Source dynamics from deuterons and anti-deuterons in 200 GeV Au+Au collisions
+  tags: [tofw, hugo_valle_thesis]
+  author: Hugo Valle
+  venue: 
+  resource: zenodo
+  type: thesis
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
+- name: 3836478
+  title: The Design, Implementation, and Performance of the PHENIX Time-of-Flight West Detector
+  tags: [tofw, brian_love_thesis]
+  author: Brian Love
+  venue: 
+  resource: zenodo
+  type: thesis
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
+- name: 3885856
+  title: The Quark Gluon Plasma probed by Low Momentum Direct Photons in Au+Au Collisions at √s<sub>NN</sub>=62.4GeV and √s<sub>NN</sub>=39 GeV beam energies
+  tags: [emcal, zdc,]
+  author: Vladimir Khachatryan
+  venue: 
+  resource: zenodo
+  type: thesis
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
+- name: 3885870
+  title: Inclusive jet production in proton-proton and copper-gold collisions at √sNN = 200 GeV
+  tags: [emcal, zdc,]
+  author: Arbin Timilsina
+  venue: 
+  resource: zenodo
+  type: thesis
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
+- name: 3952842
   title: Jet longitudinal double spin asymmetry in PHENIX p + p √s = 510GeV
-  tags: [ert, spin]
-  author: M.Patel
+  tags: [ert, spin, bbc, ]
+  author: Milap Patel
+  venue: 
+  resource: zenodo
+  type: thesis
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
+### Writeups:
+- name: 3974601
+  title: How to make HEPData input
+  tags: [hepdata, nattrass, ]
+  author: C. Nattrass
+  venue: 
+  resource: zenodo
+  type: writeup
+  category: data
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
+- name: 3833207
+  title: PHENIX Time-of-flight detector West (TOFW) – Detector Basics
+  tags: [tofw,]
+  author: G.David
+  venue: 
+  resource: zenodo
+  type: writeup
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
+- name: 3833205
+  title: PHENIX Electromagnetic Calorimeter (EMCal) – Detector Basics
+  tags: [emcal]
+  author: G.David
+  venue: 
+  resource: zenodo
+  type: writeup
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date:
+    
+- name: 3893970
+  title: PHENIX ZDC/SMD - detector basics
+  tags: [zdc,smd]
+  author: G.David
+  venue: 
+  resource: zenodo
+  type: writeup
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date:
+    
+- name: 3893972
+  title: Explanation of PHENIX triggers
+  tags: [zdc,bbc,emcal,mpc,trigger,fvtx]
+  author: A.Bazilevsky
+  venue: 
+  resource: zenodo
+  type: writeup
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date:
+    
+### arXiv links:
+- name: '[https://arxiv.org/abs/physics/0307101](https://arxiv.org/abs/physics/0307101)'
+  title: Proposal for a Hadron Blind Detector for PHENIX
+  tags: [hbd]
+  author: A.Kozlov et al
+  venue: 
+  type: proposal
+  category: detector
+  format: markdown_link
+  date: 07/21/2003
+
+### HEPData
+- name: 95883
+  title: Measurement of charged pion double spin asymmetries at midrapidity in longitudinally polarized p+p collisions at √s=510GeV
+  tags: 
+  author: 
+  venue: arxiv 2004.02681 (ppg227, inspire 1789851)
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 95877
+  title: Medium modification of jet fragmentation in Au + Au collisions at √s<sub>NN</sub>=200GeV measured in direct photon-hadron correlations
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 111 (2013) 032301, 2013 (ppg113, inspire 1207323)
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 95866
+  title: High p<sub>T</sub> direct photon and π<sup>0</sup> triggered azimuthal jet correlations and measurement of k<sub>T</sub> for isolated direct photons in p+p collisions at √s=200GeV
+  tags: 
+  author: 
+  venue: Phys.Rev. D82 (2010) 072001, 2010 (ppg095, inspire 857187)
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 95817
+  title: High-p<sub>T</sub> π<sup>0</sup> Production with Respect to the Reaction Plane in Au + Au Collisions at √s<sub>NN</sub>=200GeV
+  tags: 
+  author: 
+  venue: Phys.Rev. C80 (2009) 054907, 2009 (ppg092, inspire 816486)
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 95815
+  title: Quantitative Constraints on the Opacity of Hot Partonic Matter from Semi-Inclusive Single High Transverse Momentum Pion Suppression in Au+Au collisions at  √s<sub>NN</sub>=200GeV
+  tags: 
+  author: 
+  venue: Phys.Rev. C77 (2008) 064907, 2008 (ppg079, inspire 777211)
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 95790
+  title: Photon-Hadron Jet Correlations in p+p and Au+Au Collisions at √s=200GeV
+  tags: 
+  author: 
+  venue: Phys.Rev. C80 (2009) 024908, 2009 (ppg090, inspire 815824)
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 82575
+  title: Measurements of double-helicity asymmetries in inclusive J/ψ production in longitudinally polarized p+p collisions at √s=510 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev. D94 (2016) 112008, 2016
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 73691
+  title: Measurement of parity-violating spin asymmetries in W± production at midrapidity in longitudinally polarized p+p collisions
+  tags: 
+  author: 
+  venue: Phys.Rev. D93 (2016) 051103, 2016
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 71403
+  title: Charged-pion cross sections and double-helicity asymmetries in polarized p+p collisions at √s=200  GeV
+  tags: 
+  author: 
+  venue: Phys.Rev. D91 (2015) 032001, 2015
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 64716
+  title: Inclusive double-helicity asymmetries in neutral-pion and eta-meson production in p⃗+p⃗ collisions at √s=200 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev. D90 (2014) 012007, 2014
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 64267
+  title: Cross section and transverse single-spin asymmetry of η mesons in p+p collisions at √s=200 GeV at forward rapidity
+  tags: 
+  author: 
+  venue: Phys.Rev. D90 (2014) 072008, 2014
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 64159
+  title: Low-mass vector-meson production at forward rapidity in p+p collisions at √s=200 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev. D90 (2014) 052002, 2014
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 63512
+  title: Transverse-energy distributions at midrapidity in p+p, d+Au, and Au+Au collisions at √s<sub>NN</sub>=62.4–200 GeV and implications for particle-production models
+  tags: 
+  author: 
+  venue: Phys.Rev. C89 (2014) 044905, 2014
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 62722
+  title: Quadrupole Anisotropy in Dihadron Azimuthal Correlations in Central dd++Au Collisions at √s<sub>NN</sub>=200 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 111 (2013) 212301, 2013
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 57327
+  title: J/psi Production in √s<sub>NN</sub>=200 GeV Cu+Cu Collisions
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 101 (2008) 122301, 2008
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 63824
+  title: Measurement of Single Muons at Forward Rapidity in p+p Collisions at √s<sub>NN</sub> = 200GeV and Implications for Charm Production
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 103 (2009) 082002, 2009
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 57257
+  title: Nuclear modification of electron spectra and implications for heavy quark energy loss in Au+Au collisions at √s<sub>NN</sub> = 200GeV
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 98 (2007) 172301, 2007
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 73669
+  title: Dilepton mass spectra in p+p collisions at √s = 200-GeV and the contribution from open charm
+  tags: 
+  author: 
+  venue: Phys.Lett. B670 (2009) 313-320, 2009
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 57254
+  title: Centrality dependence of charm production from single electrons measurement in Au + Au collisions at  √s<sub>NN</sub> = 200 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 94 (2005) 082301, 2005
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 57350
+  title: Photoproduction of J/psi and of high mass e+e- in ultra-peripheral Au+Au collisions at √s<sub>NN</sub> = 200 GeV
+  tags: 
+  author: 
+  venue: Phys.Lett. B679 (2009) 321-329, 2009
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 57373
+  title: Cold Nuclear Matter Effects on J/Psi as Constrained by Deuteron-Gold Measurements at √s<sub>NN</sub> = 200 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev. C77 (2008) 024912, 2008
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 57282
+  title: J/ψ Production vs Centrality, Transverse Momentum, and Rapidity in Au+Au Collisions at √s<sub>NN</sub> = 200 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 98 (2007) 232301, 2007
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 57093
+  title: J/ψ production from proton proton collisions at √s = 200GeV
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 92 (2004) 051802, 2004
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 57513
+  title: J/ψ production and nuclear effects for d+Au and p+p collisions at √s<sub>NN</sub> = 200 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 96 (2006) 012304, 2006
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 57253
+  title: J/ψ production in Au Au collisions at √s<sub>NN</sub> = 200 GeV at the Relativistic Heavy Ion Collider
+  tags: 
+  author: 
+  venue: Phys.Rev. C69 (2004) 014901, 2004
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 57021
+  title: Identified charged hadron production in p+p collisions at √s = 200 and 62.4 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev. C83 (2011) 064903, 2011
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 41956
+  title: Mid-rapidity neutral pion production in proton proton collisions at √s = 200 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 91 (2003) 241803, 2003
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 19421
+  title: Centrality dependence of pi+/pi-, K+/K-, p and anti-p production from √s<sub>NN</sub> = 13 GeV Au+Au collisions at RHIC
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 88 (2002) 242301, 2002
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 50270
+  title: Centrality dependence of charged particle multiplicity in Au-Au collisions at √s<sub>NN</sub> = 130 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 86 (2001) 3500-3505, 2001
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 31419
+  title: Measurement of the mid-rapidity transverse energy distribution from √s<sub>NN</sub> = 130 GeV Au+Au collisions at RHIC
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 87 (2001) 052301, 2001
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+### Analysis notes
+- name: ananote_template_final.pdf
+  title: The Analysis Note Template
+  tags: [ananote_template,]
+  author: G.David
   venue: 
   type: document
-  category: thesis
+  category: physics
   format: pdf
   date: 
+
+
+## -- ATTIC --
+# Replaced local "asset" file with a reference to Zenodo (created for this purpose)
+#- name: phenix_decadal10_full_refs.pdf
+#  title: The PHENIX Experiment at RHIC - Decadal Plan 2011–2020
+#  author: 
+#  venue: 
+#  type: document
+#  category: overview
+#  format: pdf
+#  date: 
+
+#- name: PHENIXDecadalPlan.pdf
+#  title: The PHENIX Experiment at RHIC - Decadal Plan 2004–2013
+#  author: 
+#  venue: 
+#  type: document
+#  category: overview
+#  format: pdf
+#  date: 
 

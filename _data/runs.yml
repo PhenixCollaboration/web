@@ -1,4 +1,6 @@
+############################## RUN 01
 - run: run01
+  title: Run 01
   period: 1999-2001
   coordinator: Achim Franz, BNL.
   rhic:
@@ -9,7 +11,9 @@
        Nevents: 10M
       }
 
+############################## RUN 02
 - run: run02
+  title: Run 02
   period: 2001-2002
   coordinator: Anthony D. Frawley, FSU.
   rhic:
@@ -32,7 +36,9 @@
        Nevents: 3.7B
       }
 
+############################## RUN 03
 - run: run03
+  title: Run 03
   period: 2002-2003
   coordinator: Matthias Grosse Perdekamp, UIUC and RBRC.
   rhic:
@@ -49,7 +55,9 @@
        Nevents: 6.6B
       }
 
+############################## RUN 04
 - run: run04
+  title: Run 04
   period: 2003-2004
   coordinator: Terry C. Awes, ORNL.
   rhic:
@@ -66,7 +74,9 @@
        Nevents: 58M
       }
   
+############################## RUN 05
 - run: run05
+  title: Run 05
   period: 2004-2005
   coordinator: John Lajoie, ISU.
   rhic:
@@ -95,7 +105,9 @@
        Nevents: 85B
       }
 
+############################## RUN 06
 - run: run06
+  title: Run 06
   period: 2005-2006
   coordinator: Abhay Deshpande, SUNYSB and RBRC.
   rhic:
@@ -112,7 +124,9 @@
        Nevents: 28B
       }
   
+############################## RUN 07
 - run: run07
+  title: Run 07
   period: 2006-2007
   coordinator: Michael J. Leitch, LANL.
   rhic:
@@ -123,7 +137,9 @@
        Nevents: 5.1B
        }
   
+############################## RUN 08
 - run: run08
+  title: Run 08
   period: 2007-2008
   coordinator: Michael J. Leitch, LANL.
   rhic:
@@ -146,7 +162,9 @@
        Nevents: '<5k'
       }
   
+############################## RUN 09
 - run: run09
+  title: Run 09
   period: 2008-2009
   coordinator: John Haggerty, BNL.
   rhic:
@@ -163,7 +181,9 @@
        Nevents: 
       }
     
+############################## RUN 10
 - run: run10
+  title: Run 10
   period: 2009-2010
   coordinator: Stefan Bathe, RIKEN-BNL.
   rhic:
@@ -192,7 +212,9 @@
        Nevents: 1.7M
       }
 
+############################## RUN 11
 - run: run11
+  title: Run 11
   period: 2010-2011
   coordinator: Takao Sakaguchi, BNL.
   rhic:
@@ -221,7 +243,20 @@
        Nevents: 45M
      }
   
+  subruns:
+    - {
+       name: '200GeV Au+Au',
+       comment: ''
+      }
+
+    - {
+       name: '500GeV p+p',
+       comment: ''
+      }
+
+############################## RUN 12
 - run: run12
+  title: Run 12
   period: 2011-2012
   coordinator: Xiaochun He, GSU.
   rhic:
@@ -290,7 +325,31 @@
     - '04/04/12 14:30, 367214, - , no, Add mask on RICH W3N 16 channels.'
     - '05/16/12 12:25, 372190, ERT_MASK:mask_120516.txt, no, Add mask on RICH W3N 16 channels.'
     - '06/03/12 10:00, - , ERT_MASK:mask_120603.txt, no, Add mask on 4x4c E0-24,E1-7.'
+
+  subruns:
+    - {
+       name: '200GeV p+p',
+       comment: ''
+      }
+
+    - {
+       name: '510GeV p+p',
+       comment: ''
+      }
+
+    - {
+       name: '193GeV U+U',
+       comment: ''
+      }
+
+    - {
+       name: '200GeV Cu+Au',
+       comment: ''
+      }
+
+############################## RUN 13
 - run: run13
+  title: Run 13
   period: 2013
   coordinator: Hubert van Hecke, LANL.
   rhic:
@@ -316,7 +375,9 @@
   ert_masks:
     - '03/10/13 17:30, 386830, ERT_MASK:addmask.txt_20130310, yes, Used ERT online monitoring. CHC add in 4x4C E3 SM10.'
 
+############################## RUN 14
 - run: run14
+  title: Run 14
   period: 2014
   coordinator: Klaus Dehmelt, SUNYSB.
   rhic:
@@ -344,7 +405,9 @@
     - '03/12/14, 405357, 31(30), 32(31), 30(29), 39(36), 920, Run14AuAu200 pedestal tuned'
     - '06/17/14, 415200, 32(31), 33(32), 31(30), 44(40), 920, Run14He3Au200 pedestal tuned'
 
+############################## RUN 15
 - run: run15
+  title: Run 15
   period: 2015
   coordinator: Douglas Fields, UNM; Itaru Nakagawa, Riken/RBRC (spin).
   rhic:
@@ -361,7 +424,7 @@
        Nevents: 
       }
     - {
-       species: 'polarized p+<sup>27</sup>Au<sup>13+</sup>',
+       species: 'polarized p+<sup>27</sup>Al<sup>13+</sup>',
        energy: 103.9+98.7,
        lumi: '− /0.5 <i>pb</i><sup>-1</sup>',
        Nevents: 
@@ -373,7 +436,25 @@
     - '05/01/15, 432322, 31(30), 32(31), 30(29), 44(41), 920, Run15pAu pedestal tuned'
     - '05/01/15, 415200, 31(30), 32(31), 30(29), 41(38), 920, Run15pAu200 and Run15pAl200'
 
+  subruns:
+    - {
+       name: '200GeV p+p',
+       comment: ''
+      }
+
+    - {
+       name: '200GeV p+Au',
+       comment: ''
+      }
+
+    - {
+       name: '200GeV p+Al',
+       comment: ''
+      }
+
+############################## RUN 16
 - run: run16
+  title: Run 16
   period: 2016
   coordinator: Denis Jouan, IPNO.
   rhic:
@@ -407,3 +488,36 @@
        lumi: '2<i>nb</i><sup>-1</sup>',
        Nevents: 
       }
+
+  subruns:
+    - {
+       name: '200GeV Au+Au',
+       comment: ''
+      }
+
+    - {
+       name: '200GeV Au+Au (2)',
+       comment: ''
+      }
+
+    - {
+       name: '200GeV d+Au',
+       comment: ''
+      }
+
+    - {
+       name: '62GeV d+Au',
+       comment: ''
+      }
+
+    - {
+       name: '39GeV d+Au',
+       comment: ''
+      }
+
+    - {
+       name: '20GeV d+Au',
+       comment: ''
+      }
+
+      

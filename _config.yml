@@ -10,14 +10,35 @@ markdown: kramdown
 future: true
 exclude: [vendor]
 
-# !!! Important as we are not serving from the top folder !!!
+
+###############################################################
+# !!! Important as we are not serving from the top folder !!! #
 baseurl: /web
+###############################################################
 
 # To simplify references to GitHub:
 github: "https://github.com/PhenixCollaboration/web"
 
 # Various formatting aids:
 tablepadding: "&nbsp;&nbsp;&nbsp;"
+
+
+# Logo:
+phenix_logo: /images/logos/phenix_logo_centered.png
+
+# Icons:
+home_icon: /images/icons/house-24.png
+experiment_icon: /images/icons/atomic-24.png
+detectors_icon: /images/icons/cog-24.png
+software_icon: /images/icons/console-24.png
+#analysis_icon: /images/icons/puzzle-2-24.png
+analysis_icon: /images/icons/research-32.png
+resources_icon: /images/icons/literature-24.png
+about_icon: /images/icons/question-mark-5-32.png
+thumbs_icon: /images/icons/thumbs-up-32.gif
+
+# Badges
+zenodo_badges: /images/badges/zenodo/
 
 # Used in site upgrades:
 navbar: 'new'
@@ -55,7 +76,7 @@ collections:
     permalink: /about/:title.html
   analysis:
     output: true
-    permalink: /about/:title.html
+    permalink: /analysis/:title.html
   resources:
     output: true
     permalink: /resources/:title.html

@@ -2,10 +2,14 @@
 title: Hadron Blind Detector
 role: Electron identification while being blind to hadrons
 abbrev: hbd
+name: hbd
 layout: newbase
 category: central
 ---
-# {{ page.title }}
+{% include layouts/find_detector_title.md abbrev=page.abbrev %}
+## {{ title }}
+
+{% assign items = site.data.documents %}
 
 #### Introduction
 The Hadron Blind Detector (HBD) was a conceptually novel Cherenkov
@@ -26,8 +30,11 @@ to &#8773;50-60 cm in the radial direction.
 #### Detector Design
 The Hadron Blind Detector was a windowless Cherenkov detector with a 50cm
 long radiator operated with pure CF<sub>4</sub>, in a proximity focus
-configuration.
-A triple GEM detector element ([sauli](https://www.sciencedirect.com/science/article/pii/S0168900296011722)) avalanches
+configuration. For an introduction to GEM detectors please see
+
+{% include documents/doc.md category='detector' type='publication' tag='sauli_gem' %}
+
+A triple GEM detector element avalanches
 the photoelectrons produced in a 350nm CsI photocathode,
 which is evaporated on the topmost Au plated GEM surface and
 produce a blob on the pad readout plane. The use of CF<sub>4</sub> as a
@@ -41,11 +48,11 @@ collected by the GEM (FB = Forward Bias)(right panel), or by the mesh
 photoelectrons produced on the photocathode are collected with good 
 efficiency into the GEM due to the strong electric field near the
 holes. In the RB mode, only a very small amount of 
-ionization charge produced very near the photocathode (within $\sim
-150~\mu$m) is collected by the GEM. The FB mode is therefore sensitive
+ionization charge produced very near the photocathode (within &#8765;150&mu;m)
+is collected by the GEM. The FB mode is therefore sensitive
 to hadrons and other charged particles, while the RB mode is
 essentially sensitive only to the Cherenkov light produced by
-electrons and hence the term ``Hadron Blind''. A comprehensive R\&D
+electrons and hence the term "Hadron Blind". A comprehensive R&D
 program was carried out to demonstrate the concept validity including
 studies in the lab and also a beam test at KEK. The results are
 published in the two NIM papers.
@@ -57,12 +64,20 @@ $\it{CsI}$ evaporation, final assembly and test of detector modules were
 done at the Stony Brook University. The analog and digital electronics
 were developed and built by BNL Instrumentation and Columbia University.
 
-#### Important HBD related Thesis/papers
-[Maxim Naglis's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2009/Naglis_Maxim-thesis.pdf)  
-[Deepali Sharma's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2010/Sharma_Deepali-thesis.pdf)  
-[Yosuke Watanable's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2014/Watanabe_Yosuke-phD_thesis_main.pdf)  
+#### HBD related Theses
+{% include documents/doc.md category='detector' type='thesis' tag='hbd' %}
+
+#### Papers and Publications
+{% include documents/doc.md category='detector' type='publication' tag='hbd' %}
+
+#### Detector Proposal
+{% include documents/doc.md category='detector' type='proposal' tag='hbd' %}
 
 #### Accessing HBD variables in the analysis
+Work in progress
 
-
-
+{% comment %}
+An old style reference: ([sauli](https://www.sciencedirect.com/science/article/pii/S0168900296011722))
+* [Deepali Sharma's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2010/Sharma_Deepali-thesis.pdf)  
+* [Yosuke Watanable's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2014/Watanabe_Yosuke-phD_thesis_main.pdf)  
+{% endcomment %}

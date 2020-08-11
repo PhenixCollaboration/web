@@ -2,7 +2,6 @@
 title: Run 15
 layout: run_base
 run: run15
-period: 2015
-coordinator: Douglas Fields, UNM; Itaru Nakagawa, Riken/RBRC (spin).
+name: run15
 ---
 {% include run/run_page.md %}

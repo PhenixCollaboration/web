@@ -1,21 +1,17 @@
 ---
-title: Documents
-abbrev: documents
 name: documents
 layout: newbase
-level: 0
-weight: 10
+
 items:
-   - {title: 'General Overviews',			category: 'overview'}
-   - {title: 'Detector Subsystems',			category: 'detector'}
-   - {title: 'Data Reconstruction and Analysis',	category: 'dra'}
-   - {title: 'PHENIX Systems',				category: 'systems'}
-   - {title: 'Select Theses',				category: 'thesis'}
-   - {title: 'Misc Summaries',				category: 'summary', div: yes }
+   - {title: 'General Overviews',			category: 'overview',	type: 'document'}
+   - {title: 'Beam Use Proposals',			category: 'detector',	type: 'bup'}
+   - {title: 'Detector Subsystems (Writeups)',		category: 'detector',	type: 'writeup'}
+   - {title: 'Select Theses',				category: 'detector',	type: 'thesis'}
+   - {title: 'Misc Summaries',				category: 'summary',	div: yes }
 ---
-{% include title.md %}
+{% include layouts/find_title.md name=page.name %}
 
 {% for item in page.items %}
 {% if item.div %}<hr/>{% endif %}
-{% include documents/doc.md title=item.title category=item.category %}
+{%- include documents/doc.md title=item.title category=item.category type=item.type -%}
 {% endfor %}
