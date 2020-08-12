@@ -54,9 +54,8 @@
 {% endif %}
 
 {% if include.type=='run_configuration' %}
-{% capture run_url %}{% include navigation/findpage.md folder=site.runs name=image.run %}{% endcapture %}
 <center>
-<a href="{{ run_url }}"><u>Run detail page</u></a>
+{% include navigation/pagelink.md folder=site.runs name=image.run tag='Run detail page' html='1' %}
 <p/>  
 </center>  
 {% endif %}

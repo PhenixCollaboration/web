@@ -1,8 +1,6 @@
 ---
 layout: newbase
 ---
-{% capture site_page_url %}{% include navigation/findpage.md folder=site.about name='site' %}{% endcapture %}
-
 
 <div class="row">
   <div class="col-sm-12 blog-main">
@@ -11,8 +9,8 @@ layout: newbase
     This website has been created by the PHENIX Collaboration to support long-term Data and Analysis Preservation.<br/>
     The site is under construction and the materials to be hosted here are being collected and curated.<br/>
     Your feedback, suggestions and contributions are very much appreciated. If you think you can help to
-    add material to this site or improve it's quality, please do not hesitate to examine
-    <a href="{{ site_page_url }}">the list of work items</a>
+    add material to this site or improve it's quality, please do not hesitate to examine the
+    {% include navigation/pagelink.md folder=site.about name='site' tag='the list of work items' html='1' %}
     for which help is needed the most!
   </center>
 </p>
