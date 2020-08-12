@@ -175,6 +175,55 @@
 #  /images/logos/under-construction-1-clipart.png
 #
 ### LUMINOSITY PLOTS
+### -------- Run 09
+- path: /images/lumi/run09/lumi.gif
+  title: 
+  run: run09
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run09/time_on.gif
+  title: 
+  run: run09
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run09/lumi_day.gif
+  title: 
+  run: run09
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run09/lumieff.gif
+  title: 
+  run: run09
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run09/fom.gif
+  title: 
+  run: run09
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run09/pol_day.gif
+  title: 
+  run: run09
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run09/fom_day.gif
+  title: 
+  run: run09
+  gallery: main
+  type: lumi
+
+- path: /images/lumi/run09/pol.gif
+  title: 
+  run: run09
+  gallery: main
+  type: lumi
+
 ### -------- Run 10
 - path: /images/lumi/run10/lumi.gif
   tag: '200GeV Au+Au'
