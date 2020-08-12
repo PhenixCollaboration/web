@@ -3,15 +3,15 @@ title: Fun4All
 abbrev: fun4all
 name: fun4all
 layout: newbase
-weight: 10
-level: 0
 ---
-# Fun4all
-[Fun4all diagram]({{ '/assets/fun4all/fun4all_diagram.html' | relative_url }})
+{% include layouts/find_title.md name=page.name %}
 
-[Examples]({{ '/assets/fun4all/fun4all_examples.html' | relative_url }})
+##### General Architecture
 
-[Tutorials]({{ '/assets/fun4all/fun4all_tutorials.html' | relative_url }})
+{% include images/image_link.md tag='fun4all diagram' -%} (opens in new tab)
 
+##### Examples
+[A RecoDST example]({{ '/assets/fun4all/examples/ex1.C' | relative_url }})
 
-
+##### Tutorials
+[A 2006 short intro tutorial]({{ '/assets/fun4all/Fun4Spin.pdf' | relative_url }})

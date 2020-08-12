@@ -51,6 +51,14 @@
   gallery: main
   type: photo
 
+### Misc Software Diagrams
+- path: /images/fun4all/fun4all_diagram_1.png
+  tag: 'fun4all diagram'
+  title: 'Fun4All Diagram'
+  height: 400
+  gallery: main
+  type: software
+
 ### RUN INFO DIAGRAMS
 - path: /images/run_info/Run1-8-data.jpg
   title: Runs 01-08 summary table

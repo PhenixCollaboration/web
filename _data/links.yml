@@ -27,6 +27,9 @@
 - name: npps
   url: 'https://npps.bnl.gov/'
 
+- name: sdcc
+  url: 'https://www.sdcc.bnl.gov/'
+
 - name: hsf
   url: 'http://hepsoftwarefoundation.org/'
 
