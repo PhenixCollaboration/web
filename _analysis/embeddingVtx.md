@@ -2,8 +2,6 @@
 name: embeddingVtx
 layout: newbase
 ---
-{% capture build_page_url %}{% include navigation/findpage.md folder=site.software name='build_tools' %}{% endcapture %}
-{% capture pisa_page_url %}{% include navigation/findpage.md folder=site.software name='pisa' %}{% endcapture %}
 
 #### About
 This page is work in progress and is designed to capture the details of the VTX analysis first performed by Takashi Hachiya.
@@ -12,8 +10,12 @@ for CVS but as a temporary holding area:
 ```
 https://github.com/buddhasystem/phenix/tree/master/embed
 ```
+
+{% comment %}
 Please consult the [build tools page]({{ build_page_url }}) if you need more information and context for
 Autogen.sh, configure.ac, Makefile.am etc
+
+{% endcomment %}
 
 #### Install
 The install process:

@@ -2,10 +2,6 @@
 name: zenodo
 layout: newbase
 ---
-{% capture dap_page_url %}{% include navigation/findpage.md folder=site.about name='dap' %}{% endcapture %}
-{% capture kw_url %}{% include navigation/findpage.md folder=site.resources name='keywords' %}{% endcapture %}
-{% capture team_url %}{% include navigation/findpage.md folder=site.about name='contact' %}{% endcapture %}
-
 {% include layouts/find_title.md name=page.name %}
 
 [Zenodo](https://about.zenodo.org/){:target="_blank"} is an Open Science
@@ -15,11 +11,13 @@ It features a rich set of [search capabilities](https://help.zenodo.org/guides/s
 and is backed up by a [robust infrastructure](https://about.zenodo.org/infrastructure/){:target="_blank"}.
 
 The PHENIX Collaboration has elected to use this platform as one of the principal components of
-its [Data and Analysis Preservation (DAP) effort]({{ dap_page_url }}). Zenodo supports the concept
+its {% include navigation/pagelink.md folder=site.about name='dap' tag='Data and Analysis Preservation (DAP) effort' %}.
+Zenodo supports the concept
 of the "community" whereby documents submitted for archival are curated and become a part of the
 community collection. Correspondingly, the {% include navigation/findlink.md name='PHENIX Community on Zenodo' %}
 has been created and is actively managed, with new uploads being routinely added.
 
-The [PHENIX DAP team]({{ team_url }}) maintains [a list of keywords]({{ kw_url }}) assigned to materials
+The PHENIX {% include navigation/pagelink.md folder=site.about name='contact' tag='DAP team' %} maintains
+{% include navigation/pagelink.md folder=site.resources name='keywords' tag='a list of keywords' %}assigned to materials
 uploaded by Zenodo in order to facilitate queries.
 

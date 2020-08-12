@@ -2,27 +2,23 @@
 title: How to Contribute
 layout: newbase
 name: howto
-weight: 10
-level: 0
 ---
-{% capture site_page_url %}{% include navigation/findpage.md folder=site.about name='site' %}{% endcapture %}
-{% capture contacts_page_url %}{% include navigation/findpage.md folder=site.about name='contact' %}{% endcapture %}
-
 {% include title.md %}
 
 ### Welcome
 Contributions from the PHENIX community are crucial for this project to succeed.
 You are most welcome to get involved. Materials that you consider to be relevant
 to the mission of the site can be sent for consideration to the members of the
-<a href="{{ contacts_page_url }}">Data and Analysis Preservation task force</a>.
+{% include navigation/pagelink.md folder=site.about name='contact' tag='Data and Analysis Preservation task force' %}.
 
 ### Direct Contributions
 If you are willing to contribute directly by developing the actual content
 this will be even more valuable and greatly appreciated. For this, you will
-need to have basic knowledge of the Web platform used on this <a href="{{ site_page_url }}">site</a>.
+need to have basic knowledge of the Web platform used on this site.
 This assumes that you are familiar with the following:
+
 * Basic features of *git*.
-* <a href="https://www.github.com/">GitHub</a>. You may also want to familiarize yourself with handling
+* {% include navigation/findlink.md name='github' tag='GitHub' %}. You may also want to familiarize yourself with handling
 a "fork" (your copy of the repository) and the mechanics of the "pulls request"
 (process in which your changed - made in the fork) are merged into the master repo.
 * The <a href="https://www.markdownguide.org/basic-syntax/">Markdown Syntax</a> (which is really not hard at all).
@@ -98,10 +94,4 @@ a development machine. This way any modification can be validated immediately si
 the locally running development server provided by Jekyll will render the site
 on the local host. Basic knolwede of the <a href="https://shopify.github.io/liquid/" target="_blank">
 Liquid</a> template language and in particular the "filters" that are part of it is extremely helpful.
-
-{% comment %}
-Deprecated way to find pages:
-{% assign find_site_page=site.about | where: "name", 'site' %}
-{% assign site_page_url=find_site_page[0].url  | relative_url %}
-{% endcomment %}
 

@@ -1,14 +1,7 @@
 ---
-title: Auxiliary Run Info
 layout: newbase
-abbrev: aux
 name: aux
-level: 0
-weight: 1000
-div: yes
 ---
-{% capture conf_gallery_url %}{%- include navigation/findpage.md folder=site.detectors name='run_configuration_gallery' -%}{% endcapture %}
-
 #### Run Chronology and Coordination
 
 <table width="100%">
@@ -29,7 +22,7 @@ div: yes
 <hr/>
 #### Misc Info
 
-* [Run Configuration Gallery]({{ conf_gallery_url }})
+* {% include navigation/pagelink.md folder=site.detectors name='run_configuration_gallery' tag='Run Configuration Gallery' %}
 {%- include documents/doc.md name='PHENIXSpin.pdf' category='summary' -%}
 
 <hr/>

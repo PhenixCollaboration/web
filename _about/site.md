@@ -2,11 +2,9 @@
 layout: newbase
 name: site
 ---
-{% capture howto_page_url %}{% include navigation/findpage.md folder=site.about name='howto' %}{% endcapture %}
-
 {% include layouts/find_title.md name=page.name %}
 
-This website is under active development. If you are able and willing to contribute, your help will be greatly appreciated! There are a variety of work items for almost any skill level and area of expertise. Should you need to add or modify content on this site or some parts of its layout you will find the ['how-to' page]({{ howto_page_url }}) useful.
+This website is under active development. If you are able and willing to contribute, your help will be greatly appreciated! There are a variety of work items for almost any skill level and area of expertise. Should you need to add or modify content on this site or some parts of its layout you will find the {% include navigation/pagelink.md folder=site.about name='howto' tag='"how-to" page' %} useful.
 
 Please take a look at the following list and let us know if you can help:
 
