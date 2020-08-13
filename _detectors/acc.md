@@ -1,20 +1,20 @@
 ---
-abbrev: acc
+title: Aerogel Cerenkov Counter
+name: acc
 layout: newbase
 category: central
 ---
-
-{% include layouts/find_detector_title.md abbrev=page.abbrev %}
-# {{ title }}
+{% include title.md %}
 
 #### Aerogel overview
 
 The Aerogel is a Cherenkov counter detector.  It comprises 160 boxes, each with 2
 photomultiplier tubes for a total of 320 channels.  Each box is filled with aerogel
-material with an index of refraction of n = 1.0113.  It occupies the full acceptance of
+material with an index of refraction of n=1.0113.  It occupies the full acceptance of
 sector 1 in the west arm.
 
-
+#### Presentations
+{% include documents/doc.md category='detector' type='presentation' tag='aerogel' %}
 
 #### Aerogel analysis variables
 

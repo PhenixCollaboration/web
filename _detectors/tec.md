@@ -1,8 +1,9 @@
 ---
 title: Time Expansion Chamber
 role: Measures the position and momentum of charged particles. Identifies particles.
-abbrev: tec
+name: tec
 layout: newbase
 category: central
 ---
-# {{ page.title }}
+{% include title.md %}
+

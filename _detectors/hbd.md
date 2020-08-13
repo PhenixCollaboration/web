@@ -1,14 +1,11 @@
 ---
 title: Hadron Blind Detector
 role: Electron identification while being blind to hadrons
-abbrev: hbd
 name: hbd
 layout: newbase
 category: central
 ---
-{% include layouts/find_detector_title.md abbrev=page.abbrev %}
-## {{ title }}
-
+{% include title.md %}
 {% assign items = site.data.documents %}
 
 #### Introduction

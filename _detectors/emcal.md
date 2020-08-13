@@ -1,15 +1,11 @@
 ---
 title: Electromagnetic Calorimeter
 role: Electron and Photon identification
-abbrev: emcal
+name: emcal
 layout: newbase
 category: central
 ---
-{% include layouts/find_detector_title.md abbrev=page.abbrev %}
-## {{ title }}
-
-
-{% assign items = site.data.documents %}
+{% include title.md %}
 
 ##### Write-ups
 {% include documents/doc.md category='detector' type='writeup' tag='emcal' %}

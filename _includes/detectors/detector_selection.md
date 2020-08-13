@@ -6,7 +6,7 @@
 {% assign detectors = site.data.detectors | where: "category", include.category %}
 
 {% for detector in detectors %}
-{% assign page = site.detectors | where: "abbrev", detector.abbrev | first %}
+{% assign page = site.detectors | where: "name", detector.name | first %}
 {% include detectors/detector_link.md page=page detector=detector %}
 {% endfor %}
 

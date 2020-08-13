@@ -1,10 +1,10 @@
 ---
-abbrev: tofw
+title: Time-of-Flight West
+name: tofw
 layout: newbase
 category: central
 ---
-{% include layouts/find_detector_title.md abbrev=page.abbrev %}
-## {{ title }}
+{% include title.md %}
 
 #### Intro
 The TOFW is a time-of-flight (TOF) detector in the west (W) arm of the PHENIX central

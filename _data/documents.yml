@@ -107,6 +107,18 @@
   cached_badge: yes
   date: 
 
+- name: 3983618
+  title: Aerogel Cherenkov Counter
+  tags: [aerogel, ]
+  author: Satoshi Takagi
+  venue: 
+  resource: zenodo
+  type: presentation
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
   
 - name: '[GEM: A new concept for electron amplification in gas detectors](https://doi.org/10.1016/S0168-9002(96)01172-2)'
   title: (NIM A 386, 1997, doi.org/10.1016/S0168-9002(96)01172-2)
@@ -254,6 +266,30 @@
   date: 
 
 ### Theses:
+- name: 3836437
+  title: Identified particle production in p+p and d+Au collisions at RHIC energies
+  tags: [tof,]
+  author: Felix Matathias
+  venue: 
+  resource: zenodo
+  type: thesis
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
+- name: 3983557
+  title: Charged particle multiplicity measurement in Au-Au collisions using the Pad Chambers of the PHENIX detector at RHIC
+  tags: [bbc, zdc, 'pad chamber',]
+  author: Alexander Milov
+  venue: 
+  resource: zenodo
+  type: thesis
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
 - name: 3966485
   title: Measurements of di-electron production in Au+Au collisions at √s<sub>NN</sub>=200GeV
   tags: [hbd, HBD,]

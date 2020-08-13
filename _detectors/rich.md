@@ -1,17 +1,17 @@
 ---
 title: Ring Imaging Cherenkov Detector
 role: Identifies Electrons
-abbrev: rich
+name: rich
 layout: newbase
 category: central
 ---
-# {{ page.title }}
+{% include title.md %}
 
-### Detector Overview
+#### Detector Overview
 
 The details about the Ring Imanging Cherenkov detector can be found in the below mentioned note.
 
-### Archived papers
+#### Archived papers
 
 [RICH -- Detector Basics]({{ '/assets/detectors/rich/PHENIX_RICH_Intro.pdf' | relative_url }})
 

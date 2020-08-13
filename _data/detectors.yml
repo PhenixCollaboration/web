@@ -3,93 +3,93 @@
 ### Muon Arm:
 - title: Muon Tracker
   role: Measures the position and momentum of muon particles.
-  abbrev: muon_tracker
+  name: muon_tracker
   category: muon
 
 - title: Muon Identifier
   role: Identifies muon particles.
-  abbrev: muon_identifier
+  name: muon_identifier
   category: muon
 
 - title: Muon Piston Calorimeter
   role: Identifies energy deposited in the forward direction.
-  abbrev: muon_piston
+  name: muon_piston
   category: muon
 
 ### Central Arm:
 - title: Drift Chamber
   role: Measures the position and momentum of charged particles.
-  abbrev: drift_chamber
+  name: drift_chamber
   category: central
 
 - title: Pad Chambers
   role: Measures the position of charged particles with precision.
-  abbrev: pad_chambers
+  name: pad_chambers
   category: central
 
 - title: Ring Imaging Cherenkov
   role: Identifies Electrons.
-  abbrev: rich
+  name: rich
   category: central
 
 - title: Hadron Blind Detector
   role: Identifies electrons without detecting hadrons.
-  abbrev: hbd
+  name: hbd
   category: central
 
 - title: Time Expansion Chamber
   role: Measures the position and momentum of charged particles. Identifies particles.
-  abbrev: tec
+  name: tec
   category: central
 
 - title: Time-of-Flight
   role: Measures the position of charged particles. Identifies particles.
-  abbrev: tof
+  name: tof
   category: central
 
 - title: Aerogel Cerenkov Counter
   role: Identifies particles at high transverse momentum.
-  abbrev: acc
+  name: acc
   category: central
 
 - title: Time-of-Flight West
   role: High resolution particle identification.
-  abbrev: tofw
+  name: tofw
   category: central
 
 - title: Electromagnetic Calorimeter
   role: Measures the position and energy of charged and neutral particles. Identifies photons and charged particles.
-  abbrev: emcal
+  name: emcal
   category: central
 
 - title: Silicon Vertex Tracker
   role: Charged particle tracking near the collision vertex.
-  abbrev: vtx
+  name: vtx
   category: central
 
 ### Event Characterization:
 - title: Beam-Beam Counters
   role: Measures collision location and centrality. Starts the stopwatch for an event.
-  abbrev: bbc
+  name: bbc
   category: event
 
 - title: Zero Degree Calorimeters and Shower Max Detectors
   role: Measures collision location and centrality.
-  abbrev: zdc
+  name: zdc
   category: event
 
 - title: Forward Calorimeters
   role: For d+Au collisions, it measures surviving neutrons and protons from the original deuteron.
-  abbrev: fc
+  name: fc
   category: event
 
 - title: Multiplicity Vertex Detector
   role: Measures collision location and charged particle distributions.
-  abbrev: mvtx
+  name: mvtx
   category: event
 
 - title: Reaction Plane Detector
   role: Accurately measures the reaction plane of each collision.
-  abbrev: rpd
+  name: rpd
   category: event
 

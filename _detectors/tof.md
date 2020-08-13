@@ -1,10 +1,10 @@
 ---
-abbrev: tof
+title: Time-of-Flight
+name: tof
 layout: newbase
 category: central
 ---
-{% include layouts/find_detector_title.md abbrev=page.abbrev %}
-# {{ title }}
+{% include title.md %}
 
 #### Detector overview
 The TOF
@@ -20,15 +20,12 @@ photomultiplier tube.
 
 The TOFE system consists of 10 panels.  Each panel contains 96 slats for a total of 960
 slats and 1920 readout channels.  There are eight panels in sector 1 covering the full
-22.5 degrees in azimuth and the full +/- 0.35 units in pseudorapidity, and two panels in
+22.5 degrees in azimuth and the full &#177;0.35 units in pseudorapidity, and two panels in
 sector 0 covering full 22.5 degrees in azimuth and the innermost rapidity range.
 
 
-
-#### Archived papers
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3836437.svg)](https://doi.org/10.5281/zenodo.3836437)
-[Felix Matathias's Ph.D. Thesis (gzipped postscript)](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2004/Matathias_Felix-thesis.ps.gz)
-
+#### Theses
+{% include documents/doc.md category='detector' type='thesis' tag='tof' %}
 
 
 #### Variables and Accessors
