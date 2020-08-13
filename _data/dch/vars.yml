@@ -1,0 +1,69 @@
+- name: get_npart
+  type: int
+  code: virtual int get_npart(/*args*/) const;
+  desc: Total number of tracks/particles in a givem event
+
+- name: get_quality
+  type: short
+  code: virtual short get_quality(/*args*/) const;
+  desc: Quality of the Drift Chamber tracks
+
+- name: get_zed
+  type: float
+  code: virtual float get_zed(/*args*/) const;
+  desc: z coordinate at which the track crosses PC1
+
+- name: get_phi
+  type: float
+  code: virtual float get_phi(/*args*/) const;
+  desc: phi coordinate at which the track crosses the drift chamber reference radius
+
+- name: get_alpha
+  type: float
+  code: virtual float get_alpha(/*args*/) const;
+  desc: Inclination of the track w.r.t. an infinite momentum track. Hence, pT is roughly proportional to 1/alpha. This value comes from the straight line fit and does not respect residual bends
+
+- name: get_beta
+  type: float
+  code: virtual float get_beta(/*args*/) const;
+  desc: This is essentially the spherical coordinate "THETA" of the track vector as it passes through the drift chamber reference radius
+
+- name: get_phi0
+  type: float
+  code: virtual float get_phi0(/*args*/) const;
+  desc: Track's phi direction at the vertex
+
+- name: get_the0
+  type: float
+  code: virtual float get_the0(/*args*/) const;
+  desc: Track's theta direction at the vertex
+
+- name: get_mom
+  type: float
+  code: virtual float get_mom(/*args*/) const;
+  desc: Magnitude of the momentum
+
+- name: get_px
+  type: float
+  code: virtual float get_px(/*args*/) const;
+  desc: Momentum along X-direction
+
+- name: get_py
+  type: float
+  code: virtual float get_py(/*args*/) const;
+  desc: Momentum along Y-direction
+
+- name: get_pz
+  type: float
+  code: virtual float get_pz(/*args*/) const;
+  desc: Momentum along Z-direction
+
+- name: get_E
+  type: float
+  code: virtual float get_E(/*args*/) const;
+  desc: Energy estimated using DC
+
+- name: get_charge
+  type: short
+  code: virtual short get_charge(/*args*/) const;
+  desc: Returns charge of the track

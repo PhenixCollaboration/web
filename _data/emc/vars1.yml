@@ -1,0 +1,189 @@
+- name: get_pemcx
+  type: float
+  code: virtual float get_pemcx(/*args*/) const;
+  desc: x-component of the projection of the cgl track onto the EMC (cm)
+
+- name: get_pemcy
+  type: float
+  code: virtual float get_pemcy(/*args*/) const;
+  desc: y-component of the projection of the cgl track onto the EMC (cm)
+
+- name: get_pemcz
+  type: float
+  code: virtual float get_pemcz(/*args*/) const;
+  desc: z-component of the projection of the cgl track onto the EMC (cm)
+
+- name: get_plemc
+  type: float
+  code: virtual float get_plemc(/*args*/) const;
+  desc: path Length following particle trajectory from vertex to EMC
+
+- name: get_temc
+  type: float
+  code: virtual float get_temc(/*args*/) const;
+  desc: time of the EMC hit. This time has been back-corrected inPHCentralTracks to be the physical time instead of the photon flash time. The reason is that the former is more useful for calculating properties of a charged track.
+
+- name: get_emcdphi
+  type: float
+  code: virtual float get_emcdphi(/*args*/) const;
+  desc: difference in phi (rads) between the track model projection and the hit in emc
+
+- name: get_emcdz
+  type: float
+  code: virtual float get_emcdz(/*args*/) const;
+  desc: difference in Z (cms) between the track model projection and the hit in emc
+
+- name: get_emcsdphi
+  type: float
+  code: virtual float get_emcsdphi(/*args*/) const;
+  desc: emcdphi variable normalized to SIGMAS (after calibrations)
+
+- name: get_emcsdz
+  type: float
+  code: virtual float get_emcsdz(/*args*/) const;
+  desc: emcdz variable normalized to SIGMAS (after calibrations)
+
+- name: get_emcsdphi_e
+  type: float
+  code: virtual float get_emcsdphi_e(/*args*/) const;
+  desc: position resolution of the EMCal depends upon the shower type. emcdphi variable in SIGMAS assuming the resoution appropriate for EM showers (after calibrations)
+
+- name: get_emcsdz_e
+  type: float
+  code: virtual float get_emcsdz_e(/*args*/) const;
+  desc: position resolution of the EMCal depends upon the shower type. emcdz variable in SIGMAS assuming the resoution appropriate for EM showers (after calibrations)
+
+- name: get_ecore
+  type: float
+  code: virtual float get_ecore(/*args*/) const;
+  desc: energy deposited in the EMC "shower core"
+
+- name: get_dep
+  type: float
+  code: virtual float get_dep(/*args*/) const;
+  desc: reduced variable for ecore/mom(E/p) that is centered at zero, with sigma around one. It is convenient cut as the known pt and charge dependence is fully accounted for
+
+- name: get_ecorr
+  type: float
+  code: virtual float get_ecorr(/*args*/) const;
+  desc: EMC corrected energy (after calibrations)
+
+- name: get_ecent
+  type: float
+  code: virtual float get_ecent(/*args*/) const;
+  desc: energy deposited in the central tower
+
+- name: get_prob
+  type: float
+  code: virtual float get_prob(/*args*/) const;
+  desc: probability that the particle shower is Electro-magnetic.
+
+- name: get_sect
+  type: short
+  code: virtual short get_sect(/*args*/) const;
+  desc: EMC sector of the associated cluster
+
+- name: get_ysect
+  type: short
+  code: virtual short get_ysect(/*args*/) const;
+  desc: EMC tower Y index inside the sector
+
+- name: get_zsect
+  type: short
+  code: virtual short get_zsect(/*args*/) const;
+  desc: EMC tower Z index inside the sector
+
+- name: get_twrhit
+  type: short
+  code: virtual short get_twrhit(/*args*/) const;
+  desc: tower hit of ....(Need to check with Gabor)
+
+- name: get_deadmap
+  type: int
+  code: virtual int get_deadmap(/*args*/) const;
+  desc: flag the denotes whether the EMC shower borders a known dead tower (after calibrations)
+
+- name: get_warnmap
+  type: int
+  code: virtual int get_warnmap(/*args*/) const;
+  desc: flag that denotes whether the EMC shower borders a known hot tower (after calibrations)
+  
+- name: get_stemc
+  type: float
+  code: virtual float get_stemc(/*args*/) const;
+  desc: swapped version of temc
+
+- name: get_semcdphi
+  type: float
+  code: virtual float get_semcdphi(/*args*/) const;
+  desc: swapped version of emcdphi
+  
+- name: get_semcdz
+  type: float
+  code: virtual float get_semcdz(/*args*/) const;
+  desc: swapped version of emcdz
+
+- name: get_semcsdphi
+  type: float
+  code: virtual float get_semcsdphi(/*args*/) const;
+  desc: swapped version of emcsdphi
+  
+- name: get_semcsdz
+  type: float
+  code: virtual float get_semcsdz(/*args*/) const;
+  desc: swapped version of emcsdz
+
+- name: get_semcsdphi_e
+  type: float
+  code: virtual float get_semcsdphi_e(/*args*/) const;
+  desc: swapped version of emcsdphi_e
+
+- name: get_semcsdz_e
+  type: float
+  code: virtual float get_semcsdz_e(/*args*/) const;
+  desc: swapped version of emcsdz_e
+
+- name: get_secore
+  type: float
+  code: virtual float get_secore(/*args*/) const;
+  desc: swapped version of ecore
+  
+- name: get_secorr
+  type: float
+  code: virtual float get_secorr(/*args*/) const;
+  desc: swapped version of ecorr
+
+- name: get_sprob
+  type: float
+  code: virtual float get_sprob(/*args*/) const;
+  desc: swapped version of prob
+
+- name: get_sysect
+  type: short
+  code: virtual short get_sysect(/*args*/) const;
+  desc: swapped version of ysect
+
+- name: get_szsect
+  type: short
+  code: virtual short get_szsect(/*args*/) const;
+  desc: swapped version of zsect 
+
+- name: get_stwrhit
+  type: short
+  code: virtual short get_stwrhit(/*args*/) const;
+  desc: swapped version of twrhit 
+
+- name: get_sdeadmap
+  type: int
+  code: virtual int get_sdeadmap(/*args*/) const;
+  desc: swapped version of deadmap 
+
+- name: get_swarnmap
+  type: int
+  code: virtual int get_sdeadmap(/*args*/) const;
+  desc: swapped version of warnmap 
+
+- name: get_secent
+  type: float
+  code: virtual float get_secent(/*args*/) const;
+  desc: swapped version of ecent
