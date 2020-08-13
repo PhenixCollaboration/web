@@ -1,0 +1,61 @@
+- name: id
+  type: short
+  code: virtual short emc->id(/*args*/) const;
+  desc: index of the current emcal cluster
+
+- name: ecore
+  type: float
+  code: virtual float emc->ecore(/*args*/) const;
+  desc: energy deposited in the central tower
+
+- name: x
+  type: short
+  code: virtual short emc->x(/*args*/) const;
+  desc: X position of emc cluster
+
+- name: y
+  type: short
+  code: virtual short emc->y(/*args*/) const;
+  desc: Y position of emc cluster
+
+- name: z
+  type: short
+  code: virtual short emc->z(/*args*/) const;
+  desc: Z position of emc cluster
+
+- name: iypos   
+  type: short			
+  code: virtual short emc->iypos(/*args*/) const;
+  desc: Z position of emc cluster
+  
+
+- name: izpos
+  type: float
+  code: virtual float emc->izpos()(/*args*/) const;
+  desc: energy deposited in the shower core
+
+- name: chi2
+  type: float
+  code: virtual float emc->chi2(/*args*/) const;
+  desc: chi2 for the accociated cluster (Need to check with Gabor)
+
+- name: prob_photon
+  type: float
+  code: virtual float emc->prob_photon(/*args*/) const;
+  desc: Probablity that shower is from a photon (Need to check with Gabor)
+
+- name: tofcorr
+  type: float
+  code: virtual float get_tofcorr(/*args*/) const;
+  desc: Corrected time-of-flight	
+
+- name: ecent
+  type: float
+  code: virtual float emc->ecent(/*args*/) const;
+  desc: energy deposited in the tower
+
+- name: e9
+  type: float
+  code: virtual float emc->e9(/*args*/) const;
+  desc: Energy deduced from a simple 3x3 sum and is useful for estimating trigger efficiencies
+  

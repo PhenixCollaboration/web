@@ -1,0 +1,225 @@
+- name: get_ppc1x
+  type: float
+  code: virtual float get_ppc1x(/*args*/) const;
+  desc: Track model X-projection to PC1 (cm)
+
+- name: get_ppc1y
+  type: float
+  code: virtual float get_ppc1y(/*args*/) const;
+  desc: Track model Y-projection to PC1 (cm)
+
+- name: get_ppc1z
+  type: float
+  code: virtual float get_ppc1z(/*args*/) const;
+  desc: Track model Z-projection to PC1 (cm)
+
+- name: get_ppc2x
+  type: float
+  code: virtual float get_ppc2x(/*args*/) const;
+  desc: Track model X-projection to PC2 (cm)
+
+- name: get_ppc2y
+  type: float
+  code: virtual float get_ppc2y(/*args*/) const;
+  desc: Track model Y-projection to PC2 (cm)
+
+- name: get_ppc2z
+  type: float
+  code: virtual float get_ppc2z(/*args*/) const;
+  desc: Track model Z-projection to PC2 (cm)
+
+- name: get_ppc3x
+  type: float
+  code: virtual float get_ppc3x(/*args*/) const;
+  desc: Track model X-projection to PC3 (cm)
+
+- name: get_ppc3y
+  type: float
+  code: virtual float get_ppc3y(/*args*/) const;
+  desc: Track model Y-projection to PC3 (cm)
+
+- name: get_ppc3z
+  type: float
+  code: virtual float get_ppc3z(/*args*/) const;
+  desc: Track model Z-projection to PC3 (cm)
+
+
+- name: get_pc1sect
+  type: float
+  code: virtual int get_pc1sect(/*args*/) const;
+  desc: This is the sector number that contains the PC1 hit associated to this track
+
+- name: get_pc2sect
+  type: float
+  code: virtual int get_pc2sect(/*args*/) const;
+  desc: This is the sector number that contains the PC2 hit associated to this track
+
+- name: get_pc3sect
+  type: short
+  code: virtual short get_pc3sect(/*args*/) const;
+  desc: This is the sector number that contains the PC3 hit associated to this track
+
+- name: get_pc1phi
+  type: float
+  code: virtual float get_pc1phi(/*args*/) const;
+  desc: This is the phi coordinate (rads) of the measured hit in PC1
+
+- name: get_pc1z
+  type: float
+  code: virtual float get_pc1z(/*args*/) const;
+  desc: This is the Z coordinate (cm) of the measured hit in PC1
+
+- name: get_pc2phi
+  type: float
+  code: virtual float get_pc2phi(/*args*/) const;
+  desc: This is the phi coordinate (rads) of the measured hit in PC2
+
+- name: get_pc2z
+  type: float
+  code: virtual float get_pc2z(/*args*/) const;
+  desc: This is the Z coordinate (cm) of the measured hit in PC2
+
+- name: get_pc3phi
+  type: float
+  code: virtual float get_pc3phi(/*args*/) const;
+  desc: This is the phi coordinate (rads) of the measured hit in PC3
+
+- name: get_pc3z
+  type: float
+  code: virtual float get_pc3z(/*args*/) const;
+  desc: This is the Z coordinate (cm) of the measured hit in PC3
+
+- name: get_pc2dphi
+  type: float
+  code: virtual float get_pc2dphi(/*args*/) const;
+  desc: Difference in phi (rads) between the track model projection and the hit in PC2
+
+- name: get_pc2dz
+  type: float
+  code: virtual float get_pc2dz(/*args*/) const;
+  desc: Difference in Z (cm) between the track model projection and the hit in PC2.
+
+- name: get_pc3dphi
+  type: float
+  code: virtual float get_pc3dphi(/*args*/) const;
+  desc: Difference in phi (rads) between the track model projection and the hit in PC3
+
+- name: get_pc3dz
+  type: float
+  code: virtual float get_pc3dz(/*args*/) const;
+  desc: Difference in Z (cm) between the track model projection and the hit in PC3
+
+- name: get_pc2sdphi
+  type: float
+  code: virtual float get_pc2sdphi(/*args*/) const;
+  desc: This is the difference between the track model projection and the measurement normalized to SIGMAS
+
+- name: get_pc2sdz
+  type: float
+  code: virtual float get_pc2sdz(/*args*/) const;
+  desc: This is the difference between the track model projection and the measurement normalized to SIGMAS
+
+- name: get_pc3sdphi
+  type: float
+  code: virtual float get_pc3sdphi(/*args*/) const;
+  desc: This is the difference between the track model projection and the measurement normalized to SIGMAS
+
+- name: get_pc3sdz
+  type: float
+  code: virtual float get_pc3sdz(/*args*/) const;
+  desc: This is the difference between the track model projection and the measurement normalized to SIGMAS
+
+- name: get_pc1id
+  type: short
+  code: virtual int get_pc1id(/*args*/) const;
+  desc: Index of the PC1 hit used
+
+- name: get_pc2id
+  type: short
+  code: virtual int get_pc2id(/*args*/) const;
+  desc: Index of the PC2 hit used
+
+- name: get_pc3id
+  type: short
+  code: virtual int get_pc3id(/*args*/) const;
+  desc: Index of the PC3 hit used
+
+- name: get_spc1phi
+  type: float
+  code: virtual float gets_pc1phi(/*args*/) const;
+  desc: This is the phi coordinate (rads) of the measured hit associated to the SWAPPED projection
+
+- name: get_spc1z
+  type: float
+  code: virtual float get_spc1z(/*args*/) const;
+  desc: This is the Z coordinate (cm) of the measured hit associated to the SWAPPED projection
+
+- name: get_spc2phi
+  type: float
+  code: virtual float get_spc2phi(/*args*/) const;
+  desc: This is the phi coordinate (rads) of the measured hit associated to the SWAPPED projection
+
+- name: get_spc2z
+  type: float
+  code: virtual float get_spc2z(/*args*/) const;
+  desc: This is the Z coordinate (cm) of the measured hit associated to the SWAPPED projection
+
+- name: get_spc3phi
+  type: float
+  code: virtual float get_spc3phi(/*args*/) const;
+  desc: This is the phi coordinate (rads) of the measured hit associated to the SWAPPED projection
+
+- name: get_spc3z
+  type: float
+  code: virtual float get_spc3z(/*args*/) const;
+  desc: This is the Z coordinate (cm) of the measured hit associated to the SWAPPED projection
+
+- name: get_spc2dphi
+  type: float
+  code: virtual float get_spc2dphi(/*args*/) const;
+  desc: Difference in phi (rads) between the track model projection and the SWAPPED hit in PC2
+
+- name: get_spc2dz
+  type: float
+  code: virtual float get_spc2dz(/*args*/) const;
+  desc: Difference in Z (cm) between the track model projection and the SWAPPED hit in PC2
+
+- name: get_spc3dphi
+  type: float
+  code: virtual float get_spc3dphi(/*args*/) const;
+  desc: Difference in phi (rads) between the track model projection and the SWAPPED hit in PC3
+
+- name: get_spc3dz
+  type: float
+  code: virtual float getspc3dz_(/*args*/) const;
+  desc: Difference in Z (cm) between the track model projection and the SWAPPED hit in PC3
+
+- name: get_spc2sdphi
+  type: float
+  code: virtual float get_spc2sdphi(/*args*/) const;
+  desc: This is the difference between the track model projection and the measurement normalized to SIGMAS, but for the SWAPPED projection
+
+- name: get_spc2sdz
+  type: float
+  code: virtual float get_spc2sdz(/*args*/) const;
+  desc: This is the difference between the track model projection and the measurement normalized to SIGMAS, but for the SWAPPED projection
+
+- name: get_spc3sdphi
+  type: float
+  code: virtual float get_spc3sdphi(/*args*/) const;
+  desc: This is the difference between the track model projection and the measurement normalized to SIGMAS, but for the SWAPPED projection
+
+- name: get_spc3sdz
+  type: float
+  code: virtual float get_spc3sdz(/*args*/) const;
+  desc: This is the difference between the track model projection and the measurement normalized to SIGMAS, but for the SWAPPED projection
+  
+- name: get_spc2id
+  type: short
+  code: virtual int get_spc2id(/*args*/) const;
+  desc: Index of the SWAPPED PC2 hit used
+
+- name: get_spc3id
+  type: short
+  code: virtual int get_spc3id(/*args*/) const;
+  desc: Index of the SWAPPED PC3 hit used
