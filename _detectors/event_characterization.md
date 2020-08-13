@@ -1,6 +1,5 @@
 ---
 title: Event Characterization Detectors
-abbrev: event_characterization
 name: event_characterization
 layout: newbase
 weight: 40

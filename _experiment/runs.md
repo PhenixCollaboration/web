@@ -1,7 +1,6 @@
 ---
 title: Run Summary Table
 layout: newbase
-abbrev: runs
 name: runs
 level: 0
 weight: 20

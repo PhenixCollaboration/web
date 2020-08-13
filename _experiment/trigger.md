@@ -1,7 +1,6 @@
 ---
 title: Trigger Information
 layout: newbase
-abbrev: trigger
 name: trigger
 level: 0
 weight: 30
@@ -16,14 +15,10 @@ The EMCal/RICH trigger (ERT) selects events with high-p<sub>T</sub> electromagne
 the presence of heavy flavor decays.
 
 #### References
-{% assign items = site.data.documents %}
-<ul>
-{% for item in items %}
-{% if item.tags contains 'ert' %}
-<li><a href="{{ page.document_folder | append: item.name | relative_url }}" target="_blank">{{ item.title }}</a></li>
-{% endif %}
-{% endfor %}
-</ul>
+{% include documents/doc.md category='detector' tag='ert' %}
+{% include documents/doc.md category='physics' tag='ert' %}
+
+
 
 <hr/>
 #### ERT Info

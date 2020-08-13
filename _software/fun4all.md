@@ -1,6 +1,5 @@
 ---
 title: Fun4All
-abbrev: fun4all
 name: fun4all
 layout: newbase
 ---

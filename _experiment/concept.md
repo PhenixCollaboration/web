@@ -1,6 +1,5 @@
 ---
 title: Concept and History
-abbrev: concept
 name: concept
 layout: newbase
 level: 0

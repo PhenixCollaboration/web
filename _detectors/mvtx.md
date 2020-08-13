@@ -1,8 +1,9 @@
 ---
-abbrev: mvtx
+title: Multiplicity Vertex Detector
+name: mvtx
 layout: newbase
 category: event
 ---
-{% include layouts/find_detector_title.md abbrev=page.abbrev %}
-# {{ title }}
+{% include title.md %}
+
 

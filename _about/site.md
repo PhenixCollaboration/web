@@ -3,8 +3,9 @@ layout: newbase
 name: site
 ---
 {% include layouts/find_title.md name=page.name %}
-
-This website is under active development. If you are able and willing to contribute, your help will be greatly appreciated! There are a variety of work items for almost any skill level and area of expertise. Should you need to add or modify content on this site or some parts of its layout you will find the {% include navigation/pagelink.md folder=site.about name='howto' tag='"how-to" page' %} useful.
+<p/>
+#### Work Items
+This website is under active development. If you are able and willing to contribute, your help will be greatly appreciated! There are a variety of work items for almost any skill level and area of expertise. Should you need to add or modify content on this site or some parts of its layout you will find the {%- include navigation/pagelink.md folder=site.about name='howto' tag='"how-to" page' %} useful.
 
 Please take a look at the following list and let us know if you can help:
 
@@ -21,5 +22,13 @@ Please take a look at the following list and let us know if you can help:
     <td>{{ site.tablepadding }}{{ item.priority }}</td>
   </tr>
   {% endfor %}
-  
 </table>
+
+<p/>
+#### Notes for current developers
+
+To-do list:
+* refactor title extraction on detector pages to the main detector YAML
+* upload the remaining short wirte-ups to Zenodo and clean up "assets"
+* refactor all images to the gallery YAML
+

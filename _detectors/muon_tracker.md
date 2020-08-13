@@ -1,18 +1,15 @@
 ---
 title: Muon Tracker
 role: Measures the position and momentum of muon particles.
-abbrev: muon_tracker
+name: muon_tracker
 layout: newbase
 image: '/images/detectors/phenix_quartercut_mutr.png'
 image_title: 'PHENIX Quarter Cut with the Muon Tracker highlighted'
-weight: 0
-level: 1
 category: muon
 ---
-# {{ page.title }}
+{% include title.md %}
 
-{% assign detector = page.abbrev %}
 {% assign image = page.image %}
 {% assign image_title = page.image_title %}
 
-{% include images/include_image.md detector=detector image=image image_title=image_title width=450 %}
+{% include images/include_image.md detector='muon_tracker' image=image image_title=image_title width=450 %}

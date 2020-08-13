@@ -1,10 +1,10 @@
 ---
-abbrev: bbc
+title: Beam-Beam Counters
+name: bbc
 layout: newbase
 category: event
 ---
-{% include layouts/find_detector_title.md abbrev=page.abbrev %}
-# {{ title }}
+{% include title.md %}
 
-##### Write-ups
+#### Write-ups
 {% include documents/doc.md category='detector' type='writeup' tag='bbc' %}
