@@ -2,8 +2,6 @@
 title: Event Characterization Detectors
 name: event_characterization
 layout: newbase
-weight: 40
-level: 0
 detector_category: "event"
 ---
 {% include title.md %}

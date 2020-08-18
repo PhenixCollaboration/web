@@ -2,8 +2,6 @@
 title: Muon Arm Detectors
 name: muon_arm
 layout: newbase
-weight: 30
-level: 0
 detector_category: muon
 ---
 {% include title.md %}

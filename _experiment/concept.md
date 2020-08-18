@@ -2,8 +2,6 @@
 title: Concept and History
 name: concept
 layout: newbase
-level: 0
-weight: 1
 ---
 
 <h3>The Concept</h3>

@@ -2,8 +2,6 @@
 title: Run Summary Table
 layout: newbase
 name: runs
-level: 0
-weight: 20
 ---
 {% include run/run_bar.md %}
 <hr/>
