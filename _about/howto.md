@@ -95,3 +95,4 @@ the locally running development server provided by Jekyll will render the site
 on the local host. Basic knolwede of the <a href="https://shopify.github.io/liquid/" target="_blank">
 Liquid</a> template language and in particular the "filters" that are part of it is extremely helpful.
 
+At the time of writing, this color is used for navigation widgets and icons: `#029dcf`.

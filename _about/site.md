@@ -25,10 +25,3 @@ Please take a look at the following list and let us know if you can help:
 </table>
 
 <p/>
-#### Notes for current developers
-
-To-do list:
-* refactor title extraction on detector pages to the main detector YAML
-* upload the remaining short wirte-ups to Zenodo and clean up "assets"
-* refactor all images to the gallery YAML
-

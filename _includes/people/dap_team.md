@@ -1,5 +1,5 @@
 <table width="80%">
-  {% for who in site.data.people %}
+  {% for who in site.data.dap_team %}
   {% if who.teams contains include.team %}
   <tr>
     <td width="15%">{{ who.full }}</td>
