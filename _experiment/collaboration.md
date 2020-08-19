@@ -20,7 +20,13 @@ layout: newbase
 
 {% assign mgsPeople=mgsPeople | sort: "family_name" %}
 
+<table border="1">
+<tr>
+<th>Family Name</th><th>First Name</th><th>e-mail</th><th>Institution</th>
+</tr>
+  
 {% for person in mgsPeople %}
+<tr>
 {% assign email='' %}
 {% for item in site.data.db.phenix_collab.emailaddr %}
 {% if item.person_id==person.id %}
@@ -29,5 +35,22 @@ layout: newbase
 {% endif %}
 {% endfor %}
 
-{{ person.family_name }}, {{ person.first_name }}, {{ email }}
+{% assign inst_name='' %}
+{% for item in site.data.db.phenix_collab.institutional_affiliation %}
+{% if item.person==person.id %}
+{% for institution in site.data.db.phenix_collab.institutions %}
+{% if institution.id==item.institute %}
+{% assign inst_name=institution.name %}
+{% break %}
+{% endif %}
 {% endfor %}
+
+
+{% break %}
+{% endif %}
+{% endfor %}
+
+<td>{{ person.family_name }}</td><td>{{ person.first_name }}</td><td>{{ email }}</td><td>{{ inst_name }}</td>
+</tr>
+  {% endfor %}
+  </table>
