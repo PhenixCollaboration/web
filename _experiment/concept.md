@@ -4,7 +4,7 @@ name: concept
 layout: newbase
 ---
 
-<h3>The Concept</h3>
+### The Concept
 
 The PHENIX Collaboration conducts research with high energy collisions of heavy ions and protons. The primary mission of PHENIX is the following:
 * Search for a new state of matter called the Quark-Gluon Plasma, which is believed to be the state of matter existing in the universe shortly after the Big Bang. The data obtained by PHENIX suggest that a new form of matter has indeed been discovered, and that it behaves like a perfect fluid.
@@ -15,16 +15,16 @@ The PHENIX Collaboration conducts research with high energy collisions of heavy 
 PHENIX finished taking data in 2016 however a number of analyses are continuing, including those with a physic reach unique to PHENIX.
 
 <hr/>
-<h3>History</h3>
+### History
 
-<h4>1991-2000</h4>
+#### 1991-2000
 
 * August 1991: PHENIX is born from the merger of proposals named TALES, SPARC, OASIS, and DIMUON.
 * PHENIX is designed, built, and installed at RHIC.
 * June 15, 2000 at 6:28 am EDT: PHENIX records its first relativistic heavy ion collision.
 * Summer of 2000: RHIC Run-1. PHENIX takes data from reduced RHIC energy Gold-Gold collisions.
 
-<h4>2001-2010</h4>
+#### 2001-2010
 
 * February 27, 2001: the first PHENIX physics paper is accepted for publication by the Physical Review Letters scientific journal.
 * May 2001 - January 2002: RHIC Run-2. PHENIX takes data from full RHIC energy Gold-Gold and polarized proton-proton collisions.
@@ -42,12 +42,12 @@ PHENIX finished taking data in 2016 however a number of analyses are continuing,
 * February 2010: PHENIX makes the news following an announcement that the temperature in a RHIC collision is hot enough to produce a Quark-Gluon Plasma.
 * January 2010 - June 2010: RHIC Run-10. The new Hadron Blind Detector is installed. The RHIC beam energy scan program begins with gold-gold collisions at 200 GeV, 62.4 GeV, 39 GeV, and 7.7 GeV taken by PHENIX. STAR also takes data from 11 GeV gold-gold collisions.
 
-<h4>2011-2016</h4>
+#### 2011-2016
 
 * February 2011 - June 2011: RHIC Run-11. The new Silicon Vertex Tracker is installed. PHENIX records data from 500 GeV proton-proton collisions and 200 GeV gold-gold collisions.  The RHIC beam energy scan program continues with gold-gold collisions at 19.6 GeV and 27 GeV.
 * December 5, 2011: PHENIX celebrates its 20th anniversary with a symposium at Brookhaven National Laboratory.
 * 2016: PHENIX finishes data taking.
 
-<h4>2017-present</h4>
+#### 2017-present
 
 * Ongoing analysis of the collected data

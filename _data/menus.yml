@@ -5,8 +5,12 @@
       name: concept
       full: Concept and History
     -
+      name: collaboration
+      full: Collaboration
+    -
       name: runs
       full: Run Summary Table
+      div: yes
     -
       name: trigger
       full: Trigger Information
