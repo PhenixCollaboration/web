@@ -1,12 +1,12 @@
 ---
-title: Collaboration
-name: collaboration
+title: PHENIX membership
+name: members
 layout: newbase
 ---
 
 {% include title.md %}
 
-##### MGS20
+##### Most recent list of active members of the PHENIX Collabortion
 ---
 {% assign mgsIDs = site.data.db.phenix_collab.mgs20 | map: "id" %}
 
@@ -52,5 +52,5 @@ layout: newbase
 
 <td>{{ person.family_name }}</td><td>{{ person.first_name }}</td><td>{{ email }}</td><td>{{ inst_name }}</td>
 </tr>
-  {% endfor %}
-  </table>
+{% endfor %}
+</table>

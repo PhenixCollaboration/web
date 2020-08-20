@@ -1,12 +1,16 @@
+- name: collaboration
+  full: Collaboration
+  submenus:
+    -
+      name: members
+      full: Members
+
 - name: experiment
   full: Experiment
   submenus:
     -
       name: concept
       full: Concept and History
-    -
-      name: collaboration
-      full: Collaboration
     -
       name: runs
       full: Run Summary Table

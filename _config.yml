@@ -28,6 +28,7 @@ phenix_logo: /images/logos/phenix_logo_centered.png
 
 # Icons:
 home_icon: /images/icons/house-24.png
+collaboration_icon: /images/icons/geography-32.png
 experiment_icon: /images/icons/atomic-24.png
 detectors_icon: /images/icons/cog-24.png
 software_icon: /images/icons/console-24.png
@@ -53,9 +54,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 collections:
-  activities:
+  collaboration:
     output: true
-    permalink: /activities/:title.html
+    permalink: /collaboration/:title.html
   experiment:
     output: true
     permalink: /experiment/:title.html
@@ -71,15 +72,12 @@ collections:
   software:
     output: true
     permalink: /software/:title.html
-  about:
-    output: true
-    permalink: /about/:title.html
   analysis:
     output: true
     permalink: /analysis/:title.html
   resources:
     output: true
     permalink: /resources/:title.html
-  people:
+  about:
     output: true
-    permalink: /people/:title.html
+    permalink: /about/:title.html

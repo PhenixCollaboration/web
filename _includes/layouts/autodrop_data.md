@@ -1,10 +1,11 @@
 {% case include.what %}
-{% when "experiment" %}	{% assign theCollection=site.experiment %} {% assign icon=site.experiment_icon %}
-{% when "detectors" %}	{% assign theCollection=site.detectors %}  {% assign icon=site.detectors_icon %}
-{% when "software" %}	{% assign theCollection=site.software %}   {% assign icon=site.software_icon %}
-{% when "analysis" %}	{% assign theCollection=site.analysis %}   {% assign icon=site.analysis_icon %}
-{% when "resources" %}	{% assign theCollection=site.resources %}  {% assign icon=site.resources_icon %}
-{% when "about" %}	{% assign theCollection=site.about %}      {% assign icon=site.about_icon %}
+{% when "collaboration" %}	{% assign theCollection=site.collaboration %} {% assign icon=site.collaboration_icon %}
+{% when "experiment" %}		{% assign theCollection=site.experiment %} {% assign icon=site.experiment_icon %}
+{% when "detectors" %}		{% assign theCollection=site.detectors %}  {% assign icon=site.detectors_icon %}
+{% when "software" %}		{% assign theCollection=site.software %}   {% assign icon=site.software_icon %}
+{% when "analysis" %}		{% assign theCollection=site.analysis %}   {% assign icon=site.analysis_icon %}
+{% when "resources" %}		{% assign theCollection=site.resources %}  {% assign icon=site.resources_icon %}
+{% when "about" %}		{% assign theCollection=site.about %}      {% assign icon=site.about_icon %}
 {% endcase %}
 
 {% comment %}
@@ -44,6 +45,7 @@ First, handle external links
 {% comment %}
 Now, internal links
 {% endcomment %}
+
 {% assign item=theCollection | where: "name", submenu.name | first %}
 {% assign theLink=item.url | relative_url %}
 
