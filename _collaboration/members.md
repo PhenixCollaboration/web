@@ -6,6 +6,8 @@ layout: newbase
 
 {% include title.md %}
 
+{% assign rows="" | split: "" %}
+
 ##### Most recent list of active members of the PHENIX Collabortion
 ---
 {% assign mgsIDs = site.data.db.phenix_collab.mgs20 | map: "id" %}
@@ -20,13 +22,7 @@ layout: newbase
 
 {% assign mgsPeople=mgsPeople | sort: "family_name" %}
 
-<table border="1">
-<tr>
-<th>Family Name</th><th>First Name</th><th>e-mail</th><th>Institution</th>
-</tr>
-  
 {% for person in mgsPeople %}
-<tr>
 {% assign email='' %}
 {% for item in site.data.db.phenix_collab.emailaddr %}
 {% if item.person_id==person.id %}
@@ -50,7 +46,11 @@ layout: newbase
 {% endif %}
 {% endfor %}
 
-<td>{{ person.family_name }}</td><td>{{ person.first_name }}</td><td>{{ email }}</td><td>{{ inst_name }}</td>
-</tr>
+{% assign row="" | split: "" %}
+{% assign row=row|push:person.family_name|push:person.first_name|push:email|push:inst_name %}
+{% assign rows=rows | push: row %}
 {% endfor %}
-</table>
+
+{% assign headers="" | split: "" %}
+{% assign headers=headers|push:'Family Name'|push:'First Name'|push:'e-mail'|push:'Institution' %}
+{% include layouts/table_versa.md headers=headers rows=rows width='115%' %}
