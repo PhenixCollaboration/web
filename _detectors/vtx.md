@@ -5,5 +5,8 @@ layout: newbase
 category: central
 ---
 {% include title.md %}
-#### Archived papers
+#### Archived notes
 [VTX -- Detector Basics]({{ '/assets/detectors/vtx/2019_VTX_Technical_Note.pdf' | relative_url }})
+
+#### Publications
+{% include documents/doc.md category='detector' type='publication' tag='vtx' %}

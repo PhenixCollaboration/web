@@ -8,6 +8,8 @@ image_title: 'PHENIX Quarter Cut with the Muon Tracker highlighted'
 category: muon
 ---
 {% include title.md %}
+#### Publications
+{% include documents/doc.md category='detector' type='publication' tag='muon tracker' %}
 
 {% assign image = page.image %}
 {% assign image_title = page.image_title %}

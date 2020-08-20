@@ -131,6 +131,36 @@
   date: 
 
 
+- name: '[Optical alignment system for the PHENIX muon tracking chambers](https://doi.org/10.1016/S0168-9002(03)00318-8)'
+  title: (NIM A 500, 2003, doi.org/10.1016/S0168-9002(03)00318-8) arXiv:nucl-ex/0212027
+  tags: ['muon tracker',]
+  author: 
+  venue: 
+  type: publication
+  category: detector
+  format: markdown_link
+  date: 
+
+- name: '[Vertex detector upgrade plans for the PHENIX experiment at RHIC](https://doi.org/10.1016/S0168-9002(03)01795-9)'
+  title: (NIM A 511, 2003, doi.org/10.1016/S0168-9002(03)01795-9)
+  tags: ['vtx',]
+  author: 
+  venue: 
+  type: publication
+  category: detector
+  format: markdown_link
+  date: 
+
+- name: '[The pixel readout system for the PHENIX pad chambers](https://doi.org/10.1016/S0375-9474(99)85113-6)'
+  title: (NIM A 661, 1999, doi.org/10.1016/S0375-9474(99)85113-6)
+  tags: ['pad chamber',]
+  author: 
+  venue: 
+  type: publication
+  category: detector
+  format: markdown_link
+  date: 
+
 - name: '[Construction and performance of the PHENIX pad chambers](https://doi.org/10.1016/S0168-9002(02)01791-6)'
   title: (NIM A 497, 2003, doi.org/10.1016/S0168-9002(02)01791-6)
   tags: ['pad chamber',]
@@ -174,6 +204,7 @@
 # - name: PHENIX_Muon_NIM499.pdf
 - name: '[PHENIX Muon Arms](https://doi.org/10.1016/S0168-9002(02)01955-1)'
   title: (NIM A 499, 2003, doi.org/10.1016/S0168-9002(02)01955-1)
+  tags: ['muon tracker',]
   author: 
   venue: 
   type: publication
@@ -638,7 +669,7 @@
   date:
     
 - name: 62722
-  title: Quadrupole Anisotropy in Dihadron Azimuthal Correlations in Central dd++Au Collisions at √s<sub>NN</sub>=200 GeV
+  title: Quadrupole Anisotropy in Dihadron Azimuthal Correlations in Central d+Au Collisions at √s<sub>NN</sub>=200 GeV
   tags: 
   author: 
   venue: Phys.Rev.Lett. 111 (2013) 212301, 2013
@@ -660,7 +691,7 @@
   date:
     
 - name: 63824
-  title: Measurement of Single Muons at Forward Rapidity in p+p Collisions at √s<sub>NN</sub> = 200GeV and Implications for Charm Production
+  title: Measurement of Single Muons at Forward Rapidity in p+p Collisions at √s<sub>NN</sub>=200GeV and Implications for Charm Production
   tags: 
   author: 
   venue: Phys.Rev.Lett. 103 (2009) 082002, 2009
