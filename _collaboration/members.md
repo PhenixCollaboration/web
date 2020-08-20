@@ -53,4 +53,4 @@ layout: newbase
 
 {% assign headers="" | split: "" %}
 {% assign headers=headers|push:'Family Name'|push:'First Name'|push:'e-mail'|push:'Institution' %}
-{% include layouts/table_versa.md headers=headers rows=rows width='115%' %}
+{% include layouts/table_versa.md headers=headers rows=rows width='120%' %}
