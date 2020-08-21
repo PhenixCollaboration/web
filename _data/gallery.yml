@@ -4,53 +4,66 @@
 - path: /images/photos/3177203852_d3d30ae925_k.jpg
   title:
   gallery: main
-  type: photo
+  type: main_photo_gallery
   
 - path: /images/photos/3253561842_6960470407_k.jpg
   title: 
   gallery: main
-  type: photo
+  type: main_photo_gallery
   
 - path: /images/photos/3253561928_f40a722a7f_k.jpg
   title: 
   gallery: main
-  type: photo
+  type: main_photo_gallery
   
 - path: /images/photos/3274878454_0f82c9918a_k.jpg
   title: 
   gallery: main
-  type: photo
+  type: main_photo_gallery
   
 - path: /images/photos/3292849485_1ee1766023_k.jpg
   title: 
   gallery: main
-  type: photo
+  type: main_photo_gallery
   
 - path: /images/photos/3310903401_03d8068ae6_k.jpg
   title: 
   gallery: main
-  type: photo
+  type: main_photo_gallery
   
 - path: /images/photos/4905161591_f0ff404782_k.jpg
   title: 
   gallery: main
-  type: photo
+  type: main_photo_gallery
   
 - path: /images/photos/4905162729_87b8161951_k.jpg
   title: 
   gallery: main
-  type: photo
+  type: main_photo_gallery
   
 - path: /images/photos/4905749430_c47ef0327f_k.jpg
   title: 
   gallery: main
-  type: photo
+  type: main_photo_gallery
   
 - path: /images/photos/phenix-hr.jpg
   title: 
   gallery: main
-  type: photo
+  type: main_photo_gallery
 
+### Misc detector diagrams
+- path: /images/detectors/phenix_quartercut_zdc.png
+  name: 'quartercut_zdc'
+  title:
+  gallery: main
+  type: diagram
+  
+- path: /images/detectors/phenix_x_sec_1.gif
+  name: 'x_sec_1'
+  title:
+  gallery: main
+  type: diagram
+  
 ### Misc Software Diagrams
 - path: /images/fun4all/fun4all_diagram_1.png
   tag: 'fun4all diagram'

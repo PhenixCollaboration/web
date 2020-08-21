@@ -5,6 +5,19 @@
 # - name: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3842204.svg)](https://doi.org/10.5281/zenodo.3842204)'
 
 
+### Virtual Tour
+- name: 3995019
+  title: Virtual tour of PHENIX (Run 2 confuguration)
+  tags: ['virtual tour',]
+  author: PHENIX Collaboration
+  venue: 
+  resource: zenodo
+  type: video
+  category: overview
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
 ### General Overviews:
 - name: 3840266
   title: The PHENIX Experiment at RHIC - Decadal Plan 2004–2013

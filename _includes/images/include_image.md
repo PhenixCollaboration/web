@@ -5,8 +5,10 @@
 {% assign width=include.width %}
 {% endif %}
 
+{% if include.title %}
+#### {{ include.title }}
+{% endif %}
 
-<h3>{{ include.title }}</h3>
 <a href="{{ include.image | relative_url }}">
 <img src="{{ include.image | relative_url }}" alt="?" width="{{ width }}px"/>
 </a>

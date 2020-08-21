@@ -9,6 +9,9 @@ layout: newbase
 #### Overviews
 {% include documents/doc.md category='overview' type='document' %}
 
+#### Virtual Tour
+{% include documents/doc.md category='overview' type='video' tag='virtual tour' %}
+
 {% comment %}
 [Overview of PHENIX detectors, BNL 2018]({{ '/assets/detectors/phenix/PHENIXtheDetector.pdf' | relative_url }})
 {% endcomment %}
