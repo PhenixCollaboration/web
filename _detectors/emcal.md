@@ -13,11 +13,12 @@ category: central
 ##### Theses
 {% include documents/doc.md category='detector' type='thesis' tag='emcal' %}
 
+##### Publications
+{% include documents/doc.md category='detector' type='publication' tag='emcal' %}
+
 
 {% comment %}
 ### Detector Overview
-A detailed description about Electromagentic Calorimeter (EMCal) can be found in the write-up linked below.
-
 [PHENIX Electromagnetic Calorimeter (EMCal) – Detector Basics]({{ '/assets/detectors/emcal/emcal_shortdoc.pdf' | relative_url }})
 {% endcomment %}
 

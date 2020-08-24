@@ -64,6 +64,12 @@
   gallery: main
   type: diagram
   
+- path: /images/detectors/dc-frame.gif
+  name: 'dc-frame'
+  title:
+  gallery: main
+  type: diagram
+  
 ### Misc Software Diagrams
 - path: /images/fun4all/fun4all_diagram_1.png
   tag: 'fun4all diagram'

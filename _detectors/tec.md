@@ -7,3 +7,5 @@ category: central
 ---
 {% include title.md %}
 
+##### Publications
+{% include documents/doc.md category='detector' type='publication' tag='time expansion chamber' %}

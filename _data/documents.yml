@@ -187,6 +187,7 @@
 # - name: PHENIX_EMCAL_NIM499.pdf
 - name: '[PHENIX Calorimeter](https://doi.org/10.1016/S0168-9002(02)01954-X)'
   title: (NIM A 499, 2003, doi.org/10.1016/S0168-9002(02)01954-X)
+  tags: ['emcal',]
   author: 
   venue: 
   type: publication
@@ -225,9 +226,33 @@
   format: markdown_link
   date: 
 
+
+# TIME EXPANSION CHAMBER
+- name: '[Front-end electronics for PHENIX time expansion chamber](https://doi.org/10.1109/NSSMIC.2001.1008528)'
+  title: (2001 IEEE Nuclear Science Symposium Conference Record (Cat. No.01CH37310), doi.org/10.1109/NSSMIC.2001.1008528)
+  tags: ['time expansion chamber',]
+  author: 
+  venue: 
+  type: publication
+  category: detector
+  format: markdown_link
+  date: 
+
+# DRIFT CHAMBER
+- name: '[Low-mass Drift Chambers of the PHENIX central spectrometers at RHIC](https://doi.org/10.1016/S0168-9002(02)01464-X)'
+  title: (NIM A 494, 2002, doi.org/10.1016/S0168-9002(02)01464-X)
+  tags: ['drift chamber',]
+  author: 
+  venue: 
+  type: publication
+  category: detector
+  format: markdown_link
+  date: 
+
 # - name: PHENIX_CentralTracker_NIM499.pdf
 - name: '[PHENIX Central Arm Tracking Detectors](https://doi.org/10.1016/S0168-9002(02)01952-6)'
   title: (NIM A 499, 2003, doi.org/10.1016/S0168-9002(02)01952-6)
+  tags: ['drift chamber',]
   author: 
   venue: 
   type: publication

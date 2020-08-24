@@ -7,8 +7,9 @@ category: central
 {% include title.md %}
 
 #### Cross-section view of the PHENIX detector
+<center>
 {% include images/image.md name='x_sec_1' width=450 %}
-
+</center>
 <hr/>
 #### Detector Overview
 A detailed description about PHENIX Pad Chambers (PC) can be found at the following links. The PCs consist of three layers of multiwire proportional chambers, with a cathode pad readout. They provide space points along the trajectory of charged particles to determine the polar angle &theta; , used to calculate the p<sub>z</sub> component of the momentum vector.
