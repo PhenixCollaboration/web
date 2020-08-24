@@ -8,7 +8,7 @@ layout: newbase
 
 {% assign rows="" | split: "" %}
 
-##### Most recent list of active members of the PHENIX Collabortion
+##### List of active members of the PHENIX Collabortion (as of 2020)
 ---
 {% assign mgsIDs = site.data.db.phenix_collab.mgs20 | map: "id" %}
 

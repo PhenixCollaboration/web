@@ -15,6 +15,7 @@ category: central
 
 ##### Publications
 {% include documents/doc.md category='detector' type='publication' tag='emcal' %}
+{% include documents/doc.md category='detector' type='preprint' tag='emcal' %}
 
 
 {% comment %}

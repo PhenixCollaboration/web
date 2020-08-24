@@ -2,6 +2,10 @@
   full: Collaboration
   submenus:
     -
+      name: contact
+      full: Contact
+
+    -
       name: members
       full: Members
 

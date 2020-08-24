@@ -3,7 +3,7 @@
   full: Yasuyuki Akiba
   email: akiba@bnl.gov
   role: PHENIX Spokesperson
-  teams: [taskforce,]
+  teams: [taskforce, spokes, ]
 
 - name: david
   full: Gabor David
@@ -47,4 +47,17 @@
   email: deeps.sharma@gmail.com
   role: PISA, HBD detector and dielectron analysis expert
   teams: [contributor,]
+
+### Cospokes
+- name: drees
+  full: Axel Drees
+  email: axel.drees@.stonybrook.edu
+  role: co-spokesperson
+  teams: [spokes,]
+
+- name: bazilevski
+  full: Alexander Bazilevski
+  email: shura@bnl.gov
+  role: co-spokesperson
+  teams: [spokes,]
 

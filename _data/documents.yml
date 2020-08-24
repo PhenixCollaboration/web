@@ -270,6 +270,16 @@
   format: markdown_link
   date: 
 
+- name: '[A large-acceptance spectrometer for tracking in a high-multiplicity environment, based on space point measurements and high-resolution time-of-flight](https://doi.org/10.1016/S0168-9002(99)00261-2)'
+  title: (NIM A 431, 1999, https://doi.org/10.1016/S0168-9002(99)00261-2)
+  tags: [tof, tofw,]
+  author: 
+  venue: 
+  type: reference
+  category: detector
+  format: markdown_link
+  date: 
+
 # - name: NIM_RXNP.pdf
 - name: '[A reaction plane detector for PHENIX at RHIC](https://doi.org/10.1016/j.nima.2011.01.034)'
   title: (NIM A 636, 2011, doi.org/10.1016/j.nima.2011.01.034) arXiv:1012.0873
@@ -327,7 +337,16 @@
 # - name: PHENIX_Online_NIM499.pdf
 - name: '[PHENIX Online Systems](https://doi.org/10.1016/S0168-9002(02)01957-5)'
   title: (NIM A 499, 2003, doi.org/10.1016/S0168-9002(02)01957-5)
-  author: 
+  author: A.Adler et al
+  venue: 
+  type: publication
+  category: systems
+  format: markdown_link
+  date: 
+
+- name: '[PHENIX on-line and off-line computing](https://doi.org/10.1016/S0168-9002(02)01958-7)'
+  title: (NIM A 499, 2003, doi.org/10.1016/S0168-9002(02)01958-7)
+  author: A.Adler et al
   venue: 
   type: publication
   category: systems
@@ -561,6 +580,16 @@
   category: detector
   format: markdown_link
   date: 07/21/2003
+
+- name: '[High Energy Beam Test of the PHENIX Lead-Scintillator EM Calorimeter](https://arxiv.org/abs/nucl-ex/0202009)'
+  title: High Energy Beam Test of the PHENIX Lead-Scintillator EM Calorimeter
+  tags: ['emcal',]
+  author: T.C.Awes et al
+  venue: 
+  type: preprint
+  category: detector
+  format: markdown_link
+  date: 02/12/2002
 
 ### HEPData
 - name: 95883
