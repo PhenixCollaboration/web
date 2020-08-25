@@ -8,8 +8,8 @@
 - name: david
   full: Gabor David
   email: david@bnl.gov
-  role: Collaborative Tools Coordinator
-  teams: [taskforce,]
+  role: Chairperson of the PHENIX Speakers Bureau
+  teams: [taskforce, psb]
 
 - name: pinkenburg
   full: Chris Pinkenburg
