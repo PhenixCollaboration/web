@@ -145,6 +145,30 @@
   cached_badge: yes
   date:
 
+- name: 4004606
+  title: 'PHENIX focus: Ring Image Cherenkov Counter'
+  tags: [rich, ]
+  author: Kyoichiro Ozawa
+  venue: 
+  resource: zenodo
+  type: presentation
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date:
+
+- name: 4004616
+  title: Introduction to PHENIX RICH detector
+  tags: [rich, ]
+  author: Takao Sakaguchi
+  venue: 
+  resource: zenodo
+  type: writeup
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date:
+
 ##
 - name: 3966470
   title: Performance of PHENIX HBD in Au+Au central collisions (QM2011 poster)

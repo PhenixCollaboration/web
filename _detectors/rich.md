@@ -11,9 +11,11 @@ category: central
 
 The details about the Ring Imanging Cherenkov detector can be found in the below mentioned note.
 
-#### Archived papers
+#### Write-ups
+{% include documents/doc.md category='detector' type='writeup' tag='rich' %}
 
-[RICH -- Detector Basics]({{ '/assets/detectors/rich/PHENIX_RICH_Intro.pdf' | relative_url }})
+#### Presentations
+{% include documents/doc.md category='detector' type='presentation' tag='rich' %}
 
 #### Variables and Accessors
 {% include layouts/variables.md rows=site.data.rich.vars %}
