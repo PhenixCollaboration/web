@@ -108,18 +108,7 @@
   date: 2013-05-19
 
 ### PHENIX Detector Subsystems:
-- name: 3966470
-  title: Performance of PHENIX HBD in Au+Au central collisions (QM2011 poster)
-  tags: [hbd, HBD, ]
-  author: Yosuke Watanabe
-  venue: 
-  resource: zenodo
-  type: publication
-  category: detector
-  format: markdown_link
-  cached_badge: yes
-  date: 
-
+## Focus meetings
 - name: 3983618
   title: Aerogel Cherenkov Counter
   tags: [aerogel, ]
@@ -127,6 +116,43 @@
   venue: 
   resource: zenodo
   type: presentation
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date:
+
+- name: 4004581
+  title: The Pad Chambers
+  tags: ['pad chamber', ]
+  author: Anders Oskarsson
+  venue: 
+  resource: zenodo
+  type: presentation
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date:
+
+- name: 4004597
+  title: The PHENIX Drift Chamber
+  tags: ['drift chamber', ]
+  author: Sergey Butsyk
+  venue: 
+  resource: zenodo
+  type: presentation
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date:
+
+##
+- name: 3966470
+  title: Performance of PHENIX HBD in Au+Au central collisions (QM2011 poster)
+  tags: [hbd, HBD, ]
+  author: Yosuke Watanabe
+  venue: 
+  resource: zenodo
+  type: publication
   category: detector
   format: markdown_link
   cached_badge: yes

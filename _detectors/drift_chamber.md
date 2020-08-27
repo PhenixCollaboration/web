@@ -25,6 +25,9 @@ A detailed description about PHENIX Drift Chambers (DC) can be found in the foll
 ##### Publications
 {% include documents/doc.md category='detector' type='publication' tag='drift chamber' %}
 
+#### Presentations
+{% include documents/doc.md category='detector' type='presentation' tag='drift chamber' %}
+
 
 #### Variables and Accessors under PHCentralTrack Node
 {% include layouts/variables.md rows=site.data.dch.vars %}

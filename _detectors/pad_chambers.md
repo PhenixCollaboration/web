@@ -23,6 +23,9 @@ PC1 is essential for the 3D momentum determination by providing the z-coordinate
 #### Publications
 {% include documents/doc.md category='detector' type='publication' tag='pad chamber' %}
 
+#### Presentations
+{% include documents/doc.md category='detector' type='presentation' tag='pad chamber' %}
+
 
 <hr/>
 #### Variables and Accessors under PHCentralTrack Node

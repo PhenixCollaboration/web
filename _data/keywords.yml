@@ -20,6 +20,10 @@
   description: Beam-Beam Counter
   category: detector
 
+- name : drift chamber
+  description: Drift Chamber
+  category: detector
+
 - name : electromagnetic calorimeter
   description: Electromagnetic Calorimeter
   category: detector
