@@ -70,11 +70,9 @@ were developed and built by BNL Instrumentation and Columbia University.
 #### Detector Proposal
 {% include documents/doc.md category='detector' type='proposal' tag='hbd' %}
 
+#### Presentations
+{% include documents/doc.md category='detector' type='presentation' tag='hbd' %}
+
+
 #### Accessing HBD variables in the analysis
 Work in progress
-
-{% comment %}
-An old style reference: ([sauli](https://www.sciencedirect.com/science/article/pii/S0168900296011722))
-* [Deepali Sharma's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2010/Sharma_Deepali-thesis.pdf)  
-* [Yosuke Watanable's Ph.D. Thesis](https://www.phenix.bnl.gov/phenix/WWW/talk/archive/theses/2014/Watanabe_Yosuke-phD_thesis_main.pdf)  
-{% endcomment %}

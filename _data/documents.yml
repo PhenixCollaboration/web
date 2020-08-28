@@ -157,13 +157,25 @@
   cached_badge: yes
   date:
 
-- name: 4004616
-  title: Introduction to PHENIX RICH detector
-  tags: [rich, ]
-  author: Takao Sakaguchi
+- name: 4006504
+  title: 'Hadron Blind Detector: Detector Talk'
+  tags: [hbd, ]
+  author: Jason Kamin
   venue: 
   resource: zenodo
-  type: writeup
+  type: presentation
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date:
+
+- name: 4006558
+  title: Time Expansion Chamber (TEC)
+  tags: [tec, 'time expansion chamber', ]
+  author: Kenneth Barish
+  venue: 
+  resource: zenodo
+  type: presentation
   category: detector
   format: markdown_link
   cached_badge: yes
@@ -560,6 +572,18 @@
   date: 
 
 ### Writeups:
+- name: 4004616
+  title: Introduction to PHENIX RICH detector
+  tags: [rich, ]
+  author: Takao Sakaguchi
+  venue: 
+  resource: zenodo
+  type: writeup
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date:
+
 - name: 3974601
   title: How to make HEPData input
   tags: [hepdata, nattrass, ]

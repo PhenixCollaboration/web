@@ -84,6 +84,14 @@
   description: shower max detector
   category: detector
 
+- name : tec
+  description: Time Expansion Chamber
+  category: detector
+
+- name : time expansion chamber
+  description: Time Expansion Chamber
+  category: detector
+
 - name : time-of-flight
   description: Time-of-Flight Detector
   category: detector
