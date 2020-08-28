@@ -10,5 +10,5 @@ category: central
 ##### Publications
 {% include documents/doc.md category='detector' type='publication' tag='time expansion chamber' %}
 
-#### Presentations
+##### Presentations
 {% include documents/doc.md category='detector' type='presentation' tag='tec' %}

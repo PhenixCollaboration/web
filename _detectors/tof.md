@@ -6,7 +6,7 @@ category: central
 ---
 {% include title.md %}
 
-#### Detector overview
+##### Detector overview
 The TOF
 (sometimes called the TOFE to contrast with the TOFW)
 is a time-of-flight (TOF) detector in the east (E) arm of the PHENIX central
@@ -23,12 +23,16 @@ slats and 1920 readout channels.  There are eight panels in sector 1 covering th
 22.5 degrees in azimuth and the full &#177;0.35 units in pseudorapidity, and two panels in
 sector 0 covering full 22.5 degrees in azimuth and the innermost rapidity range.
 
+##### Publications
+{% include documents/doc.md category='detector' type='publication' tag='tof' %}
 
-#### Theses
+##### Theses
 {% include documents/doc.md category='detector' type='thesis' tag='tof' %}
 
+##### Presentations
+{% include documents/doc.md category='detector' type='presentation' tag='tof' %}
 
-#### Variables and Accessors
+##### Variables and Accessors
 These “get” methods give access to the TOF variables used for analysis. The variable type, name of the get method, and a brief description are given below.
 
 {% include layouts/variables.md rows=site.data.tof.vars %}
