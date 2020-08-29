@@ -11,6 +11,9 @@ category: muon
 #### Publications
 {% include documents/doc.md category='detector' type='publication' tag='muon tracker' %}
 
+##### Presentations
+{% include documents/doc.md category='detector' type='presentation' tag='muon tracker' %}
+
 {% assign image = page.image %}
 {% assign image_title = page.image_title %}
 

@@ -6,5 +6,8 @@ category: event
 ---
 {% include title.md %}
 
-#### Write-ups
+##### Write-ups
 {% include documents/doc.md category='detector' type='writeup' tag='bbc' %}
+
+##### Presentations
+{% include documents/doc.md category='detector' type='presentation' tag='bbc' %}

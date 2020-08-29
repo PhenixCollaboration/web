@@ -60,6 +60,14 @@
   description: Combination of subsystems to measure muons
   category: detector
 
+- name : muon tracker
+  description: The muon tracking system
+  category: detector
+
+- name : muon identifier
+  description: The muon identification system
+  category: detector
+
 - name: rich
   description: Ring Imaging Cherenkov Detector
   category: detector
