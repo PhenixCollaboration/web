@@ -9,3 +9,6 @@ category: event
 
 ##### Publications
 {% include documents/doc.md category='detector' type='publication' tag='rpd' %}
+
+##### Presentations
+{% include documents/doc.md category='detector' type='presentation' tag='rpd' %}

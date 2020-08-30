@@ -10,3 +10,6 @@ category: central
 
 #### Publications
 {% include documents/doc.md category='detector' type='publication' tag='vtx' %}
+
+##### Presentations
+{% include documents/doc.md category='detector' type='presentation' tag='vtx' %}

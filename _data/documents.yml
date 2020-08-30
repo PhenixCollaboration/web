@@ -277,6 +277,42 @@
   cached_badge: yes
   date:
 
+- name: 4008664
+  title: 'PHENIX Focus: multiplicity and vertex detector (MVD)'
+  tags: [mvd,]
+  author: Hubert van Hecke
+  venue: 
+  resource: zenodo
+  type: presentation
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date:
+
+- name: 4008672
+  title: 'PHENIX Focus: reaction plane detector'
+  tags: [rpd, rxnp, 'reaction plane detector', ]
+  author: Abby Bickley
+  venue: 
+  resource: zenodo
+  type: presentation
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date:
+
+- name: 4008706
+  title: 'PHENIX Focus: vertex tracker (VTX)'
+  tags: [vtx, ]
+  author: Takashi Hachiya
+  venue: 
+  resource: zenodo
+  type: presentation
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date:
+
 ##
 - name: 3966470
   title: Performance of PHENIX HBD in Au+Au central collisions (QM2011 poster)

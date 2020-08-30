@@ -80,8 +80,20 @@
   description: The muon identification system
   category: detector
 
+- name : mvd
+  description: multiplicity and vertex detector
+  category: detector
+
 - name: rich
   description: Ring Imaging Cherenkov Detector
+  category: detector
+
+- name: rxnp
+  description: Reaction Plane Detector
+  category: detector
+
+- name: reaction plane detector
+  description: Reaction Plane Detector
   category: detector
 
 - name : particle identification
