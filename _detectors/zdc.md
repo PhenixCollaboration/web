@@ -15,3 +15,5 @@ category: event
 ##### Publications
 {% include documents/doc.md category='detector' type='publication' tag='zdc' %}
 
+##### Presentations
+{% include documents/doc.md category='detector' type='presentation' tag='zdc' %}

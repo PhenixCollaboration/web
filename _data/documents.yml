@@ -241,6 +241,42 @@
   cached_badge: yes
   date:
 
+- name: 4008640
+  title: 'PHENIX Focus: physics of the MPC'
+  tags: ['mpc', ]
+  author: Mickey Chiu
+  venue: 
+  resource: zenodo
+  type: presentation
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date:
+
+- name: 4008646
+  title: 'PHENIX Focus: Zero Degree Calorimeter'
+  tags: ['zdc', ]
+  author: Mickey Chiu
+  venue: 
+  resource: zenodo
+  type: presentation
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date:
+
+- name: 4008649
+  title: 'PHENIX Focus: the Forward Calorimeter'
+  tags: [fc, fcal, 'forward calorimeter', ]
+  author: Stephen C. Johnson
+  venue: 
+  resource: zenodo
+  type: presentation
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date:
+
 ##
 - name: 3966470
   title: Performance of PHENIX HBD in Au+Au central collisions (QM2011 poster)

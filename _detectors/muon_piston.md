@@ -7,3 +7,6 @@ category: muon
 ---
 
 {% include title.md %}
+
+##### Presentations
+{% include documents/doc.md category='detector' type='presentation' tag='mpc' %}

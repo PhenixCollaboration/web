@@ -36,6 +36,18 @@
   description: Event Characterization
   category: detector
 
+- name : fcal
+  description: Forward Calorimeter
+  category: detector
+
+- name : forward calorimeter
+  description: Forward Calorimeter
+  category: detector
+
+- name : fc
+  description: Forward Calorimeter
+  category: detector
+
 - name : fvtx
   description: Vertex Detector (Forward Region)
   category: detector
