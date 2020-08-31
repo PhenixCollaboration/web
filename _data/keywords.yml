@@ -60,6 +60,10 @@
   description: Hadron Blind Detector
   category: detector
 
+- name : magnet
+  description: The PHENIX Magnet System
+  category: detector
+
 - name : mpc
   description: Muon Piston Calorimeter
   category: detector
