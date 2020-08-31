@@ -28,7 +28,7 @@
 {% endif %}
 </td>
 
-<td>
+<td valign="top">
 {% include rhic/rhic_record.md run=page.run %}
 </td>
 
