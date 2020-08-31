@@ -1,5 +1,7 @@
-<nav class="navbar sticky-top navbar-expand-lg navbar-light mx-auto justify-content-center">
+<nav class="navbar justify-content-center sticky-top navbar-expand-lg">
   <!-- style="width: 1200px;" -->
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -15,7 +17,7 @@
     <ul class="navbar-nav mr-auto">
       {% for menu in site.data.menus %}
       {% if menu.exclude %}{% continue %}{% endif %}
-      {% if menu.right %}</ul><ul class="navbar-nav mr-auto text-right">{% endif %}
+      {% if menu.right %}</ul><ul class="navbar-nav text-right">{% endif %}
       {% include layouts/autodrop_data.md what=menu.name %}
       {% endfor %}
     </ul>

@@ -5,10 +5,34 @@
 # - name: '[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3842204.svg)](https://doi.org/10.5281/zenodo.3842204)'
 
 
-### Virtual Tour
+### Virtual Tours
 - name: 3995019
-  title: Virtual tour of PHENIX (Run 2 confuguration)
+  title: A Virtual tour of PHENIX (Run 2 confuguration)
   tags: ['virtual tour',]
+  author: PHENIX Collaboration
+  venue: 
+  resource: zenodo
+  type: video
+  category: overview
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
+- name: 4009669
+  title: A Virtual tour of the RHIC Spin Program
+  tags: ['virtual tour', spin, ]
+  author: PHENIX Collaboration
+  venue: 
+  resource: zenodo
+  type: video
+  category: overview
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
+- name: 4009834
+  title: A Virtual tour of RHIC
+  tags: ['virtual tour', ]
   author: PHENIX Collaboration
   venue: 
   resource: zenodo
@@ -338,6 +362,17 @@
   format: markdown_link
   cached_badge: yes
   date: 
+
+- name: '[Ring imaging Cherenkov detector of PHENIX experiment at RHIC](https://doi.org/10.1016/S0168-9002(99)00319-8)'
+  title: (NIM A 433, 1999, doi.org/10.1016/S0168-9002(99)00319-8)
+  tags: [rich,]
+  author: 
+  venue: 
+  type: publication
+  category: detector
+  format: markdown_link
+  date: 
+
 
 - name: '[GEM: A new concept for electron amplification in gas detectors](https://doi.org/10.1016/S0168-9002(96)01172-2)'
   title: (NIM A 386, 1997, doi.org/10.1016/S0168-9002(96)01172-2)

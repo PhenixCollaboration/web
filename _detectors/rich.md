@@ -17,5 +17,8 @@ The details about the Ring Imanging Cherenkov detector can be found in the below
 #### Presentations
 {% include documents/doc.md category='detector' type='presentation' tag='rich' %}
 
+#### Publications
+{% include documents/doc.md category='detector' type='publication' tag='rich' %}
+
 #### Variables and Accessors
 {% include layouts/variables.md rows=site.data.rich.vars %}
