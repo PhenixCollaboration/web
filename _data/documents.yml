@@ -326,7 +326,7 @@
   cached_badge: yes
   date: 
 
-##########################
+## Papers
 - name: 3966470
   title: Performance of PHENIX HBD in Au+Au central collisions (QM2011 poster)
   tags: [hbd, HBD, ]
@@ -570,7 +570,7 @@
   format: pdf
   date: 
 
-### Theses:
+## Theses:
 - name: 3836437
   title: Identified particle production in p+p and d+Au collisions at RHIC energies
   tags: [tof,]
@@ -715,7 +715,19 @@
   cached_badge: yes
   date: 
 
-### Writeups:
+## Writeups:
+- name: 4009363
+  title: Status of the South Magnet Mapping Analysis
+  tags: [magnet, ]
+  author: Christos Velissaris
+  venue: 
+  resource: zenodo
+  type: writeup
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date:
+
 - name: 4004616
   title: Introduction to PHENIX RICH detector
   tags: [rich, ]

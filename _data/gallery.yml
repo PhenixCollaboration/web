@@ -51,6 +51,19 @@
   gallery: main
   type: main_photo_gallery
 
+### Magnets
+- path: /images/photos/cm_front.gif
+  name: 'central-magnet-assembly'
+  title: The Central Magnet during assembly. 
+  gallery: main
+  type: magnet_gallery
+  
+- path: /images/photos/muon_front_s.gif
+  name: 'muon-magnet-north-assembly'
+  title: The Muon Magnet during assembly. 
+  gallery: main
+  type: magnet_gallery
+  
 ### Misc detector diagrams
 - path: /images/detectors/phenix_quartercut_zdc.png
   name: 'quartercut_zdc'

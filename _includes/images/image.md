@@ -11,7 +11,10 @@
 {% assign width=include.width %}
 {% endif %}
 
+{% if include.height %}
+<img src="{{ image.path | relative_url }}" height="{{ include.height }}px"/>
+{% else %}
 <img src="{{ image.path | relative_url }}" width="{{ width }}px"/>
-
+{% endif %}
 
 
