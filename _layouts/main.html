@@ -6,11 +6,12 @@ layout: newbase
   <div class="col-sm-12 blog-main">
 <p class="lead">
   <center>
-    <img src="{{ '/images/logos/phenix_logo.gif' | relative_url }}" alt="PHENIX logo">
+    <img src="{{ '/images/logos/phenix_logo.gif' | relative_url }}" height="74px" alt="PHENIX logo">
   </center>
 </p>
 
-<hr/>
+{{ site.hr }}
+
         <div class=row>
           <div class="col-md-5">
             <img src="{{ '/images/general/phenix_400x400.jpg' | relative_url }}" alt="Photo of the PHENIX experiment" width="400">
@@ -30,24 +31,16 @@ layout: newbase
   </div>
 </div>
 <p/>
-<hr/>
+{{ site.hr }}
   <center>
     This website has been created by the PHENIX Collaboration to support long-term Data and Analysis Preservation.
-    The site is under construction and the materials to be hosted here are being collected and curated.
+    Materials are being collected from legacy web resources, systematized and curated.
     Your feedback, suggestions and contributions are very much appreciated. If you think you can help to
     add material to this site or improve it's quality, please do not hesitate to examine the
     {% include navigation/pagelink.md folder=site.about name='site' tag='the list of work items' html='1' %}
     for which help is needed the most!
   </center>
-<hr/>
+<p/>
 <p style="text-align:center;">
   <em>Site built at {{ site.time }}</em>
 </p>
-
-{% comment %}
-----------------------------------------------------------------------
-{% assign find_howto_page=site.about | where: "abbrev", 'howto' %}
-{% assign howto_page_url=find_howto_page[0].url  | relative_url %}
-{% endcomment %}
-
-

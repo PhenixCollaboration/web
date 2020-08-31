@@ -26,6 +26,8 @@ tablepadding: "&nbsp;&nbsp;&nbsp;"
 # Logo:
 phenix_logo: /images/logos/phenix_logo_centered.png
 
+hr: '<hr style="height:1px;border-width:0;color:royalblue;background-color:royalblue"/>'
+
 # Icons:
 home_icon: /images/icons/house-24.png
 collaboration_icon: /images/icons/geography-32.png
