@@ -1,5 +1,5 @@
 <center>
-<table WIDTH="100%">
+<table WIDTH="110%">
 
 <tr><th>Name</th><th>Role</th></tr>
 
