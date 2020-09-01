@@ -54,7 +54,7 @@ Now, internal links
 {% if submenu.div %}<div class="dropdown-divider"></div>{% endif %}
 
 {% if submenu.label %}
-<div class="dropdown-item" style="color: #fff; background-color: #888;">{{ submenu.full }}</div>
+<div class="dropdown-item" style="color: #fff; background-color: #0062cc;">{{ submenu.full }}</div>
 {% else %}
 {% if submenu.icon %}
 <a class="dropdown-item" href="{{ theLink }}" {{ target }}>{{ submenu.full }} &nbsp; <img src="{{ submenu.icon | relative_url}}" height="16"/></a>
