@@ -19,6 +19,7 @@
       {% if menu.exclude %}{% continue %}{% endif %}
       {% if menu.right %}</ul><ul class="navbar-nav text-right">{% endif %}
       {% include layouts/autodrop_data.md what=menu.name %}
+      {% if menu.right %}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{% endif %}
       {% endfor %}
     </ul>
 
