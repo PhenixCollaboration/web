@@ -36,7 +36,7 @@
 {% if length!=0 %}
 <center>
 <h3> {{ title }} </h3>
-<hr/>
+{{ site.hr }}
 
 {% if include.comment %}
 {{ include.comment }}

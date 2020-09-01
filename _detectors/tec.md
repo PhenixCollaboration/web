@@ -1,11 +1,10 @@
 ---
 title: Time Expansion Chamber
-role: Measures the position and momentum of charged particles. Identifies particles.
 name: tec
 layout: newbase
 category: central
 ---
-{% include title.md %}
+{% include layouts/find_title.md name=page.name %}
 
 ##### Publications
 {% include documents/doc.md category='detector' type='publication' tag='time expansion chamber' %}

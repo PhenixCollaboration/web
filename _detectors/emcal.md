@@ -1,11 +1,10 @@
 ---
 title: Electromagnetic Calorimeter
-role: Electron and Photon identification
 name: emcal
 layout: newbase
 category: central
 ---
-{% include title.md %}
+{% include layouts/find_title.md name=page.name %}
 
 ##### Write-ups
 {% include documents/doc.md category='detector' type='writeup' tag='emcal' %}
@@ -21,17 +20,16 @@ category: central
 {% include documents/doc.md category='detector' type='presentation' tag='emcal' %}
 
 {% comment %}
-### Detector Overview
+##### Detector Overview
 [PHENIX Electromagnetic Calorimeter (EMCal) – Detector Basics]({{ '/assets/detectors/emcal/emcal_shortdoc.pdf' | relative_url }})
 {% endcomment %}
 
-
-#### Variables and Accessors under PHCentralTrack Node (used for charged particle analyses)
+<p/><br/>
+##### Variables and Accessors under PHCentralTrack Node (used for charged particle analyses)
 {% include layouts/variables.md rows=site.data.emc.vars1 %}
 
-
-
-#### Variables and Accessors under emcClusterContainer (used for neutral meson analyses)
+<p/><br/>
+##### Variables and Accessors under emcClusterContainer (used for neutral meson analyses)
 EMCal has its own classes  `emcClusterContainer` and `emcClusterContent` that contain variables used mainly for the analysis of neutral mesons. The small code snippet below shows the usage of these classes and one example to access a variable. The rest of the variables listed below in the table can be accessed in the same manner.
 
 ```c++

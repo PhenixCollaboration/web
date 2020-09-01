@@ -1,12 +1,10 @@
 ---
 title: Hadron Blind Detector
-role: Electron identification while being blind to hadrons
 name: hbd
 layout: newbase
 category: central
 ---
-{% include title.md %}
-{% assign items = site.data.documents %}
+{% include layouts/find_title.md name=page.name %}
 
 #### Introduction
 The Hadron Blind Detector (HBD) was a conceptually novel Cherenkov

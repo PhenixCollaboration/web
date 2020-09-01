@@ -1,9 +1,8 @@
 ---
-title: Detectors Overview
 name: detectors_overview
 layout: newbase
 ---
-{% include title.md %}
+{% include layouts/find_title.md name=page.name %}
 
 #### Overview
 For detector-specific information please see the following pages (also available as items in the "Detectors" dropdown menu):

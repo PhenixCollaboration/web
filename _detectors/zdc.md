@@ -4,7 +4,7 @@ name: zdc
 layout: newbase
 category: event
 ---
-{% include title.md %}
+{% include layouts/find_title.md name=page.name %}
 
 {% include images/image.md name='quartercut_zdc' width=450 %}
 

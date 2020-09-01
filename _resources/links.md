@@ -8,7 +8,8 @@ items:
    - 'PHENIX on HEPData'
    - 'PHENIX on Inspire'
 ---
-#### Links
+{% include layouts/find_title.md name=page.name %}
+
 {% for item in page.items %}
 {%- include navigation/findlink.md name=item category='general' %}
 {% endfor %}

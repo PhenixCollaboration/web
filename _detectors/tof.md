@@ -4,7 +4,7 @@ name: tof
 layout: newbase
 category: central
 ---
-{% include title.md %}
+{% include layouts/find_title.md name=page.name %}
 
 ##### Detector overview
 The TOF

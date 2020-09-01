@@ -1,11 +1,10 @@
 ---
 title: Ring Imaging Cherenkov Detector
-role: Identifies Electrons
 name: rich
 layout: newbase
 category: central
 ---
-{% include title.md %}
+{% include layouts/find_title.md name=page.name %}
 
 #### Detector Overview
 

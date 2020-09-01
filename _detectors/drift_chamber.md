@@ -4,7 +4,7 @@ name: drift_chamber
 layout: newbase
 category: central
 ---
-{% include title.md %}
+{% include layouts/find_title.md name=page.name %}
 
 #### Cross-section view of the PHENIX detector
 <center>

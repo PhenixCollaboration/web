@@ -4,7 +4,7 @@ name: bbc
 layout: newbase
 category: event
 ---
-{% include title.md %}
+{% include layouts/find_title.md name=page.name %}
 
 ##### Write-ups
 {% include documents/doc.md category='detector' type='writeup' tag='bbc' %}
