@@ -39,6 +39,7 @@ analysis_icon: /images/icons/research-32.png
 resources_icon: /images/icons/literature-24.png
 about_icon: /images/icons/question-mark-5-32.png
 thumbs_icon: /images/icons/thumbs-up-32.gif
+dn_arrow_icon: /images/icons/arrow-216-32.png
 
 # Badges
 zenodo_badges: /images/badges/zenodo/
