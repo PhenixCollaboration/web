@@ -42,6 +42,19 @@
   cached_badge: yes
   date: 
 
+### Zenodo Galleries
+- name: 4009856
+  title: Installation of the RICH Detector (East Section)
+  tags: [rich,]
+  author: PHENIX Collaboration
+  venue: 
+  resource: zenodo
+  type: gallery
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
 ### General Overviews:
 - name: 3840266
   title: The PHENIX Experiment at RHIC - Decadal Plan 2004–2013
