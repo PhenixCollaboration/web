@@ -764,6 +764,18 @@
   date: 
 
 ## Writeups:
+- name: 4011095
+  title: Muon Arms Tutorial for J/ψ Analysis
+  tags: ['J/ψ', 'muon arms', 'krista tutorial',]
+  author: Krista Smith
+  venue: 
+  resource: zenodo
+  type: writeup
+  category: physics
+  format: markdown_link
+  cached_badge: yes
+  date:
+
 - name: 4009363
   title: Status of the South Magnet Mapping Analysis
   tags: [magnet, ]

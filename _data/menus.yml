@@ -40,9 +40,12 @@
       name: run_configuration_gallery
       full: Run Configuration Gallery
     -
+      name: subsystems
+      full: Subsystems
+      label: yes
+    -
       name: central_arm
       full: Central Arm Detectors
-      div: yes
     -
       name: muon_arm
       full: Muon Arm Detectors
@@ -77,12 +80,21 @@
   submenus:
     -
       name: analysis_overview
-      full: Analysis Overview
+      full: Overview
+      div: yes
+
+    -
+      name: analysis_chains
+      full: Sample Analysis Chains
+      label: yes
 
     -
       name: embeddingVtx
       full: Embedding Example (VTX)
-      div: yes
+
+    -
+      name: muon_arms_jpsi
+      full: Muon Arms Tutorial for J/ψ Analysis
 
 - name: resources
   full: Resources

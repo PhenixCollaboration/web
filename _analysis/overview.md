@@ -1,5 +1,4 @@
 ---
-title: Analysis Overview
 name: analysis_overview
 layout: newbase
 ---
