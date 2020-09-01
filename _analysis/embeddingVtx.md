@@ -2,8 +2,9 @@
 name: embeddingVtx
 layout: newbase
 ---
+{% include layouts/find_title.md name=page.name %}
 
-#### About
+##### About
 This page is work in progress and is designed to capture the details of the VTX analysis first performed by Takashi Hachiya.
 A repository has been created on GitHub in order to control the code changes - not as a replacement
 for CVS but as a temporary holding area:
@@ -17,7 +18,7 @@ Autogen.sh, configure.ac, Makefile.am etc
 
 {% endcomment %}
 
-#### Install
+##### Install
 The install process:
 ```
 source /opt/phenix/bin/phenix_setup.csh -n new
@@ -30,8 +31,8 @@ make install
 ```
 Slight variations of the above chain of commands tend to lead to some "libtool" error, this needs to be looked at.
 
-#### VTX Embedding
-##### The Improved Setup
+##### VTX Embedding
+###### The Improved Setup
 
 Example layout of the "embed" folder (referred to in the variable $EMBEDDING_HOME which is set in the setup script)
 ```
@@ -61,7 +62,7 @@ Under this directory, see the following 3 directories
 * reco (making DST using the GEANT output)   reco/submit/pisaToDST.csh
 Their use is explained in the following sections
 
-#### Single Particle
+##### Single Particle
 The script '''phparticlegen_pip_updated.csh''' serves to invoke ROOT:
 ```
 root -b -q  'phparticlegen_pip.C(N, '$pid', "'"$outname"'")'
@@ -70,7 +71,7 @@ It has two input arguments at this point
 * Number of events to be generated
 * sequence number (so one can have multiple files)
 
-#### PISA
+##### PISA
 Current version of the script:
 ```
 pisa/submit/pisa/pisa_phpythia_updated.csh
@@ -90,7 +91,7 @@ Takes three arguments:
 * Number of events
 * Input file
 
-#### Make the data DST with raw detector hits
+##### Make the data DST with raw detector hits
 Takashi's working directory used as a starting point:
 ```
 /gpfs/mnt/gpfs02/phenix/hhj/hhj1/hachiya/15.08/embed/real
@@ -117,7 +118,7 @@ The MB file is often used to mix an MB event and a single particle simualation f
 
 The next step is to run run_embed_updated.csh to mix the real data and simulation (see next section)
 
-#### Embedding
+##### Embedding
 Starting point:
 ```
 /gpfs/mnt/gpfs02/phenix/hhj/hhj1/hachiya/15.08/embed/embed
@@ -131,7 +132,7 @@ run_embed_updated.csh <job_number> <event number> <input real DST> <input SIM DS
 
 Dependency: svx_cent_ana
 
-#### Event Display
+##### Event Display
 ```
 /gpfs/mnt/gpfs02/phenix/hhj/hhj1/hachiya/15.08/source/svx_cent_ana
 ```

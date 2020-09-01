@@ -5,18 +5,18 @@ name: devs
 {% include layouts/find_title.md name=page.name %}
 <p/>
 <hr/>
-#### To-do list
+##### To-do list
 
 * refactor title extraction on detector pages to the main detector YAML
 * upload the remaining short wirte-ups to Zenodo and clean up "assets"
 * refactor all images to the gallery YAML
 * plots migration
 <hr/>
-#### The current plots database
-##### Query link
+##### The current plots database
+###### Query link
 https://phenix-intra.sdcc.bnl.gov/WWW/plots/search_plots.php
 <hr/>
-##### Plots
+###### Plots
 ```
               Table "public.plots"
    Column    |         Type          | Modifiers 
@@ -59,7 +59,7 @@ Referenced by:
     TABLE "plotfiles" CONSTRAINT "plotfiles_plot_num_fkey" FOREIGN KEY (plot_num) REFERENCES plots(entry)
 ```
 <hr/>
-##### plot_xcol, plot_x_axis
+###### plot_xcol, plot_x_axis
 ```
 Table "public.plot_xcol"
   Column  |  Type   | Modifiers 

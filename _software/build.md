@@ -1,5 +1,8 @@
 ---
+title: Build Tools
 name: build_tools
 layout: newbase
 ---
-#### Work In progress
+{% include layouts/find_title.md name=page.name %}
+
+Work in progress

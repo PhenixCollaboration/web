@@ -77,7 +77,7 @@
   submenus:
     -
       name: analysis_overview
-      full: Overview
+      full: Analysis Overview
 
     -
       name: embeddingVtx

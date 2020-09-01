@@ -1,12 +1,10 @@
 ---
-title: Data and Analysis Preservation
 layout: newbase
 name: dap
 ---
+{% include layouts/find_title.md name=page.name %}
 
-{% include title.md %}
-
-#### What is DAP?
+##### What is DAP?
 Since the second decade of the 21<sup>st</sup> century the term **Data and Analysis Preservation** (DAP)
 is often used in place of the traditional "data preservation" to account for
 the fact that data which can’t be analyzed is useless. DAP is commonly described as a union of
@@ -16,7 +14,7 @@ including the raw data, conditions-type data, simulated and processed data.
 * **Analysis know-how** (knowledge management). The Collaboration has undertaken an effort to review, curate, systematize and preserve knowledge necessary for the analysis of the data. Creation, development and maintenance of this website is a part of this effort.
 
 
-#### The Role of This Site
+##### The Role of This Site
 This website has been created with the goal to support the **Data and Analysis Preservation** (DAP)
 mandate of the PHENIX Collaboration, and more specifically to aid the **Knolwedge Management** aspect of it.
 Content from multiple legacy PHENIX and RHIC Web sites and various other information resources is being curated,
@@ -28,7 +26,7 @@ system used to keep information which is subject to changes or pages used as a s
 to for developing analyses or other topics. The *long-term* knowledge management is the key
 in shaping the content hosted here.
 
-#### The Platform
+##### The Platform
 The following considerations are important for long-term viability of the site:
 * ease of maintenance
 * security
@@ -44,7 +42,7 @@ website generator technology with the following features:
 To this end, the popular <a href="http://jekyllrb.com/">Jekyll</a> website generator is used, with
 additional tools (Javascript libraries and advanced stylesheets) for optimal user experience.
 
-#### Credits
+##### Credits
 Information collected here was provided and curated by the hard-working members of the PHENIX Collaboration
 and its leadership. Special thanks to members of the
 {% include navigation/findlink.md name='npps' tag='BNL Nuclear and Particle Physics Software Group' %}

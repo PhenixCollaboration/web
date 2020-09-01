@@ -1,17 +1,16 @@
 ---
-title: How to Contribute
 layout: newbase
 name: howto
 ---
-{% include title.md %}
+{% include layouts/find_title.md name=page.name %}
 
-### Welcome
+##### Welcome
 Contributions from the PHENIX community are crucial for this project to succeed.
 You are most welcome to get involved. Materials that you consider to be relevant
 to the mission of the site can be sent for consideration to the members of the
 {% include navigation/pagelink.md folder=site.about name='contact' tag='Data and Analysis Preservation task force' %}.
 
-### Direct Contributions
+##### Direct Contributions
 If you are willing to contribute directly by developing the actual content
 this will be even more valuable and greatly appreciated. For this, you will
 need to have basic knowledge of the Web platform used on this site.
@@ -46,9 +45,9 @@ as hard limits on repositories of sites which are hosted as "GitHub pages"
 * interfacing the navigation tools on this site, which for the most part consists
 of the top navigation bar and the dropdown menus
 
-### Site Mechanics
+##### Site Mechanics
 
-#### The Navigation Bar and Dropdown Menus
+###### The Navigation Bar and Dropdown Menus
 Entries in the navigation bar on top are named in a manner
 similar to the names of the folders in this project, for example the "Resources" entry in the navigation
 bar is a dropdown menu with the content defined in a number of files the "_resources" folder etc.
@@ -60,7 +59,7 @@ a dedicated YAML file <a href="{{ site.github }}/blob/master/_data/menus.yml" ta
 The "name" attribute in each submenu section needs to match the respective attribute in the "Front Matter" of
 the file with the content of the respective page to be properly linked.
 
-#### Managing Data
+###### Managing Data
 Jekyll is flexible when it comes to storing and manipulating structured data.
 The data component of the site can reside in the "front matter" section of the Markdown-formatted
 files or in separate YAML (or JSON, CSV etc) data sources. The front matter approach works well
@@ -77,7 +76,7 @@ Information assets on this site (e.g. imaged, PDF files etc) are stored in the a
 "<a href="{{ site.github }}/tree/master/assets/" target="_blank">assets</a>"
 folder and its subsiduaries. This convention should be kept going forward.
 
-#### Formatting
+###### Formatting
 We aim to provide a uniform look and feel across the site. To that end, whenever possible
 the head (title) of each page is formatted by using the standard include layouts/title.md - please
 look a the code for examples of its use. It's renders the page title from the front matter sections.
@@ -86,7 +85,7 @@ Headers of sections within a page are currently formatted in Markdown as "header
 with four hash characters like in **"#### My section header"**. Take a look at the header (Formatting)
 of this section to get an idea of how it's rendered.
 
-#### Development
+##### Development
 
 To productively participate in the development of this site one needs to learn the
 <a href="http://jekyllrb.com/">Jekyll</a> framework and perform its installation on

@@ -3,6 +3,6 @@ title: PISA
 name: pisa
 layout: newbase
 ---
-{% include title.md %}
+{% include layouts/find_title.md name=page.name %}
 
-{% include workinprogress.md %}
+Work in progress

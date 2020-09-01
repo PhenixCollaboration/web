@@ -2,8 +2,9 @@
 layout: newbase
 name: contact
 ---
+{% include layouts/find_title.md name=page.name %}
 
-#### The Data and Analysis Preservation Task Force
+##### Data and Analysis Preservation Task Force
 
 The Data and Analysis Preservation Task Force was created to further the goals of the PHENIX
 Collaboration in this work area. Its members are responsible for collection and systematization
