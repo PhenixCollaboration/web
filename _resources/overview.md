@@ -1,5 +1,5 @@
 ---
-name: overview
+name: resources_overview
 layout: newbase
 ---
 

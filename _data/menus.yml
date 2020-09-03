@@ -80,7 +80,7 @@
   submenus:
     -
       name: analysis_overview
-      full: Overview
+      full: Analysis Overview
       div: yes
 
     -
@@ -96,12 +96,28 @@
       name: muon_arms_jpsi
       full: Muon Arms Tutorial for J/ψ Analysis
 
+- name: results
+  full: Results
+  submenus:
+    -
+      name: results_overview
+      full: Results Overview
+
+    -
+      name: inspire
+      full: PHENIX papers (Inspire HEP)
+      div: yes
+
+    -
+      name: hepdata
+      full: HEPData
+
 - name: resources
   full: Resources
   submenus:
     -
-      name: overview
-      full: Overview
+      name: resources_overview
+      full: Resources Overview
     -
       name: keywords
       full: Keywords
@@ -110,9 +126,6 @@
       name: zenodo
       full: Zenodo
       div: yes
-    -
-      name: hepdata
-      full: HEPData
     -
       name: rivet
       full: Rivet
