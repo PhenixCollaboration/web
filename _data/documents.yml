@@ -144,6 +144,20 @@
   cached_badge: yes
   date: 2013-05-19
 
+### Conference presentations
+## Winter workshop on nuclear dynamics
+- name: 4012735
+  title: 'Femtoscopy with Levy Sources in Au+Au Collisions'
+  tags: [femtoscopy, wwnd2020, ]
+  author: Máté, Csanád
+  venue: The 36th Winter Workshop on Nuclear Dynamics
+  resource: zenodo
+  type: 'conference presentation'
+  category: physics
+  format: markdown_link
+  cached_badge: yes
+  date:
+
 ### PHENIX Detector Subsystems:
 ## Focus meetings
 - name: 3983618

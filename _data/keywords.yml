@@ -164,6 +164,10 @@
 - name : direct photon
   description: Direct photons produced in nuclear collisions
   category: physics
+  
+- name : femtoscopy
+  description: Femtoscopy
+  category: physics
 
 - name : heavy ion
   description: Term applied to relativistic nuclei
@@ -221,6 +225,10 @@
 - name : pythia
   description: PYTHIA - a type of Event Generator
   category: simulation
+
+- name : small systems
+  description: Small Systems
+  category: physics
 
 # Run
 - name : run01

@@ -1,0 +1,4 @@
+---
+name: conferences
+layout: newbase
+---
