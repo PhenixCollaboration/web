@@ -123,6 +123,9 @@
       full: Keywords
       div: yes
     -
+      name: documents
+      full: Documents
+    -
       name: zenodo
       full: Zenodo
       div: yes
@@ -131,11 +134,8 @@
       full: Rivet
     -
       name: publications
-      full: Publications
+      full: General PHENIX Information
       div: yes
-    -
-      name: documents
-      full: Documents
     -
       name: links
       full: Misc Links

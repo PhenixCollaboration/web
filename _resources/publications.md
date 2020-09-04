@@ -11,10 +11,6 @@ items:
 
 {% include layouts/find_title.md name=page.name %}
 
-##### Published papers and e-prints
-
-{% include navigation/findlink.md name='PHENIX on Inspire' category='general' %}
-
 {% for item in page.items %}
 {% if item.div %}<hr/>{% endif %}
 {% include documents/doc.md title=item.title category=item.category type=item.type %}

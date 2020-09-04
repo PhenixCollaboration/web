@@ -12,6 +12,5 @@ The PHENIX Collaboration
 * {% include navigation/pagelink.md folder=site.resources name='hepdata' tag='HEPData' -%}, a CERN-based repository for publication-related data.
 * {% include navigation/pagelink.md folder=site.resources name='rivet' tag='Rivet' -%}, a toolkit for validation of MC generators and code preservation.
 * {% include navigation/findlink.md name='github' tag='GitHub'-%}: where PHENIX maintains a set of repositories.
-* {% include navigation/findlink.md name='Inspire' tag='Inspire' %}: a trusted community hub helping researchers find accurate scholarly information. Records describing PHENIX publications can be located on Inspire by using the
-{% include navigation/findlink.md name='PHENIX on Inspire' tag='"collaboration phenix"' %}
-query line.
+* {% include navigation/pagelink.md name='inspire' folder=site.results tag='Inspire' %}: a trusted community hub helping researchers find accurate scholarly information.
+

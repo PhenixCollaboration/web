@@ -28,7 +28,3 @@ For detector-specific information please see the following pages (also available
 
 #### Publications
 {% include documents/doc.md category='detector' type='publication' %}
-
-#### Links
-
-- [PHENIX website](https://www.phenix.bnl.gov/)

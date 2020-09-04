@@ -2,7 +2,6 @@
 name: links
 layout: newbase
 items:
-   - 'PHENIX website (legacy)'
    - 'PHENIX Collaboration on GitHub'
    - 'PHENIX Community on Zenodo'
    - 'PHENIX on HEPData'
