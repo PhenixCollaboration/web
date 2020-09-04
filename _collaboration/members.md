@@ -32,7 +32,8 @@ layout: newbase
 {% endfor %}
 
 {% assign inst_name='' %}
-{% for item in site.data.db.phenix_collab.institutional_affiliation %}
+{% assign affiliations=site.data.db.phenix_collab.institutional_affiliation_20 %}
+{% for item in affiliations %}
 {% if item.person==person.id %}
 {% for institution in site.data.db.phenix_collab.institutions %}
 {% if institution.id==item.institute %}
@@ -53,4 +54,4 @@ layout: newbase
 
 {% assign headers="" | split: "" %}
 {% assign headers=headers|push:'Family Name'|push:'First Name'|push:'e-mail'|push:'Institution' %}
-{% include layouts/table_versa.md headers=headers rows=rows width='130%' %}
+{% include layouts/table_versa.md headers=headers rows=rows width='120%' %}

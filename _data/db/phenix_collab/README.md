@@ -1,0 +1,2 @@
+# Phone book export
+The file "institutional_affiliation_20" was produced by applying a filter (grep) on the much larger file "institutional_affiliation", selecting years 19-23. There seems to be inconsistency in the orignal DB source with regards to what years are recorded (i.e. there are gaps which don't make sense). The procedure for building such filtered file is trivial so seems OK for maintenance.

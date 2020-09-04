@@ -9,15 +9,13 @@ Digital Repository launched at CERN in 2013. Its operation is governed
 by a set of [defined principles](https://about.zenodo.org/principles/).
 It features a rich set of [search capabilities](https://help.zenodo.org/guides/search/){:target="_blank"}
 and is backed up by a [robust infrastructure](https://about.zenodo.org/infrastructure/){:target="_blank"}.
-
-The PHENIX Collaboration has elected to use this platform as one of the principal components of
+PHENIX Collaboration has elected to use this platform as one of the principal components of
 its {% include navigation/pagelink.md folder=site.about name='dap' tag='Data and Analysis Preservation (DAP) effort' %}.
-Zenodo supports the concept
-of the "community" whereby documents submitted for archival are curated and become a part of the
-community collection. Correspondingly, the {% include navigation/findlink.md name='PHENIX Community on Zenodo' %}
-has been created and is actively managed, with new uploads being routinely added.
+
+Please visit the growing and curated collection of PHENIX materials:
+* {% include navigation/findlink.md name='PHENIX Community on Zenodo' %}
 
 The PHENIX {% include navigation/pagelink.md folder=site.about name='contact' tag='DAP team' %} maintains
-{% include navigation/pagelink.md folder=site.resources name='keywords' tag='a list of keywords' %}assigned to materials
-uploaded by Zenodo in order to facilitate queries.
+{% include navigation/pagelink.md folder=site.resources name='keywords' tag='a list of keywords' %} assigned to materials
+uploaded by Zenodo in order to facilitate queries. This list contains links to customized queries which include keywords.
 
