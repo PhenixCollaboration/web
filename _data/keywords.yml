@@ -169,6 +169,10 @@
   description: Femtoscopy
   category: physics
 
+- name : hadronization
+  description: Hadronization
+  category: physics
+
 - name : heavy ion
   description: Term applied to relativistic nuclei
   category: physics
@@ -187,6 +191,10 @@
 
 - name : polarimetry
   description: Polarimetry
+  category: physics
+
+- name : polarization
+  description: Polarization
   category: physics
 
 - name : quark gluon plasma

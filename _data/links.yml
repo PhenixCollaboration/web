@@ -24,6 +24,10 @@
   url: 'https://inspirehep.net/literature?sort=mostrecent&q=collaboration%20phenix'
   category: 'general'
 
+- name: 'PHENIX published articles on Inspire'
+  url: 'https://inspirehep.net/literature?sort=mostrecent&q=collaboration%20phenix&doc_type=article&doc_type=published'
+  category: 'general'
+
 - name: npps
   url: 'https://npps.bnl.gov/'
 

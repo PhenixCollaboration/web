@@ -112,6 +112,11 @@
       name: hepdata
       full: HEPData
 
+    -
+      name: conferences
+      full: Select conference presentations
+      div: yes
+
 - name: resources
   full: Resources
   submenus:
