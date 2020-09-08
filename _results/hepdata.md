@@ -18,4 +18,4 @@ There is a helpful write-up about preparing data for upload:
 
 Listed below are PHENIX entries uploaded to the HEPData website.
 
-{%- include documents/doc.md category='hepdata' type='publication' title="Publication Materials" -%}
+{%- include documents/doc.md category='hepdata' type='publication' title="HEPData materials" -%}

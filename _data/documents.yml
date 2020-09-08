@@ -146,10 +146,22 @@
 
 ### Conference presentations
 ## Winter workshop on nuclear dynamics
+- name: 4019056
+  title: 'PHENIX Results on J/ψ Production in p+Al, p+Au and <sup>3</sup>He+Au Collisions'
+  tags: ['J/ψ', wwnd2020, ]
+  author: Anthony Frawley
+  venue: The 36th Winter Workshop on Nuclear Dynamics
+  resource: zenodo
+  type: 'conference presentation'
+  category: physics
+  format: markdown_link
+  cached_badge: yes
+  date:
+
 - name: 4012735
   title: 'Femtoscopy with Levy Sources in Au+Au Collisions'
   tags: [femtoscopy, wwnd2020, ]
-  author: Máté, Csanád
+  author: Máté Csanád
   venue: The 36th Winter Workshop on Nuclear Dynamics
   resource: zenodo
   type: 'conference presentation'
