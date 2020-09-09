@@ -2,6 +2,10 @@
 ##### {{ include.title }}
 {% endif %}
 
+{% if include.venue %}
+##### {{ include.venue }}
+{% endif %}
+
 {% if include.category %}
 {% assign items = site.data.documents | where: "category", include.category %}
 {% else %}
@@ -12,6 +16,9 @@
 {% assign items = items | where: "type", include.type %}
 {% endif %}
 
+{% if include.venue %}
+{% assign items = items | where: "venue", include.venue %}
+{% endif %}
 
 {% if include.name %}
 {% assign items = items | where_exp: "item", "item.name==include.name" %}

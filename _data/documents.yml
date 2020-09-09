@@ -145,7 +145,68 @@
   date: 2013-05-19
 
 ### Conference presentations
-## Winter workshop on nuclear dynamics
+## QM2019
+- name: 4019942
+  title: PHENIX measurements of Bottom and Charm in A+A collisions
+  tags: [qgp, qm2019, ]
+  author: Takashi Hachiya
+  venue: Quark Matter 2019
+  resource: zenodo
+  type: 'conference presentation'
+  category: physics
+  format: markdown_link
+  cached_badge: yes
+  date:
+
+- name: 4019938
+  title: Thermal photon production in Au+Au collisions
+  tags: ['direct photon', qm2019, ]
+  author: Wenqing Fan
+  venue: Quark Matter 2019
+  resource: zenodo
+  type: 'conference presentation'
+  category: physics
+  format: markdown_link
+  cached_badge: yes
+  date:
+
+## Winter workshop on nuclear dynamics 2020
+- name: 4012723
+  title: 'Droplets of quark gluon plasma: PHENIX results on smallsystems at RHIC'
+  tags: [qgp, wwnd2020, ]
+  author: Ron Belmont
+  venue: The 36th Winter Workshop on Nuclear Dynamics
+  resource: zenodo
+  type: 'conference presentation'
+  category: physics
+  format: markdown_link
+  cached_badge: yes
+  date:
+
+- name: 4012730
+  title: Direct photon production and scaling properties in large and small system collisions
+  tags: ['direct photon', wwnd2020, ]
+  author: Vladimir Khachatryan
+  venue: The 36th Winter Workshop on Nuclear Dynamics
+  resource: zenodo
+  type: 'conference presentation'
+  category: physics
+  format: markdown_link
+  cached_badge: yes
+  date:
+
+- name: 4019518
+  title: 'PHENIX Results on J/ψ Polarization in p+p Collisions'
+  tags: ['J/ψ', wwnd2020, polarization, ]
+  author: Alexandre Lebedev
+  venue: The 36th Winter Workshop on Nuclear Dynamics
+  resource: zenodo
+  type: 'conference presentation'
+  category: physics
+  format: markdown_link
+  cached_badge: yes
+  date:
+
 - name: 4019056
   title: 'PHENIX Results on J/ψ Production in p+Al, p+Au and <sup>3</sup>He+Au Collisions'
   tags: ['J/ψ', wwnd2020, ]
