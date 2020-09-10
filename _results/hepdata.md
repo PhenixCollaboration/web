@@ -9,7 +9,7 @@ scattering data from experimental particle physics which includes data points fr
 
 The PHENIX Collaboration is using this platform as one of the components of its
 {% include navigation/pagelink.md folder=site.about name='dap' tag='Data and Analysis Preservation (DAP) effort' %}, and is adding material to
-its {% include navigation/findlink.md name='PHENIX on HEPData' title='collection of HEPData entries' -%}.
+its {% include navigation/findlink.md name='PHENIX on HEPData' tag='collection of HEPData entries' -%}.
 Members of the PHENIX Collaboration interested in creating materials suitable for submission to HEPData
 are encouraged to contact the {% include navigation/pagelink.md folder=site.about name='contact' tag='DAP Team' %}.
 

@@ -969,6 +969,39 @@
   date: 02/12/2002
 
 ### HEPData
+- name: 96533
+  title: Evolution of π0 suppression in Au+Au collisions from √s<sub>NN</sub>=39 to 200GeV 
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett.109 (2012) 152301 (ppg138, inspire 1107625)
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 96510
+  title: Suppression of away-side jet fragments with respect to the reaction plane in Au+Au collisions at √s<sub>NN</sub>=200GeV
+  tags: 
+  author: 
+  venue: Phys.Rev.C84 (2011) 024904 (ppg116, inspire 872172)
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 96498
+  title: High transverse momentum η meson production in p+p, d+Au and Au+Au collisions at √s<sub>NN</sub>=200GeV
+  tags: 
+  author: 
+  venue: Phys.Rev.C75, 024909 (ppg055, inspire 731133)
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
 - name: 95883
   title: Measurement of charged pion double spin asymmetries at midrapidity in longitudinally polarized p+p collisions at √s=510GeV
   tags: 
