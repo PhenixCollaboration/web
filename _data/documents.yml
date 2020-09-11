@@ -969,6 +969,50 @@
   date: 02/12/2002
 
 ### HEPData
+- name: 96601
+  title: Transverse energy production and charged-particle multiplicity at midrapidity in various systems from √s<sub>NN</sub>=7.7 to 200GeV
+  tags: 
+  author: 
+  venue:  Phys.Rev.C93 (2016) 024901 (ppg174, inspire 1394433)
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+
+- name: 96572
+  title: Spectra and ratios of identified particles in Au+Au and d+Au collisions at √s<sub>NN</sub>=200GeV
+  tags: 
+  author: 
+  venue:  Phys.Rev.C88 (2013) 024906 (ppg146, inspire 1227971)
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+
+- name: 96561
+  title: Neutral pion production with respect to centrality and reaction plane in Au+Au collisions at √s<sub>NN</sub>=200GeV 
+  tags: 
+  author: 
+  venue:  Phys.Rev.C87 (2013) 034911 (ppg133, inspire 1127262)
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 96550
+  title: Azimuthal anisotropy of π<sup>0</sup> and η mesons in Au + Au collisions at √s<sub>NN</sub>=200GeV 
+  tags: 
+  author: 
+  venue: Phys.Rev.C88 (2013) 064910 (ppg129, inspire 1254476)
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
 - name: 96533
   title: Evolution of π0 suppression in Au+Au collisions from √s<sub>NN</sub>=39 to 200GeV 
   tags: 
