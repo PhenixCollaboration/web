@@ -54,8 +54,17 @@ that file to be accessible from the dropdown.
 <div class="dropdown-item" style="color: #fff; background-color: #0062cc;">{{ submenu.full }}&nbsp;<img src="{{ site.dn_arrow_icon | relative_url }}" height="8" width="8"/></div>
 
 {% elsif submenu.nested %}
+<div class="btn-group dropright">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropright
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>    <!-- Dropdown menu links -->
+  </div>
+</div>
 
-Nested!
 {% else %}
 
 
