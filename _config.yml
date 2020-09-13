@@ -30,6 +30,7 @@ hr: '<hr style="height:1px;border-width:0;color:royalblue;background-color:royal
 
 # Icons:
 home_icon: /images/icons/house-24.png
+test_icon: /images/icons/test-tube-5-32.png
 collaboration_icon: /images/icons/geography-32.png
 experiment_icon: /images/icons/atomic-24.png
 detectors_icon: /images/icons/cog-24.png
@@ -59,6 +60,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 collections:
+  test:
+    output: true
+    permalink: /test/:title.html
   collaboration:
     output: true
     permalink: /collaboration/:title.html

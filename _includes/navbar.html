@@ -13,8 +13,8 @@
     &nbsp;&nbsp;
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      {% for menu in site.data.menus %}
-      {% if menu.exclude %}{% continue %}{% endif %}
+      {% for menu in site.data.menus %}  {% if menu.exclude %}{% continue %}{% endif %}
+      
       {% if menu.right %}</ul><ul class="navbar-nav text-right">{% endif %}
       {% include layouts/autodrop_data.md what=menu.name %}
       {% if menu.right %}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{% endif %}

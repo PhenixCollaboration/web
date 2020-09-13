@@ -24,28 +24,23 @@ that file to be accessible from the dropdown.
 {% assign target='' %}
 
 <li class="nav-item dropdown px-4">
+  {% assign the_icon='' %}
   {% if icon.size > 0 %}
-  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #fff;">{{ the_menu.full }}&nbsp;&nbsp;<img src="{{ icon | relative_url }}" height="24" width="24"></a>
-  {% else %}
-  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #fff;">{{ the_menu.full }}</a>
+  {% assign icon_url= icon | relative_url %}
+  {% assign the_icon='&nbsp;&nbsp;<img src="' | append: icon_url | append: '" height="24" width="24">' %}
   {% endif %}
+  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #fff;">{{ the_menu.full }}{{ the_icon }}</a>
   
 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
 {% for submenu in the_menu.submenus %}{% if submenu.exclude %}{% continue %}{% endif %}
 
-{% comment %}
-First, handle external links
-{% endcomment %}
 
-{% if submenu.link %}
-{% assign theLink=submenu.link %}
-{% assign target=site.blank %}
+{% if submenu.link %}				{% comment %} ---- First, handle external links	{% endcomment %}
 
-{% else %}
-{% comment %}
-Now, internal links
-{% endcomment %}
+{% assign theLink=submenu.link %}{% assign target=site.blank %}
+
+{% else %}					{% comment %} ---- Now, internal links		{% endcomment %}
 
 {% assign item=theCollection | where: "name", submenu.name | first %}
 {% assign theLink=item.url | relative_url %}
