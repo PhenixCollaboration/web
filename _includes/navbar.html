@@ -1,10 +1,5 @@
-<nav class="navbar justify-content-center sticky-top navbar-expand-lg">
-  <!-- style="width: 1200px;" -->
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<nav class="navbar justify-content-center sticky-top navbar-expand-lg"> <!-- style="width: 1200px;" -->
+  {{ site.navbarpadding_left }}
   <a class="navbar-nav mr-auto" href="{{ '/' | relative_url }}" style="color: #fff;font-size: 16px;"><!-- was nav-brand-->
     <!-- img src="{{ site.phenix_logo | relative_url }}" height="24" 
     Home
@@ -17,39 +12,9 @@
       
       {% if menu.right %}</ul><ul class="navbar-nav text-right">{% endif %}
       {% include layouts/autodrop_data.md what=menu.name %}
-      {% if menu.right %}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{% endif %}
+      {% if menu.right %}{{ site.navbarpadding_right }}{% endif %}
       {% endfor %}
     </ul>
 
   </div>
 </nav>
-
-
-{% comment %}
-#######################################################################################
-#######################################################################################
-#######################################################################################
-#######################################################################################
-#######################################################################################
-This is the first version of the navbar block replaced with iterators - see above -
-
-"Levels" used in "autodrop" have been decomissioned now -mxp- 20200506
-
-<ul class="navbar-nav mr-auto">
-  {% include layouts/autodrop.md title='Experiment'	what=site.experiment %}
-  {% include layouts/autodrop.md title='Detectors'	what=site.detectors %}
-  {% include layouts/autodrop.md title='Software'	what=site.software %}
-  {% include layouts/autodrop.md title='Analysis'	what=site.analysis %}
-  {% include layouts/autodrop.md title='Resources'	what=site.resources %}
-</ul>
-<ul class="navbar-nav mr-auto text-right">
-  {% include layouts/autodrop.md title='About'	what=site.about %}
-  
-</ul>
-#######################################################################################
-#######################################################################################
-#######################################################################################
-#######################################################################################
-#######################################################################################
-{% endcomment %}
-    
