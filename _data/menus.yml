@@ -1,3 +1,16 @@
+- name: test
+  full: Test
+  exclude: yes
+  submenus:
+    -
+      name: test_submenu
+      full: Test Nested Menu
+      nested: yes
+
+    -
+      name: test_overview
+      full: Test Overview
+
 - name: collaboration
   full: Collaboration
   submenus:

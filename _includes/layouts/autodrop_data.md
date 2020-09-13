@@ -1,4 +1,5 @@
 {% case include.what %}
+{% when "test" %}		{% assign theCollection=site.test %} 	{% assign icon=site.test_icon %}
 {% when "collaboration" %}	{% assign theCollection=site.collaboration %} {% assign icon=site.collaboration_icon %}
 {% when "experiment" %}		{% assign theCollection=site.experiment %} {% assign icon=site.experiment_icon %}
 {% when "detectors" %}		{% assign theCollection=site.detectors %}  {% assign icon=site.detectors_icon %}
@@ -51,12 +52,20 @@ that file to be accessible from the dropdown.
 
 {% if submenu.label %}
 <div class="dropdown-item" style="color: #fff; background-color: #0062cc;">{{ submenu.full }}&nbsp;<img src="{{ site.dn_arrow_icon | relative_url }}" height="8" width="8"/></div>
+
+{% elsif submenu.nested %}
+Nested!
 {% else %}
+
+
+{% assign the_icon='' %}
 {% if submenu.icon %}
-<a class="dropdown-item" href="{{ theLink }}" {{ target }}>{{ submenu.full }} &nbsp; <img src="{{ submenu.icon | relative_url}}" height="16"/></a>
-{% else %}
-<a class="dropdown-item" href="{{ theLink }}" {{ target }}>{{ submenu.full }}</a>
+{% assign icon_url= submenu.icon | relative_url %}
+{% assign the_icon='&nbsp;&nbsp;<img src="' | append: icon_url | append: '" height="16" width="16">' %}
 {% endif %}
+
+<a class="dropdown-item" href="{{ theLink }}" {{ target }}>{{ submenu.full }}{{ the_icon }}</a>
+
 {% endif %}
 
 {% endfor %}
