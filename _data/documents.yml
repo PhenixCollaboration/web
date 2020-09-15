@@ -851,9 +851,33 @@
   date: 
 
 ## Writeups:
+- name: 4029678
+  title: Electron Identification in PHENIX
+  tags: ['pid', 'electron', 'roli tutorial electron pid',]
+  author: Roli Esha
+  venue: 
+  resource: zenodo
+  type: writeup
+  category: physics
+  format: markdown_link
+  cached_badge: yes
+  date:
+
+- name: 4029673
+  title: 'Taxi Code, Embedding'
+  tags: ['taxi', 'embedding', 'krista tutorial taxi',]
+  author: Krista Smith
+  venue: 
+  resource: zenodo
+  type: writeup
+  category: physics
+  format: markdown_link
+  cached_badge: yes
+  date:
+
 - name: 4011095
   title: Muon Arms Tutorial for J/ψ Analysis
-  tags: ['J/ψ', 'muon arms', 'krista tutorial',]
+  tags: ['J/ψ', 'muon arms', 'krista tutorial muon arms',]
   author: Krista Smith
   venue: 
   resource: zenodo

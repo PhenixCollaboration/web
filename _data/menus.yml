@@ -94,7 +94,19 @@
     -
       name: analysis_overview
       full: Analysis Overview
+
+    -
+      name: muon_arms_jpsi
+      full: Muon Arms Tutorial for J/ψ Analysis
       div: yes
+
+    -
+      name: taxi_embedding
+      full: Taxi Code and Embedding Tutorial
+
+    -
+      name: electron_identification
+      full: Electron Identification in PHENIX
 
     -
       name: analysis_chains
@@ -104,10 +116,6 @@
     -
       name: embeddingVtx
       full: Embedding Example (VTX)
-
-    -
-      name: muon_arms_jpsi
-      full: Muon Arms Tutorial for J/ψ Analysis
 
 - name: results
   full: Results

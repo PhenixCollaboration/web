@@ -165,6 +165,10 @@
   description: Direct photons produced in nuclear collisions
   category: physics
   
+- name : electron
+  description: Electron
+  category: physics
+  
 - name : femtoscopy
   description: Femtoscopy
   category: physics
