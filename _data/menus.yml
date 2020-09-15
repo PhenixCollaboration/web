@@ -96,6 +96,11 @@
       full: Analysis Overview
 
     -
+      name: analysis_writeups
+      full: Write-ups
+      label: yes
+
+    -
       name: muon_arms_jpsi
       full: Muon Arms Tutorial for J/ψ Analysis
       div: yes
