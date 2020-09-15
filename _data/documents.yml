@@ -146,6 +146,30 @@
 
 ### Conference presentations
 ## QM2019
+- name: 4031789
+  title: 𝜋<sup>0</sup> Azimuthal Anisotropy in Central d+Au Collisions at 200GeV with PHENIX at RHIC
+  tags: [anisotropy, qm2019, ]
+  author: Jeongsu Bok
+  venue: Quark Matter 2019
+  resource: zenodo
+  type: 'conference presentation'
+  category: physics
+  format: markdown_link
+  cached_badge: yes
+  date:
+
+- name: 4031761
+  title: 'Nuclear dependence of transverse single-spin asymmetry of charged hadrons in polarized p+p, p+Al and p+Au collisions in PHENIX'
+  tags: [spin, qm2019, ]
+  author: Jeongsu Bok
+  venue: Quark Matter 2019
+  resource: zenodo
+  type: 'conference presentation'
+  category: physics
+  format: markdown_link
+  cached_badge: yes
+  date:
+
 - name: 4019942
   title: PHENIX measurements of Bottom and Charm in A+A collisions
   tags: [qgp, qm2019, ]
@@ -171,6 +195,18 @@
   date:
 
 ## Winter workshop on nuclear dynamics 2020
+- name: 4031755
+  title: High p<sub>T</sub> identified hadrons in large and small systems measured in PHENIX
+  tags: [wwnd2020, ]
+  author: Balazs Ujvari
+  venue: The 36th Winter Workshop on Nuclear Dynamics
+  resource: zenodo
+  type: 'conference presentation'
+  category: physics
+  format: markdown_link
+  cached_badge: yes
+  date:
+
 - name: 4012723
   title: 'Droplets of quark gluon plasma: PHENIX results on smallsystems at RHIC'
   tags: [qgp, wwnd2020, ]

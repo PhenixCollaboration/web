@@ -28,6 +28,14 @@
   url: 'https://inspirehep.net/literature?sort=mostrecent&q=collaboration%20phenix&doc_type=article&doc_type=published'
   category: 'general'
 
+# Conferences
+- name: wwnd2020
+  url: 'https://indico.cern.ch/event/841247/'
+
+- name: qm2019  
+  url: 'https://indico.cern.ch/event/792436/'
+
+# Misc
 - name: npps
   url: 'https://npps.bnl.gov/'
 
