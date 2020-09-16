@@ -181,6 +181,10 @@
   description: Hadronization
   category: physics
 
+- name : heavy flavor
+  description: Term applied to heavy quarks
+  category: physics
+
 - name : heavy ion
   description: Term applied to relativistic nuclei
   category: physics

@@ -146,10 +146,22 @@
 
 ### Conference presentations
 ## QM2019
+- name: 4031870
+  title: Quark flavor dependence of particle production and flow in nucleus-nucleus collisions measured by PHENIX
+  tags: ['heavy flavor', qm2019, ]
+  author: Takahito Todoroki
+  venue: Quark Matter 2019
+  resource: zenodo
+  type: 'conference presentation'
+  category: physics
+  format: markdown_link
+  cached_badge: yes
+  date:
+
 - name: 4031789
   title: 𝜋<sup>0</sup> Azimuthal Anisotropy in Central d+Au Collisions at 200GeV with PHENIX at RHIC
   tags: [anisotropy, qm2019, ]
-  author: Jeongsu Bok
+  author: Axel Drees
   venue: Quark Matter 2019
   resource: zenodo
   type: 'conference presentation'
