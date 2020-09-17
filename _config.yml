@@ -55,6 +55,9 @@ navbar: 'new'
 document_folder: '/assets/documents/'
 ert_mask_folder: '/assets/trigger/ert/'
 
+# URLs
+zenodo_prefix: 'https://doi.org/10.5281/zenodo.'
+
 ###
 plugins:
   - jekyll-mentions

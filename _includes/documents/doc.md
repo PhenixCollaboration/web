@@ -2,9 +2,6 @@
 ##### {{ include.title }}
 {% endif %}
 
-{% if include.venue %}
-##### {{ include.venue }}
-{% endif %}
 
 {% if include.category %}
 {% assign items = site.data.documents | where: "category", include.category %}
