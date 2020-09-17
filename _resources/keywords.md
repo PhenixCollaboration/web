@@ -5,6 +5,9 @@ categories:
 - title: 'General'
   category: 'general'
 
+- title: 'Conferences'
+  category: 'conference'
+
 - title: 'Physics'
   category: 'physics'
 

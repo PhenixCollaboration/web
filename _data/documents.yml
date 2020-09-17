@@ -146,10 +146,10 @@
 
 ### Conference presentations
 ## QM2019
-- name: 4031870
-  title: Quark flavor dependence of particle production and flow in nucleus-nucleus collisions measured by PHENIX
-  tags: ['heavy flavor', qm2019, ]
-  author: Takahito Todoroki
+- name: 4031761
+  title: 'Nuclear dependence of transverse single-spin asymmetry of charged hadrons in polarized p+p, p+Al and p+Au collisions in PHENIX'
+  tags: [spin, qm2019, ]
+  author: Jeongsu Bok
   venue: qm2019
   resource: zenodo
   type: 'conference presentation'
@@ -170,10 +170,10 @@
   cached_badge: yes
   date:
 
-- name: 4031761
-  title: 'Nuclear dependence of transverse single-spin asymmetry of charged hadrons in polarized p+p, p+Al and p+Au collisions in PHENIX'
-  tags: [spin, qm2019, ]
-  author: Jeongsu Bok
+- name: 4019938
+  title: Thermal photon production in Au+Au collisions
+  tags: ['direct photon', qm2019, ]
+  author: Wenqing Fan
   venue: qm2019
   resource: zenodo
   type: 'conference presentation'
@@ -194,10 +194,22 @@
   cached_badge: yes
   date:
 
-- name: 4019938
-  title: Thermal photon production in Au+Au collisions
-  tags: ['direct photon', qm2019, ]
-  author: Wenqing Fan
+- name: 4035211
+  title: Signatures of collectivity and flow of light and heavy quarks in small systems observed by PHENIX
+  tags: [flow, qm2019, ]
+  author: Seyoung Han
+  venue: qm2019
+  resource: zenodo
+  type: 'conference presentation'
+  category: physics
+  format: markdown_link
+  cached_badge: yes
+  date:
+
+- name: 4031870
+  title: Quark flavor dependence of particle production and flow in nucleus-nucleus collisions measured by PHENIX
+  tags: ['heavy flavor', qm2019, ]
+  author: Takahito Todoroki
   venue: qm2019
   resource: zenodo
   type: 'conference presentation'
@@ -207,18 +219,6 @@
   date:
 
 ## Winter workshop on nuclear dynamics 2020
-- name: 4031755
-  title: High p<sub>T</sub> identified hadrons in large and small systems measured in PHENIX
-  tags: [wwnd2020, ]
-  author: Balazs Ujvari
-  venue: wwnd2020
-  resource: zenodo
-  type: 'conference presentation'
-  category: physics
-  format: markdown_link
-  cached_badge: yes
-  date:
-
 - name: 4012723
   title: 'Droplets of quark gluon plasma: PHENIX results on smallsystems at RHIC'
   tags: [qgp, wwnd2020, ]
@@ -231,22 +231,10 @@
   cached_badge: yes
   date:
 
-- name: 4012730
-  title: Direct photon production and scaling properties in large and small system collisions
-  tags: ['direct photon', wwnd2020, ]
-  author: Vladimir Khachatryan
-  venue: wwnd2020
-  resource: zenodo
-  type: 'conference presentation'
-  category: physics
-  format: markdown_link
-  cached_badge: yes
-  date:
-
-- name: 4019518
-  title: 'PHENIX Results on J/ψ Polarization in p+p Collisions'
-  tags: ['J/ψ', wwnd2020, polarization, ]
-  author: Alexandre Lebedev
+- name: 4012735
+  title: 'Femtoscopy with Levy Sources in Au+Au Collisions'
+  tags: [femtoscopy, wwnd2020, ]
+  author: Máté Csanád
   venue: wwnd2020
   resource: zenodo
   type: 'conference presentation'
@@ -267,10 +255,46 @@
   cached_badge: yes
   date:
 
-- name: 4012735
-  title: 'Femtoscopy with Levy Sources in Au+Au Collisions'
-  tags: [femtoscopy, wwnd2020, ]
-  author: Máté Csanád
+- name: 4012730
+  title: Direct photon production and scaling properties in large and small system collisions
+  tags: ['direct photon', wwnd2020, ]
+  author: Vladimir Khachatryan
+  venue: wwnd2020
+  resource: zenodo
+  type: 'conference presentation'
+  category: physics
+  format: markdown_link
+  cached_badge: yes
+  date:
+
+- name: 4035203
+  title: 'robing forward/small-x dynamics from hadrons and muon pairs'
+  tags: [wwnd2020, 'small-x',]
+  author: John Lajoie
+  venue: wwnd2020
+  resource: zenodo
+  type: 'conference presentation'
+  category: physics
+  format: markdown_link
+  cached_badge: yes
+  date:
+
+- name: 4019518
+  title: 'PHENIX Results on J/ψ Polarization in p+p Collisions'
+  tags: ['J/ψ', wwnd2020, polarization, ]
+  author: Alexandre Lebedev
+  venue: wwnd2020
+  resource: zenodo
+  type: 'conference presentation'
+  category: physics
+  format: markdown_link
+  cached_badge: yes
+  date:
+
+- name: 4031755
+  title: High p<sub>T</sub> identified hadrons in large and small systems measured in PHENIX
+  tags: [wwnd2020, ]
+  author: Balazs Ujvari
   venue: wwnd2020
   resource: zenodo
   type: 'conference presentation'

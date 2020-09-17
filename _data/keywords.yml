@@ -11,6 +11,15 @@
   description: Two documents describing the proposed PHENIX research program for two different time periods
   category: general
 
+# Conferences
+- name : qm2019
+  description: Quark Matter 2019
+  category: conference
+
+- name : wwnd2020
+  description: The 36th Winter Workshop on Nuclear Dynamics
+  category: conference
+
 # Detector
 - name : aerogel
   description: Aerogel Cherenkov Counter
@@ -177,6 +186,10 @@
   description: Femtoscopy
   category: physics
 
+- name : flow
+  description: Flow
+  category: physics
+
 - name : hadronization
   description: Hadronization
   category: physics
@@ -219,6 +232,10 @@
 
 - name : qgp
   description: Quark Gluon Plasma
+  category: physics
+
+- name : small-x
+  description: small-x physics
   category: physics
 
 - name : spin
