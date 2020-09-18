@@ -12,7 +12,7 @@ conferences:
 
 {%- include navigation/zenodo_query.md name=item.name tag='PHENIX Presentations on Zenodo' -%}
 {%- assign conference_website=site.data.links | where: "name", conference.name  | map: "url" | first -%}
-<table width="70%">
+<table width="100%">
   <tr>
     <td width="55%"><h4>{{ item.title }}</h4></td>
     <td width="10%"><h5><a href="{{ conference_website }}" target="_blank">Website</a></h5></td>
@@ -21,7 +21,7 @@ conferences:
 </table>
 <hr/>
 <center><h5>Select materials</h5></center>
-{% include documents/conference.md name=conference.name width='70%' %}
+{% include documents/conference.md name=conference.name width='100%' %}
 
 {{ site.hr }}
 {% endfor %}
