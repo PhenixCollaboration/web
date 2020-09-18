@@ -140,7 +140,7 @@
 
     -
       name: conferences
-      full: Select conference presentations
+      full: Conference presentations
       div: yes
 
     -
