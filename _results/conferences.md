@@ -21,7 +21,7 @@ conferences:
 </table>
 <hr/>
 <center><h5>Select materials</h5></center>
-{% include documents/conference.md name=conference.name %}
+{% include documents/conference.md name=conference.name width='70%' %}
 
 {{ site.hr }}
 {% endfor %}
