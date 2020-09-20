@@ -32,6 +32,9 @@
 - name: wwnd2020
   url: 'https://indico.cern.ch/event/841247/'
 
+- name: sfjhf29
+  url: 'https://indico.fnal.gov/event/22233/'
+
 - name: qm2019  
   url: 'https://indico.cern.ch/event/792436/'
 

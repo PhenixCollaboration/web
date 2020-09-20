@@ -3,6 +3,7 @@ name: conferences
 layout: newbase
 conferences:
 - name: wwnd2020
+# - name: sfjhf20
 - name: qm2019
 ---
 {% include layouts/find_title.md name=page.name %}
@@ -20,8 +21,10 @@ conferences:
   </tr>
 </table>
 <hr/>
-<center><h5>Select materials</h5></center>
+{% assign detected=site.data.documents | where: "type", "conference presentation" | where: "venue", conference.name | size %}
+{% if detected > 0%}
+<center><h5>Select presentations</h5></center>
 {% include documents/conference.md name=conference.name width='100%' %}
-
+{% endif %}
 {{ site.hr }}
 {% endfor %}

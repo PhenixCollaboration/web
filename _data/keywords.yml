@@ -12,12 +12,20 @@
   category: general
 
 # Conferences
+- name : dnp19
+  description: DNP 2019
+  category: conference
+
 - name : qm2019
   description: Quark Matter 2019
   category: conference
 
 - name : wwnd2020
   description: The 36th Winter Workshop on Nuclear Dynamics
+  category: conference
+
+- name : sfjhf20
+  description: Santa Fe Jets and Heavy Flavor Workshop
   category: conference
 
 # Detector
@@ -212,6 +220,10 @@
 
 - name : jet quenching
   description: jet quenching
+  category: physics
+
+- name : modification
+  description: Modification of observables
   category: physics
 
 - name : polarimetry
