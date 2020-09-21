@@ -36,6 +36,7 @@
 {%- if item.format=='markdown_link' -%}
 {%- if item.resource=='zenodo' %}
 * {% include navigation/zenodo.md item=item %}
+
 {%- elsif item.resource=='hepdata' -%}
 * {% include navigation/hepdata.md item=item %}
 {%- else -%}

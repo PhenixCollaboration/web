@@ -16,6 +16,11 @@
   name: muon_piston
   category: muon
 
+- title: Forward Silicon Vertex Detector
+  role: Tracking in the forward region.
+  name: fvtx
+  category: muon
+
 ### Central Arm:
 - title: Drift Chamber
   role: Measures the position and momentum of charged particles.

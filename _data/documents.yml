@@ -718,6 +718,7 @@
 # - name: FVTX_NIM.pdf
 - name: '[The PHENIX Forward Silicon Vertex Detector](http://dx.doi.org/10.1016/j.nima.2014.04.017)'
   title: (NIM A 755, 2014, dx.doi.org/10.1016/j.nima.2014.04.017)
+  tags: [fvtx,]
   author: 
   venue: 
   type: publication
