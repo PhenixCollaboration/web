@@ -6,8 +6,8 @@ items:
    - {title: 'General Overviews',			category: 'overview',	type: 'document'}
    - {title: 'Beam Use Proposals',			category: 'detector',	type: 'bup'}
    - {title: 'Detector Subsystems (Writeups)',		category: 'detector',	type: 'writeup'}
-#   - {title: 'General References',			category: 'detector',	type: 'reference'}
-#   - {title: 'Select Theses',				category: 'detector',	type: 'thesis'}
+   - {title: 'Detector Reference Papers',		category: 'detector',	type: 'publication'}
+   - {title: 'Conference Presentations',		category: 'detector',	type: 'conference presentation'}
    - {title: 'Misc Summaries',				category: 'summary',	div: yes }
 
 ---
