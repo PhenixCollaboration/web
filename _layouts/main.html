@@ -12,21 +12,18 @@ layout: newbase
 
 {{ site.hr }}
 
-        <div class=row>
-          <div class="col-lg-5">
-            <img src="{{ '/images/general/phenix_400x400.jpg' | relative_url }}" alt="Photo of the PHENIX experiment" width="500">
-          </div>
-          <div class="col-lg-7">
-            <p class="lead">
-	      PHENIX, the Pioneering High Energy Nuclear Interaction eXperiment,
-	      is an exploratory experiment for the investigation of high energy collisions of heavy ions and protons.
-	      It is the largest of the four experiments that have taken data at the Relativistic Heavy Ion Collider.
-	      Data-taking was finished in 2016 and the PHENIX Collaboration is now analyzing large data
-	      samples collected, prioritizing those with a unique physics reach.
-	    </p>
-
-      </div>
-      </div>
+<div class=row>
+  <div class="col-lg-2"> &nbsp; </div>
+  <div class="col-lg-4"><img src="{{ '/images/general/phenix_400x400.jpg' | relative_url }}" alt="Photo of the PHENIX experiment" width="500"></div>
+  <div class="col-lg-4"><p class="lead">
+      PHENIX, the Pioneering High Energy Nuclear Interaction eXperiment, is an exploratory experiment
+      for the investigation of high energy collisions of heavy ions and protons. It is the largest of
+      the four experiments that have taken data at the Relativistic Heavy Ion Collider.
+      Data-taking was finished in 2016 and the PHENIX Collaboration is now analyzing large data
+      samples collected, prioritizing those with a unique physics reach.</p>
+  </div>
+  <div class="col-lg-2"> &nbsp; </div>
+</div>
 
   </div>
 </div>
@@ -35,15 +32,12 @@ layout: newbase
 <p/>
   <center>
     This website has been created by the PHENIX Collaboration to support its long-term Data and Analysis Preservation effort.
-    Materials are being collected from legacy web resources, systematized and curated.
-    Please do not hesitate to examine 
+    Materials are being collected from legacy web resources, systematized and curated. Please do not hesitate to examine 
     {% include navigation/pagelink.md folder=site.about name='site' tag='the list of work items' html='1' %}
     and  
     {% include navigation/pagelink.md folder=site.about name='contact' tag='let us know' html='1' %}
     if you can help.
   </center>
-&nbsp;<p/>
-&nbsp;<p/>
 &nbsp;<p/>
 <p style="text-align:center;">
   <em>Site built at {{ site.time }}</em>
