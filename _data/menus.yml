@@ -13,6 +13,7 @@
 
 - name: collaboration
   full: Collaboration
+  exclude: yes
   submenus:
     -
       name: contact
@@ -20,7 +21,7 @@
 
     -
       name: members
-      full: Members
+      full: Collaboration
 
 - name: experiment
   full: Experiment
@@ -28,6 +29,16 @@
     -
       name: concept
       full: Concept and History
+
+    -
+      name: contact
+      full: Contact
+      div: yes
+
+    -
+      name: members
+      full: Collaboration
+
     -
       name: runs
       full: Run Summary Table
