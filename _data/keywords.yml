@@ -206,6 +206,10 @@
   description: Flow
   category: physics
 
+- name : forward-rapidity
+  description: The forward kinematic region
+  category: physics
+
 - name : hadronization
   description: Hadronization
   category: physics
@@ -230,8 +234,16 @@
   description: jet quenching
   category: physics
 
+- name : mid-rapidity
+  description: The kinematic region of mid-rapidity
+  category: physics
+
 - name : modification
   description: Modification of observables
+  category: physics
+
+- name : photoproduction
+  description: Particle production via interaction with photons
   category: physics
 
 - name : polarimetry

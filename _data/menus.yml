@@ -49,7 +49,6 @@
     -
       name: aux
       full: Auxiliary Run Info
-      div: yes
 
 - name: detectors
   full: Detectors

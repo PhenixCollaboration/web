@@ -389,6 +389,18 @@
   cached_badge: yes
   date:
 
+- name: 4057111
+  title: 'TOF-E matching recalibration for Run 12, U<sup>192</sup>+U<sup>192</sup>'
+  tags: [tof, tofe]
+  author: Alexander Berdnikov
+  venue: 
+  resource: zenodo
+  type: presentation
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date:
+
 - name: 4007113
   title: 'PHENIX Focus: Electromagnetic Calorimeter'
   tags: [emcal, ]
