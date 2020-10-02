@@ -3,6 +3,7 @@
 {% for submenu in menu.submenus %}
 {% if submenu.name==include.name %}
 {% assign found_title=submenu.full %}
+{% break %}
 {% endif %}
 {% endfor %}
 

@@ -1,3 +1,4 @@
+# Misc web resources
 - name: 'PHENIX website (legacy)'
   url: 'https://www.phenix.bnl.gov/'
   category: 'general'
@@ -48,12 +49,21 @@
 - name: hsf
   url: 'http://hepsoftwarefoundation.org/'
 
+
+# Cloud tools
 - name: github
   url: https://github.com/PhenixCollaboration
 
 - name: rivet
   url: 'https://rivet.hepforge.org/'
 
+# Software links
+- name: cvs_cheatsheet
+  url: 'https://www.slac.stanford.edu/grp/cd/soft/cvs/cvs_cheatsheet.html'
+
+- name: cvs
+  url: 'https://www.gnu.org/software/trans-coord/manual/cvs/cvs.html'
+  
 - name: automake
   url: 'https://www.gnu.org/software/automake/'
 
