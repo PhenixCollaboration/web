@@ -24,7 +24,7 @@ Currently the following procedure is suggested:
    * Create a fork of the "documentation" repository on GitHub (easy to do in the Web UI)
    * Clone the resulting repository
    * Check if the correct "ppgXXX" folder exists, if not create it and add it to your repository. 'XXX' stands for the PPG serial number; populate the folder with your HEPData submission files
-   * Do "git commit ." and "git push" to place the material is on GitHub
+   * Do "git commit ." and "git push" to place the material on GitHub
    * Create a pull request on the GitHub website so that the {% include navigation/pagelink.md folder=site.about name='contact' tag='DAP Team' %} can merge your addition into the official repository
 
 The DAP team will then take care of the actual upload to HEPData and related procedures. You will be notified when this process completes which shouldn't take long.
