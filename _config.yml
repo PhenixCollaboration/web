@@ -61,6 +61,8 @@ ert_mask_folder: '/assets/trigger/ert/'
 # URLs
 zenodo_prefix: 'https://doi.org/10.5281/zenodo.'
 
+
+exclude: [_data/db, ]
 ###
 plugins:
   - jekyll-mentions
