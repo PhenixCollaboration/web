@@ -11,7 +11,7 @@
       {% for menu in site.data.menus %}  {% if menu.exclude %}{% continue %}{% endif %}
       
       {% if menu.right %}</ul><ul class="navbar-nav text-right">{% endif %}
-      {% include layouts/autodrop_data.md what=menu.name %}
+      {% include_cached layouts/autodrop_data.md what=menu.name %}
       {% if menu.right %}{{ site.navbarpadding_right }}{% endif %}
       {% endfor %}
     </ul>

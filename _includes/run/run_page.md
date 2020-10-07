@@ -1,9 +1,9 @@
-{% include run/run_bar.md %}
+{% include_cached run/run_bar.md %}
 <hr/>
 <center><h2>{{ page.title }}</h2></center>
 <hr/>
 
-{% assign images = site.data.gallery | where: "type", "run_configuration" | where: "run", page.run %}
+{% assign images = site.data.gallery | where: "type", "run_configuration" | where: "run", include.run %}
 {% assign length = images | size %}
 
 {% if length!=0 %}
@@ -29,7 +29,7 @@
 </td>
 
 <td valign="top">
-{% include rhic/rhic_record.md run=page.run %}
+{% include rhic/rhic_record.md run=include.run %}
 </td>
 
 </tr>
@@ -38,4 +38,4 @@
 
 {% endif %}
 
-{% include rhic/lumi_page.md %}
+{% include_cached rhic/lumi_page.md run=include.run %}

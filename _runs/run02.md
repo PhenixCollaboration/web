@@ -4,4 +4,4 @@ layout: run_base
 run: run02
 name: run02
 ---
-{% include run/run_page.md %}
+{% include_cached run/run_page.md run=page.run %}

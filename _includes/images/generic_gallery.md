@@ -55,7 +55,7 @@
 
 {% if include.type=='run_configuration' %}
 <center>
-{% include navigation/pagelink.md folder=site.runs name=image.run tag='Run detail page' html='1' %}
+{% include_cached navigation/pagelink.md folder=site.runs name=image.run tag='Run detail page' html='1' %}
 <p/>  
 </center>  
 {% endif %}

@@ -15,5 +15,5 @@ items:
 
 {% for item in page.items %}
 {% if item.div %}<hr/>{% endif %}
-{% include documents/doc.md title=item.title category=item.category type=item.type %}
+{% include_cached documents/doc.md title=item.title category=item.category type=item.type %}
 {% endfor %}
