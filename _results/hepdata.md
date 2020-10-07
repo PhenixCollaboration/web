@@ -5,7 +5,7 @@ layout: newbase
 {% include layouts/find_title.md name=page.name %}
 
 ##### About
-{% include navigation/findlink.md name='HEPData' %} is an open-access repository for
+{% include_cached navigation/findlink.md name='HEPData' %} is an open-access repository for
 scattering data from experimental particle physics which includes data points from several thousand publications.
 The PHENIX Collaboration is using this platform as one of the components of its
 {% include navigation/pagelink.md folder=site.about name='dap' tag='Data and Analysis Preservation (DAP) effort' %}, and is adding material to
@@ -15,7 +15,7 @@ are encouraged to contact the {% include navigation/pagelink.md folder=site.abou
 
 ##### The Procedure
 In order for data to be successfully uploaded to the HEPData portal, it must conform to a specific format (please check the HEPData site for documentation). Existing text files can be converted to the HEPData format with some effort. There is a helpful write-up about preparing data for upload:
-{% include documents/doc.md type='writeup' tag='nattrass' %}
+{% include_cached documents/doc.md type='writeup' tag='nattrass' %}
 
 Currently the following procedure is suggested:
 * The submission package for a given publication is prepared in the form of properly formatted YAML (and optinal PNG) files.
@@ -29,4 +29,4 @@ Currently the following procedure is suggested:
 
 The DAP team will then take care of the actual upload to HEPData and related procedures. You will be notified when this process completes which shouldn't take long.
 
-{% include documents/doc.md category='hepdata' type='publication' title="Uploaded HEPData materials" -%}
+{% include_cached documents/doc.md category='hepdata' type='publication' title="Uploaded HEPData materials" -%}

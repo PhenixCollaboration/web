@@ -1,15 +1,15 @@
-{% include_cached run/run_bar.md %}
+{% include_cached run/run_bar.md run=include.run title=include.title %}
 <hr/>
 <center><h2>{{ page.title }}</h2></center>
 <hr/>
 
-{% assign images = site.data.gallery | where: "type", "run_configuration" | where: "run", include.run %}
+{% assign images = site.data.gallery | where: "type", "run_configuration" | where: "run", include.run | first %}
 {% assign length = images | size %}
 
 {% if length!=0 %}
-{% assign image=images[0].path %}
-{% assign title=images[0].title %}
-{% assign width=images[0].width %}
+{% assign image=images.path %}
+{% assign title=images.title %}
+{% assign width=images.width %}
 
 
 <table width="110%">
@@ -22,14 +22,14 @@
 
 <td style="text-align:center">
 {% if image!='' %}
-{% include images/include_image.md image=image title='' width=width %}
+{% include_cached images/include_image.md image=image title='' width=width %}
 {% else %}
 &nbsp;
 {% endif %}
 </td>
 
 <td valign="top">
-{% include rhic/rhic_record.md run=include.run %}
+{% include_cached rhic/rhic_record.md run=include.run %}
 </td>
 
 </tr>
@@ -38,4 +38,7 @@
 
 {% endif %}
 
+{% if site.lumi=='yes' %}
 {% include_cached rhic/lumi_page.md run=include.run %}
+{% endif %}
+

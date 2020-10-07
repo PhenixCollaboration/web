@@ -35,12 +35,12 @@
 {%- for item in items -%}
 {%- if item.format=='markdown_link' -%}
 {%- if item.resource=='zenodo' %}
-* {% include navigation/zenodo.md item=item %}
+* {% include_cached navigation/zenodo.md item=item %}
 
 {%- elsif item.resource=='hepdata' -%}
-* {% include navigation/hepdata.md item=item %}
+* {% include_cached navigation/hepdata.md item=item %}
 {%- else -%}
-* {% include navigation/generate_md_link.md item=item %}
+* {% include_cached navigation/generate_md_link.md item=item %}
 {%- endif -%}
 
 {%- else %}
