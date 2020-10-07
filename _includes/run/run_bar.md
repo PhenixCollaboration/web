@@ -1,16 +1,16 @@
 <table width="100%">
 
 <tr>
+
 {% for run in site.runs %}
-{% assign button_title=run.title | replace: "Run ", "" %}
+{% assign button=run.title | replace: "Run ", "" %}
+
+{% if run.title==include.title %}{% assign active='active' %}{% else %}{% assign active='' %}{% endif %}
 <td align="center">
-  {% if run.title==page.title %}
-  <a href="{{ run.url | relative_url }}" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">{{ button_title }}</a>
-  {% else %}
-  <a href="{{ run.url | relative_url }}" class="btn btn-primary btn-sm" role="button" aria-pressed="true">{{ button_title }}</a>
-  {% endif %}
+<a href="{{ run.url | relative_url }}" class="btn btn-primary btn-sm {{ active }}" role="button" aria-pressed="true">{{ button }}</a>
 </td>
 {% endfor %}
 
 </tr>
 </table>
+{{ thetitle }}

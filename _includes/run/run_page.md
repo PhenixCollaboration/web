@@ -1,16 +1,13 @@
 {% include_cached run/run_bar.md run=include.run title=include.title %}
 <hr/>
-<center><h2>{{ page.title }}</h2></center>
+<center><h2>{{ include.title }}</h2></center>
 <hr/>
 
 {% assign images = site.data.gallery | where: "type", "run_configuration" | where: "run", include.run | first %}
 {% assign length = images | size %}
 
 {% if length!=0 %}
-{% assign image=images.path %}
-{% assign title=images.title %}
-{% assign width=images.width %}
-
+{% assign image=images.path %}{% assign title=images.title %}{% assign width=images.width %}
 
 <table width="110%">
 <tr><th style="text-align:center">Configuration Diagram</th><th style="text-align:center">RHIC+PHENIX Run Records</th></tr>
