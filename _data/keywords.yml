@@ -194,11 +194,11 @@
   description: Binary scaling
   category: physics
   
-- name : Correlations
+- name : correlations
   description: Various types of correlations
   category: physics
   
-- name : Cronin effect
+- name : cronin effect
   description: Cronin effect
   category: physics
   
