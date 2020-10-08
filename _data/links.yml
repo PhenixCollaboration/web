@@ -33,11 +33,17 @@
 - name: wwnd2020
   url: 'https://indico.cern.ch/event/841247/'
 
-- name: sfjhf29
+- name: sfjhf20
   url: 'https://indico.fnal.gov/event/22233/'
 
 - name: qm2019  
   url: 'https://indico.cern.ch/event/792436/'
+
+- name: zs19  
+  url: 'https://indico.cern.ch/event/867085/'
+  
+- name: dnp19  
+  url: 'https://dnp2019.columbian.gwu.edu/'
 
 # Misc
 - name: npps

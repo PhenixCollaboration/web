@@ -13,28 +13,28 @@
 
 # Conferences
 - name : dnp19
-  description: DNP 2019
+  description: DNP (2019)
   category: conference
 
 - name : qm2019
-  description: Quark Matter 2019
+  description: Quark Matter (2019)
   category: conference
 
 - name : wwnd2020
-  description: The 36th Winter Workshop on Nuclear Dynamics
+  description: The 36th Winter Workshop on Nuclear Dynamics (2020)
   category: conference
 
 - name : sfjhf20
-  description: Santa Fe Jets and Heavy Flavor Workshop
+  description: Santa Fe Jets and Heavy Flavor Workshop (2020)
+  category: conference
+
+- name : zs19
+  description: Zimányi School (2019)
   category: conference
 
 # Detector
 - name : aerogel
   description: Aerogel Cherenkov Counter
-  category: detector
-
-- name : anisotropy
-  description: Anisotropy
   category: detector
 
 - name : bbc
@@ -186,8 +186,16 @@
   description: π0
   category: physics
 
+- name : anisotropy
+  description: Anisotropy
+  category: physics
+
 - name : au+au
   description: Gold-on-gold collisions
+  category: physics
+  
+- name : b-meson
+  description: B meson
   category: physics
   
 - name : binary scaling
@@ -200,6 +208,10 @@
   
 - name : cronin effect
   description: Cronin effect
+  category: physics
+  
+- name : d-meson
+  description: D meson
   category: physics
   
 - name : direct photon
@@ -266,6 +278,10 @@
   description: Polarization
   category: physics
 
+- name : p+p
+  description: proton-on-proton collisions
+  category: physics
+  
 - name : quark gluon plasma
   description: Quark Gluon Plasma
   category: physics

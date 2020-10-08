@@ -55,3 +55,10 @@
 {% endcomment %}
 
 
+#################
+{% assign detected=site.data.documents | where: "type", "conference presentation" | where: "venue", conference.name | size %}
+{% if detected > 0%}
+<center><h5>Select presentations</h5></center>
+{% include documents/conference.md name=conference.name width='100%' %}
+{% endif %}
+{{ site.hr }}
