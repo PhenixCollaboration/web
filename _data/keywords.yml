@@ -182,12 +182,24 @@
   description: J/Ψ
   category: physics
 
+- name : π0
+  description: π0
+  category: physics
+
 - name : au+au
   description: Gold-on-gold collisions
   category: physics
   
+- name : binary scaling
+  description: Binary scaling
+  category: physics
+  
 - name : Correlations
   description: Various types of correlations
+  category: physics
+  
+- name : Cronin effect
+  description: Cronin effect
   category: physics
   
 - name : direct photon
@@ -268,6 +280,10 @@
 
 - name : small-x
   description: small-x physics
+  category: physics
+
+- name : shadowing
+  description: Shadowing effect
   category: physics
 
 - name : spin
