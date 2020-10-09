@@ -10,14 +10,14 @@ years:
 
 {% for year in page.years %}
 {% assign c4y=site.data.conferences | where_exp: "item", "item.year==year" %}
-<h4>{{ year }}</h4>
+<h5>{{ year }}</h5>
 {% for conference in c4y %}
 {% capture link %}{%- include navigation/zenodo_query.md name=conference.name tag='PHENIX Presentations' -%}{% endcapture %}
 <table width="60%">
   <tr>
-    <td width="55%"><h6><nobr>{{ conference.title }}</nobr></h6></td>
-    <td width="30%"><h6><nobr>{{ link }}</nobr></h6></td>
-    <td width="15%"><h6><nobr><a href="{{ conference.url }}" target="_blank">Conference website</a></nobr></h6></td>
+    <td width="55%"><nobr>{{ conference.title }}</nobr></td>
+    <td width="30%"><nobr>{{ link }}</nobr></td>
+    <td width="15%"><nobr><a href="{{ conference.url }}" target="_blank">Conference website</a></nobr></td>
   </tr>
 </table>
 {% endfor %}
