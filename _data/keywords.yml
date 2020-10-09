@@ -202,6 +202,10 @@
   description: Binary scaling
   category: physics
   
+- name : bose-einstein
+  description: Bose-Einstein statistics
+  category: physics
+  
 - name : correlations
   description: Various types of correlations
   category: physics
