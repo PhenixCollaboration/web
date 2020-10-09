@@ -32,6 +32,10 @@
   description: Zimányi School (2019)
   category: conference
 
+- name : wpcf2018
+  description: XIII Workshop on Particle Correlations and Femtoscopy
+  category: conference
+
 # Detector
 - name : aerogel
   description: Aerogel Cherenkov Counter
@@ -43,10 +47,6 @@
 
 - name : drift chamber
   description: Drift Chamber
-  category: detector
-
-- name : electromagnetic calorimeter
-  description: Electromagnetic Calorimeter
   category: detector
 
 - name : emcal
@@ -238,6 +238,10 @@
   description: Hadronization
   category: physics
 
+- name : hbt
+  description: Hanbury Brown Twiss interferometry
+  category: physics
+
 - name : heavy flavor
   description: Term applied to heavy quarks
   category: physics
@@ -260,6 +264,10 @@
 
 - name : mid-rapidity
   description: The kinematic region of mid-rapidity
+  category: physics
+
+- name : levy
+  description: Levy femtoscopy
   category: physics
 
 - name : modification

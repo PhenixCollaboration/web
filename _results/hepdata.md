@@ -17,8 +17,9 @@ are encouraged to contact the {% include navigation/pagelink.md folder=site.abou
 In order for data to be successfully uploaded to the HEPData portal, it must conform to a specific format (please check the HEPData site for documentation). Existing text files can be converted to the HEPData format with some effort. There is a helpful write-up about preparing data for upload:
 {% include_cached documents/doc.md type='writeup' tag='nattrass' %}
 
-Currently the following procedure is suggested:
+Another key element is to provide the Inspire id for the submission as this is a requirement that must be satisfied for the upload to work. Currently the following procedure is suggested:
 * The submission package for a given publication is prepared in the form of properly formatted YAML (and optinal PNG) files.
+* The Inspire id should be prominently entered as a comment line in the "submission.yml" summary file.
 * There is a sandbox feature on HEPData which allows to validate the submission package and in particular whether the LaTeX-formatted abstract is rendered correctly. Please use it.
 * We use *git* for version control and GitHub for development, sharing and keeping custodial copies of the material. The submission package should be added to a specific folder on GitHub: [https://github.com/PhenixCollaboration/documentation/tree/master/assets/hepdata](https://github.com/PhenixCollaboration/documentation/tree/master/assets/hepdata){:target="_blank"}. This is done as follows:
    * Create a fork of the "documentation" repository on GitHub (easy to do in the Web UI)

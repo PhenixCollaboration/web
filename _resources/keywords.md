@@ -51,7 +51,7 @@ results of queries will open in a new tab/window.
 
 {% for item in sorted_keys %}
 
-{% include navigation/zenodo_query.md name=item.name %}
+{% capture link %}{%- include navigation/zenodo_query.md name=item.name -%}{% endcapture %}
 {% assign row=link | append: ", " | append: item.description %}
 {% assign rows=rows | push: row %}
 {% endfor %}

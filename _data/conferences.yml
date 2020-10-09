@@ -1,17 +1,32 @@
-- name: qm2019
-  title: 'Quark Matter 2019'
-  
+# 2020
 - name: wwnd2020
   title: 'The 36th Winter Workshop on Nuclear Dynamics'
+  url: 'https://indico.cern.ch/event/841247/'
+  year: 2020
 
 - name: sfjhf20
   title: 'Santa Fe Jets and Heavy Flavor Workshop 2020'
+  url: 'https://indico.fnal.gov/event/22233/'
+  year: 2020
 
-- name: dnp19
-  title: 'DNP 2019'
-
+# 2019
+- name: qm2019
+  title: 'Quark Matter 2019'
+  url: 'https://indico.cern.ch/event/792436/'
+  year: 2019
+  
 - name: zs19
   title: 'Zimányi School 2019'
+  url: 'https://indico.cern.ch/event/867085/'
+  year: 2019
 
 - name: dnp19
   title: 'DNP Fall 2019 Meeting'
+  url: 'https://dnp2019.columbian.gwu.edu/'
+  year: 2019
+
+# 2018
+- name: wpcf2018
+  title: 'XIII Workshop on Particle Correlations and Femtoscopy'
+  url: 'https://indico.ifj.edu.pl/event/199/overview'
+  year: 2018
