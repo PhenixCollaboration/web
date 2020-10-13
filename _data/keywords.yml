@@ -182,6 +182,10 @@
   description: J/Ψ
   category: physics
 
+- name : φ
+  description: φ
+  category: physics
+
 - name : π0
   description: π0
   category: physics
@@ -290,6 +294,18 @@
   description: Polarization
   category: physics
 
+- name : 3he+au
+  description: Helium3-on-gold collisions
+  category: physics
+  
+- name : d+au
+  description: deutron-on-gold collisions
+  category: physics
+  
+- name : p+au
+  description: proton-on-gold collisions
+  category: physics
+  
 - name : p+p
   description: proton-on-proton collisions
   category: physics
@@ -312,6 +328,10 @@
 
 - name : shadowing
   description: Shadowing effect
+  category: physics
+
+- name : small systems
+  description: Nuclear collisions involving at least one light nucleus
   category: physics
 
 - name : spin
@@ -346,10 +366,6 @@
 - name : pythia
   description: PYTHIA - a type of Event Generator
   category: simulation
-
-- name : small systems
-  description: Small Systems
-  category: physics
 
 # Run
 - name : run01
