@@ -12,6 +12,10 @@
   category: general
 
 # Conferences
+- name : ismd19
+  description: International Symposium on Multiparticle Dynamics (2019)
+  category: conference
+
 - name : dnp19
   description: DNP (2019)
   category: conference
@@ -342,6 +346,10 @@
   description: Spin Physics
   category: physics
 
+- name : thermal photon
+  description: Thermal photons produced in nuclear collisions
+  category: physics
+  
 - name : transverse spin asymmetry
   description: Transverse Spin Asymmetry
   category: physics

@@ -25,6 +25,11 @@
   url: 'https://dnp2019.columbian.gwu.edu/'
   year: 2019
 
+- name: ismd19
+  title: 'International Symposium on Multiparticle Dynamics 2019'
+  url: 'https://indico.cern.ch/event/761800'
+  year: 2019
+
 # 2018
 - name: wpcf2018
   title: 'XIII Workshop on Particle Correlations and Femtoscopy'
