@@ -7,6 +7,10 @@
   description: Pioneering High Energy Nuclear Interaction Experiment (PHENIX)
   category: general
 
+- name : phobos
+  description: PHOBOS - an experiment at RHIC
+  category: general
+
 - name : decadal plan
   description: Two documents describing the proposed PHENIX research program for two different time periods
   category: general
@@ -218,6 +222,10 @@
   description: Various types of correlations
   category: physics
   
+- name : centrality
+  description: Centrality characteristic of the collision
+  category: physics
+  
 - name : cronin effect
   description: Cronin effect
   category: physics
@@ -276,6 +284,10 @@
 
 - name : mid-rapidity
   description: The kinematic region of mid-rapidity
+  category: physics
+
+- name : multiplicity
+  description: The metric describing the number of particles in the final state of the collition
   category: physics
 
 - name : levy

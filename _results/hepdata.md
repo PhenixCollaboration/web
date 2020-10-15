@@ -4,14 +4,20 @@ layout: newbase
 ---
 {% include layouts/find_title.md name=page.name %}
 
-##### About
+##### The Repository
 {% include_cached navigation/findlink.md name='HEPData' %} is an open-access repository for
-scattering data from experimental particle physics which includes data points from several thousand publications.
-The PHENIX Collaboration is using this platform as one of the components of its
-{% include navigation/pagelink.md folder=site.about name='dap' tag='Data and Analysis Preservation (DAP) effort' %}, and is adding material to
-its {% include navigation/findlink.md name='PHENIX on HEPData' tag='collection of HEPData entries' -%}.
-Members of the PHENIX Collaboration interested in creating materials suitable for submission to HEPData
-are encouraged to contact the {% include navigation/pagelink.md folder=site.about name='contact' tag='DAP Team' %}.
+scattering data from experimental particle physics _which includes data points_ from several
+thousand publications produced by multiple Collaborations working in High Energy and Nuclear Physics.
+It is hosted by CERN as a part of its Open Data initiative.
+The PHENIX Collaboration is using this platform as one of the principal components of its
+{% include navigation/pagelink.md folder=site.about name='dap' tag='Data and Analysis Preservation (DAP) effort' %}
+and manages a growing {% include navigation/findlink.md name='PHENIX on HEPData' tag='collection of HEPData entries' -%}.
+
+##### Policy
+By policy established by the PHENIX Executive Council, every paper containing tables and/or plots
+must be accompanied by a data package containing the tables and/or plots data before it is approved
+for publication. The data package must conform to the specific format required by the HEPData portal
+and certified by the IRC for each publication. Relevant procedures are described in the section below.
 
 ##### The Procedure
 In order for data to be successfully uploaded to the HEPData portal, it must conform to a specific format (please check the HEPData site for documentation). Existing text files can be converted to the HEPData format with some effort. There is a helpful write-up about preparing data for upload:
@@ -32,3 +38,8 @@ The DAP team will then take care of the actual upload to HEPData and related pro
 
 
 {% include_cached documents/doc.md category='hepdata' type='publication' title="Uploaded HEPData materials" -%}
+
+Members of the PHENIX Collaboration interested in creating materials suitable for submission to HEPData
+are encouraged to contact the {% include navigation/pagelink.md folder=site.about name='contact' tag='DAP Team' %}.
+
+

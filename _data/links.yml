@@ -1,6 +1,6 @@
 # Misc web resources
-- name: 'PHENIX website (legacy)'
-  url: 'https://www.phenix.bnl.gov/'
+- name: 'web-production'
+  url: 'https://www.phenix.bnl.gov'
   category: 'general'
 
 - name: 'PHENIX Collaboration on GitHub'

@@ -16,6 +16,7 @@ exclude: [vendor]
 baseurl: /web
 ###############################################################
 
+
 # To simplify references to GitHub:
 github: "https://github.com/PhenixCollaboration/web"
 

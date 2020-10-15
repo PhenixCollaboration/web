@@ -24,6 +24,20 @@ layout: newbase
       Data-taking was finished in 2016 and the PHENIX Collaboration is now analyzing large data
       samples collected, prioritizing those with a unique physics reach.</p>
     <p/>
+    {% if site.url contains 'github' %}
+    <b>
+      This is the development version of the website and it is not guaranteed to provide full functionality
+      or fully validated content.
+      Please visit {% include navigation/findlink.md name='web-production' tag='the official PHENIX Website' html='yes' %}
+      for a stable and approved version of the site.
+    </b>
+    {% elsif site.url contains 'local' %}
+    <b>
+      These pages are served from your local machine.
+      Please visit {% include navigation/findlink.md name='web-production' tag='the official PHENIX Website' html='yes' %}
+      for a stable and approved version of the site.</b>
+    {% else %}
+    {% endif %}
   </div>
 </div>
 
@@ -42,5 +56,5 @@ layout: newbase
   </center>
 &nbsp;<p/>
 <p style="text-align:center;">
-  <em>Site built at {{ site.time }}</em>
+  <em>Site built at {{ site.time }}, served from {{ site.url }}</em>
 </p>

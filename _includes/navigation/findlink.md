@@ -11,10 +11,15 @@
 {%- assign found_items=found_items | where: "category", include.category | compact -%}
 {%- endif -%}
 {%- assign found_link= found_items | map: "url" | first -%}
+
+{%- if include.html -%}
+<a href="{{ found_link}}" target="_blank">{{ tag }}</a>
+{%- else -%}
 {%- if found_link -%}
 {%- if include.category -%}
 * [{{ tag }}]({{ found_link }}){:target="_blank"}
 {%- else -%}
 [{{ tag }}]({{ found_link }}){:target="_blank"}
+{%- endif -%}
 {%- endif -%}
 {%- endif -%}
