@@ -16,30 +16,45 @@ and manages a growing {% include navigation/findlink.md name='PHENIX on HEPData'
 ##### Policy
 By policy established by the PHENIX Executive Council, every paper containing tables and/or plots
 must be accompanied by a data package containing the tables and/or plots data before it is approved
-for publication. The data package must conform to the specific format required by the HEPData portal
-and certified by the IRC for each publication. Relevant procedures are described in the section below.
+for publication. Please see the official policy document (sec. IV.iv):
+{% include_cached documents/doc.md type='document' tag='pub_policy' %}
+The data package must
+* Conform to the specific format required by the HEPData portal
+* Be certified by the IRC for each publication
+* Have an Insipre ID associated with it
 
-##### The Procedure
-In order for data to be successfully uploaded to the HEPData portal, it must conform to a specific format (please check the HEPData site for documentation). Existing text files can be converted to the HEPData format with some effort. There is a helpful write-up about preparing data for upload:
+##### General Comments
+In order for data to be successfully uploaded to the HEPData portal, it must conform to a specific format (please check the HEPData site for documentation). Existing text files can be converted to the HEPData format with some effort. The DAP team is looking at technical solutions to facilitate this process. For example, if plots are generated using ROOT macros the code can be instrumeted to output same data in a format compatible with HEPData. There is a helpful write-up about preparing data for upload:
 {% include_cached documents/doc.md type='writeup' tag='nattrass' %}
 
-Another key element is to provide the Inspire id for the submission as this is a requirement that must be satisfied for the upload to work. Currently the following procedure is suggested:
-* The submission package for a given publication is prepared in the form of properly formatted YAML (and optinal PNG) files.
-* The Inspire id should be prominently entered as a comment line in the "submission.yml" summary file.
-* There is a sandbox feature on HEPData which allows to validate the submission package and in particular whether the LaTeX-formatted abstract is rendered correctly. Please use it.
-* We use *git* for version control and GitHub for development, sharing and keeping custodial copies of the material. The submission package should be added to a specific folder on GitHub: [https://github.com/PhenixCollaboration/documentation/tree/master/assets/hepdata](https://github.com/PhenixCollaboration/documentation/tree/master/assets/hepdata){:target="_blank"}. This is done as follows:
-   * Create a fork of the "documentation" repository on GitHub (easy to do in the Web UI)
-   * Clone the resulting repository
+It is important to provide the **Inspire ID** for the submission as this is required for the upload to work. **Including the PHENIX-internal PPG identififier is highly recommended as it reduces chances of human error and facilitates communication.** Both Inspire ID and the PPG identifier can be easily incorporated in the comment field of the *submission.yml* file which is an integral part of the submission package.
+
+Each collaboration using the HEPData portal has a coordinator registered on that Web resource.
+At the time of writing, PHENIX has delegated this responsibility to M.Potekhin (potekhin_at_bnl_dot_gov).
+
+##### The Procedure
+* The IRC is responsible for QA of the data. The IRC selects one of its members
+as the official reviewer of the data uploaded to the HEPData portal who gives the final approval before the data goes live.
+* The submission package for a given publication is prepared in the form of properly formatted YAML (and optinal PNG) files. There is a mandatory *submission.yml* file describing the contents of the package, which allows optional comments. It is strongly recommended that the comments include
+   * The Inspire ID of the publication
+   * The internal PPG ID
+   * The name and e-mail address of the designated IRC member for final approval
+
+* There is a sandbox feature on HEPData which allows to validate the submission package and in particular whether the LaTeX-formatted abstract is rendered correctly. Please use it. It requires an account on HEPData which is trivial to obtain.
+* The submission package is then added to a specific folder on GitHub: [https://github.com/PhenixCollaboration/documentation/tree/master/assets/hepdata](https://github.com/PhenixCollaboration/documentation/tree/master/assets/hepdata){:target="_blank"}.
+This is done as follows:
+   * Create a fork of the "documentation" repository on GitHub (easy to do in the Web UI) and clone the resulting repository
    * Check if the correct "ppgXXX" folder exists, if not create it and add it to your repository. 'XXX' stands for the PPG serial number; populate the folder with your HEPData submission files
-   * Do "git commit ." and "git push" to place the material on GitHub
-   * Create a pull request on the GitHub website so that the {% include navigation/pagelink.md folder=site.about name='contact' tag='DAP Team' %} can merge your addition into the official repository
+   * Do "git commit ." and "git push" to place the material on GitHub, and create a pull request on the GitHub website
+in order to merge your addition into the repository
 
-The DAP team will then take care of the actual upload to HEPData and related procedures. You will be notified when this process completes which shouldn't take long.
+* The DAP team then uploads the package to HEPData and notifies the designated IRC member
+that they need to issue a final approval of the data already uploaded. This is done via a Web link. Each table or plot
+is approved separately. Only after each item in the submission is approved the PHENIX HEPData coordinator can
+finalize the submission and it becomes globally visible on the HEPData portal.
 
+Please contact the {% include navigation/pagelink.md folder=site.about name='contact' tag='DAP Team' %} for
+more information.
 
-{% include_cached documents/doc.md category='hepdata' type='publication' title="Uploaded HEPData materials" -%}
-
-Members of the PHENIX Collaboration interested in creating materials suitable for submission to HEPData
-are encouraged to contact the {% include navigation/pagelink.md folder=site.about name='contact' tag='DAP Team' %}.
 
 

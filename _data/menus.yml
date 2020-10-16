@@ -146,7 +146,11 @@
 
     -
       name: hepdata
-      full: HEPData
+      full: HEPData Policy and Procedures
+
+    -
+      name: hepdata_uploads
+      full: PHENIX HEPData Contributions
 
     -
       name: conferences

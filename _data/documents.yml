@@ -118,6 +118,17 @@
   format: pdf
   date: 
 
+### Normative documents
+- name: '[PHENIX Policies for Publication and for Other Dissemination of Results](https://github.com/PhenixCollaboration/documentation/blob/master/assets/documents/pub_policy.pdf)'
+  title:
+  tags: ['pub_policy',]
+  author: 
+  venue: 
+  type: document
+  category: collaboration
+  format: markdown_link
+  date: 
+
 ### Beam Use Proposals
 # acronym - 'bup'
 - name: 3886886
