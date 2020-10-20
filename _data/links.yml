@@ -18,6 +18,12 @@
 - name: HEPData
   url: 'https://www.hepdata.net/'
 
+- name: hepdata_submission
+  url: 'https://www.hepdata.net/submission'
+  
+- name: hepdata_coordinators
+  url: 'https://www.hepdata.net/permissions/coordinators'
+  
 - name: Inspire
   url: 'https://inspirehep.net/'
 
