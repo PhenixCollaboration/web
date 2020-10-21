@@ -44,6 +44,10 @@
   description: XIII Workshop on Particle Correlations and Femtoscopy
   category: conference
 
+- name : hp18
+  description: Hard Probes 2018
+  category: conference
+
 # Detector
 - name : aerogel
   description: Aerogel Cherenkov Counter
@@ -66,14 +70,6 @@
   category: detector
 
 - name : fcal
-  description: Forward Calorimeter
-  category: detector
-
-- name : forward calorimeter
-  description: Forward Calorimeter
-  category: detector
-
-- name : fc
   description: Forward Calorimeter
   category: detector
 
@@ -227,7 +223,15 @@
   category: physics
   
 - name : charmonium
-  description: Meson containing a charmed quark and its antiparticle
+  description: Meson containing a c-quark and its antiparticle
+  category: physics
+  
+- name : charm
+  description: Particles containing the c-quark
+  category: physics
+  
+- name : bottom
+  description: Particles containing the b-quark
   category: physics
   
 - name : cgc
@@ -244,6 +248,14 @@
   
 - name : direct photon
   description: Direct photons produced in nuclear collisions
+  category: physics
+  
+- name : dimuon
+  description: A pair of muons produced in a collision
+  category: physics
+  
+- name : drell-yan
+  description: Drell-Yan type of process
   category: physics
   
 - name : electron
