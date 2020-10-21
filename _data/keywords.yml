@@ -226,6 +226,14 @@
   description: Centrality characteristic of the collision
   category: physics
   
+- name : charmonium
+  description: Meson containing a charmed quark and its antiparticle
+  category: physics
+  
+- name : cgc
+  description: Color Glass Condensate (type of matter)
+  category: physics
+  
 - name : cronin effect
   description: Cronin effect
   category: physics
@@ -287,11 +295,15 @@
   category: physics
 
 - name : multiplicity
-  description: The metric describing the number of particles in the final state of the collition
+  description: Refers to the number of particles in the final state of the collision
   category: physics
 
 - name : levy
   description: Levy femtoscopy
+  category: physics
+
+- name : longitudinal momentum
+  description: Longitudinal momentum
   category: physics
 
 - name : modification
