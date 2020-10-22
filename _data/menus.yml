@@ -140,28 +140,34 @@
       full: Results Overview
 
     -
+      name: publications_label
+      full: Publications
+      label: yes
+    -
       name: inspire
       full: PHENIX papers (Inspire HEP)
-      div: yes
-
-    -
-      name: hepdata
-      full: HEPData Policy and Procedures
-
-    -
-      name: hepdata_uploads
-      full: PHENIX HEPData Contributions
 
     -
       name: conferences
       full: Select Conference Presentations
-      div: yes
 
     -
       name: theses
       full: Select theses
       link: 'https://zenodo.org/communities/phenixcollaboration/search?page=1&size=20&q=thesis'
       icon: /images/icons/external-link-32.png
+    -
+      name: hepdata_label
+      full: HEPData
+      label: yes
+    -
+      name: hepdata
+      full: 'HEPDATA: Policy and Procedures'
+
+    -
+      name: hepdata_uploads
+      full: PHENIX HEPData Contributions
+
 
 - name: resources
   full: Resources
