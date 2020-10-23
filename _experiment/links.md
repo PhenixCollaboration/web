@@ -2,10 +2,10 @@
 name: links
 layout: newbase
 items:
-   - 'PHENIX Collaboration on GitHub'
-   - 'PHENIX Community on Zenodo'
-   - 'PHENIX on HEPData'
    - 'PHENIX on Inspire'
+   - 'PHENIX on HEPData'
+   - 'PHENIX Community on Zenodo'
+   - 'PHENIX Collaboration on GitHub'
 ---
 {% include layouts/find_title.md name=page.name %}
 

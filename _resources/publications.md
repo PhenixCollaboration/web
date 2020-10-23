@@ -1,12 +1,12 @@
----
+
 name: publications
 layout: newbase
 
 items:
-   - {title: 'General Overviews',			category: 'overview',	type: 'publication'}
-   - {title: 'Data Reconstruction and Analysis',	category: 'dra',	type: 'publication'}
    - {title: 'PHENIX Systems',				category: 'systems',	type: 'publication'}
----
+
+
+NOT USED, KEPT AS PLACEHOLDER
 
 {% include layouts/find_title.md name=page.name %}
 

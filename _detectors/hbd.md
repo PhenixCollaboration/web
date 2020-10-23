@@ -74,5 +74,3 @@ were developed and built by BNL Instrumentation and Columbia University.
 ##### Conference Presentations
 {% include documents/doc.md category='detector' type='conference presentation' tag='hbd' %}
 
-##### Accessing HBD variables in the analysis
-Work in progress

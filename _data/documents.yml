@@ -61,7 +61,7 @@
   author: W.Zajc et al
   venue: 
   resource: zenodo
-  type: document
+  type: decadal
   category: overview
   format: markdown_link
   cached_badge: yes
@@ -72,7 +72,7 @@
   author: B.Jacak et al
   venue:
   resource: zenodo
-  type: document
+  type: decadal
   category: overview
   format: markdown_link
   cached_badge: yes
@@ -95,7 +95,7 @@
   author: 
   venue: 
   type: publication
-  category: overview
+  category: detector
   format: markdown_link
   date: 
 
@@ -138,7 +138,7 @@
   venue: 
   resource: zenodo
   type: bup
-  category: detector
+  category: overview
   format: markdown_link
   cached_badge: yes
   date: 2014-05-29
@@ -150,7 +150,7 @@
   venue: 
   resource: zenodo
   type: bup
-  category: detector
+  category: overview
   format: markdown_link
   cached_badge: yes
   date: 2013-05-19
@@ -162,7 +162,7 @@
   venue: 
   resource: zenodo
   type: bup
-  category: detector
+  category: overview
   format: markdown_link
   cached_badge: yes
   date: 2012-09-18

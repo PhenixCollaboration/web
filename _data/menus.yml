@@ -35,7 +35,10 @@
       full: Concept and History
     -
       name: bup
-      full: Beam Use Proposals
+      full: Plans and Proposals
+    -
+      name: links
+      full: Web Resources
     -
       name: collaboration_info
       full: Collaboration
@@ -187,26 +190,14 @@
   full: Resources
   submenus:
     -
-      name: resources_overview
-      full: Resources Overview
-    -
       name: keywords
       full: Keywords
-      div: yes
     -
       name: zenodo
       full: Zenodo
     -
       name: rivet
       full: Rivet
-      div: yes
-    -
-      name: publications
-      full: General PHENIX Information
-      div: yes
-    -
-      name: links
-      full: PHENIX Resources on the Web
       div: yes
 
 - name: about

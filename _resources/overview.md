@@ -1,7 +1,8 @@
----
+
 name: resources_overview
 layout: newbase
----
+
+DEPRECTED, USED AS A PLACEHOLDER
 
 {% include layouts/find_title.md name=page.name %}
 

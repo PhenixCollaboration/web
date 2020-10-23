@@ -16,15 +16,17 @@ For detector-specific information please see the following pages (also available
 #### Virtual Tours (CGI)
 {% include documents/doc.md category='overview' type='video' tag='virtual tour' %}
 
-{% comment %}
-[Overview of PHENIX detectors, BNL 2018]({{ '/assets/detectors/phenix/PHENIXtheDetector.pdf' | relative_url }})
-{% endcomment %}
-
 #### Write-ups
 {% include documents/doc.md category='detector' type='writeup' %}
 
 #### Select Theses
 {% include documents/doc.md category='detector' type='thesis' %}
 
-#### Publications
+#### Detector-Related Publications
 {% include documents/doc.md category='detector' type='publication' %}
+
+#### Systems
+{% include documents/doc.md category='systems' type='publication' %}
+
+#### Data Reconstruction and Analysis
+{% include documents/doc.md category='dra' type='publication' %}

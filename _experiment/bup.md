@@ -4,7 +4,8 @@ name: bup
 layout: newbase
 
 items:
-   - {title: 'Beam Use Proposals', category: 'detector', type: 'bup'}
+   - {title: 'Decadal Plans', category: 'overview', type: 'decadal'}
+   - {title: 'Beam Use Proposals', category: 'overview', type: 'bup'}
 
 ---
 {% include layouts/find_title.md name=page.name %}

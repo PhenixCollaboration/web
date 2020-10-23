@@ -9,7 +9,6 @@
 
 {% endfor %}
 
-
 {% if found_title %}
 #### {{ found_title }}
 {% else %}
