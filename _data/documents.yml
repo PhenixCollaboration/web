@@ -141,11 +141,11 @@
   category: detector
   format: markdown_link
   cached_badge: yes
-  date: 2013-05-19
+  date: 2014-05-29
 
 - name: 3887304
   title: PHENIX Beam Use Proposal Run-14 and Run-15
-  tags: [run15, run16, tofw, fvtx, vtx, mpc-ex, mpc, daq, 'data acquisition' ]
+  tags: [run14, run15, tofw, fvtx, vtx, mpc-ex, mpc, daq, 'data acquisition' ]
   author: H. van Hecke
   venue: 
   resource: zenodo
@@ -154,6 +154,18 @@
   format: markdown_link
   cached_badge: yes
   date: 2013-05-19
+
+- name: 4122366
+  title: PHENIX Beam Use Proposal Run-13 and Run-14
+  tags: [run13, run14, hbd, ]
+  author: B. Jacak
+  venue: 
+  resource: zenodo
+  type: bup
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date: 2012-09-18
 
 ### Conference presentations
 ## QM2019

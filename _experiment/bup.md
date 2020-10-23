@@ -1,10 +1,10 @@
 ---
-name: documents
+title: Beam Use Proposals
+name: bup
 layout: newbase
 
 items:
-   - {title: 'Beam Use Proposals',			category: 'detector',	type: 'bup'}
-   - {title: 'Misc Summaries',				category: 'summary',	div: yes }
+   - {title: 'Beam Use Proposals', category: 'detector', type: 'bup'}
 
 ---
 {% include layouts/find_title.md name=page.name %}

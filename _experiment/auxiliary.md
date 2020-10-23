@@ -1,8 +1,10 @@
 ---
 layout: newbase
 name: aux
+title: Misc Info
 ---
-#### Run Chronology and Coordination
+{% include layouts/find_title.md name=page.name %}
+##### Run Chronology and Coordination
 
 <table width="100%">
 <tr><th>Run</th><th>Period</th><th>Coordinator(s)</th></tr>
@@ -20,11 +22,11 @@ name: aux
 
 </table>
 <hr/>
-#### Misc Info
 
-* {% include navigation/pagelink.md folder=site.detectors name='run_configuration_gallery' tag='Run Configuration Gallery' %}
-{%- include documents/doc.md name='PHENIXSpin.pdf' category='summary' -%}
+##### Run Configuration
+{% include navigation/pagelink.md folder=site.detectors name='run_configuration_gallery' tag='Run Configuration Gallery' %}
+##### Summaries
+{%- include documents/doc.md category='summary' -%}
 
 <hr/>
 {% include images/generic_gallery.md type="run_info" gallery="aux" title="Archived images of run summary tables (click for a larger image)" %}
-<hr/>

@@ -15,6 +15,10 @@
   description: Two long-term proposals for the PHENIX research program
   category: general
 
+- name : bup
+  description: Beam Use Proposal
+  category: general
+
 # Conferences
 - name : ismd19
   description: International Symposium on Multiparticle Dynamics (2019)

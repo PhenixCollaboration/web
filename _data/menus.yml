@@ -27,32 +27,46 @@
   full: Experiment
   submenus:
     -
+      name: experiment_overview
+      full: Overview
+      label: yes
+    -
       name: concept
       full: Concept and History
-
+    -
+      name: bup
+      full: Beam Use Proposals
+    -
+      name: collaboration_info
+      full: Collaboration
+      label: yes
     -
       name: contact
-      full: Contact
-      div: yes
-
+      full: Contact Info
     -
       name: members
-      full: Collaboration
-
+      full: PHENIX Members
+    -
+      name: run_info
+      full: PHENIX Run Info
+      label: yes
     -
       name: runs
       full: Run Summary Table
-      div: yes
+    -
+      name: aux
+      full: Misc Run Info
     -
       name: trigger
       full: Trigger Information
-    -
-      name: aux
-      full: Auxiliary Run Info
 
 - name: detectors
   full: Detectors
   submenus:
+    -
+      name: detector_overview
+      full: Overview
+      label: yes
     -
       name: detectors_overview
       full: Detectors Overview
@@ -180,15 +194,12 @@
       full: Keywords
       div: yes
     -
-      name: documents
-      full: Documents
-    -
       name: zenodo
       full: Zenodo
-      div: yes
     -
       name: rivet
       full: Rivet
+      div: yes
     -
       name: publications
       full: General PHENIX Information
@@ -220,7 +231,7 @@
       icon: /images/icons/wrench-32.png
 
     -
-      name: contact
+      name: dap_contact
       full: The Team
       icon: /images/icons/group-32.png
       div: yes

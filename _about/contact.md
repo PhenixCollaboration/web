@@ -1,6 +1,6 @@
 ---
 layout: newbase
-name: contact
+name: dap_contact
 ---
 {% include layouts/find_title.md name=page.name %}
 
