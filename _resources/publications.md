@@ -4,7 +4,6 @@ layout: newbase
 
 items:
    - {title: 'General Overviews',			category: 'overview',	type: 'publication'}
-   - {title: 'Detector Subsystems',			category: 'detector',	type: 'publication'}
    - {title: 'Data Reconstruction and Analysis',	category: 'dra',	type: 'publication'}
    - {title: 'PHENIX Systems',				category: 'systems',	type: 'publication'}
 ---

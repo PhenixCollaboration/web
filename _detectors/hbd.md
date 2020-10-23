@@ -6,7 +6,7 @@ category: central
 ---
 {% include layouts/find_title.md name=page.name %}
 
-#### Introduction
+##### Introduction
 The Hadron Blind Detector (HBD) was a conceptually novel Cherenkov
 detector. Its primary aim was to recognize and reject tracks
 originating from &pi;<sup>0</sup> Dalitz decays and gamma-conversions, thus
@@ -22,7 +22,7 @@ PHENIX. This coil counteracted the main field of the outer coils and
 created an almost field-free region close to the vertex and extending
 to &#8773;50-60 cm in the radial direction.
 
-#### Detector Design
+##### Detector Design
 The Hadron Blind Detector was a windowless Cherenkov detector with a 50cm
 long radiator operated with pure CF<sub>4</sub>, in a proximity focus
 configuration. For an introduction to GEM detectors please see
@@ -59,18 +59,20 @@ $\it{CsI}$ evaporation, final assembly and test of detector modules were
 done at the Stony Brook University. The analog and digital electronics
 were developed and built by BNL Instrumentation and Columbia University.
 
-#### HBD related Theses
-{% include documents/doc.md category='detector' type='thesis' tag='hbd' %}
-
-#### Papers and Publications
-{% include documents/doc.md category='detector' type='publication' tag='hbd' %}
-
-#### Detector Proposal
+##### Detector Proposal
 {% include documents/doc.md category='detector' type='proposal' tag='hbd' %}
 
-#### Presentations
+##### Select Theses
+{% include documents/doc.md category='detector' type='thesis' tag='hbd' %}
+
+##### Papers and Publications
+{% include documents/doc.md category='detector' type='publication' tag='hbd' %}
+
+##### Internal Presentations
 {% include documents/doc.md category='detector' type='presentation' tag='hbd' %}
 
+##### Conference Presentations
+{% include documents/doc.md category='detector' type='conference presentation' tag='hbd' %}
 
-#### Accessing HBD variables in the analysis
+##### Accessing HBD variables in the analysis
 Work in progress

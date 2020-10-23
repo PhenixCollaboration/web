@@ -23,7 +23,7 @@ For detector-specific information please see the following pages (also available
 #### Write-ups
 {% include documents/doc.md category='detector' type='writeup' %}
 
-#### Theses
+#### Select Theses
 {% include documents/doc.md category='detector' type='thesis' %}
 
 #### Publications
