@@ -15,7 +15,7 @@ its {% include navigation/pagelink.md folder=site.about name='dap' tag='Data and
 Please visit the growing and curated collection of PHENIX materials:
 * {% include navigation/findlink.md name='PHENIX Community on Zenodo' %}
 
-The PHENIX {% include navigation/pagelink.md folder=site.about name='contact' tag='DAP team' %} maintains
+The PHENIX {% include navigation/pagelink.md folder=site.about name='dap_contact' tag='DAP team' %} maintains
 {% include navigation/pagelink.md folder=site.resources name='keywords' tag='a list of keywords' %} assigned to materials
 uploaded by Zenodo in order to facilitate queries. This list contains links to customized queries which include keywords.
 

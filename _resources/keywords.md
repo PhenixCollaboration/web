@@ -27,9 +27,9 @@ Keywords are used in certain automated features e.g. aggregation and linking of 
 pertaining to a particular topic, so their consistent use is enouraged. The keywords are
 case-sensitive.
 
-The *same set of keywords* is used for materials uploaded to the
+**The same set of keywords is used for materials uploaded to the
 {% include navigation/pagelink.md folder=site.resources name='zenodo' tag='Zenodo'%}
-system under the umbrella of the
+system** under the umbrella of the
 {% include navigation/findlink.md name='PHENIX Community on Zenodo' %}. The list is compiled
 to provide better consistency of the subsequent queries. Zenodo is using a complex
 query mechanism which includes but is not limited to "elastic search" on the submission

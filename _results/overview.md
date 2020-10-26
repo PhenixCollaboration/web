@@ -1,7 +1,8 @@
----
+
 name: results_overview
 layout: newbase
----
+
+DEPRECATED
 
 {% include layouts/find_title.md name=page.name %}
 

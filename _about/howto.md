@@ -8,7 +8,7 @@ name: howto
 Contributions from the PHENIX community are crucial for this project to succeed.
 You are most welcome to get involved. Materials that you consider to be relevant
 to the mission of the site can be sent for consideration to the members of the
-{% include navigation/pagelink.md folder=site.about name='contact' tag='Data and Analysis Preservation task force' %}.
+{% include navigation/pagelink.md folder=site.about name='dap_contact' tag='Data and Analysis Preservation task force' %}.
 
 ##### Direct Contributions
 If you are willing to contribute directly by developing the actual content

@@ -70,7 +70,7 @@ that they need to review the data already uploaded and issue their final approva
 Only after each item in the submission is approved the PHENIX HEPData coordinator
 can finalize the submission. At this point, it becomes globally visible on the HEPData portal and the process is complete.
 
-Please contact the {% include navigation/pagelink.md folder=site.about name='contact' tag='DAP Team' %} for
+Please contact the {% include navigation/pagelink.md folder=site.about name='dap_contact' tag='DAP Team' %} for
 more information.
 
 

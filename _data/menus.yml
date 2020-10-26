@@ -119,13 +119,13 @@
   full: Analysis
   submenus:
     -
-      name: analysis_overview
-      full: Analysis Overview
-
-    -
       name: analysis_writeups
       full: Write-ups
       label: yes
+
+    -
+      name: analysis_notes
+      full: Analysis Notes
 
     -
       name: muon_arms_jpsi
@@ -155,6 +155,7 @@
     -
       name: results_overview
       full: Results Overview
+      exclude: yes
 
     -
       name: publications_label
