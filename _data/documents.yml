@@ -167,6 +167,42 @@
   cached_badge: yes
   date: 2012-09-18
 
+- name: 4134966
+  title: PHENIX Beam Use Proposal Run-12 and Run-13
+  tags: [run12, run13, 'au+au', 'p+p', 'cu+au', 'u+u', daq, daq2010, vtx, fvtx,]
+  author: B. Jacak
+  venue: 
+  resource: zenodo
+  type: bup
+  category: overview
+  format: markdown_link
+  cached_badge: yes
+  date: 2011-06-01
+
+- name: 4135020
+  title: PHENIX Beam Use Proposal Run-11 and Run-12
+  tags: [run11, run12, 'au+au', 'p+p', 'u+u', daq, daq2010, vtx, fvtx, hbd, ]
+  author: B. Jacak
+  venue: 
+  resource: zenodo
+  type: bup
+  category: overview
+  format: markdown_link
+  cached_badge: yes
+  date: 2010-06-01
+
+- name: 4135043
+  title: PHENIX Beam Use Proposal Run-10 and Run-11
+  tags: [run10, run11, 'au+au', 'p+p', daq, daq2010, vtx, fvtx, hbd, ]
+  author: B. Jacak
+  venue: 
+  resource: zenodo
+  type: bup
+  category: overview
+  format: markdown_link
+  cached_badge: yes
+  date: 2009-06-02
+
 ### Conference presentations
 ## QM2019
 - name: 4031761

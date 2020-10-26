@@ -65,6 +65,14 @@
   description: Drift Chamber
   category: detector
 
+- name : daq
+  description: Data Acquisition
+  category: detector
+
+- name : daq2010
+  description: Data Acquisition Upgrade in 2010
+  category: detector
+
 - name : emcal
   description: Electromagnetic Calorimeter
   category: detector
@@ -216,6 +224,10 @@
   
 - name : bose-einstein
   description: Bose-Einstein statistics
+  category: physics
+  
+- name : cu+au
+  description: Copper-on-gold collisions
   category: physics
   
 - name : correlations
