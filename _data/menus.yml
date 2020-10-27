@@ -63,6 +63,44 @@
       name: trigger
       full: Trigger Information
 
+- name: results
+  full: Results
+  submenus:
+    -
+      name: results_overview
+      full: Results Overview
+      exclude: yes
+
+    -
+      name: publications_label
+      full: Publications
+      label: yes
+    -
+      name: inspire
+      full: PHENIX papers (Inspire HEP)
+
+    -
+      name: conferences
+      full: Select Conference Presentations
+
+    -
+      name: theses
+      full: Select theses
+      link: 'https://zenodo.org/communities/phenixcollaboration/search?page=1&size=20&q=thesis'
+      icon: /images/icons/external-link-32.png
+    -
+      name: hepdata_label
+      full: HEPData
+      label: yes
+    -
+      name: hepdata
+      full: 'HEPDATA: Policy and Procedures'
+
+    -
+      name: hepdata_uploads
+      full: PHENIX HEPData Contributions
+
+
 - name: detectors
   full: Detectors
   submenus:
@@ -148,44 +186,6 @@
     -
       name: embeddingVtx
       full: Embedding Example (VTX)
-
-- name: results
-  full: Results
-  submenus:
-    -
-      name: results_overview
-      full: Results Overview
-      exclude: yes
-
-    -
-      name: publications_label
-      full: Publications
-      label: yes
-    -
-      name: inspire
-      full: PHENIX papers (Inspire HEP)
-
-    -
-      name: conferences
-      full: Select Conference Presentations
-
-    -
-      name: theses
-      full: Select theses
-      link: 'https://zenodo.org/communities/phenixcollaboration/search?page=1&size=20&q=thesis'
-      icon: /images/icons/external-link-32.png
-    -
-      name: hepdata_label
-      full: HEPData
-      label: yes
-    -
-      name: hepdata
-      full: 'HEPDATA: Policy and Procedures'
-
-    -
-      name: hepdata_uploads
-      full: PHENIX HEPData Contributions
-
 
 - name: resources
   full: Resources
