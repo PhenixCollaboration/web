@@ -9,14 +9,21 @@ layout: newbase
 {{ site.hr }}
 
 	<div class=row>
-	  <div class="col-md-6">
+	  <div class="col-md-4">
 	    <center><img src="{{ '/images/general/phenix_400x400.jpg' | relative_url }}" alt="Photo of the PHENIX experiment" style="width:80%;height:auto"></center>
 	  </div>
-	  <div class="col-md-6"><p class="lead">
+	  <div class="col-md-8">
+	    <p class="lead">
       PHENIX, the Pioneering High Energy Nuclear Interaction eXperiment, is the largest of
       the four experiments that have taken data at the Relativistic Heavy Ion Collider.
       Data-taking was finished in 2016 and the PHENIX Collaboration is now analyzing large data
-      samples collected, prioritizing those with a unique physics reach.</p>
+      samples previously collected, prioritizing those with a unique physics reach.<br/>
+      <br/>
+      This website has been created by the Collaboration to support its Data and Analysis Preservation effort.
+      Materials are collected from legacy web resources, curated and systematized for placement on this site.
+      New content is created with the specific purpose of aiding in the long-term analysis preservation. This effort leverages
+      best practices and tools developed in the High Energy and Nuclear Physics communities such as Zenodo, HEPData and Open Data portals.
+	    </p>
     <p/>
     {% if site.url contains 'local' %}
     <b>
@@ -32,15 +39,12 @@ layout: newbase
 {{ site.hr }}
 <p/>
   <center>
-    This website has been created by the PHENIX Collaboration to support its long-term Data and Analysis Preservation effort.
-    Materials are being collected from legacy web resources, systematized and curated.<br/>
     PHENIX members: please examine 
     {% include navigation/pagelink.md folder=site.about name='site' tag='the list of work items' html='1' %}
     and  
-    {% include navigation/pagelink.md folder=site.about name='contact' tag='let us know' html='1' %}
+    {% include navigation/pagelink.md folder=site.about name='dap_contact' tag='let us know' html='1' %}
     if you can help.
   </center>
-&nbsp;<p/>
 <p style="text-align:center;">
   <em>Site built at {{ site.time }}</em>
 </p>
