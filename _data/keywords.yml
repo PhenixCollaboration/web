@@ -362,6 +362,10 @@
   description: proton-on-gold collisions
   category: physics
   
+- name : p+al
+  description: proton-on-aluminium collisions
+  category: physics
+  
 - name : p+p
   description: proton-on-proton collisions
   category: physics

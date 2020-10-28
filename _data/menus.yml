@@ -94,11 +94,11 @@
       label: yes
     -
       name: hepdata
-      full: 'HEPDATA: Policy and Procedures'
+      full: 'Policy and Procedures'
 
     -
       name: hepdata_uploads
-      full: PHENIX HEPData Contributions
+      full: 'PHENIX data'
 
 
 - name: detectors

@@ -203,6 +203,30 @@
   cached_badge: yes
   date: 2009-06-02
 
+- name: 4148873
+  title: PHENIX Beam Use Proposal for Run-9 and Beyond
+  tags: [run09, run07, run08, 'au+au', 'p+p', 'd+au', vtx, fvtx, hbd, tofw, ]
+  author: B. Jacak
+  venue: 
+  resource: zenodo
+  type: bup
+  category: overview
+  format: markdown_link
+  cached_badge: yes
+  date: 2009-06-02
+
+- name: 4148892
+  title: PHENIX Beam Use Proposal Update for Run-7 and Beyond
+  tags: [run07, 'au+au', 'p+p', 'd+au', vtx, fvtx, hbd, emcal, ]
+  author: B. Jacak
+  venue: 
+  resource: zenodo
+  type: bup
+  category: overview
+  format: markdown_link
+  cached_badge: yes
+  date: 2009-06-02
+
 ### Conference presentations
 ## QM2019
 - name: 4031761
@@ -1137,6 +1161,17 @@
   date: 02/12/2002
 
 ### HEPData
+- name: 98626
+  title: Measurement of J/ψ at forward and backward rapidity in p+p, p+Al, p+Au, and <sup>3</sup>He+Au collisions at √s<sub>NN</sub>=200 GeV
+  tags: ['J/ψ', 'p+p', 'p+al', 'p+au', '3he+au', ]
+  author: 
+  venue:  Phys.Rev.C 102 (2020) 014902 (ppg228, inspire 1762446)
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+
 - name: 96764
   title: Dihadron azimuthal correlations in Au+Au collisions at √s<sub>NN</sub>=200GeV
   tags: 
