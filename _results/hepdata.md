@@ -85,5 +85,15 @@ can finalize the submission. At this point, it becomes globally visible on the H
 Please contact the {% include navigation/pagelink.md folder=site.about name='dap_contact' tag='DAP Team' %} for
 more information.
 
+##### Appendix A: YAML validation
 
+The module Python "hepdata-validator" can be used to quickly check validity of a file.
 
+```python
+>>> from hepdata_validator.data_file_validator import DataFileValidator
+>>> df=DataFileValidator()
+>>> df.validate(file_path='myGoodFile.yaml')
+True
+>>> df.validate(file_path='myBadFile.yaml')
+False
+```
