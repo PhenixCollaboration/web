@@ -370,6 +370,10 @@
   description: Modification of observables
   category: physics
 
+- name : nuclear
+  description: Nuclear (e.g. modification)
+  category: physics
+
 - name : open charm
   description: Open charm
   category: physics
@@ -422,8 +426,16 @@
   description: Quark Gluon Plasma
   category: physics
 
+- name : raa
+  description: Modification factor
+  category: physics
+
 - name : radial
   description: Radial
+  category: physics
+
+- name : rgamma
+  description: Modification factor
   category: physics
 
 - name : small-x

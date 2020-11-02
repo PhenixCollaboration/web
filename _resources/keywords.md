@@ -22,21 +22,23 @@ categories:
 ---
 {% include layouts/find_title.md name=page.name %}
 
-Listed on this page are *recommended* keywords used to tag materials placed on this site.
-Keywords are used in certain automated features e.g. aggregation and linking of materials
-pertaining to a particular topic, so their consistent use is enouraged. The keywords are
-case-sensitive.
-
-**The same set of keywords is used for materials uploaded to the
+Listed on this page are *recommended* keywords used to tag materials placed on this site
+and importantly **materials uploaded to the
 {% include navigation/pagelink.md folder=site.resources name='zenodo' tag='Zenodo'%}
 system** under the umbrella of the
-{% include navigation/findlink.md name='PHENIX Community on Zenodo' %}. The list is compiled
-to provide better consistency of the subsequent queries. Zenodo is using a complex
-query mechanism which includes but is not limited to "elastic search" on the submission
-text (where applicable) so the effect of capitalization on queries is not always straighforward.
-In the following we adopt lowercase convention for all keywords. Note that a keyword on Zenodo
-can actually be a combination of words and white space (i.e. phrases). Multiple such combinations
-are allowed in a single query.
+{% include navigation/findlink.md name='PHENIX Community on Zenodo' %}.
+Keywords are used in certain automated features of this site. They are critically important
+to make access to Zenodo efficient and PHENIX material discoverable, so their consistent
+use strongly recommended.
+
+**The keywords are case-sensitive.** We adopted lowercase convention for all keywords for
+the following reason: Zenodo is using a complex query mechanism which includes "elastic search"
+so the effect of capitalization on queries is not always straighforward, so it's best to avoid
+ambiguity. Note that Zenodo keywords can actually be a combination of words and white space
+(i.e. phrases). Multiple such combinations are allowed in a single query when accessing Zenodo.
+
+Please note that {% include navigation/pagelink.md folder=site.results name='hepdata' tag='HEPData' %}
+has its own set of keyword conventions so they have to be managed separately.
 
 In the tables below, the keywords are grouped in categories. Each entry in the left
 column acts as a query link to *Zenodo*, for that specific keyword. Pages containing
@@ -45,9 +47,10 @@ results of queries will open in a new tab/window.
 {% for cat in page.categories %}
 {% if cat.title %}
   <br/>
-##### {{ cat.title }}
+
 {% assign rows="" | split: "" %}
 {% assign sorted_keys=site.data.keywords | where: "category", cat.category | sort_natural %}
+##### {{ cat.title }} ({{ sorted_keys.size }} items)
 
 {% for item in sorted_keys %}
 
