@@ -1,4 +1,12 @@
 # General
+- name : bup
+  description: Beam Use Proposal
+  category: general
+
+- name : decadal plan
+  description: Two long-term proposals for the PHENIX research program
+  category: general
+
 - name: rhic
   description: Relativistic Heavy Ion Collider (RHIC)
   category: general
@@ -11,12 +19,12 @@
   description: PHOBOS - an experiment at RHIC
   category: general
 
-- name : decadal plan
-  description: Two long-term proposals for the PHENIX research program
+- name : star
+  description: STAR - an experiment at RHIC
   category: general
 
-- name : bup
-  description: Beam Use Proposal
+- name : wa98
+  description: WA98 - an experiment at CERN
   category: general
 
 # Conferences
@@ -210,8 +218,16 @@
   description: Anisotropy
   category: physics
 
+- name : asymmetry
+  description: Asymmetry
+  category: physics
+
 - name : au+au
   description: Gold-on-gold collisions
+  category: physics
+  
+- name : azimuthal
+  description: Azimuthal
   category: physics
   
 - name : b-meson
@@ -245,7 +261,11 @@
 - name : charm
   description: Particles containing the c-quark
   category: physics
-  
+
+- name : cross section
+  description: Cross section (as it applies to scattering)
+  category: physics
+
 - name : bottom
   description: Particles containing the b-quark
   category: physics
@@ -278,12 +298,20 @@
   description: Electron
   category: physics
   
+- name : elliptic
+  description: Elliptic
+  category: physics
+  
 - name : femtoscopy
   description: Femtoscopy
   category: physics
 
 - name : flow
   description: Flow
+  category: physics
+
+- name : fluctuations
+  description: Fluctuations
   category: physics
 
 - name : forward-rapidity
@@ -308,6 +336,10 @@
 
 - name : helicity
   description: Helicity
+  category: physics
+
+- name : invariant yield
+  description: Invariant yield 
   category: physics
 
 - name : jet
@@ -336,6 +368,14 @@
 
 - name : modification
   description: Modification of observables
+  category: physics
+
+- name : open charm
+  description: Open charm
+  category: physics
+
+- name : photon
+  description: Photon
   category: physics
 
 - name : photoproduction
@@ -380,6 +420,10 @@
 
 - name : qgp
   description: Quark Gluon Plasma
+  category: physics
+
+- name : radial
+  description: Radial
   category: physics
 
 - name : small-x
