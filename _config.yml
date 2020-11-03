@@ -101,9 +101,9 @@ collections:
   results:
     output: true
     permalink: /results/:title.html
-  resources:
-    output: true
-    permalink: /resources/:title.html
+#  resources:
+#    output: true
+#    permalink: /resources/:title.html
   about:
     output: true
     permalink: /about/:title.html

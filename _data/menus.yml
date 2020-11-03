@@ -88,17 +88,32 @@
       full: Select theses
       link: 'https://zenodo.org/communities/phenixcollaboration/search?page=1&size=20&q=thesis'
       icon: /images/icons/external-link-32.png
+
     -
       name: hepdata_label
       full: HEPData
       label: yes
+
     -
       name: hepdata
       full: 'Policy and Procedures'
 
     -
       name: hepdata_uploads
-      full: 'PHENIX data'
+      full: 'PHENIX on HEPData'
+
+    -
+      name: analysis_resources
+      full: Resources
+      label: yes
+
+    -
+      name: keywords
+      full: Keywords
+
+    -
+      name: zenodo
+      full: Zenodo
 
 
 - name: detectors
@@ -162,13 +177,8 @@
       label: yes
 
     -
-      name: analysis_notes
-      full: Analysis Notes
-
-    -
       name: muon_arms_jpsi
       full: Muon Arms Tutorial for J/ψ Analysis
-      div: yes
 
     -
       name: taxi_embedding
@@ -187,19 +197,18 @@
       name: embeddingVtx
       full: Embedding Example (VTX)
 
-- name: resources
-  full: Resources
-  submenus:
     -
-      name: keywords
-      full: Keywords
+      name: analysis_tools
+      full: Tools
+      label: yes
+
     -
-      name: zenodo
-      full: Zenodo
+      name: analysis_notes
+      full: Analysis Notes
+
     -
       name: rivet
       full: Rivet
-      div: yes
 
 - name: about
   full: About
