@@ -207,7 +207,11 @@
   category: physics
 
 - name : φ
-  description: φ
+  description: φ-meson
+  category: physics
+
+- name : ω
+  description: ω-meson
   category: physics
 
 - name : π0
