@@ -13,25 +13,26 @@ The PHENIX Collaboration is using this platform as one of the principal componen
 {% include navigation/pagelink.md folder=site.about name='dap' tag='Data and Analysis Preservation (DAP) effort' %}
 and manages a growing {% include navigation/findlink.md name='PHENIX on HEPData' tag='collection of HEPData entries' -%}.
 
-By the policy established by the PHENIX IB, every paper containing tables and/or plots must be
-accompanied by a **data package** containing the tables and/or plots data before it is approved
+**By the policy established by the PHENIX IB, every paper containing tables and/or plots must be
+accompanied by a HEPData-compliant data package** containing the tables and/or plots data before it is approved
 for publication. Please see the official policy document (sec. IV.iv):
 {% include_cached documents/doc.md type='document' tag='pub_policy' %}
 
-##### The Format
 The data package prepared for submission to HEPData must
-* Conform to the specific format required by the HEPData portal
-(please see the {% include navigation/findlink.md name='hepdata_submission' tag='documentation' %})
+* Conform to the specific format required by the HEPData portal (see section below)
 * Be certified by the IRC for each publication
 * Have an Insipre ID associated with it
 
+##### The Format
+Please see the {% include navigation/findlink.md name='hepdata_submission' tag='HEPData documentation' %}
+for details of the format requirements.
 Data contents of each item included in the package (e.g. a plot) are described
-in a corresponding file formatted in YAML (e.g. if there are 5 plots in the paper you are expected to
+in a corresponding individual file formatted as YAML (e.g. if there are 5 plots in the paper you are expected to
 provide 5 YAML data files). In addition, a special YAML file *submission.yaml* describes the submission as a whole
 and contains other important information such as
-* the abstract (typically imported as LaTeX from the publication material); unfortunately, not every LaTeX feature
+* an abstract (typically imported as LaTeX from the publication material); unfortunately, not every LaTeX feature
 will work correctly on HEPData and the output will need to be checked (see the "sandbox" reference below).
-* the list of keywords
+* a list of keywords
 
 Since YAML allows comments - lines starting with a "#" sign - it is easy to add any sort of
 extra information to *submission.yaml* that may be helpful for communication with members
