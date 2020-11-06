@@ -38,14 +38,15 @@ Data contents of each item included in the package (e.g. a plot) are described
 in a corresponding individual file formatted as YAML (e.g. if there are 5 plots in the paper you are expected to
 provide 5 YAML data files). In addition, a special YAML file *submission.yaml* describes the submission as a whole
 e.g. provides the names of the data and optional image files, list of keywords etc.
-It also contains an abstract (typically imported as LaTeX from the publication material); unfortunately, not every LaTeX feature
-will work correctly on HEPData and the output will need to be checked (see the "sandbox" reference below).
+It also contains an abstract (typically imported as LaTeX from the publication material);
+unfortunately, not every LaTeX feature will work correctly on HEPData and the output will
+need to be checked (see the "sandbox" reference below).
 
 Since YAML allows comments - lines starting with a "#" sign - it is easy to add any sort of
 extra information to *submission.yaml* that may be helpful for communication with members
-of Collaboration, reviewers and for the workflow of the submission process in general.
+of the Collaboration, reviewers and for the workflow of the submission process in general.
 For example, it is necessary to provide the **Inspire ID** of the paper
-for the HEPDAta submission. It can be placed in a comment line. Also, 
+for the HEPData submission. It can be placed in a comment line. Also, 
 including the PHENIX-internal **PPG identifier** is highly recommended
 as it reduces the chances of human error and facilitates communication.
 Both Inspire ID and the PPG identifier can be easily incorporated
@@ -55,7 +56,7 @@ in the comment lines of the *submission.yaml* file mentioned above
 If there are existing data files in an ad-hoc format (text etc) these can be converted
 to the HEPData format with some effort. The DAP team is looking at technical
 solutions to facilitate this process. For example, if plots are generated
-using ROOT macros the code can be instrumeted to output same
+using ROOT macros the code can be instrumented to output same
 data in a format compatible with HEPData.
 There is a helpful write-up about preparing data for upload:
 {% include_cached documents/doc.md type='writeup' tag='nattrass' %}
@@ -125,11 +126,29 @@ and the process is complete.
 Please contact the {% include navigation/pagelink.md folder=site.about name='dap_contact' tag='DAP Team' %} for
 more information.
 
+##### Correcting Errors
+It is strongly recommended to pay close attention to the content of your submission i.e.
+numerical values of the the data points, error bars, labels and scales of axes etc, such
+that the submission is final and would never need any adjustments.
+
+If, despite best effort, there is an inaccuracy in a submission it can be resubmitted by
+the HEPData coordinator for PHENIX. In that case, a new version is cut and becomes available
+under the same HEPData ID, while the old version is still available via a direct reference ("v1" etc).
+While this guarantees that the data presented on the site is the most accurate according to our
+judgement it also creates certain ambiguity for people who already accessed the old data and
+perhaps performed a few downloads. While this can addressed by communicating the fact of
+the correction, such situations should be avoided so the quality of the original submission is
+paramount.
+
+
 {{ site.hr }}
 ##### Appendix A: YAML validation (offline)
 
-The Python module "hepdata-validator" (available from GitHub) can be used to quickly check validity of a file, e.g.
-
+The Python package "hepdata-validator"
+({% include navigation/findlink.md name='hepdata_validator' tag='available from GitHub' %})
+can be used to quickly check validity of a file. You may need to use a standard Python utility
+like *pip* or its equivalent to install this package. A simple example of usage:
+				   
 ```python
 >>> from hepdata_validator.data_file_validator import DataFileValidator
 >>> df=DataFileValidator()
@@ -163,7 +182,7 @@ If an upload to the sandbox is successful, the Web page will eventually refresh 
 rendered contents will be shown. Time required to render the contents of your submission
 will depend on its complexity - simple single-table submissions will render in 10-20 sec
 while complex multi-table entries may take minutes. If there is a failure, the user is redirected to the file upload
-page. Either way, there is a notification is sent via e-mail telling the user about the
+page. Either way, there is a notification sent via e-mail telling the user about the
 status of their submission (i.e. success or failure). Diagnostic messages generated
 by the sandbox validation system and delivered via e-mail are often quite useful
 and help to identify problems quickly.

@@ -30,6 +30,9 @@
   
 - name: hepdata_tips
   url: 'https://hepdata-submission.readthedocs.io/en/latest/tips.html'
+
+- name: hepdata_validator
+  url: 'https://github.com/HEPData/hepdata-validator'
   
 - name: hepdata_coordinators
   url: 'https://www.hepdata.net/permissions/coordinators'
