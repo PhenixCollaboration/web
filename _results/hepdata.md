@@ -31,7 +31,7 @@ on the HEPData site, please peruse it. In addition, the DAP team created
 {% include navigation/findlink.md name='github_hepdata_examples' tag='a few simple examples' %}
 kept in the PHENIX repository on GitHub to illustrate basic features and options of the HEPData format.
 Beginners are encouraged to experiment with these examples by using the "sandbox" feature of the
-HEPData Portal (see **Appendix A** below).
+HEPData Portal (see **Appendix B** below).
 
 The basic idea of how a submission is structured is as follows.
 Data contents of each item included in the package (e.g. a plot) are described
@@ -76,10 +76,12 @@ keywords: # used for searching, possibly multiple values for each keyword
 - {name: phrases, values: [Inclusive, Integrated Cross Section, Cross Section, Proton-Proton Scattering, Z Production, Z pair Production]}
 ```				   
 
-For PHENIX data to be discoverable on the HEPData Portal it has to be indexed with relevant keywords.
+For PHENIX data to be discoverable on the HEPData Portal it must be indexed with relevant keywords.
 For a reference list of keywords please refer to the 
 {% include navigation/pagelink.md folder=site.results name='keywords' tag='"keywords" page' %}
-on this site.
+on this site. If you have suggestions of useful keywords that cab be added to the list
+please contact the {% include navigation/pagelink.md folder=site.about name='dap_contact' tag='DAP Team' %}.
+
 				   
 ##### The Procedure
 Each collaboration using the HEPData portal has a
@@ -159,7 +161,7 @@ make navigation easier.
 
 If an upload to the sandbox is successful, the Web page will eventually refresh and the
 rendered contents will be shown. Time required to render the contents of your submission
-will depend on its complecity - simple single-table submissions will render in 10-20 sec
+will depend on its complexity - simple single-table submissions will render in 10-20 sec
 while complex multi-table entries may take minutes. If there is a failure, the user is redirected to the file upload
 page. Either way, there is a notification is sent via e-mail telling the user about the
 status of their submission (i.e. success or failure). Diagnostic messages generated
