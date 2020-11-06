@@ -25,14 +25,21 @@ The data package prepared for submission to HEPData must
 
 ##### The Format
 Please see the {% include navigation/findlink.md name='hepdata_submission' tag='HEPData documentation' %}
-for details of the format requirements.
+for details of the format requirements. 
+There is a useful {% include navigation/findlink.md name='hepdata_tips' tag='collection of tips' %}
+on the HEPData site, please peruse it. In addition, the DAP team created
+{% include navigation/findlink.md name='github_hepdata_examples' tag='a few simple examples' %}
+kept in the PHENIX repository on GitHub to illustrate basic features and options of the HEPData format.
+Beginners are encouraged to experiment with these examples by using the "sandbox" feature of the
+HEPData Portal (see **Appendix A** below).
+
+The basic idea of how a submission is structured is as follows.
 Data contents of each item included in the package (e.g. a plot) are described
 in a corresponding individual file formatted as YAML (e.g. if there are 5 plots in the paper you are expected to
 provide 5 YAML data files). In addition, a special YAML file *submission.yaml* describes the submission as a whole
-and contains other important information such as
-* an abstract (typically imported as LaTeX from the publication material); unfortunately, not every LaTeX feature
+e.g. provides the names of the data and optional image files, list of keywords etc.
+It also contains an abstract (typically imported as LaTeX from the publication material); unfortunately, not every LaTeX feature
 will work correctly on HEPData and the output will need to be checked (see the "sandbox" reference below).
-* a list of keywords
 
 Since YAML allows comments - lines starting with a "#" sign - it is easy to add any sort of
 extra information to *submission.yaml* that may be helpful for communication with members
@@ -55,10 +62,31 @@ There is a helpful write-up about preparing data for upload:
 
 ##### The Keywords
 HEPData provides a set of predefined keywords to index scattering data, and also a possibility
-to add ad-hoc keywords pertaining to a specific submission, see
+to add ad-hoc keywords (named *phrases*) pertaining to a specific submission, see
 {% include navigation/findlink.md name='hepdata_keywords' tag='this link' %} for details.
+In the snippet of YAML colde below, the "reactions", "cmenergies" and "observables" are
+predefined keywords while the last line (phrases) contains optional key phrases created
+by the user.
 
+```yaml
+keywords: # used for searching, possibly multiple values for each keyword
+- {name: reactions, values: [P P --> Z0 Z0 X]}
+- {name: observables, values: [SIG]}
+- {name: cmenergies, values: [7000.0]}
+- {name: phrases, values: [Inclusive, Integrated Cross Section, Cross Section, Proton-Proton Scattering, Z Production, Z pair Production]}
+```				   
+
+For PHENIX data to be discoverable on the HEPData Portal it has to be indexed with relevant keywords.
+For a reference list of keywords please refer to the 
+{% include navigation/pagelink.md folder=site.results name='keywords' tag='"keywords" page' %}
+on this site.
+				   
 ##### The Procedure
+Each collaboration using the HEPData portal has a
+{% include navigation/findlink.md name='hepdata_coordinators' tag='coordinator' %}
+registered on that Web resource, and that person is reponsible for managing the submission workflow,
+making corrections, communicating with reviewers etc. At the time of writing, PHENIX has delegated this
+responsibility to M.Potekhin (potekhin_at_bnl_dot_gov).
 It is assumed that the PPG members responsible for the HEPData submission have GitHub
 accounts since the workflow involves a dedicated section of the  official PHENIX repository:
 * [https://github.com/PhenixCollaboration/documentation/tree/master/assets/hepdata](https://github.com/PhenixCollaboration/documentation/tree/master/assets/hepdata){:target="_blank"}
@@ -93,15 +121,10 @@ will finalize the submission. At this point, it becomes globally visible on the 
 and the process is complete.
 
 Please contact the {% include navigation/pagelink.md folder=site.about name='dap_contact' tag='DAP Team' %} for
-more information. Each collaboration using the HEPData portal has a
-{% include navigation/findlink.md name='hepdata_coordinators' tag='coordinator' %}
-registered on that Web resource, and that person is reponsible for managing the submission workflow,
-making corrections, communicating with reviewers etc. At the time of writing, PHENIX has delegated this
-responsibility to M.Potekhin (potekhin_at_bnl_dot_gov).
-
+more information.
 
 {{ site.hr }}
-##### Appendix A: YAML validation
+##### Appendix A: YAML validation (offline)
 
 The Python module "hepdata-validator" (available from GitHub) can be used to quickly check validity of a file, e.g.
 
@@ -116,28 +139,46 @@ False
 
 ##### Appendix B: The Sandbox
 The "sandbox" feature of the HEPData portal allows the user to thoroughly validate the
-submission package and in particular whether the LaTeX-formatted abstract is rendered correctly.
-Please use it, otherwise it is hard to guarantee that the LaTeX dialect used on the HEPData
-site will produce adequate output. Using the sandbox feature requires an account on HEPData
+submission package. It will catch trivial errors in YAML formatting, typos in the provided
+filenames, missing files etc. Importantly, it helps to determine
+whether the LaTeX-formatted abstract is rendered correctly - 
+it is hard to guarantee that the LaTeX dialect used on the HEPData
+site will produce adequate output.
+
+Using the sandbox feature requires an account on HEPData
 which is **trivial to obtain**. Once you log into the portal, the "sandbox" option will be
 clearly marked in the menu in the upper right corner of the Web page.
 The sandbox won't be visible to anyone without the link generated by the system, so the data
 are protected in this manner. Uploading material will require creation of a *tar* archive of your
-files which should be deleted once you complete validation, to keep the folder clean.
+files. You may want to delete the tar file once you complete validation to keep the repository
+folder clean.
 
+The sandbox section has a useful "dashboard" feature which allows the user to keep track of
+their test submissions. You can delete the entries you no longer need from your sandbox to
+make navigation easier.
 
+If an upload to the sandbox is successful, the Web page will eventually refresh and the
+rendered contents will be shown. Time required to render the contents of your submission
+will depend on its complecity - simple single-table submissions will render in 10-20 sec
+while complex multi-table entries may take minutes. If there is a failure, the user is redirected to the file upload
+page. Either way, there is a notification is sent via e-mail telling the user about the
+status of their submission (i.e. success or failure). Diagnostic messages generated
+by the sandbox validation system and delivered via e-mail are often quite useful
+and help to identify problems quickly.
+				   
 ##### Appendix C: the GitHub Workflow
 The HEPData materials are kept in a designated folder in the PHENIX Collabotation documentation repository on GitHub:
 [https://github.com/PhenixCollaboration/documentation/tree/master/assets/hepdata](https://github.com/PhenixCollaboration/documentation/tree/master/assets/hepdata){:target="_blank"}.
 Adding your HEPData files to the repository is done as follows:
-* Create a fork of the "documentation" repository on GitHub (easy to do in the Web UI): [https://github.com/PhenixCollaboration/documentation](https://github.com/PhenixCollaboration/documentation){:target="_blank"}
+* Create a fork of the "documentation" repository on GitHub (easy to do in the Web UI): [https://github.com/PhenixCollaboration/documentation](https://github.com/PhenixCollaboration/documentation){:target="_blank"}.
 * Clone the resulting repository to your workstation/laptop.
-Look at the existing 'ppg' folders under assets/hepdata if you need examples
-* Check if the correct "ppgXXX" folder for your submission exists, if not create it and add it to your repository. 'XXX' here stands for the PPG serial number i.e. if you are in PPG 433 you will need to create a folder "ppg433".
-* Populate the folder with your HEPData submission files
+Look at the existing 'ppg' folders under assets/hepdata if you need examples.
+* Check if the correct "ppgXXX" folder for your submission exists, if not create it and "git add" it to your repository. 'XXX' here stands for the PPG serial number i.e. if you are in PPG 433 you will need to create a folder "ppg433".
+* Populate the folder with your HEPData submission files.
 * Create a *tar* file with the contents of the folder and peruse the **sandbox** functionality of HEPData as suggested above
-to upload and validate the contents
+to upload and validate the contents.
 * If you are satisfied with the submission and there are no errors, delete the tar file and
-do a "git commit ." and "git push" to place the material on GitHub (do not push to "master")
-* Create a pull request on the GitHub website in order to merge your addition into the repository
+do a "git commit ." and "git push" to place the material on GitHub (do not push to "master").
+* Create a pull request on the GitHub website in order to merge your addition into the repository.
+
 

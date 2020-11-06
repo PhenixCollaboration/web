@@ -7,6 +7,10 @@
   url: 'https://github.com/PhenixCollaboration'
   category: 'general'
 
+- name: 'github_hepdata_examples'
+  url: 'https://github.com/PhenixCollaboration/documentation/tree/master/assets/hepdata/examples'
+  category: 'general'
+
 - name: 'PHENIX Community on Zenodo'
   url: 'https://zenodo.org/communities/phenixcollaboration/search?page=1&size=20&sort=-publication_date'
   category: 'general'
@@ -23,6 +27,9 @@
   
 - name: hepdata_keywords
   url: 'https://hepdata-submission.readthedocs.io/en/latest/keywords.html'
+  
+- name: hepdata_tips
+  url: 'https://hepdata-submission.readthedocs.io/en/latest/tips.html'
   
 - name: hepdata_coordinators
   url: 'https://www.hepdata.net/permissions/coordinators'
