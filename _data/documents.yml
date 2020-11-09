@@ -227,6 +227,30 @@
   cached_badge: yes
   date: 2009-06-02
 
+- name: 4264805
+  title: PHENIX Beam Use Proposal for RHIC Runs 5-9
+  tags: [run05, run06, run07, run08, run09, 'd+au', smd, zdc, fcal, ]
+  author: W. Zajc
+  venue: 
+  resource: zenodo
+  type: bup
+  category: overview
+  format: markdown_link
+  cached_badge: yes
+  date: 2004-07-28
+
+- name: 4264836
+  title: PHENIX Beam Use Proposal for RHIC Runs 4-8
+  tags: [run04, run05, run06, run07, run08, smd, zdc, fcal, aerogel, ]
+  author: W. Zajc
+  venue: 
+  resource: zenodo
+  type: bup
+  category: overview
+  format: markdown_link
+  cached_badge: yes
+  date: 2003-09-03
+
 ### Conference presentations
 ## QM2019
 - name: 4031761
