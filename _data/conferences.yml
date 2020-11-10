@@ -9,6 +9,11 @@
   url: 'https://indico.fnal.gov/event/22233/'
   year: 2020
 
+- name: dnp120
+  title: 'DNP Fall 2020 Meeting'
+  url: 'http://tigers.phys.lsu.edu/dnp2020/'
+  year: 2020
+  
 # 2019
 - name: qm2019
   title: 'Quark Matter 2019'
