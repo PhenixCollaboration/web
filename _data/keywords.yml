@@ -36,6 +36,10 @@
   description: DNP (2019)
   category: conference
 
+- name : dnp20
+  description: DNP (2020)
+  category: conference
+
 - name : qm2019
   description: Quark Matter (2019)
   category: conference
