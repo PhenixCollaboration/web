@@ -28,22 +28,7 @@
   category: general
 
 # Conferences
-- name : ismd19
-  description: International Symposium on Multiparticle Dynamics (2019)
-  category: conference
-
-- name : dnp19
-  description: DNP (2019)
-  category: conference
-
-- name : dnp20
-  description: DNP (2020)
-  category: conference
-
-- name : qm2019
-  description: Quark Matter (2019)
-  category: conference
-
+# 2020
 - name : wwnd2020
   description: The 36th Winter Workshop on Nuclear Dynamics (2020)
   category: conference
@@ -52,10 +37,32 @@
   description: Santa Fe Jets and Heavy Flavor Workshop (2020)
   category: conference
 
+- name : dnp20
+  description: DNP (2020)
+  category: conference
+
+- name : hp20
+  description: Hard Probes 2020
+  category: conference
+
+# 2019
+- name : ismd19
+  description: International Symposium on Multiparticle Dynamics (2019)
+  category: conference
+
+- name : dnp19
+  description: DNP (2019)
+  category: conference
+
+- name : qm2019
+  description: Quark Matter (2019)
+  category: conference
+
 - name : zs19
   description: Zimányi School (2019)
   category: conference
 
+# 2018
 - name : wpcf2018
   description: XIII Workshop on Particle Correlations and Femtoscopy
   category: conference
