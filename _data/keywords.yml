@@ -29,6 +29,10 @@
 
 # Conferences
 # 2020
+- name : iwhss2020
+  description: 17th International Workshop on Hadron Structure and Spectroscopy
+  category: conference
+
 - name : wwnd2020
   description: The 36th Winter Workshop on Nuclear Dynamics (2020)
   category: conference
