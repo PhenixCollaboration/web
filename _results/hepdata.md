@@ -18,15 +18,18 @@ accompanied by a HEPData-compliant data package** containing the tables and/or p
 for publication. Please see the official policy document (sec. IV.iv):
 {% include_cached documents/doc.md type='document' tag='pub_policy' %}
 
-The data package prepared for submission to HEPData must
-* Conform to the specific format required by the HEPData portal (see section below)
-* Be certified by the IRC for each publication
-* Have an Insipre ID associated with it
+Specifically:
+> "The IRC shall be empowered to adjudicate disagreements on the details of the paper.
+> A near-consensus shall be a pre-requisite for the submission of the paper to the
+> preprint arXiv and journal, but only after the IRC has certified that data tables are
+> available in proper format for later submission to HEP data."
 
 ##### The Format
-Please see the {% include navigation/findlink.md name='hepdata_submission' tag='HEPData documentation' %}
-for details of the format requirements. 
-There is a useful {% include navigation/findlink.md name='hepdata_tips' tag='collection of tips' %}
+The data package prepared for submission to HEPData must conform to the specific
+format required by the HEPData portal -
+please see the {% include navigation/findlink.md name='hepdata_submission' tag='HEPData documentation' %}
+for details of the requirements. There is a useful
+{% include navigation/findlink.md name='hepdata_tips' tag='collection of tips' %}
 on the HEPData site, please peruse it. In addition, the DAP team created
 {% include navigation/findlink.md name='github_hepdata_examples' tag='a few simple examples' %}
 kept in the PHENIX repository on GitHub to illustrate basic features and options of the HEPData format.
