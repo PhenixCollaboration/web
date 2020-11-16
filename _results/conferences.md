@@ -13,10 +13,10 @@ years:
 <h5>{{ year }}</h5>
 {% for conference in c4y %}
 {% capture link %}{%- include navigation/zenodo_query.md name=conference.name tag='PHENIX Presentations' -%}{% endcapture %}
-<table width="60%">
+<table width="67%">
   <tr>
-    <td width="60%"><nobr>{{ conference.title }}</nobr></td>
-    <td width="30%"><nobr>{{ link }}</nobr></td>
+    <td width="65%"><nobr>{{ conference.title }}</nobr></td>
+    <td width="25%"><nobr>{{ link }}</nobr></td>
     <td width="10%"><nobr><a href="{{ conference.url }}" target="_blank">Website</a></nobr></td>
   </tr>
 </table>
