@@ -31,8 +31,17 @@
 - name: hepdata_tips
   url: 'https://hepdata-submission.readthedocs.io/en/latest/tips.html'
 
+- name: hepdata_phrases
+  url: 'https://hepdata-submission.readthedocs.io/en/latest/keywords/phrases.html'
+
+- name: hepdata_particles
+  url: 'https://hepdata-submission.readthedocs.io/en/latest/keywords/partlist.html'
+
 - name: hepdata_validator
   url: 'https://github.com/HEPData/hepdata-validator'
+  
+- name: hepdata_github
+  url: 'https://github.com/PhenixCollaboration/documentation/tree/master/assets/hepdata'
   
 - name: hepdata_coordinators
   url: 'https://www.hepdata.net/permissions/coordinators'

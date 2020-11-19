@@ -22,16 +22,15 @@ categories:
 ---
 {% include layouts/find_title.md name=page.name %}
 
-Listed on this page are *recommended* keywords used to tag materials placed on this site
-and also committed to cloud platforms such as 
-{% include navigation/pagelink.md folder=site.results name='zenodo' tag='Zenodo'%}
-(under the umbrella of the
-{% include navigation/findlink.md name='PHENIX Community on Zenodo' %}),
-and 
-{% include navigation/findlink.md name='HEPData' %}.
-They are critically important to make access to these resources efficient and PHENIX
-materials readily discoverable, so their consistent
-use strongly recommended. Keywords are also used in certain automated features of this site. 
+Listed on this page are *recommended* keywords used for two purposes:
+* to **tag materials** placed on this site so they can be consistently referenced across this web resource
+* to enhance discoverability of the PHENIX materials committed to {% include navigation/pagelink.md folder=site.results name='zenodo' tag='Zenodo'%}
+
+Consistent use of the keywords is strongly recommended. Please note that
+{% include navigation/pagelink.md folder=site.results name='hepdata' tag='HEPData materials' %}
+follow a 
+{% include navigation/findlink.md name='hepdata_keywords' tag='different set of conventions' %}.
+
 
 **The keywords are case-sensitive.** We adopted lowercase convention for all keywords for
 the following reason: Zenodo is using a complex query mechanism which includes "elastic search"

@@ -40,7 +40,7 @@ The basic idea of how a submission is structured is as follows.
 Data contents of each item included in the package (e.g. a plot) are described
 in a corresponding individual file formatted as YAML (e.g. if there are 5 plots in the paper you are expected to
 provide 5 YAML data files). In addition, a special YAML file *submission.yaml* describes the submission as a whole
-e.g. provides the names of the data and optional image files, list of keywords etc.
+e.g. provides the names of the data and optional image files, **list of keywords** etc.
 It also contains an abstract (typically imported as LaTeX from the publication material);
 unfortunately, not every LaTeX feature will work correctly on HEPData and the output will
 need to be checked (see the "sandbox" reference below).
@@ -64,14 +64,11 @@ data in a format compatible with HEPData.
 There is a helpful write-up about preparing data for upload:
 {% include_cached documents/doc.md type='writeup' tag='nattrass' %}
 
-##### The Keywords
-HEPData provides a set of predefined keywords to index scattering data, and also a possibility
-to add ad-hoc keywords (named *phrases*) pertaining to a specific submission, see
-{% include navigation/findlink.md name='hepdata_keywords' tag='this link' %} for details.
-In the snippet of YAML colde below, the "reactions", "cmenergies" and "observables" are
-predefined keywords while the last line (phrases) contains optional key phrases created
-by the user.
-
+##### Keywords: an Overview
+Like with many other data repositories, consistent use of keywords is essential for
+data discoverability. HEPData makes it possible to attach a set of keywords and
+keyphrases to the submission package, by adding a properly formatted section to
+the *submission.yaml* file as illustrated below:
 ```yaml
 keywords: # used for searching, possibly multiple values for each keyword
 - {name: reactions, values: [P P --> Z0 Z0 X]}
@@ -79,13 +76,57 @@ keywords: # used for searching, possibly multiple values for each keyword
 - {name: cmenergies, values: [7000.0]}
 - {name: phrases, values: [Inclusive, Integrated Cross Section, Cross Section, Proton-Proton Scattering, Z Production, Z pair Production]}
 ```				   
+<!--   -->
+The {% include navigation/findlink.md name='hepdata_keywords' tag='HEPData keywords page' %}
+contains useful  details. {% include navigation/findlink.md name='github_hepdata_examples' tag='The examples' %}
+created by the PHENIX team as tutorials illustrate how the keywords are placed in the *submission.yaml* file.
+The examples use a slightly different YAML notation which is equally valid:
+```yaml
+keywords:
+- name: observables
+  values: [MASS]
+- name: cmenergies
+  values: [2000.0]
+- name: reactions
+  values: [P P --> GAMMA GAMMA X]
+- name: phrases
+  values: ['PHENIX', 'ppg999', 'example 1', 'gamma gamma', 'Proton-Proton Scattering']
+```
+<!-- -->
+##### Keywords: Reactions, Particles and Phrases
+In the snippet of YAML code shown above, the "reactions", "cmenergies" and "observables" are
+*predefined keywords* while the last item (*phrases*) contains optional key phrases supplied
+by the user (which can theoretically contain anything).
 
-For PHENIX data to be discoverable on the HEPData Portal it must be indexed with relevant keywords.
-For a reference list of keywords please refer to the 
-{% include navigation/pagelink.md folder=site.results name='keywords' tag='"keywords" page' %}
-on this site. If you have suggestions of useful keywords that cab be added to the list
-please contact the {% include navigation/pagelink.md folder=site.about name='dap_contact' tag='DAP Team' %}.
+If applicable, it is very helpful to include a description of the **reaction(s)**
+pertinent to the publication in the keywords section, e.g.
+```yaml
+- {name: reactions, values: [P P --> Z0 Z0 X]}
+# alternative notation for the same reaction that can be used interchangeably
+- name: reactions
+  values: [P P --> Z0 Z0 X]
+```
+<!-- -->
+When describing the reactions it is important to use the
+{% include navigation/findlink.md name='hepdata_particles' tag='particle notation' %}
+universally used on the HEPData portal. Note that 'Au' (the gold nucleus) is conspicuously missing
+from the list, but Uranium is included. Since particle names are capitalized as per HEPData
+convention it is recommended to use 'AU' whenever a reference to the gold nucleus is needed.
+Quarks are denoted as 'UQ', 'DQ' and so on. As seen in the example above, in the decription
+of a reactions particles are separated by space, and the arrow is depicted in alphanumeric characters.
 
+The "phrases" section can contain essentially any sort of key phrases includind completely new ones,
+however it is helpful to start with the
+{% include navigation/findlink.md name='hepdata_phrases' tag='list of key phrases' %}
+historically used on HEPData since they are more likely to be used in queries on the site.
+Note that
+{% include navigation/pagelink.md folder=site.results name='keywords' tag='the "keywords" page' %}
+on this site contains keywords to be used primarily for the PHENIX materials uploaded to the
+{% include navigation/pagelink.md folder=site.results name='zenodo' tag='Zenodo' %} portal,
+which are mostly distinct from the HEPData
+{% include navigation/findlink.md name='hepdata_phrases' tag='conventions' %}.
+If you have any comments or suggestions regarding the keywords please contact the
+{% include navigation/pagelink.md folder=site.about name='dap_contact' tag='DAP Team' %}.
 				   
 ##### The Procedure
 Each collaboration using the HEPData portal has a
@@ -94,8 +135,8 @@ registered on that Web resource, and that person is reponsible for managing the 
 making corrections, communicating with reviewers etc. At the time of writing, PHENIX has delegated this
 responsibility to M.Potekhin (potekhin_at_bnl_dot_gov).
 It is assumed that the PPG members responsible for the HEPData submission have GitHub
-accounts since the workflow involves a dedicated section of the  official PHENIX repository:
-* [https://github.com/PhenixCollaboration/documentation/tree/master/assets/hepdata](https://github.com/PhenixCollaboration/documentation/tree/master/assets/hepdata){:target="_blank"}
+accounts since the workflow involves a dedicated section of the 
+{% include navigation/findlink.md name='hepdata_github' tag='official PHENIX repository' %}.
 
 The procedure of publishing materials on HEPData includes a few steps but is fairly straighforward
 and relies on having (a) properly formatted data (b) a designated reviewer in the IRC (c) making
@@ -133,7 +174,6 @@ more information.
 It is strongly recommended to pay close attention to the content of your submission i.e.
 numerical values of the the data points, error bars, labels and scales of axes etc, such
 that the submission is final and would never need any adjustments.
-
 If, despite best effort, there is an inaccuracy in a submission it can be resubmitted by
 the HEPData coordinator for PHENIX. In that case, a new version is cut and becomes available
 under the same HEPData ID, while the old version is still available via a direct reference ("v1" etc).
