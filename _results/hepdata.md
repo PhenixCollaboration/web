@@ -115,13 +115,13 @@ convention it is recommended to use 'AU' whenever a reference to the gold nucleu
 Quarks are denoted as 'UQ', 'DQ' and so on. As seen in the example above, in the decription
 of a reactions particles are separated by space, and the arrow is depicted in alphanumeric characters.
 
-The "phrases" section can contain essentially any sort of key phrases includind completely new ones,
+The "phrases" section can contain essentially any sort of key phrases including completely new ones,
 however it is helpful to start with the
 {% include navigation/findlink.md name='hepdata_phrases' tag='list of key phrases' %}
 historically used on HEPData since they are more likely to be used in queries on the site.
 Note that
 {% include navigation/pagelink.md folder=site.results name='keywords' tag='the "keywords" page' %}
-on this site contains keywords to be used primarily for the PHENIX materials uploaded to the
+on this PHENIX site contains keywords to be used primarily for the PHENIX materials uploaded to the
 {% include navigation/pagelink.md folder=site.results name='zenodo' tag='Zenodo' %} portal,
 which are mostly distinct from the HEPData
 {% include navigation/findlink.md name='hepdata_phrases' tag='conventions' %}.
@@ -138,8 +138,8 @@ It is assumed that the PPG members responsible for the HEPData submission have G
 accounts since the workflow involves a dedicated section of the 
 {% include navigation/findlink.md name='hepdata_github' tag='official PHENIX repository' %}.
 
-The procedure of publishing materials on HEPData includes a few steps but is fairly straighforward
-and relies on having (a) properly formatted data (b) a designated reviewer in the IRC (c) making
+The procedure of publishing materials on HEPData includes a few steps but still is fairly straighforward.
+It relies on having (a) properly formatted data (b) a designated reviewer in the IRC (c) making
 use of GitHub to manage the material and make corrections if necessary. Here are the details:
 * The IRC is responsible for QA of the data. The IRC selects one of its members as the official
 reviewer of the data uploaded to the HEPData portal who checks the data and gives final approval
