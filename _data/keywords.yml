@@ -481,6 +481,10 @@
   description: Thermal photons produced in nuclear collisions
   category: physics
   
+- name : transverse momentum
+  description: Transverse Momentum
+  category: physics
+
 - name : transverse spin asymmetry
   description: Transverse Spin Asymmetry
   category: physics

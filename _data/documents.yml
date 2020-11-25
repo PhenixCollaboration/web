@@ -1185,6 +1185,28 @@
   date: 02/12/2002
 
 ### HEPData
+- name: 99752
+  title: Single electron yields from semileptonic charm and bottom hadron decays in Au+Au collisions at √s<sub>NN</sub>=200GeV
+  tags: ['transverse momentum', 'invariant yield', 'heavy flavor', 'au+au', ]
+  author: 
+  venue: Phys.Rev.C 93 (2016) 034904 (ppg182, inspire 1393529)
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+
+- name: 99679
+  title: Measurements of Higher-Order Flow Harmonics in Au+Au Collisions at √s<sub>NN</sub>=200GeV
+  tags: ['flow', 'v2', 'v3', 'v4', 'au+au', ]
+  author: 
+  venue:  Phys.Rev.Lett. 107 (2011) 252301 (ppg132, insipre 900703)
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+
 - name: 98626
   title: Measurement of J/ψ at forward and backward rapidity in p+p, p+Al, p+Au, and <sup>3</sup>He+Au collisions at √s<sub>NN</sub>=200 GeV
   tags: ['J/ψ', 'p+p', 'p+al', 'p+au', '3he+au', ]
