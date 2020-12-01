@@ -3,19 +3,20 @@ name: hepdata
 layout: newbase
 ---
 {% include layouts/find_title.md name=page.name %}
-
 ##### The Policy
-{% include_cached navigation/findlink.md name='HEPData' %} is an open-access repository for
-scattering data from experimental particle physics. _It includes data points_ from several
-thousand publications produced by multiple Collaborations working in High Energy and Nuclear Physics,
+{% include_cached navigation/findlink.md name='HEPData' %} is an open-access
+repository for scattering data from experimental particle physics. _It includes
+data points_ from several thousand publications produced by multiple
+Collaborations working in High Energy and Nuclear Physics,
 and is hosted by CERN as a part of its Open Data initiative.
 The PHENIX Collaboration is using this platform as one of the principal components of its
 {% include navigation/pagelink.md folder=site.about name='dap' tag='Data and Analysis Preservation (DAP) effort' %}
-and manages a growing {% include navigation/findlink.md name='PHENIX on HEPData' tag='collection of HEPData entries' -%}.
+and manages a growing
+{% include navigation/findlink.md name='PHENIX on HEPData' tag='collection of HEPData entries' -%}.
 
 **By the policy established by the PHENIX IB, every paper containing tables and/or plots must be
-accompanied by a HEPData-compliant data package** containing the tables and/or plots data before it is approved
-for publication. Please see the official policy document (sec. IV.iv):
+accompanied by a HEPData-compliant data package** containing the tables and/or plots data
+before it is approved for publication. Please see the official policy document (sec. IV.iv):
 {% include_cached documents/doc.md type='document' tag='pub_policy' %}
 
 Specifically:
@@ -93,7 +94,7 @@ keywords:
   values: ['PHENIX', 'ppg999', 'example 1', 'gamma gamma', 'Proton-Proton Scattering']
 ```
 <!-- -->
-##### Keywords: Reactions, Particles and Phrases
+##### Reactions, Particles and Phrases
 In the snippet of YAML code shown above, the "reactions", "cmenergies" and "observables" are
 *predefined keywords* while the last item (*phrases*) contains optional key phrases supplied
 by the user (which can theoretically contain anything).
@@ -101,6 +102,7 @@ by the user (which can theoretically contain anything).
 If applicable, it is very helpful to include a description of the **reaction(s)**
 pertinent to the publication in the keywords section, e.g.
 ```yaml
+# note that contrary to other notation systems there is no "+" sign anywhere
 - {name: reactions, values: [P P --> Z0 Z0 X]}
 # alternative notation for the same reaction that can be used interchangeably
 - name: reactions
@@ -137,35 +139,37 @@ responsibility to M.Potekhin (potekhin_at_bnl_dot_gov).
 It is assumed that the PPG members responsible for the HEPData submission have GitHub
 accounts since the workflow involves a dedicated section of the 
 {% include navigation/findlink.md name='hepdata_github' tag='official PHENIX repository' %}.
-
 The procedure of publishing materials on HEPData includes a few steps but still is fairly straighforward.
 It relies on having (a) properly formatted data (b) a designated reviewer in the IRC (c) making
 use of GitHub to manage the material and make corrections if necessary. Here are the details:
 * The IRC is responsible for QA of the data. The IRC selects one of its members as the official
-reviewer of the data uploaded to the HEPData portal who checks the data and gives final approval
-before the data goes live.
+reviewer of the data uploaded to the HEPData portal who checks the data and gives the final approval
+before data goes live.
 * The submission package for a given publication is prepared by the working group in the form
 of properly formatted YAML (and optional PNG) files.
 The HEPData portal provides adequate documentation on this and other subjects.
-* There is a mandatory *submission.yaml* file describing the package.
-It is strongly recommended that the comments include the **Inspire ID** of the publication,
-the **internal PPG ID** and the name and e-mail address of the designated IRC member for final approval;
-this can be done using optional comment lines starting with '#'.
+* There is a mandatory *submission.yaml* file describing the package. It is strongly recommended
+that the comments included in this file *(lines starting with '#')* include the **Inspire ID**
+of the publication, the **internal PPG ID** and the name and e-mail address of the designated IRC
+member for final approval. This is not to be confused with the *"comments"* tag which traditionally
+contains the abstract of the publication as it was published.
 * Validation step:
-   * Optional: please see **Appendix A** for a simple way to confirm basic validity
-of your submission material format
+   * Optional: please see **Appendix A** for a simple way to confirm basic validity of the format
+of your submission
    * Strongly recommended: use the **sandbox** feature on the HEPData Portal (see **Appendix B**)
-* The submission package (i.e. a collection of files created for HEPData) is then added to a specific
-folder of the PHENIX repository on GitHub (please see **Appendix C** below). If you created
-a **".gz" or a ".tar" file** for testing purposes, please
-make sure it is not checked into the git repository, it is not necessary and may create ambiguity
-regarding the primary source of the data. Just remove such files when you are ready to commit to the repo.
-* Once notified, **the DAP team will upload the package to HEPData** and inform the designated
-IRC member that they need to review the data already uploaded and issue their final approval.
-This is done via a Web link.
-* Each table or plot is approved separately by the designated IRC member. If errors are found, corrections
-should be made and checked into the repository (Appendix C), and a pull request created
-* The PHENIX HEPData coordinator will update the material on the site and notify the reviewer
+* After validation, the submission package (i.e. a collection of files created for HEPData)
+is then added to a specific folder of the PHENIX repository on GitHub (please see **Appendix C** below).
+If you created **".gz" or a ".tar" files** for testing purposes, please
+make sure these are not checked into the git repository, it is not necessary and may create ambiguity
+regarding the primary source of the data. Just remove such files when you are ready to commit to the repo
+and only keep YAML and optional image files.
+* Once notified, **the DAP team will upload the package to HEPData** and perform basic checks.
+* If all looks good, the designated IRC member will be notified that they need to review the
+uploaded data. This is done via a Web link.
+* *Each table or plot is approved separately by the designated IRC member.* If errors are found,
+corrections should be made and checked into the repository (Appendix C), and a pull request created,
+effectively repeating the cycle.
+* The PHENIX HEPData coordinator will update the material on the site and notify the reviewer.
 * After each item in the submission is approved the PHENIX HEPData coordinator
 will finalize the submission. At this point, it becomes globally visible on the HEPData portal
 and the process is complete.
@@ -173,13 +177,26 @@ and the process is complete.
 Please contact the {% include navigation/pagelink.md folder=site.about name='dap_contact' tag='DAP Team' %} for
 more information.
 
+##### Pitfalls
+* Incorrect or missing keywords/key phrases
+* Garbled, incorrect or suboptimally formatted content of the abstract due to errors
+made while copying the abstract from other sites or documents and limitations of the
+HEPData LaTeX implementation
+* Incorrect notation used for reactions e.g. "p+p" as opposed to "[P P --> X]"
+* Leftover .tar, .gz or .tgz files accidentally checked into the repository
+* Missing image files with only the thumbnail images provided. Images are optional but
+if this option is selected it must be done right
+* Mismatch between the data and the provided optional image
+
 ##### Correcting Errors
 It is strongly recommended to pay close attention to the content of your submission i.e.
 numerical values of the the data points, error bars, labels and scales of axes etc, such
 that the submission is final and would never need any adjustments.
-If, despite best effort, there is an inaccuracy in a submission it can be resubmitted by
-the HEPData coordinator for PHENIX. In that case, a new version is cut and becomes available
-under the same HEPData ID, while the old version is still available via a direct reference ("v1" etc).
+If, despite best effort, there is an inaccuracy in a submission it can be corrected. This
+requires that the complete package be resubmitted by the HEPData coordinator for PHENIX.
+In that case, a **new version** of the HEPData entry is created on the portal and becomes
+available by default under the same HEPData ID, while the old version is still available
+via the specific reference ("v1" etc).
 While this guarantees that the data presented on the site is the most accurate according to our
 judgement it also creates certain ambiguity for people who already accessed the old data and
 perhaps performed a few downloads. While this can addressed by communicating the fact of
