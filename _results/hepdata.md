@@ -156,7 +156,10 @@ this can be done using optional comment lines starting with '#'.
 of your submission material format
    * Strongly recommended: use the **sandbox** feature on the HEPData Portal (see **Appendix B**)
 * The submission package (i.e. a collection of files created for HEPData) is then added to a specific
-folder of the PHENIX repository on GitHub (please see **Appendix C** below).
+folder of the PHENIX repository on GitHub (please see **Appendix C** below). If you created
+a **".gz" or a ".tar" file** for testing purposes, please
+make sure it is not checked into the git repository, it is not necessary and may create ambiguity
+regarding the primary source of the data. Just remove such files when you are ready to commit to the repo.
 * Once notified, **the DAP team will upload the package to HEPData** and inform the designated
 IRC member that they need to review the data already uploaded and issue their final approval.
 This is done via a Web link.
