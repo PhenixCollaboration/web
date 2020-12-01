@@ -16,7 +16,7 @@ PHENIX is working to upload publication-related data to the
 service at CERN and aims to eventually make all its data available in this manner,
 replacing the legacy text-based source. Collection of the PHENIX HEPData uploads is
 available as a
-{% include navigation/pagelink.md folder=site.results name='hepdata' tag='catalog on this web site' %}
+{% include navigation/pagelink.md folder=site.results name='hepdata_uploads' tag='catalog on this web site' %}
 or directly on the
 {% include navigation/findlink.md name='PHENIX on HEPData' tag='HEPData site' %}.
 
