@@ -23,6 +23,10 @@
   description: STAR - an experiment at RHIC
   category: general
 
+- name : alice
+  description: ALICE - an experiment at CERN
+  category: general
+
 - name : wa98
   description: WA98 - an experiment at CERN
   category: general
@@ -82,6 +86,10 @@
 
 - name : bbc
   description: Beam-Beam Counter
+  category: detector
+
+- name : central arm
+  description: PHENIX subsystems in the central rapidity region
   category: detector
 
 - name : drift chamber
@@ -253,6 +261,10 @@
   description: B meson
   category: physics
   
+- name : backward-rapidity
+  description: The backward kinematic region
+  category: physics
+
 - name : binary scaling
   description: Binary scaling
   category: physics
@@ -337,6 +349,10 @@
   description: The forward kinematic region
   category: physics
 
+- name : hadron
+  description: Hadron
+  category: physics
+
 - name : hadronization
   description: Hadronization
   category: physics
@@ -375,6 +391,10 @@
 
 - name : multiplicity
   description: Refers to the number of particles in the final state of the collision
+  category: physics
+
+- name : kaon
+  description: Kaon
   category: physics
 
 - name : levy
@@ -457,6 +477,10 @@
   description: Modification factor
   category: physics
 
+- name : scaling
+  description: Scaling
+  category: physics
+  
 - name : small-x
   description: small-x physics
   category: physics
