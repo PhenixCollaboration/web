@@ -273,6 +273,10 @@
   description: Bose-Einstein statistics
   category: physics
   
+- name : bottom
+  description: Particles containing the b-quark
+  category: physics
+  
 - name : cu+au
   description: Copper-on-gold collisions
   category: physics
@@ -297,10 +301,6 @@
   description: Cross section (as it applies to scattering)
   category: physics
 
-- name : bottom
-  description: Particles containing the b-quark
-  category: physics
-  
 - name : cgc
   description: Color Glass Condensate (type of matter)
   category: physics
@@ -311,6 +311,14 @@
   
 - name : d-meson
   description: D meson
+  category: physics
+  
+- name : dielectron
+  description: A pair of electrons
+  category: physics
+  
+- name : dilepton
+  description: A pair of leptons
   category: physics
   
 - name : direct photon
@@ -347,6 +355,14 @@
 
 - name : forward-rapidity
   description: The forward kinematic region
+  category: physics
+
+- name : fragmentation
+  description: Fragmentation
+  category: physics
+
+- name : gluon
+  description: Gluon
   category: physics
 
 - name : hadron
@@ -409,6 +425,10 @@
   description: Modification of observables
   category: physics
 
+- name : neutron
+  description: Neutron
+  category: physics
+  
 - name : nuclear
   description: Nuclear (e.g. modification)
   category: physics
@@ -453,6 +473,10 @@
   description: proton-on-proton collisions
   category: physics
   
+- name : proton
+  description: Proton
+  category: physics
+  
 - name : quark gluon plasma
   description: Quark Gluon Plasma
   category: physics
@@ -465,8 +489,12 @@
   description: Quark Gluon Plasma
   category: physics
 
+- name : quark
+  description: Quark
+  category: physics
+
 - name : raa
-  description: Modification factor
+  description: Modification factor (R_AA)
   category: physics
 
 - name : radial
@@ -505,6 +533,10 @@
   description: Thermal photons produced in nuclear collisions
   category: physics
   
+- name : transverse energy
+  description: Transverse Energy
+  category: physics
+
 - name : transverse momentum
   description: Transverse Momentum
   category: physics
