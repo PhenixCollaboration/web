@@ -7,12 +7,27 @@
   url: 'https://github.com/PhenixCollaboration'
   category: 'general'
 
-- name: 'github_hepdata_examples'
-  url: 'https://github.com/PhenixCollaboration/documentation/tree/master/assets/hepdata/examples'
-  category: 'general'
-
 - name: 'PHENIX Community on Zenodo'
   url: 'https://zenodo.org/communities/phenixcollaboration/search?page=1&size=20&sort=-publication_date'
+  category: 'general'
+
+- name: Inspire
+  url: 'https://inspirehep.net/'
+
+- name: 'PHENIX on Inspire'
+  url: 'https://inspirehep.net/literature?sort=mostrecent&q=collaboration%20phenix'
+  category: 'general'
+
+- name: 'PHENIX published articles on Inspire'
+  url: 'https://inspirehep.net/literature?sort=mostrecent&q=collaboration%20phenix&doc_type=article&doc_type=published'
+  category: 'general'
+
+# HEPData
+- name: hepdata_github
+  url: 'https://github.com/PhenixCollaboration/hepdata'
+  
+- name: github_hepdata_examples
+  url: 'https://github.com/PhenixCollaboration/hepdata/tree/master/examples'
   category: 'general'
 
 - name: 'PHENIX on HEPData'
@@ -40,23 +55,9 @@
 - name: hepdata_validator
   url: 'https://github.com/HEPData/hepdata-validator'
   
-- name: hepdata_github
-  url: 'https://github.com/PhenixCollaboration/documentation/tree/master/assets/hepdata'
-  
 - name: hepdata_coordinators
   url: 'https://www.hepdata.net/permissions/coordinators'
   
-- name: Inspire
-  url: 'https://inspirehep.net/'
-
-- name: 'PHENIX on Inspire'
-  url: 'https://inspirehep.net/literature?sort=mostrecent&q=collaboration%20phenix'
-  category: 'general'
-
-- name: 'PHENIX published articles on Inspire'
-  url: 'https://inspirehep.net/literature?sort=mostrecent&q=collaboration%20phenix&doc_type=article&doc_type=published'
-  category: 'general'
-
 # Misc
 - name: npps
   url: 'https://npps.bnl.gov/'
