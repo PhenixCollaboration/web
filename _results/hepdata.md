@@ -46,9 +46,9 @@ It also contains an abstract (typically imported as LaTeX from the publication m
 unfortunately, not every LaTeX feature will work correctly on HEPData and the output will
 need to be checked (see the "sandbox" reference below).
 
-Since YAML allows comments - lines starting with a "#" sign - it is easy to add any sort of
-extra information to *submission.yaml* that may be helpful for communication with members
-of the Collaboration, reviewers and for the workflow of the submission process in general.
+Since YAML allows comments - lines starting with a "**#**" sign - it is very easy to add any
+sort of extra information to *submission.yaml* that may be helpful for communication with
+members of the Collaboration, reviewers and for the workflow of the submission process in general.
 For example, it is necessary to provide the **Inspire ID** of the paper
 for the HEPData submission. It can be placed in a comment line. Also, 
 including the PHENIX-internal **PPG identifier** is highly recommended
@@ -56,6 +56,8 @@ as it reduces the chances of human error and facilitates communication.
 Both Inspire ID and the PPG identifier can be easily incorporated
 in the comment lines of the *submission.yaml* file mentioned above
 (i.e. in lines of text starting with "#"). There can be any number of comment lines.
+Including information about the designated reviewer (member of the IRC for the paper)
+as an additional comment line is encouraged.
 
 If there are existing data files in an ad-hoc format (text etc) these can be converted
 to the HEPData format with some effort. The DAP team is looking at technical
@@ -139,12 +141,18 @@ responsibility to M.Potekhin (potekhin_at_bnl_dot_gov).
 It is assumed that the PPG members responsible for the HEPData submission have GitHub
 accounts since the workflow involves a dedicated section of the 
 {% include navigation/findlink.md name='hepdata_github' tag='official PHENIX repository' %}.
-The procedure of publishing materials on HEPData includes a few steps but still is fairly straighforward.
-It relies on having (a) properly formatted data (b) a designated reviewer in the IRC (c) making
-use of GitHub to manage the material and make corrections if necessary. Here are the details:
+**The procedure of publishing materials on HEPData does include a few steps but still is fairly straighforward.**
+It relies on 
+1. having properly formatted data
+2. designating a reviewer - member of the IRC
+3. making use of GitHub to keep and manage the material and make corrections if necessary
+
+Here are the details of the procedure:
 * The IRC is responsible for QA of the data. The IRC selects one of its members as the official
-reviewer of the data uploaded to the HEPData portal who checks the data and gives the final approval
-before data goes live.
+reviewer of the data uploaded to the HEPData portal who checks the data and gives their final approval
+before data goes live.  **Important: the reviewer needs to create a regular account on the HEPData portal
+with their regular e-mail address so that notifications be can properly
+forwarded.** Getting registered as a user is very much straightforward.
 * The submission package for a given publication is prepared by the working group in the form
 of properly formatted YAML (and optional PNG) files.
 The HEPData portal provides adequate documentation on this and other subjects.
@@ -155,10 +163,13 @@ member for final approval. This is not to be confused with the *"comments"* tag 
 contains the abstract of the publication as it was published.
 * Validation step:
    * Optional: please see **Appendix A** for a simple way to confirm basic validity of the format
-of your submission
-   * Strongly recommended: use the **sandbox** feature on the HEPData Portal (see **Appendix B**)
+of your submission.
+   * Strongly recommended: use the **sandbox** feature on the HEPData Portal (see **Appendix B**). Since
+HEPData pages are content-rich it is easy to overlook errors both in typesetting and in consistency
+of the numerical data. Using the sandbox and carefully examining the rendered page is extremely
+helpful in reducing errors which may result in having to resubmit the whole package.
 * After validation, the submission package (i.e. a collection of files created for HEPData)
-is then added to a specific folder of the PHENIX repository on GitHub (please see **Appendix C** below).
+is added to a specific folder of the PHENIX repository on GitHub (please see **Appendix C** below).
 If you created **".gz" or a ".tar" files** for testing purposes, please
 make sure these are not checked into the git repository, it is not necessary and may create ambiguity
 regarding the primary source of the data. Just remove such files when you are ready to commit to the repo
@@ -168,8 +179,8 @@ and only keep YAML and optional image files.
 uploaded data. This is done via a Web link.
 * *Each table or plot is approved separately by the designated IRC member.* If errors are found,
 corrections should be made and checked into the repository (Appendix C), and a pull request created,
-effectively repeating the cycle.
-* The PHENIX HEPData coordinator will update the material on the site and notify the reviewer.
+effectively repeating the cycle. The PHENIX HEPData coordinator will then update the material on
+the site and notify the reviewer.
 * After each item in the submission is approved the PHENIX HEPData coordinator
 will finalize the submission. At this point, it becomes globally visible on the HEPData portal
 and the process is complete.
@@ -251,18 +262,18 @@ by the sandbox validation system and delivered via e-mail are often quite useful
 and help to identify problems quickly.
 				   
 ##### Appendix C: the GitHub Workflow
-The HEPData materials are kept in a designated folder in the PHENIX Collabotation documentation repository on GitHub:
-[https://github.com/PhenixCollaboration/documentation/tree/master/assets/hepdata](https://github.com/PhenixCollaboration/documentation/tree/master/assets/hepdata){:target="_blank"}.
+The HEPData materials are kept in a designated folder in the 
+{% include navigation/findlink.md name='hepdata_github' tag='PHENIX Collaboration HEPData repository on GitHub' %}.
 Adding your HEPData files to the repository is done as follows:
-* Create a fork of the "documentation" repository on GitHub (easy to do in the Web UI): [https://github.com/PhenixCollaboration/documentation](https://github.com/PhenixCollaboration/documentation){:target="_blank"}.
+* Create a fork of the repository on GitHub (easy to do in the Web UI).
 * Clone the resulting repository to your workstation/laptop.
 Look at the existing 'ppg' folders under assets/hepdata if you need examples.
-* Check if the correct "ppgXXX" folder for your submission exists, if not create it and "git add" it to your repository. 'XXX' here stands for the PPG serial number i.e. if you are in PPG 433 you will need to create a folder "ppg433".
+* Check if the correct "*ppgXYZ*" folder for your submission exists, if not create it and "git add" it to your repository. 'XYZ' here stands for the 3-digit PPG serial number i.e. if you are in PPG 433 you will need to create a folder "ppg433". For PPG 71 that would be "ppg071".
 * Populate the folder with your HEPData submission files.
 * Create a *tar* file with the contents of the folder and peruse the **sandbox** functionality of HEPData as suggested above
 to upload and validate the contents.
-* If you are satisfied with the submission and there are no errors, delete the tar file and
-do a "git commit ." and "git push" to place the material on GitHub (do not push to "master").
-* Create a pull request on the GitHub website in order to merge your addition into the repository.
+* If you are satisfied with the submission and there are no errors, delete the ".tar" or ".gz" file(s) and
+do a "git commit ." and "git push" to place the material in your fork on GitHub (do not push to "master").
+* Create a pull request on the GitHub website in order to merge your addition into the repository. The DAP team will take care of the rest.
 
 

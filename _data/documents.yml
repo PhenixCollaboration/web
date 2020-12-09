@@ -1185,6 +1185,17 @@
   date: 02/12/2002
 
 ### HEPData
+- name: 99787
+  title: Creation of quark–gluon plasma droplets with three distinct geometries
+  tags: ['qgp', ]
+  author: 
+  venue: Nature Phys. 15 (2019) 214-220, 2019 (ppg216, inspire 1672133)
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+
 - name: 99752
   title: Single electron yields from semileptonic charm and bottom hadron decays in Au+Au collisions at √s<sub>NN</sub>=200GeV
   tags: ['transverse momentum', 'invariant yield', 'heavy flavor', 'au+au', ]
@@ -1376,7 +1387,7 @@
   title: Measurements of double-helicity asymmetries in inclusive J/ψ production in longitudinally polarized p+p collisions at √s=510 GeV
   tags: 
   author: 
-  venue: Phys.Rev. D94 (2016) 112008, 2016
+  venue: Phys.Rev. D94 (2016) 112008, 2016 (inspire 1467456)
   resource: hepdata
   type: publication
   category: hepdata
@@ -1460,6 +1471,17 @@
   format: markdown_link
   date:
     
+- name: 57326
+  title: Measurement of Bottom versus Charm as a Function of Transverse Momentum with Electron-Hadron Correlations in p+p Collisions at √s=200 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 103 (2009) 082002, 2009
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
 - name: 57327
   title: J/psi Production in √s<sub>NN</sub>=200 GeV Cu+Cu Collisions
   tags: 
@@ -1537,6 +1559,28 @@
   format: markdown_link
   date:
     
+- name: 57287
+  title: Energy Loss and Flow of Heavy Quarks in Au+Au Collisions at √s<sub>NN</sub> = 200 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 98 (2007) 172301, 2007
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 57283
+  title: Measurement of high-pT single electrons from heavy-flavor decays in p+p collisions at √s = 200 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 97 (2006) 252002, 2006
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
 - name: 57282
   title: J/ψ Production vs Centrality, Transverse Momentum, and Rapidity in Au+Au Collisions at √s<sub>NN</sub> = 200 GeV
   tags: 
@@ -1564,6 +1608,17 @@
   tags: 
   author: 
   venue: Phys.Rev.Lett. 96 (2006) 012304, 2006
+  resource: hepdata
+  type: publication
+  category: hepdata
+  format: markdown_link
+  date:
+    
+- name: 57311
+  title: J/ψ production versus transverse momentum and rapidity in p+p collisions at √s = 200 GeV
+  tags: 
+  author: 
+  venue: Phys.Rev.Lett. 98 (2007) 232002, 2007
   resource: hepdata
   type: publication
   category: hepdata
