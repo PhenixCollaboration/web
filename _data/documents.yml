@@ -1115,6 +1115,18 @@
   cached_badge: yes
   date: 
 
+- name: 4313877
+  title: First steps in Rivet
+  tags: [rivet, ]
+  author: A. Silva
+  venue: 
+  resource: zenodo
+  type: writeup
+  category: data
+  format: markdown_link
+  cached_badge: yes
+  date: 
+
 - name: 3833207
   title: PHENIX Time-of-flight detector West (TOFW) – Detector Basics
   tags: [tofw,]
