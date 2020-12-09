@@ -57,7 +57,22 @@ Both Inspire ID and the PPG identifier can be easily incorporated
 in the comment lines of the *submission.yaml* file mentioned above
 (i.e. in lines of text starting with "#"). There can be any number of comment lines.
 Including information about the designated reviewer (member of the IRC for the paper)
-as an additional comment line is encouraged.
+as an additional comment line is encouraged. The following pattern of the top of the *submission.yaml*
+file may help illustrate this:
+```yaml
+# PPG999
+# InspireHEP: 99999
+# Reviewing IRC member: M.Phenix mphenix@bnl.gov
+```
+This is not to be confused with the *comment* attribute of the YAML file which almost always contains
+the abstract of the published paper, typically typeset in LaTeX:
+```yaml
+comment: The PHENIX Collaboration at the Relativistic Heavy Ion Collider has measured
+open heavy-flavor production in minimum bias Au$+$Au collisions at $\sqrt{s_{NN}}=200$ GeV
+```
+It is probably the easiest to use existing examples of the *submission.yaml* files for guidance.
+They can be found in the {% include navigation/findlink.md name='hepdata_github' tag='official PHENIX repository' %}.
+
 
 If there are existing data files in an ad-hoc format (text etc) these can be converted
 to the HEPData format with some effort. The DAP team is looking at technical

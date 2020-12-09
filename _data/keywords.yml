@@ -33,6 +33,10 @@
 
 # Conferences
 # 2020
+- name : zs20
+  description: Zimányi School (2020)
+  category: conference
+
 - name : iwhss2020
   description: 17th International Workshop on Hadron Structure and Spectroscopy
   category: conference
@@ -415,6 +419,10 @@
 
 - name : levy
   description: Levy femtoscopy
+  category: physics
+
+- name : light hadron
+  description: Light hadron
   category: physics
 
 - name : longitudinal momentum
