@@ -561,7 +561,7 @@
   description: Ultra-Peripheral Collisions
   category: physics
 
-# Simulation
+# Simulation software
 - name : hijing
   description: HIJING - a type of Event Generator
   category: simulation
@@ -573,6 +573,15 @@
 - name : pythia
   description: PYTHIA - a type of Event Generator
   category: simulation
+
+# Misc software
+- name : rivet
+  description: Robust Independent Validation of Experiment and Theory
+  category: software
+
+- name : software
+  description: Misc software
+  category: software
 
 # Run
 - name : run01
