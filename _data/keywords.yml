@@ -74,6 +74,10 @@
   description: Zimányi School (2019)
   category: conference
 
+- name : aum19
+  description: '2019 RHIC & AGS Annual Users Meeting'
+  category: conference
+
 # 2018
 - name : wpcf2018
   description: XIII Workshop on Particle Correlations and Femtoscopy

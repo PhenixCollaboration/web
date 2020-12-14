@@ -50,6 +50,11 @@
   url: 'https://indico.cern.ch/event/761800'
   year: 2019
 
+- name: aum19
+  title: '2019 RHIC & AGS Annual Users Meeting'
+  url: 'https://www.bnl.gov/aum2019/'
+  year: 2019
+
 # 2018
 - name: wpcf2018
   title: 'XIII Workshop on Particle Correlations and Femtoscopy'
