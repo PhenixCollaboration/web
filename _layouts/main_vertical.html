@@ -1,0 +1,44 @@
+---
+layout: newbase
+# the vertical (alternative) layout
+---
+
+<div class="row">
+  <div class="col-md-12">
+<p class="lead"><center><img src="{{ '/images/logos/phenix_logo.gif' | relative_url }}" height="74px" alt="PHENIX logo"></center></p>
+	<div class=row>
+	    <p class="lead announcement">
+      PHENIX, the Pioneering High Energy Nuclear Interaction eXperiment, is the largest of
+      the four experiments that have taken data at the Relativistic Heavy Ion Collider.
+      Data-taking was finished in 2016 and the PHENIX Collaboration is now analyzing large data
+      samples previously collected, prioritizing those with a unique physics reach.<br/>
+      <br/>
+      This website has been created by the Collaboration to support its Data and Analysis Preservation effort.
+      Materials are collected from legacy web resources, curated and systematized for placement on this site.
+      New content is created with the specific purpose of aiding in the long-term analysis preservation. This effort leverages
+      best practices and tools developed in the High Energy and Nuclear Physics communities such as Zenodo, HEPData and Open Data portals.
+	    </p>
+	    <p/>
+	</div>
+	
+  </div>
+</div>
+	  {% include layouts/carousel_vertical.html %}
+{{ site.hr }}
+<p/>
+  <center>
+    PHENIX members: please examine 
+    {% include navigation/pagelink.md folder=site.about name='site' tag='the list of work items' html='1' %}
+    and  
+    {% include navigation/pagelink.md folder=site.about name='dap_contact' tag='let us know' html='1' %}
+    if you can help.
+  </center>
+<p style="text-align:center;">
+  <em>
+    Site built at {{ site.time }}
+    {% if site.url contains 'local' %}<br/>
+      <b>You are running Jekyll on your local machine</b>
+    {% endif %}
+    
+  </em>
+</p>
