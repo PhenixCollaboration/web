@@ -15,11 +15,10 @@ years:
 {% capture link %}{%- include navigation/zenodo_query.md name=conference.name tag='PHENIX Presentations' -%}{% endcapture %}
 <table width="67%">
   <tr>
-    <td width="65%"><nobr>{{ conference.title }}</nobr></td>
-    <td width="25%"><nobr>{{ link }}</nobr></td>
-    <td width="10%"><nobr><a href="{{ conference.url }}" target="_blank">Website</a></nobr></td>
+    <td width="65%"><nobr><a href="{{ conference.url }}" target="_blank">{{ conference.title }}</a></nobr></td>
+    <td width="35%"><nobr>{{ link }}</nobr></td>
   </tr>
 </table>
 {% endfor %}
-<br/>
+{{ site.hr }}
 {% endfor %}

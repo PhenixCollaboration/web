@@ -68,6 +68,9 @@
 - name: hsf
   url: 'http://hepsoftwarefoundation.org/'
 
+- name: rivet_workshop_2020
+  url: 'https://indico.bnl.gov/event/8840/overview'
+
 
 # Cloud tools
 - name: github

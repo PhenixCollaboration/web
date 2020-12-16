@@ -189,6 +189,10 @@
       full: Electron Identification in PHENIX
 
     -
+      name: analysis_notes
+      full: Analysis Notes
+
+    -
       name: analysis_chains
       full: Sample Analysis Chains
       label: yes
@@ -203,12 +207,12 @@
       label: yes
 
     -
-      name: analysis_notes
-      full: Analysis Notes
-
-    -
       name: rivet
       full: Rivet
+
+    -
+      name: reana
+      full: REANA
 
 - name: about
   full: About

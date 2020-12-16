@@ -234,19 +234,23 @@
  
 # Physics
 - name : J/Ψ
-  description: J/Ψ
+  description: J/Ψ (J/psi)
   category: physics
 
 - name : φ
-  description: φ-meson
+  description: φ-meson (phi)
+  category: physics
+
+- name : η
+  description: η-meson (eta)
   category: physics
 
 - name : ω
-  description: ω-meson
+  description: ω-meson (omega)
   category: physics
 
 - name : π0
-  description: π0
+  description: neutral pion
   category: physics
 
 - name : anisotropy
@@ -303,6 +307,10 @@
   
 - name : charm
   description: Particles containing the c-quark
+  category: physics
+
+- name : cnm effects
+  description: Cold Nuclear Matter effects
   category: physics
 
 - name : cross section
@@ -401,12 +409,16 @@
   description: Invariant yield 
   category: physics
 
+- name : isolated
+  description: Isolated (e.g. cross section)
+  category: physics
+
 - name : jet
   description: A jet-like feature of a high-energy nuclear collision
   category: physics
 
 - name : jet quenching
-  description: jet quenching
+  description: Jet quenching
   category: physics
 
 - name : mid-rapidity
@@ -431,6 +443,10 @@
 
 - name : longitudinal momentum
   description: Longitudinal momentum
+  category: physics
+
+- name : longitudinal spin asymmetry
+  description: Longitudinal spin asymmetry
   category: physics
 
 - name : modification
