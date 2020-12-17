@@ -25,6 +25,10 @@ Specifically:
 > preprint arXiv and journal, but only after the IRC has certified that data tables are
 > available in proper format for later submission to HEP data."
 
+Submission to HEPData consists of uploading a *tar* or *gzip* archive containing
+data files in a HEPData-compliant format and having this upload validated by a
+designated Collaboration member as described below.
+
 ##### The Format
 The data package prepared for submission to HEPData must conform to the specific
 format required by the HEPData portal -
@@ -37,19 +41,21 @@ kept in the PHENIX repository on GitHub to illustrate basic features and options
 Beginners are encouraged to experiment with these examples by using the "sandbox" feature of the
 HEPData Portal (see **Appendix B** below).
 
-The basic idea of how a submission is structured is as follows.
+The basic structure of a submission package is as follows.
 Data contents of each item included in the package (e.g. a plot) are described
-in a corresponding individual file formatted as YAML (e.g. if there are 5 plots in the paper you are expected to
-provide 5 YAML data files). In addition, a special YAML file *submission.yaml* describes the submission as a whole
+in a corresponding individual file formatted as YAML (e.g. if there are 5 plots
+in the paper you are expected to provide 5 YAML data files).
+In addition, a special YAML file *submission.yaml* describes the submission package as a whole
 e.g. provides the names of the data and optional image files, **list of keywords** etc.
-It also contains an abstract (typically imported as LaTeX from the publication material);
+It also contains an *abstract* (typically imported as LaTeX from the publication material);
 unfortunately, not every LaTeX feature will work correctly on HEPData and the output will
-need to be checked (see the "sandbox" reference below).
+need to be checked (see the "sandbox" reference below). The text of the abstract is contained
+in an attribute of the YAML structure which is named "comment" (which may be confusing).
 
-Since YAML allows comments - lines starting with a "**#**" sign - it is very easy to add any
-sort of extra information to *submission.yaml* that may be helpful for communication with
-members of the Collaboration, reviewers and for the workflow of the submission process in general.
-For example, it is necessary to provide the **Inspire ID** of the paper
+Since YAML allows comments - lines starting with a "**#**" sign - it is very easy to add
+any sort of extra information to *submission.yaml* that may be helpful for communication
+with members of the Collaboration, reviewers and for the workflow of the submission process
+in general. For example, it is necessary to provide the **Inspire ID** of the paper
 for the HEPData submission. It can be placed in a comment line. Also, 
 including the PHENIX-internal **PPG identifier** is highly recommended
 as it reduces the chances of human error and facilitates communication.
@@ -57,8 +63,8 @@ Both Inspire ID and the PPG identifier can be easily incorporated
 in the comment lines of the *submission.yaml* file mentioned above
 (i.e. in lines of text starting with "#"). There can be any number of comment lines.
 Including information about the designated reviewer (member of the IRC for the paper)
-as an additional comment line is encouraged. The following pattern of the top of the *submission.yaml*
-file may help illustrate this:
+as an additional comment line is encouraged. Consider the following mock-up
+comment lines (which would be found on  the top of the *submission.yaml*):
 ```yaml
 # PPG999
 # InspireHEP: 99999
@@ -72,8 +78,6 @@ open heavy-flavor production in minimum bias Au$+$Au collisions at $\sqrt{s_{NN}
 ```
 It is probably the easiest to use existing examples of the *submission.yaml* files for guidance.
 They can be found in the {% include navigation/findlink.md name='hepdata_github' tag='official PHENIX repository' %}.
-
-
 If there are existing data files in an ad-hoc format (text etc) these can be converted
 to the HEPData format with some effort. The DAP team is looking at technical
 solutions to facilitate this process. For example, if plots are generated
@@ -147,58 +151,64 @@ which are mostly distinct from the HEPData
 If you have any comments or suggestions regarding the keywords please contact the
 {% include navigation/pagelink.md folder=site.about name='dap_contact' tag='DAP Team' %}.
 				   
-##### The Procedure
+##### Outline of the submission process
 Each collaboration using the HEPData portal has a
 {% include navigation/findlink.md name='hepdata_coordinators' tag='coordinator' %}
-registered on that Web resource, and that person is reponsible for managing the submission workflow,
-making corrections, communicating with reviewers etc. At the time of writing, PHENIX has delegated this
-responsibility to M.Potekhin (potekhin_at_bnl_dot_gov).
+registered on that Web resource. That person is reponsible for managing the submission workflow,
+such as initiating the submission and communicating with PPG and IRC, as well as handling exceptional
+situations such as modifications to the published HEPData entries. At the time of writing, PHENIX
+has delegated this responsibility to M.Potekhin (potekhin_at_bnl_dot_gov).
 It is assumed that the PPG members responsible for the HEPData submission have GitHub
 accounts since the workflow involves a dedicated section of the 
 {% include navigation/findlink.md name='hepdata_github' tag='official PHENIX repository' %}.
-**The procedure of publishing materials on HEPData does include a few steps but still is fairly straighforward.**
-It relies on 
-1. having properly formatted data
-2. designating a reviewer - member of the IRC
-3. making use of GitHub to keep and manage the material and make corrections if necessary
+The procedure of publishing materials on HEPData includes a few principal components:
+1. Having properly formatted data
+2. Making use of GitHub to keep, share and manage prepared materials (e.g. to make corrections if necessary)
+3. Designating an uploader - member of the PPG. This person will perform the file upload.
+4. Designating a reviewer - member of the IRC. This person will review each data item within the submission
+and will either approve them, or request corrections.
 
-Here are the details of the procedure:
-* The IRC is responsible for QA of the data. The IRC selects one of its members as the official
-reviewer of the data uploaded to the HEPData portal who checks the data and gives their final approval
-before data goes live.  **Important: the reviewer needs to create a regular account on the HEPData portal
-with their regular e-mail address so that notifications be can properly
-forwarded.** Getting registered as a user is very much straightforward.
-* The submission package for a given publication is prepared by the working group in the form
-of properly formatted YAML (and optional PNG) files.
-The HEPData portal provides adequate documentation on this and other subjects.
-* There is a mandatory *submission.yaml* file describing the package. It is strongly recommended
-that the comments included in this file *(lines starting with '#')* include the **Inspire ID**
-of the publication, the **internal PPG ID** and the name and e-mail address of the designated IRC
-member for final approval. This is not to be confused with the *"comments"* tag which traditionally
-contains the abstract of the publication as it was published.
-* Validation step:
+Reviewing a submission package involves communication between the reviewer and the uploader
+(for example, a request to fix some erroneous data or a typo). This is done optimally by using
+a messaging system built into the HEPData portal and accessible directly from the submission page.
+For this reason, it is expected that both the uploader and the reviewer have regular accounts on the HEPData portal.
+If this is not already the case, getting registered is very much straightforward. The e-mail addresses used for
+registration need to be communicated to the PHENIX HEPData coordinator (see above) to properly
+initiate the submission process. Optionally, this information may be included as '#' comments
+into the *submission.yaml* file.
+
+##### Details of the Procedure
+* The uploader (PPG member) and the reviewer (IRC member) are designated by mutual agreement
+* The submission package for a given publication is prepared by the PPG in the
+form of properly formatted YAML (and optional PNG) files. The HEPData portal provides
+adequate documentation on this and other subjects. Note that there is a mandatory *submission.yaml* file
+describing the package. It is recommended that the comments included in this file
+*(lines starting with '#')* include
+   * The **InspireHEP ID** of the publication
+   * The **internal PPG ID**
+   * The names and e-mail addresses of the uploader (PPG side) and the reviewer (IRC side)
+* Next, the validation step:
    * Optional: please see **Appendix A** for a simple way to confirm basic validity of the format
 of your submission.
    * Strongly recommended: use the **sandbox** feature on the HEPData Portal (see **Appendix B**). Since
 HEPData pages are content-rich it is easy to overlook errors both in typesetting and in consistency
-of the numerical data. Using the sandbox and carefully examining the rendered page is extremely
-helpful in reducing errors which may result in having to resubmit the whole package.
+of the numerical data. Uploading to the sandbox and carefully examining the rendered page is extremely helpful!
 * After validation, the submission package (i.e. a collection of files created for HEPData)
 is added to a specific folder of the PHENIX repository on GitHub (please see **Appendix C** below).
-If you created **".gz" or a ".tar" files** for testing purposes, please
-make sure these are not checked into the git repository, it is not necessary and may create ambiguity
-regarding the primary source of the data. Just remove such files when you are ready to commit to the repo
-and only keep YAML and optional image files.
-* Once notified, **the DAP team will upload the package to HEPData** and perform basic checks.
-* If all looks good, the designated IRC member will be notified that they need to review the
-uploaded data. This is done via a Web link.
-* *Each table or plot is approved separately by the designated IRC member.* If errors are found,
-corrections should be made and checked into the repository (Appendix C), and a pull request created,
-effectively repeating the cycle. The PHENIX HEPData coordinator will then update the material on
-the site and notify the reviewer.
-* After each item in the submission is approved the PHENIX HEPData coordinator
-will finalize the submission. At this point, it becomes globally visible on the HEPData portal
-and the process is complete.
+To avoid ambiguity, please **do not add to the repository any ".gz" or a ".tar" files you may have created.**
+* At this point the {% include navigation/pagelink.md folder=site.about name='dap_contact' tag='DAP Team' %}
+is notified and a placeholder on the HEPData portal is created which is based on the InspireHEP ID.
+This results in a link available to both the uploader and the reviewer.
+* The uploader uploads the package (as a .tar or '.gz' file). At this point, a complete rendered page becomes
+available at the link provided, but it's not public.
+* The reviewer is notified and proceeds to examine the content of the page for the particular submission.
+Each table or plot must be approved or commmented on separately. Approved items will be highlighted in green.
+If errors are found, comments should be entered by the reviewer into the panel on the right-hand side of the
+page and the uploader gets individual notifications via e-mail, for each flagged item. If necessary,
+corrections should be made by the uploader, the submission package re-uploaded, and the GitHub folder updated.
+* When this process is completed (potentially after a few iterations) and there are no further comments,
+the PHENIX HEPData coordinator will declare the submission final. At this point, it becomes globally
+visible on the HEPData portal. Congratulations!
 
 Please contact the {% include navigation/pagelink.md folder=site.about name='dap_contact' tag='DAP Team' %} for
 more information.
@@ -214,13 +224,14 @@ HEPData LaTeX implementation
 if this option is selected it must be done right
 * Mismatch between the data and the provided optional image
 
-##### Correcting Errors
+##### Correcting Errors in a Finalized Submission
 It is strongly recommended to pay close attention to the content of your submission i.e.
 numerical values of the the data points, error bars, labels and scales of axes etc, such
 that the submission is final and would never need any adjustments.
-If, despite best effort, there is an inaccuracy in a submission it can be corrected. This
-requires that the complete package be resubmitted by the HEPData coordinator for PHENIX.
-In that case, a **new version** of the HEPData entry is created on the portal and becomes
+
+If, despite best effort, there is an inaccuracy in a finalized submission it can still be corrected.
+by the HEPData coordinator for PHENIX who must personally resubmit the package with the corrections
+included. In that case, a **new version** of the HEPData entry is created on the portal and becomes
 available by default under the same HEPData ID, while the old version is still available
 via the specific reference ("v1" etc).
 While this guarantees that the data presented on the site is the most accurate according to our
