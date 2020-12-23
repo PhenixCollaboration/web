@@ -95,8 +95,12 @@
       label: yes
 
     -
-      name: hepdata
+      name: hepdata_policy
       full: 'Policy and Procedures'
+
+    -
+      name: hepdata_instructions
+      full: 'Instructions'
 
     -
       name: hepdata_uploads
@@ -191,6 +195,7 @@
     -
       name: analysis_notes
       full: Analysis Notes
+      div: yes
 
     -
       name: analysis_chains
