@@ -91,6 +91,14 @@
   gallery: main
   type: software
 
+### HEPData
+- path: /images/general/hepdata_workflow_1.png
+  name: 'hepdata_workflow'
+  tag: 'HEPData Workflow'
+  title: 'Fun4All Diagram'
+  gallery: main
+  type: software
+
 ### RUN INFO DIAGRAMS
 - path: /images/run_info/Run1-8-data.jpg
   title: Runs 01-08 summary table

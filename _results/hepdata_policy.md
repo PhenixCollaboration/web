@@ -5,14 +5,21 @@ layout: newbase
 {% include layouts/find_title.md name=page.name %}
 ##### The Policy
 {% include_cached navigation/findlink.md name='HEPData' %} is an open-access
-repository for scattering data from experimental particle physics. _It includes
-data points_ from several thousand publications produced by multiple
-Collaborations working in High Energy and Nuclear Physics,
-and is hosted by CERN as a part of its Open Data initiative.
-The PHENIX Collaboration is using this platform as one of the principal components of its
+repository for scattering data from experimental particle physics. It stores and
+provides access to
+data points from several thousand publications produced by multiple
+Collaborations working in High Energy and Nuclear Physics, and is hosted by
+CERN as a part of its Open Data initiative. It is a durable and well-supported
+platform. The PHENIX Collaboration is using HEPData as one of the principal
+components of its
 {% include navigation/pagelink.md folder=site.about name='dap' tag='Data and Analysis Preservation (DAP) effort' %}
 and manages a growing
 {% include navigation/findlink.md name='PHENIX on HEPData' tag='collection of HEPData entries' -%}.
+Each entry is a specially formatted data package representing numerical data used in figures and tables in a particular publication. The HEPData portal has the functionality to produce nicely
+formatted web pages complete with data tabulation, plot visualization etc.
+Only publications which are indexed on the
+{% include_cached navigation/findlink.md name='Inspire' tag='InspireHEP' %} portal are eligible for
+this process.
 
 **By the policy established by the PHENIX IB, every paper containing tables and/or plots must be
 accompanied by a HEPData-compliant data package** containing the tables and/or plots data
@@ -27,3 +34,30 @@ Specifically:
 
 Detailed information for preparing and uploading HEPData materials can be found on the 
 {% include navigation/pagelink.md folder=site.results name='hepdata_instructions' tag='HEPData instructions page' %}.
+
+##### Outline of the Procedure
+Each collaboration using the HEPData portal has a
+{% include navigation/findlink.md name='hepdata_coordinators' tag='coordinator' %}
+registered on that Web resource. That person is reponsible for managing the submission workflow,
+such as initiating the submission and communicating with PPG and IRC, as well as handling exceptional
+situations such as modifications to the published HEPData entries. At the time of writing, PHENIX
+has delegated this responsibility to M.Potekhin (potekhin_at_bnl_dot_gov).
+It is assumed that the PPG members responsible for the HEPData submission have GitHub
+accounts since the workflow involves a dedicated section of the 
+{% include navigation/findlink.md name='hepdata_github' tag='official PHENIX repository' %}.
+The procedure of publishing materials on HEPData includes a few principal components:
+1. Having properly formatted data
+2. Making use of GitHub to keep, share and manage prepared materials (e.g. to make corrections if necessary)
+3. Designating an uploader - member of the PPG. This person will perform the file upload.
+4. Designating a reviewer - member of the IRC. This person will review each data item within the submission and will either approve them, or direct corrections requests to the uploader and in some cases to the PHENIX HEPData coordinator.
+
+Reviewing a submission package involves communication between the reviewer and the uploader
+(for example, a request to fix some erroneous data or a typo). This is done optimally by using
+a messaging system built into the HEPData portal and accessible directly from the submission page.
+For this reason, it is expected that both the uploader and the reviewer have regular accounts on the HEPData portal.
+If this is not already the case, getting registered is very much straightforward. The e-mail addresses used for
+registration need to be communicated to the PHENIX HEPData coordinator (see above) to properly
+initiate the submission process. Optionally, this information may be included as '#' comments
+into the *submission.yaml* file.
+
+{% include images/image.md name='hepdata_workflow' width=669 %}

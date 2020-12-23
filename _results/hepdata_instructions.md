@@ -131,32 +131,6 @@ which are mostly distinct from the HEPData
 If you have any comments or suggestions regarding the keywords please contact the
 {% include navigation/pagelink.md folder=site.about name='dap_contact' tag='DAP Team' %}.
 				   
-##### Outline of the submission process
-Each collaboration using the HEPData portal has a
-{% include navigation/findlink.md name='hepdata_coordinators' tag='coordinator' %}
-registered on that Web resource. That person is reponsible for managing the submission workflow,
-such as initiating the submission and communicating with PPG and IRC, as well as handling exceptional
-situations such as modifications to the published HEPData entries. At the time of writing, PHENIX
-has delegated this responsibility to M.Potekhin (potekhin_at_bnl_dot_gov).
-It is assumed that the PPG members responsible for the HEPData submission have GitHub
-accounts since the workflow involves a dedicated section of the 
-{% include navigation/findlink.md name='hepdata_github' tag='official PHENIX repository' %}.
-The procedure of publishing materials on HEPData includes a few principal components:
-1. Having properly formatted data
-2. Making use of GitHub to keep, share and manage prepared materials (e.g. to make corrections if necessary)
-3. Designating an uploader - member of the PPG. This person will perform the file upload.
-4. Designating a reviewer - member of the IRC. This person will review each data item within the submission
-and will either approve them, or request corrections.
-
-Reviewing a submission package involves communication between the reviewer and the uploader
-(for example, a request to fix some erroneous data or a typo). This is done optimally by using
-a messaging system built into the HEPData portal and accessible directly from the submission page.
-For this reason, it is expected that both the uploader and the reviewer have regular accounts on the HEPData portal.
-If this is not already the case, getting registered is very much straightforward. The e-mail addresses used for
-registration need to be communicated to the PHENIX HEPData coordinator (see above) to properly
-initiate the submission process. Optionally, this information may be included as '#' comments
-into the *submission.yaml* file.
-
 ##### Details of the Procedure
 * The uploader (PPG member) and the reviewer (IRC member) are designated by mutual agreement
 * The submission package for a given publication is prepared by the PPG in the
