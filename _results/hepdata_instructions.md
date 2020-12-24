@@ -5,9 +5,11 @@ layout: newbase
 {% include layouts/find_title.md name=page.name %}
 ##### Summary
 
-Submission to HEPData consists of uploading a *tar* or *gzip* archive containing
-data files in a HEPData-compliant format and having this upload validated by a
-designated Collaboration member as described below.
+The process of publishing materials on the HEPData portal consists of uploading
+a *tar* or *gzip* archive containing data files in the HEPData-compliant format
+and having this upload checked by a designated Collaboration member (more precisely,
+a IRC member) as described below. Once the uploaded material is certified
+by the IRC it will be made public by the HEPData coordinator.
 
 ##### The Format
 The data package prepared for submission to HEPData must conform to the specific
@@ -23,8 +25,9 @@ HEPData Portal (see **Appendix B** below).
 
 The basic structure of a submission package is as follows.
 Data contents of each item included in the package (e.g. a plot) are described
-in a corresponding individual file formatted as YAML (e.g. if there are 5 plots
-in the paper you are expected to provide 5 YAML data files).
+in a corresponding _individual file_ formatted as YAML. For example, if there are 5 plots
+in the paper you are expected to provide 5 YAML data files.
+
 In addition, a special YAML file *submission.yaml* describes the submission package as a whole
 e.g. provides the names of the data and optional image files, **list of keywords** etc.
 It also contains an *abstract* (typically imported as LaTeX from the publication material);
