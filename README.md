@@ -3,9 +3,11 @@
 This website is designed to further the goals of the long-term Data
 and Analysis Preservation (DAP) of the PHENIX Collaboration.
 
-The site is under heavy development and is not officially in produciton.
-At present, and until firther notice, it is not expected to be 100% functional
-or have immediately useful content.
+The site version hosted on GitHub Pages is the development version
+and is not officially in produciton.
+
+For the current production version see phenix.bnl.gov. There is no
+set schedule for releases, these are done "as required".
 
 Release archival on Zenodo:
 [![DOI](https://zenodo.org/badge/237520599.svg)](https://zenodo.org/badge/latestdoi/237520599)
