@@ -40,23 +40,23 @@ Each collaboration using the HEPData portal has a
 {% include navigation/findlink.md name='hepdata_coordinators' tag='coordinator' %}
 registered on that Web resource. That person is reponsible for managing the submission workflow,
 such as initiating the submission and communicating with PPG and IRC, as well as handling exceptional
-situations such as modifications to the published HEPData entries. At the time of writing, PHENIX
+situations such as modifications of the already published HEPData entries. At the time of writing, PHENIX
 has delegated this responsibility to M.Potekhin (potekhin_at_bnl_dot_gov).
 
-It is assumed that the PPG members responsible for the HEPData submission have GitHub
-accounts and basic GitHub proficiency since the workflow involves a dedicated
+**It is assumed that the PPG members responsible for the HEPData submission have GitHub
+accounts** and basic GitHub proficiency since the workflow involves a dedicated
 {% include navigation/findlink.md name='hepdata_github' tag='PHENIX repository' %}.
-
+Please take a look at the repository if you are new to this activity, as materials posted there are well designed working examples.
 The procedure of publishing materials on HEPData includes the following principal elements:
-1. Having a properly formatted data package and making use of GitHub to manage prepared materials (e.g. to make corrections if necessary).
+1. Preparing a properly formatted data package and making use of GitHub to manage prepared materials (e.g. to review, test and correct materials if necessary).
 2. Designating an **uploader** - member of the PPG. This person will perform the file upload and be reponsible to making additions and corrections if necessary.
-3. Designating a **reviewer** - member of the IRC. This person will the submitted material and will either approve it, or direct corrections requests to the uploader.
-4. Notifying the HEPData Coordinator so that the process can be initiated.
+3. Designating a **reviewer** - member of the IRC. This person will review the submitted material and will either approve it, or direct corrections requests to the uploader.
+4. Notifying the HEPData Coordinator so that the process can be initiated, followed up and finalized after the review.
 
 The central part of the publishing process is the review of the submission package.
-This involves communication between the reviewer and the uploader
-(for example, a request to fix some erroneous data or a typo). This is done optimally by using
-a messaging system built into the HEPData portal and accessible directly from the web page created for each submission.
+This involves communication between the reviewer and the uploader (for example, a request
+to fix some erroneous data or a typo). This is done optimally by using a messaging system built
+into the HEPData portal and accessible directly from the web page created for each submission.
 For this reason, it is expected that both the uploader and the reviewer have regular accounts on the HEPData portal.
 If this is not already the case, getting registered is straightforward. The e-mail addresses used for
 registration need to be communicated to the PHENIX HEPData coordinator (see above) to properly
@@ -67,3 +67,9 @@ The following diagram illustrates the flow of communication among the three prin
 HEPData process: the coordinator, the uploader and the reviewer.
 
 {% include images/image.md name='hepdata_workflow' width=669 %}
+
+As noted above, it is optimal for the uploader and the reviewer to make use of the messaging mechanism on the HEPData portal.
+A submission typically contains multiple items i.e. data from multiple plots. Each item is reviewed and approved separately.
+If corrections are needed, the uploader edits requisite data and checks it into the repository. Please don't hesitate to contact
+the HEPData coordinator if you have questions. Detailed instructions for the submission process are available on
+a {% include navigation/pagelink.md folder=site.results name='hepdata_instructions' tag='dedicated page' %}.

@@ -4,12 +4,13 @@ layout: newbase
 ---
 {% include layouts/find_title.md name=page.name %}
 ##### Summary
-
-The process of publishing materials on the HEPData portal consists of uploading
-a *tar* or *gzip* archive containing data files in the HEPData-compliant format
-and having this upload checked by a designated Collaboration member (more precisely,
-a IRC member) as described below. Once the uploaded material is certified
-by the IRC it will be made public by the HEPData coordinator.
+An outline of the HEPData publishing process can be found on the
+{% include navigation/pagelink.md folder=site.results name='hepdata_policy' tag='"Policy and Procedure" page' %}.
+It involves uploading a *tar* or *gzip* archive of data files in the HEPData-compliant format (YAML)
+and having the uploaded material checked by a designated IRC member directly on the HEPData site.
+Communication between the uploader and the reviewer is arranged by the HEPData coordinator.
+Once the uploaded material is reviewed and certified by the IRC it will be made public ("finalized") by the
+HEPData coordinator.
 
 ##### The Format
 The data package prepared for submission to HEPData must conform to the specific
@@ -27,7 +28,6 @@ The basic structure of a submission package is as follows.
 Data contents of each item included in the package (e.g. a plot) are described
 in a corresponding _individual file_ formatted as YAML. For example, if there are 5 plots
 in the paper you are expected to provide 5 YAML data files.
-
 In addition, a special YAML file *submission.yaml* describes the submission package as a whole
 e.g. provides the names of the data and optional image files, **list of keywords** etc.
 It also contains an *abstract* (typically imported as LaTeX from the publication material);
@@ -39,14 +39,14 @@ Since YAML allows comments - lines starting with a "**#**" sign - it is very eas
 any sort of extra information to *submission.yaml* that may be helpful for communication
 with members of the Collaboration, reviewers and for the workflow of the submission process
 in general. For example, it is necessary to provide the **Inspire ID** of the paper
-for the HEPData submission. It can be placed in a comment line. Also, 
+for the HEPData submission. It should be placed in a comment line. Also, 
 including the PHENIX-internal **PPG identifier** is highly recommended
 as it reduces the chances of human error and facilitates communication.
 Both Inspire ID and the PPG identifier can be easily incorporated
 in the comment lines of the *submission.yaml* file mentioned above
 (i.e. in lines of text starting with "#"). There can be any number of comment lines.
 Including information about the designated reviewer (member of the IRC for the paper)
-as an additional comment line is encouraged. Consider the following mock-up
+as an additional comment line is encouraged but not mandatory. Consider the following mock-up
 comment lines (which would be found on  the top of the *submission.yaml*):
 ```yaml
 # PPG999
@@ -143,15 +143,16 @@ describing the package. It is recommended that the comments included in this fil
 *(lines starting with '#')* include
    * The **InspireHEP ID** of the publication
    * The **internal PPG ID**
-   * The names and e-mail addresses of the uploader (PPG side) and the reviewer (IRC side)
+   * Optional: the names and e-mail addresses of the uploader (PPG side) and the reviewer (IRC side)
 * Next, the validation step:
    * Optional: please see **Appendix A** for a simple way to confirm basic validity of the format
-of your submission.
-   * Strongly recommended: use the **sandbox** feature on the HEPData Portal (see **Appendix B**). Since
+of your submission i.e. that it is valid YAML.
+   * **Strongly recommended: use the sandbox feature** on the HEPData Portal (see **Appendix B**). Since
 HEPData pages are content-rich it is easy to overlook errors both in typesetting and in consistency
 of the numerical data. Uploading to the sandbox and carefully examining the rendered page is extremely helpful!
-* After validation, the submission package (i.e. a collection of files created for HEPData)
-is added to a specific folder of the PHENIX repository on GitHub (please see **Appendix C** below).
+Please pay close attention to the content of the abstract to ensure proper rendering of the LaTex source.
+* After the initial validation as described above, the submission package (i.e. a collection of files created
+for HEPData) is added to a specific folder of the PHENIX repository on GitHub (please see **Appendix C** below).
 To avoid ambiguity, please **do not add to the repository any ".gz" or a ".tar" files you may have created.**
 * At this point the {% include navigation/pagelink.md folder=site.about name='dap_contact' tag='DAP Team' %}
 is notified and a placeholder on the HEPData portal is created which is based on the InspireHEP ID.
@@ -179,14 +180,14 @@ HEPData LaTeX implementation
 * Leftover .tar, .gz or .tgz files accidentally checked into the repository
 * Missing image files with only the thumbnail images provided. Images are optional but
 if this option is selected it must be done right
-* Mismatch between the data and the provided optional image
+* Mismatch between the data and the provided optional images
 
 ##### Correcting Errors in a Finalized Submission
 It is strongly recommended to pay close attention to the content of your submission i.e.
 numerical values of the the data points, error bars, labels and scales of axes etc, such
-that the submission is final and would never need any adjustments.
+that the finalized material is indeed final and would never need any adjustments.
 
-If, despite best effort, there is an inaccuracy in a finalized submission it can still be corrected.
+If, despite best effort, there is an inaccuracy in a finalized submission it can still be corrected
 by the HEPData coordinator for PHENIX who must personally resubmit the package with the corrections
 included. In that case, a **new version** of the HEPData entry is created on the portal and becomes
 available by default under the same HEPData ID, while the old version is still available
@@ -217,21 +218,21 @@ False
 
 ##### Appendix B: The Sandbox
 The "sandbox" feature of the HEPData portal allows the user to thoroughly validate the
-submission package. It will catch trivial errors in YAML formatting, typos in the provided
+submission package in the exact form it will be eventually published. It will catch trivial
+errors in YAML formatting, typos in the provided
 filenames, missing files etc. Importantly, it helps to determine
 whether the LaTeX-formatted abstract is rendered correctly - 
-it is hard to guarantee that the LaTeX dialect used on the HEPData
-site will produce adequate output.
+the LaTeX dialect used on the HEPData site is slightly non-standard e.g. the "%" is rendered
+correctly without a backslash and vice versa, it is impossible to include LaTeX comments in the
+abstract body.
 
 Using the sandbox feature requires an account on HEPData
-which is **trivial to obtain**. Once you log into the portal, the "sandbox" option will be
+which is quite **trivial to obtain**. Once you log into the portal, the "sandbox" option will be
 clearly marked in the menu in the upper right corner of the Web page.
 The sandbox won't be visible to anyone without the link generated by the system, so the data
 are protected in this manner. Uploading material will require creation of a *tar* archive of your
-files. You may want to delete the tar file once you complete validation to keep the repository
-folder clean.
-
-The sandbox section has a useful "dashboard" feature which allows the user to keep track of
+files. It is a good idea to delete the *tar* file once you complete validation to keep the repository
+folder clean. The sandbox section has a useful "dashboard" feature which allows the user to keep track of
 their test submissions. You can delete the entries you no longer need from your sandbox to
 make navigation easier.
 
@@ -241,8 +242,8 @@ will depend on its complexity - simple single-table submissions will render in 1
 while complex multi-table entries may take minutes. If there is a failure, the user is redirected to the file upload
 page. Either way, there is a notification sent via e-mail telling the user about the
 status of their submission (i.e. success or failure). Diagnostic messages generated
-by the sandbox validation system and delivered via e-mail are often quite useful
-and help to identify problems quickly.
+by the sandbox validation system and delivered via e-mail are often useful
+and help identify problems.
 				   
 ##### Appendix C: the GitHub Workflow
 The HEPData materials are kept in a designated folder in the 
@@ -257,6 +258,7 @@ Look at the existing 'ppg' folders under assets/hepdata if you need examples.
 to upload and validate the contents.
 * If you are satisfied with the submission and there are no errors, delete the ".tar" or ".gz" file(s) and
 do a "git commit ." and "git push" to place the material in your fork on GitHub (do not push to "master").
-* Create a pull request on the GitHub website in order to merge your addition into the repository. The DAP team will take care of the rest.
+* Create a *pull request* on the GitHub website in order to merge your addition into the repository. The DAP team will
+take care of the rest.
 
 
