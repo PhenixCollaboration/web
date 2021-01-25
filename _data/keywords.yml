@@ -33,6 +33,11 @@
 
 # Conferences
 # 2020
+- name : is21
+  description: Initial Stages (2021)
+  category: conference
+
+# 2020
 - name : zs20
   description: Zimányi School (2020)
   category: conference
