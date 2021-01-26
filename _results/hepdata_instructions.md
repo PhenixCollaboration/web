@@ -69,6 +69,50 @@ data in a format compatible with HEPData.
 There is a helpful write-up about preparing data for upload:
 {% include_cached documents/doc.md type='writeup' tag='nattrass' %}
 
+##### Numerical Data
+Both fixed point and scientific notation formats for numerical data will be parsed correctly
+on the HEPData portal and visualization will reflect the values properly. The following snippet
+of YAML will work properly:
+```yaml
+dependent_variables:
+- header: {name: '$d\sigma/dM_{\gamma\gamma}$', units: 'mb/MeV'}
+  values:
+  - errors:
+    - {label: total, symerror: 0.005}
+    value: 1.5e-1
+  - errors:
+    - {label: total, symerror: 0.005}
+    value: 0.19
+  - errors:
+    - {label: total, symerror: 0.006}
+    value: 0.16
+  - errors:
+    - {label: total, symerror: 0.03}
+    value: 0.12
+  - errors:
+    - {label: total, symerror: 0.02}
+    value: 0.09
+
+independent_variables:
+- header: {name: 'Invariant Mass $M_{\gamma\gamma}$', units: 'GeV'}
+  values:
+  - {value: 1.4e-1, low: 0.08, high: 1.7e-1}
+  - {value: 0.2, low: 0.18,  high: 0.22}
+  - {value: 0.3, low: 0.27,  high: 0.33}
+  - {value: 0.4, low: 0.35,  high: 0.43}
+  - {value: 0.5, low: 0.47,  high: 0.55}
+```
+There is one caveat though: data tables in the corresponding sections of the
+HEPData page will display these data "as is" i.e. without further conversion.
+In the example above, the resulting table on the HEPData page will contain
+1.5e-1 and 0.19 in adjacent table cells.
+The person responsible for an upload package should decide whether it is acceptable
+or desirable to mix two different notaitons in tables.
+
+A separate issue is related to how many decimal places should be kept in the
+data point themselves vs their associated errors. This is currently being formalized
+as a policy, and if in doubt please contact the DAP team.
+
 ##### Keywords: an Overview
 Like with many other data repositories, consistent use of keywords is essential for
 data discoverability. HEPData makes it possible to attach a set of keywords and

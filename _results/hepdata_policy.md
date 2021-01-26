@@ -66,7 +66,7 @@ into the *submission.yaml* file (see {% include navigation/pagelink.md folder=si
 The following diagram illustrates the flow of communication among the three principal participants of the
 HEPData process: the coordinator, the uploader and the reviewer.
 
-{% include images/image.md name='hepdata_workflow' width=669 %}
+{% include images/image.md name='hepdata_workflow_2' width=735 %}
 
 As noted above, it is optimal for the uploader and the reviewer to make use of the messaging mechanism on the HEPData portal.
 A submission typically contains multiple items i.e. data from multiple plots. Each item is reviewed and approved separately.

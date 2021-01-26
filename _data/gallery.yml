@@ -93,9 +93,16 @@
 
 ### HEPData
 - path: /images/general/hepdata_workflow_1.png
-  name: 'hepdata_workflow'
+  name: 'hepdata_workflow_1'
   tag: 'HEPData Workflow'
-  title: 'Fun4All Diagram'
+  title: 'HEPData Workflow'
+  gallery: main
+  type: software
+
+- path: /images/general/hepdata_workflow_2.png
+  name: 'hepdata_workflow_2'
+  tag: 'HEPData Workflow'
+  title: 'HEPData Workflow'
   gallery: main
   type: software
 
