@@ -58,6 +58,9 @@
 - name: hepdata_coordinators
   url: 'https://www.hepdata.net/permissions/coordinators'
   
+- name: hepdata_current_spreadsheet
+  url: 'https://docs.google.com/spreadsheets/d/1rABxzuM-h9Rukz08ut_m8xnMo0B_J1LKre8bM7B7264/edit?usp=sharing'
+  
 # Misc
 - name: npps
   url: 'https://npps.bnl.gov/'
