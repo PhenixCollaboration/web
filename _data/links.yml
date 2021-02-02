@@ -74,6 +74,8 @@
 - name: rivet_workshop_2020
   url: 'https://indico.bnl.gov/event/8840/overview'
 
+- name: cwl
+  url: 'https://www.commonwl.org/'
 
 # Cloud tools
 - name: github

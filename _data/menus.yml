@@ -216,6 +216,10 @@
       full: Rivet
 
     -
+      name: docker
+      full: Docker
+
+    -
       name: reana
       full: REANA
 
