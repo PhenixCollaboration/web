@@ -87,6 +87,25 @@
 - name: reana
   url: 'https://reanahub.io/'
 
+# Docker
+- name: docker
+  url: 'https://docs.docker.com/'
+
+- name: docker_101
+  url: 'https://www.docker.com/101-tutorial'
+
+- name: docker_volumes
+  url: 'https://docs.docker.com/storage/volumes/'
+
+- name: docker_desktop
+  url: 'https://www.docker.com/products/docker-desktop'
+
+- name: docker_play
+  url: 'https://www.docker.com/play-with-docker'
+
+- name: docker_hub
+  url: 'https://hub.docker.com/'
+
 # Software links
 - name: cvs_cheatsheet
   url: 'https://www.slac.stanford.edu/grp/cd/soft/cvs/cvs_cheatsheet.html'

@@ -15,7 +15,8 @@ It is considered for Analysis Preservation in PHENIX due to the following featur
 
 REANA workflows can be represented as *Directed Acyclic Graphs* which is reflected in the YAML schema based on the 
 {% include navigation/findlink.md name='cwl' tag='Common Workflow Language (CWL)' -%}. Each computational component
-of a workflow may require a separate and distinct *container*.
+of a workflow may require a separate and distinct
+{% include navigation/pagelink.md folder=site.analysis name='docker' tag='Docker container' -%}.
 
 Execution of workflows in REANA requires a properly configured *REANA cluster*.
 One such cluster is available to CERN users, and there are instances at other institutions.
