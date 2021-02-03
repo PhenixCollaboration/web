@@ -4,18 +4,18 @@ layout: newbase
 ---
 {% include layouts/find_title.md name=page.name %}
 ##### Overview
-Docker is OS-level virtualization platform which allows complete software
+Docker is a OS-level virtualization platform which allows complete software
 packages to run in isolation while utilizing the same kernel as the host
 operating system. This is the key distinction between Docker and the Virtual
 Machine technology which involves an entire level of emulation run on top
 of the host OS. A running instance of software managed by Docker is called
 a *container*, while the read-only template used to instantiate it is termed
-an *image*. This technology makes it possible to capture a complete
-software environment which includes a specific flavor of Linux chosen
-by the developer and all the necessary libraries and dependencies in
-a self-contained, portable package which can be run on any machine where
-Docker is installed. One of the motivations to consider Docker is its
-central role in the framework for reproducible analysis:
+an *image*. This technology makes it possible to capture the complete
+software environment including a specific flavor of Linux chosen
+by the developer, compiled user code and all the necessary libraries and
+dependencies in a self-contained, portable package which can be run on any
+machine where Docker is installed. One of the motivations to consider Docker
+is its central role in the framework for reproducible analysis -
 {% include navigation/pagelink.md folder=site.analysis name='reana' tag='REANA' -%}.
 
 This page is not meant to serve as a Docker tutorial or a reference, in
