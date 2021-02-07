@@ -41,20 +41,23 @@ exist as a cloud service. A prominent cloud platform serving that purpose is
 {% include_cached navigation/findlink.md name='docker_hub' tag='Docker Hub' -%}.
 
 The following examples assume that Docker has been installed on the system.
-
+{{ site.hr }}
 ##### Running the latest version of ROOT is a one-liner
 *The most current version of ROOT* can be run on a Docker-equipped machine
-with one command -- no installation required:
+with one command -- no additional installation(s) required:
 ```bash
 docker run -it --rm rootproject/root root
 ```
-In this example, Docker will find the required *ROOT image* in the remote
-repository (e.g. Docker Hub), download it automatically, add it to the local cache and then
-start a container which proceeds to invoke the "root" command. The user is then
-presented wtih the usual ROOT prompt. The '*-it*' option instructs Docker to run an interactive
+In this example, Docker will locate the required *ROOT image* in the remote
+repository (e.g. Docker Hub), download it automatically, add it to the local
+cache and then start a *container process*. That process then proceeds to invoke
+the "root" command as specified on the command line. At this point the user is
+presented wtih the usual ROOT prompt.
+
+The '*-it*' option instructs Docker to run an interactive
 shell connected to the container, and '*\-\-rm*' is a cleanup option which makes it easier
 to manage your Docker environment but is not critical.
-
+{{ site.hr }}
 ##### Caveats
 1. In the example above, ROOT will indeed run interactively -- in the command line mode --
 but likely without graphics. If the graphics capability is needed additional settings
@@ -67,9 +70,11 @@ straightforward and is explained in the *"Volumes"* section below.
 3. A large number of PHENIX analysis have been done with ROOT versions 5.\*. For example,
 in early 2021 ROOT version 5.34.36 was in use on interactive nodes of BNL SDCC. Using a consistent
 version of ROOT may be important for reproducibility of analyses and other purposes e.g. to ensure
-software compatibility. Instructions for **running ROOT5 using Docker** are given in the
+software compatibility. Specific instructions for **running ROOT5 using Docker** are given in the
 *"ROOT5"* section below.
-
+4. Platorm dependency - this is not a large issue but certain host systems may require
+extra runtime settings, see the *Windows* section below for an example.
+{{ site.hr }}
 ##### X11
 ###### Server access
 To enable container access to the X11 server on your machine requisite permissions need
@@ -77,34 +82,44 @@ to be set. The easiest (but not very secure) way of doing this is as follows:
 ```bash
 xhost +
 ```
-
-###### X11 server shared memory access
+###### Shared memory access
 Some versions of the X11 server software require shared memory access
-for optimal performance, which gets in the way of proper graphics
+for optimal performance, which may get in the way of proper graphics
 functionality of containers. This can be addressed in two different ways:
-1. Using the "ipc" option at runtime to enable communication between
-the container and the X11 server; in theory, this will result in better performance.
+1. Using the "ipc" option at runtime to enable interprocess communication between
+the container and the X11 server -- theoretically, this will result in better performance.
 2. Disabling the shared memory mode of operation.
 
 Which version is best will depend on the needs of the user so some testing is
-recommended. Shown below are examples illustrating both options:
+recommended. Shown below are examples illustrating both options -- either one should
+provide full graphics capability e.g. the usual TBrowser, canvas and other graphics tools.
+
 ```bash
 # Note proper security settings in both example.
 # Examples tested on Ubuntu 18.04
 #
-# 1. Interprocess communication enabled, shared memory mode implied:
-docker run -it --ipc=host --rm -e DISPLAY=$DISPLAY --security-opt="label:disable" -v /tmp/.X11-unix:/tmp/.X11-unix rootproject/root root
-# 2. Shared memory functionality is disabled:
-docker run -it  --rm -v test:/root5 -e DISPLAY=$DISPLAY -e QT_X11_NO_MITSHM=1 --security-opt="label:disable" -v /tmp/.X11-unix:/tmp/.X11-unix rootproject/root root
+# 1. Interprocess communication enabled, shared memory mode implied.
+# NB. with this option the usual ROOT splash screen at start-up won't be shown.
+docker run -it --ipc=host --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix rootproject/root root
+#
+# 2. Shared memory functionality is disabled.
+docker run -it  --rm -e DISPLAY=$DISPLAY -e QT_X11_NO_MITSHM=1 -v /tmp/.X11-unix:/tmp/.X11-unix rootproject/root root
 ```
-*NB. With option 1, the usual ROOT splash screen at start-up won't be shown.*
-
-Both options will provide full graphics capability e.g. the usual TBrowser, canvas and other graphics tools.
+{{ site.hr }}
+##### Windows
+There is an option *\-\-security-opt* which is currently meaningful in the Windows environment only and may be needed
+for proper operation.
+```bash
+# Please refer to Docker documentation for other details of the Windows environment.
+# This command corresponds to the example above which disables the X11 memory sharing.
+docker run -it  --rm -e DISPLAY=$DISPLAY -e QT_X11_NO_MITSHM=1 --security-opt="label:disable" -v /tmp/.X11-unix:/tmp/.X11-unix rootproject/root root
+```
+{{ site.hr }}
 
 ##### Volumes
 There are several ways to achieve that, cf.
 {% include_cached navigation/findlink.md name='docker_volumes' tag='Docker documentation on volumes' -%}.
-
+{{ site.hr }}
 ##### ROOT5
 *Work in progress*
 
