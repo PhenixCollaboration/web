@@ -47,24 +47,24 @@ The following examples assume that Docker has been installed on the system.
 with one command -- no additional installation(s) required:
 ```bash
 docker run -it --rm rootproject/root root
+#
+# The '-it' option instructs Docker to run an interactive  shell connected to the container;
+# '--rm' is a  cleanup option for your Docker environment and is not critical.
 ```
 In this example, Docker will locate the required *ROOT image* in the remote
 repository (e.g. Docker Hub), download it automatically, add it to the local
 cache and then start a *container process*. That process then proceeds to invoke
 the "root" command as specified on the command line. At this point the user is
 presented wtih the usual ROOT prompt.
-
-The '*-it*' option instructs Docker to run an interactive
-shell connected to the container, and '*\-\-rm*' is a cleanup option which makes it easier
-to manage your Docker environment but is not critical.
 {{ site.hr }}
 ##### Caveats
 1. In the example above, ROOT will indeed run interactively -- in the command line mode --
 but likely without graphics. If the graphics capability is needed additional settings
 are required as detailed in the *"X11"* section below.
-2. In most cases, to use ROOT meaningfully one typically needs to exchange files between
-the host (your machine) and the container process. This may include input and output data
-as well as ROOT macros. It doesn't happen by default -- since containers run in isolation --
+2. In most cases, to use ROOT meaningfully the operator typically needs to exchange
+files between the host (your machine) and the container process. This may include input
+and output data as well as ROOT macros. It doesn't happen by default
+-- since containers run in isolation --
 so sharing of folders ("volumes") has to be set up explicitely> Fortunately, this is
 straightforward and is explained in the *"Volumes"* section below.
 3. A large number of PHENIX analysis have been done with ROOT versions 5.\*. For example,
@@ -92,7 +92,8 @@ the container and the X11 server -- theoretically, this will result in better pe
 
 Which version is best will depend on the needs of the user so some testing is
 recommended. Shown below are examples illustrating both options -- either one should
-provide full graphics capability e.g. the usual TBrowser, canvas and other graphics tools.
+provide full graphics capability e.g. the usual TBrowser, canvas and other
+graphics tools.
 
 ```bash
 # Note proper security settings in both example.
@@ -107,8 +108,8 @@ docker run -it  --rm -e DISPLAY=$DISPLAY -e QT_X11_NO_MITSHM=1 -v /tmp/.X11-unix
 ```
 {{ site.hr }}
 ##### Windows
-There is an option *\-\-security-opt* which is currently meaningful in the Windows environment only and may be needed
-for proper operation.
+There is an option *\-\-security-opt* which is currently meaningful in the
+Windows environment only and may be needed for proper operation.
 ```bash
 # Please refer to Docker documentation for other details of the Windows environment.
 # This command corresponds to the example above which disables the X11 memory sharing.
@@ -117,7 +118,8 @@ docker run -it  --rm -e DISPLAY=$DISPLAY -e QT_X11_NO_MITSHM=1 --security-opt="l
 {{ site.hr }}
 
 ##### Volumes
-There are several ways to achieve that, cf.
+There are several ways to achieve sharing of volumes i.e. establishing storage area accessible from both
+the host and the container(s) running on the host. For detailed information, please see 
 {% include_cached navigation/findlink.md name='docker_volumes' tag='Docker documentation on volumes' -%}.
 {{ site.hr }}
 ##### ROOT5
