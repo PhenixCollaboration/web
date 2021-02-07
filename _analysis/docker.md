@@ -121,6 +121,53 @@ docker run -it  --rm -e DISPLAY=$DISPLAY -e QT_X11_NO_MITSHM=1 --security-opt="l
 There are several ways to achieve sharing of volumes i.e. establishing storage area accessible from both
 the host and the container(s) running on the host. For detailed information, please see 
 {% include_cached navigation/findlink.md name='docker_volumes' tag='Docker documentation on volumes' -%}.
+In the following, a basic example of utilizing volumes is presented, using just one method of several
+available. Let us assume that the image used to instantiate a container was created with a Dockerfile
+containing a directive similar to the following:
+```dockerfile
+WORKDIR /user
+```
+A container (i.e. a running process) instantiated from this image will then have a directory named
+"/user" which is entirely internal to that container i.e. inaccessible from the host system.
+Now, let us assume that the operator issues the following command:
+```bash
+docker volume create myvolume
+```
+This results in the creation of a *Docker volume* which is mapped to a specific location
+in the filesystem of the host machine. The exact name chosen for the volume is immaterial.
+To determine the location to which the volume is napped the following command can be used:
+```bash
+docker volume inspect myvolume
+```
+...which will result in an output similar to:
+```json
+[
+    {
+        "CreatedAt": "2021-02-06T20:10:06-05:00",
+        "Driver": "local",
+        "Labels": {},
+        "Mountpoint": "/var/lib/docker/volumes/myvolume/_data",
+        "Name": "user",
+        "Options": {},
+        "Scope": "local"
+    }
+]
+```
+The content of the volume will be kept in the directory pointed to by the "Mountpoint" attribute
+in the JSON output above. This directory is owned by *root* so access (including operations like "ls")
+will only be possible using the root account or via sudo. Since the volume was just created it won't
+have any content yet:
+```bash
+$ sudo ls -l /var/lib/docker/volumes/myvolume/_data
+total 0
+```
+
+Note that at this point the volume is unrelated to any specific Docker image and/or container.
+To establish binding of the volume to the container filesystem an option should be added to the "docker run command",
+as in the following command line:
+```
+TBD
+```
 {{ site.hr }}
 ##### ROOT5
 *Work in progress*
