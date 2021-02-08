@@ -32,7 +32,11 @@
   category: general
 
 # Conferences
-# 2020
+# 2021
+- name : fwph21
+  description: Workshop on forward physics and QCD (2021)
+  category: conference
+
 - name : is21
   description: Initial Stages (2021)
   category: conference
