@@ -87,6 +87,11 @@
   description: '2019 RHIC & AGS Annual Users Meeting'
   category: conference
 
+- name : sqm19
+  description: 'Strangeness in Quark Matter 2019'
+  category: conference
+
+
 # 2018
 - name : wpcf2018
   description: XIII Workshop on Particle Correlations and Femtoscopy
@@ -96,6 +101,12 @@
   description: Hard Probes 2018
   category: conference
 
+# 2017
+- name : sqm17
+  description: 'Strangeness in Quark Matter 2017'
+  category: conference
+
+##########################################################################
 # Detector
 - name : aerogel
   description: Aerogel Cherenkov Counter
@@ -300,6 +311,10 @@
   
 - name : cu+au
   description: Copper-on-gold collisions
+  category: physics
+  
+- name : cu+cu
+  description: Copper-on-copper collisions
   category: physics
   
 - name : correlations
@@ -568,6 +583,10 @@
 
 - name : spin physics
   description: Spin Physics
+  category: physics
+
+- name : strange
+  description: Reference to "strangeness" (quantum number)
   category: physics
 
 - name : thermal photon

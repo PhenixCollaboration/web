@@ -212,16 +212,21 @@
       label: yes
 
     -
-      name: rivet
-      full: Rivet
+      name: docker_root
+      full: Running ROOT in Containers
 
     -
       name: docker
-      full: Docker
+      full: "Docker: technical notes"
 
     -
       name: reana
       full: REANA
+      div: yes
+
+    -
+      name: rivet
+      full: Rivet
 
 - name: about
   full: About

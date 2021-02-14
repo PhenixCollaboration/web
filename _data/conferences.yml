@@ -66,6 +66,11 @@
   url: 'https://www.bnl.gov/aum2019/'
   year: 2019
 
+- name: sqm19
+  title: 'Strangeness in Quark Matter 2019'
+  url: 'https://indico.cern.ch/event/755366/'
+  year: 2019
+
 # 2018
 - name: wpcf2018
   title: 'XIII Workshop on Particle Correlations and Femtoscopy'
@@ -76,3 +81,9 @@
   title: 'Hard Probes 2018'
   url: 'https://indico.cern.ch/event/634426/'
   year: 2018
+
+# 2017
+- name: sqm17
+  title: 'Strangeness in Quark Matter 2017'
+  url: 'https://indico.cern.ch/event/576735/overview'
+  year: 2017

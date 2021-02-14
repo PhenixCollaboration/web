@@ -91,6 +91,12 @@
 - name: docker
   url: 'https://docs.docker.com/'
 
+- name: docker_install
+  url: 'https://docs.docker.com/engine/install/'
+  
+- name: docker_post_install
+  url: 'https://docs.docker.com/engine/install/linux-postinstall/'
+
 - name: docker_101
   url: 'https://www.docker.com/101-tutorial'
 
