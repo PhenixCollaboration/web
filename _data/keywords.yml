@@ -106,6 +106,11 @@
   description: 'Strangeness in Quark Matter 2017'
   category: conference
 
+# 2016
+- name : sqm16
+  description: 'Strangeness in Quark Matter 2016'
+  category: conference
+
 ##########################################################################
 # Detector
 - name : aerogel
@@ -306,7 +311,7 @@
   category: physics
   
 - name : bottom
-  description: Particles containing the b-quark
+  description: Particles containing the b-quark (bottom)
   category: physics
   
 - name : cu+au
@@ -330,7 +335,7 @@
   category: physics
   
 - name : charm
-  description: Particles containing the c-quark
+  description: Particles containing the c-quark (charm)
   category: physics
 
 - name : cnm effects
@@ -347,6 +352,10 @@
   
 - name : cronin effect
   description: Cronin effect
+  category: physics
+  
+- name : cumulant
+  description: Cumulant
   category: physics
   
 - name : d-meson
@@ -382,7 +391,7 @@
   category: physics
   
 - name : elliptic
-  description: Elliptic
+  description: Elliptic (characteristic of certain distributions)
   category: physics
   
 - name : femtoscopy
@@ -481,6 +490,10 @@
   description: Modification of observables
   category: physics
 
+- name : muon
+  description: Muon
+  category: physics
+
 - name : neutron
   description: Neutron
   category: physics
@@ -550,7 +563,7 @@
   category: physics
 
 - name : raa
-  description: Modification factor (R_AA)
+  description: Modification factor (R<sub>AA</sub>)
   category: physics
 
 - name : radial
@@ -558,7 +571,11 @@
   category: physics
 
 - name : rgamma
-  description: Modification factor
+  description: A type of modification factor
+  category: physics
+
+- name : ridge
+  description: Ridge (feature of nuclear scattering)
   category: physics
 
 - name : scaling

@@ -87,3 +87,9 @@
   title: 'Strangeness in Quark Matter 2017'
   url: 'https://indico.cern.ch/event/576735/overview'
   year: 2017
+
+# 2016
+- name: sqm16
+  title: 'Strangeness in Quark Matter 2016'
+  url: 'https://indico.cern.ch/event/403913/overview'
+  year: 2016
