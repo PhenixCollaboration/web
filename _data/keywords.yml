@@ -186,7 +186,7 @@
   category: detector
 
 - name : mvd
-  description: multiplicity and vertex detector
+  description: Multiplicity and vertex detector
   category: detector
 
 - name: rich
@@ -254,7 +254,7 @@
   category: detector
 
 - name : zdc
-  description: zero-degree calorimeter
+  description: Zero-degree calorimeter
   category: detector
  
 # Physics
@@ -527,7 +527,7 @@
   category: physics
   
 - name : d+au
-  description: deutron-on-gold collisions
+  description: Deutron-on-gold collisions
   category: physics
   
 - name : p+au
@@ -632,24 +632,36 @@
 
 # Simulation software
 - name : hijing
-  description: HIJING - a type of Event Generator
+  description: <em>HIJING</em> - a type of Event Generator
   category: simulation
 
 - name : pisa
-  description: PISA - the PHENIX Integrated Simulation Application
+  description: <em>PISA</em> - the PHENIX Integrated Simulation Application
   category: simulation
 
 - name : pythia
-  description: PYTHIA - a type of Event Generator
+  description: <em>PYTHIA</em> - a type of Event Generator
   category: simulation
 
 # Misc software
 - name : rivet
-  description: Robust Independent Validation of Experiment and Theory
+  description: <em>Robust Independent Validation of Experiment and Theory</em>
   category: software
 
 - name : software
   description: Misc software
+  category: software
+
+- name : docker
+  description: Docker virtualization technology
+  category: software
+
+- name : container
+  description: A Docker container
+  category: software
+
+- name : root
+  description: The <em>ROOT</em> analysis platform
   category: software
 
 # Run
