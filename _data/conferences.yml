@@ -41,6 +41,11 @@
   year: 2020
   
 # 2019
+- name: is19
+  title: 'Initial Stages 2019'
+  url: 'https://www.bnl.gov/is2019/'
+  year: 2019
+
 - name: qm2019
   title: 'Quark Matter 2019'
   url: 'https://indico.cern.ch/event/792436/'
@@ -71,6 +76,11 @@
   url: 'https://indico.cern.ch/event/755366/'
   year: 2019
 
+- name: icnfp19
+  title: 'International Conference on New Frontiers in Physics 2019'
+  url: 'https://indico.cern.ch/event/754973/'
+  year: 2019
+
 # 2018
 - name: wpcf2018
   title: 'XIII Workshop on Particle Correlations and Femtoscopy'
@@ -80,6 +90,11 @@
 - name: hp18
   title: 'Hard Probes 2018'
   url: 'https://indico.cern.ch/event/634426/'
+  year: 2018
+
+- name: qm18
+  title: 'Quark Matter 2018'
+  url: 'https://indico.cern.ch/event/656452/'
   year: 2018
 
 # 2017

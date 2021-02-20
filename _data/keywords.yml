@@ -67,6 +67,14 @@
   category: conference
 
 # 2019
+- name : is19
+  description: Initial Stages (2019)
+  category: conference
+
+- name : icnfp19
+  description: International Conference on New Frontiers in Physics 2919
+  category: conference
+
 - name : ismd19
   description: International Symposium on Multiparticle Dynamics (2019)
   category: conference
@@ -76,11 +84,11 @@
   category: conference
 
 - name : qm2019
-  description: Quark Matter (2019)
+  description: Quark Matter 2019
   category: conference
 
 - name : zs19
-  description: Zimányi School (2019)
+  description: Zimányi School 2019
   category: conference
 
 - name : aum19
@@ -99,6 +107,10 @@
 
 - name : hp18
   description: Hard Probes 2018
+  category: conference
+
+- name : qm18
+  description: Quark Matter 2018
   category: conference
 
 # 2017
