@@ -83,8 +83,8 @@ straightforward and is explained in the *"Volumes"* section below.
 3. A large number of PHENIX analysis have been done with ROOT versions 5.\*. For example,
 in early 2021 ROOT version 5.34.36 was in use on interactive nodes of BNL SDCC. Using a consistent
 version of ROOT may be important for reproducibility of analyses and other purposes e.g. to ensure
-software compatibility. Specific instructions for **running ROOT5 using Docker** are given in the
-*"ROOT5"* section below.
+software compatibility. Specific instructions for **running ROOT5 using Docker** are given on the
+{% include navigation/pagelink.md folder=site.analysis name='docker_root' tag='"Running ROOT in Containers"'%} page.
 4. Platorm dependency - this is not a large issue but certain host systems may require
 extra runtime settings, see the *Windows* section below for an example.
 {{ site.hr }}
@@ -178,10 +178,9 @@ total 0
 Note that at this point the volume is unrelated to any specific Docker image and/or container.
 To establish binding of the volume to the container filesystem an option should be added to the "docker run command",
 as in the following command line:
-```
-TBD
+```bash
+# Running a ROOT5 image parepared by the PHENIX Collaboration
+docker run -it --ipc=host --rm  -v /tmp/.X11-unix:/tmp/.X11-unix -v myvolume:/user phenixcollaboration/tools:sl7_root5
 ```
 {{ site.hr }}
-##### ROOT5
-*Work in progress*
 
