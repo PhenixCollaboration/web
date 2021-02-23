@@ -182,5 +182,23 @@ as in the following command line:
 # Running a ROOT5 image parepared by the PHENIX Collaboration
 docker run -it --ipc=host --rm  -v /tmp/.X11-unix:/tmp/.X11-unix -v myvolume:/user phenixcollaboration/tools:sl7_root5
 ```
-{{ site.hr }}
 
+##### Custom folders and other customization
+In the example above, the image used to instantiate the ROOT5 container has an internal folder "/user" defined.
+This is because the
+{% include_cached navigation/findlink.md name='github_docker_sl7_root5' tag='**Dockerfile**' %}
+used to create this image contained the requisite instruction
+```dockerfile
+WORKDIR /user
+```
+There is nothing special about the "/user" name for this folder. Any names can be used and any folder hierarchy can
+be created to better suit the needs of the user's work. It is not difficult to build customized images based on examples
+contained in the respective 
+{% include_cached navigation/findlink.md name='github_docker_sl7' tag='PHENIX GitHub repository'-%}. One can modify
+the Dockerfile and run the build locally, however be aware that a complete Docker build of ROOT will take a while.
+Alternatively, as a faster alternative, one can create a *customization layer* on top of an image already pushed to 
+{% include navigation/findlink.md name='docker_hub' tag='Docker Hub'-%}. The "base" ROOT5 image can be obtained
+and committed to local storage on the user's machine by ising the command
+```bash
+docker pull phenixcollaboration/tools:sl7_root5
+```

@@ -79,7 +79,13 @@
 
 # Cloud tools
 - name: github
-  url: https://github.com/PhenixCollaboration
+  url: 'https://github.com/PhenixCollaboration'
+
+- name: github_docker_sl7
+  url: 'https://github.com/PhenixCollaboration/containers/tree/main/docker/sl7'
+
+- name: github_docker_sl7_root5
+  url: 'https://github.com/PhenixCollaboration/containers/blob/main/docker/sl7/Dockerfile.sl7_root5'
 
 - name: rivet
   url: 'https://rivet.hepforge.org/'
