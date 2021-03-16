@@ -13,7 +13,7 @@ including the raw data, conditions-type data, simulated and processed data.
 * Long-term **management and preservation of the software infrastructure and application code**. PHENIX is using version control (CVS and git) to manage its code, and virtual machine (VM) technology to manage the software configuration.
 * **Analysis know-how** (knowledge management). The Collaboration has undertaken an effort to review, curate, systematize and preserve knowledge necessary for the analysis of the data. Creation, development and maintenance of this website is a part of this effort.
 
-##### This Site
+##### This Website
 This website has been created with the goal to support the DAP mandate of the PHENIX Collaboration,
 and more specifically to aid the **Knolwedge Management** aspect of it. Content from multiple
 legacy PHENIX and RHIC Web sites and various other information resources is being curated,
@@ -35,12 +35,18 @@ individual pages as well as of the website as whole
 * use of a highly readable and an easy-to-edit syntax for content creation (the so-called *Markdown* syntax)
 
 To this end, the popular <a href="http://jekyllrb.com/">Jekyll</a> website generator is used, with
-additional tools (Javascript libraries and advanced stylesheets) for optimal user experience.
+additional tools (Javascript libraries and advanced stylesheets) for optimal user experience. For information on
+how to add or edit content on this site please see the
+{% include navigation/pagelink.md folder=site.about name='howto' tag='"How-to"' -%} page.
 
-##### Other technologies
+
+##### DAP Technologies
+In addition to serving materials hosted locally on this website it has another important function i.e. to serve as a portal
+to PHENIX resources placed on (or using) the following platforms:
 * {% include navigation/pagelink.md folder=site.results name='zenodo' tag='Zenodo'-%}, an open science digital repository at CERN.
 * {% include navigation/pagelink.md folder=site.results name='hepdata' tag='HEPData' -%}, a CERN-based repository for publication-related data.
 * {% include navigation/pagelink.md folder=site.analysis name='rivet' tag='Rivet' -%}, a toolkit for validation of MC generators and code preservation.
+* {% include navigation/pagelink.md folder=site.analysis name='reana' tag='Reana' -%}, a platform for reproducible analysis.
 * {% include navigation/findlink.md name='github' tag='GitHub'-%}: where PHENIX maintains a set of repositories.
 * {% include navigation/pagelink.md name='inspire' folder=site.results tag='Inspire' %}: a trusted community hub helping researchers find accurate scholarly information.
 
@@ -52,9 +58,12 @@ and its leadership. Special thanks to members of the
 for various contributions and technical advice.
 Design of this site was inspired by the
 {% include navigation/findlink.md name='hsf' tag='HEP Software Foundation website' %}.
-We are grateful to the authors and maintainers of the following technologies:
-* <a href="https://pages.github.com/">GitHub Pages</a>
-* <a href="http://jekyllrb.com/">Jekyll</a>
-* <a href="https://shopify.github.io/liquid/">Liquid</a>
-* <a href="http://getbootstrap.com/">Bootstrap</a>
-
+We are grateful to the authors and maintainers of the many technologies used in PHENIX DAP:
+<a href="https://pages.github.com/">GitHub Pages</a>,
+<a href="http://jekyllrb.com/">Jekyll</a>,
+<a href="https://shopify.github.io/liquid/">Liquid</a>,
+<a href="http://getbootstrap.com/">Bootstrap</a>,
+{% include navigation/findlink.md name='reana' tag='REANA' %},
+{% include navigation/findlink.md name='zenodo-about' tag='Zenodo' %},
+and others. Our DAP effort woudn't be possible without solid support from
+{% include navigation/findlink.md name='sdcc' tag='BNL SDCC' %}.

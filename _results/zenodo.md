@@ -4,7 +4,8 @@ layout: newbase
 ---
 {% include layouts/find_title.md name=page.name %}
 
-[Zenodo](https://about.zenodo.org/){:target="_blank"} is an Open Science
+{% include navigation/findlink.md name='zenodo-about' tag="Zenodo" %}
+is an Open Science
 Digital Repository launched at CERN in 2013. Its operation is governed
 by a set of [defined principles](https://about.zenodo.org/principles/).
 It features a rich set of [search capabilities](https://help.zenodo.org/guides/search/){:target="_blank"}

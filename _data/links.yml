@@ -7,6 +7,14 @@
   url: 'https://github.com/PhenixCollaboration'
   category: 'general'
 
+- name: 'Zenodo'
+  url: 'https://zenodo.org/'
+  category: 'general'
+
+- name: 'zenodo-about'
+  url: 'https://about.zenodo.org/'
+  category: 'general'
+
 - name: 'PHENIX Community on Zenodo'
   url: 'https://zenodo.org/communities/phenixcollaboration/search?page=1&size=20&sort=-publication_date'
   category: 'general'
