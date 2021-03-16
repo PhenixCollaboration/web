@@ -87,6 +87,10 @@
   description: Quark Matter 2019
   category: conference
 
+#- name : qm19
+#  description: Quark Matter 2019
+#  category: conference
+
 - name : zs19
   description: Zimányi School 2019
   category: conference
@@ -118,9 +122,18 @@
   description: 'Strangeness in Quark Matter 2017'
   category: conference
 
+- name : qm17
+  description: Quark Matter 2017
+  category: conference
+
 # 2016
 - name : sqm16
   description: 'Strangeness in Quark Matter 2016'
+  category: conference
+
+# 2015
+- name : qm15
+  description: Quark Matter 2015
   category: conference
 
 ##########################################################################

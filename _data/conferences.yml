@@ -103,8 +103,20 @@
   url: 'https://indico.cern.ch/event/576735/overview'
   year: 2017
 
+- name: qm17
+  title: 'Quark Matter 2017'
+  url: 'https://indico.cern.ch/event/433345/'
+  year: 2017
+
 # 2016
 - name: sqm16
   title: 'Strangeness in Quark Matter 2016'
   url: 'https://indico.cern.ch/event/403913/overview'
   year: 2016
+
+# 2015
+- name: qm15
+  title: 'Quark Matter 2015'
+  url: 'https://indico.cern.ch/event/355454/'
+  year: 2015
+
