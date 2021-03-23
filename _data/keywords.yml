@@ -46,11 +46,11 @@
   description: Zimányi School (2020)
   category: conference
 
-- name : iwhss2020
+- name : iwhss20
   description: 17th International Workshop on Hadron Structure and Spectroscopy
   category: conference
 
-- name : wwnd2020
+- name : wwnd20
   description: The 36th Winter Workshop on Nuclear Dynamics (2020)
   category: conference
 
@@ -83,13 +83,9 @@
   description: DNP (2019)
   category: conference
 
-- name : qm2019
+- name : qm19
   description: Quark Matter 2019
   category: conference
-
-#- name : qm19
-#  description: Quark Matter 2019
-#  category: conference
 
 - name : zs19
   description: Zimányi School 2019
@@ -105,7 +101,7 @@
 
 
 # 2018
-- name : wpcf2018
+- name : wpcf18
   description: XIII Workshop on Particle Correlations and Femtoscopy
   category: conference
 

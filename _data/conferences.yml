@@ -15,12 +15,12 @@
   url: 'https://indico.cern.ch/event/980953/'
   year: 2020
 
-- name: iwhss2020
+- name: iwhss20
   title: '17th International Workshop on Hadron Structure and Spectroscopy'
   url: 'https://agenda.infn.it/event/20446/'
   year: 2020
 
-- name: wwnd2020
+- name: wwnd20
   title: 'The 36th Winter Workshop on Nuclear Dynamics'
   url: 'https://indico.cern.ch/event/841247/'
   year: 2020
@@ -46,7 +46,7 @@
   url: 'https://www.bnl.gov/is2019/'
   year: 2019
 
-- name: qm2019
+- name: qm19
   title: 'Quark Matter 2019'
   url: 'https://indico.cern.ch/event/792436/'
   year: 2019
@@ -82,7 +82,7 @@
   year: 2019
 
 # 2018
-- name: wpcf2018
+- name: wpcf18
   title: 'XIII Workshop on Particle Correlations and Femtoscopy'
   url: 'https://indico.ifj.edu.pl/event/199/overview'
   year: 2018
