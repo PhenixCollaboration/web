@@ -4,43 +4,53 @@ layout: newbase
 ---
 {% include layouts/find_title.md name=page.name %}
 
-This page is work in progress.
-
 ##### Overview
 {% include navigation/findlink.md name='reana' tag='REANA' %}
 is a reproducible research data analysis *platform* developed at CERN.
 It is considered for Analysis Preservation in PHENIX due to the following features:
 
-* Unambiguous description of workflows (encoded in a YAML schema)
+* Unambiguous description of workflows (encoded in YAML)
 * Capture and preservation of both the software and the software environment by using **containerization**
 
 REANA workflows can be represented as *Directed Acyclic Graphs* which is reflected in
 the YAML schema based on the 
 {% include navigation/findlink.md name='cwl' tag='Common Workflow Language (CWL)' -%}.
-Each computational component of a workflow may require a separate and distinct
-{% include navigation/pagelink.md folder=site.analysis name='docker' tag='Docker container' -%}.
+Each computational component of a workflow *may* require a separate and distinct
+{% include navigation/pagelink.md folder=site.analysis name='docker' tag='Docker container' -%},
+although individual steps can be as simple as a shell command writing a comment to a log file,
+in which case containers would be redundant.
 
 Execution of workflows in REANA requires a properly configured **REANA cluster**.
 One such cluster is available to CERN users, and there are instances at other
 institutions. There is also a test instance currently being evaluated at BNL
 and it is available on the internal BNL network only. *Access to REANA clusters
 is controlled by their administrators granting access tokens to qualified users*.
-The user (or an automated agent) interacts with a REANA cluster via its network
-interface (HTTPS).
+The user interacts with a REANA cluster via its network
+interface (HTTPS), either via the Web GUI for a quick overview of workflows
+in various stages of execution, or the CLI client which affords the user
+full access to all REANA functions. The client also makes it possible to
+use an automated agent for interaction with the system by scripting various
+actions.
 
 ##### Getting Started
 To be able to access a REANA cluster the user must be issued an *access token*
-by the administrators (this may be specific to each institution REANA is hosted
-and typically involves visiting the requisite Web page).
-
-A SSH tunnel is required to access the REANA cluster at BNL. Assuming a token has been obtained
-a test session might look like this:
+by the administrators (this may be specific to each institution hosting its REANA
+facility and typically involves visiting the requisite Web page). REANA client
+must be installed on the user's machine. It is a Python-based tool so optimally
+this is done via the "virtual environment" mechanism:
 ```bash
 # create new virtual environment
 virtualenv ~/.virtualenvs/reana
 source ~/.virtualenvs/reana/bin/activate
 # install reana-client (may need sudo)
 pip install reana-client
+```
+The "activate" step will be necessary if a new shell/window is created for interacting
+with REANA.
+A SSH tunnel is required to access the REANA cluster at BNL. Assuming a token has
+been obtained and a SSH tunnel established on port 30443
+a test session might look like this:
+```bash
 # set REANA environment variables for the client
 export REANA_SERVER_URL=https://localhost:30443
 export REANA_ACCESS_TOKEN=________ # user's REANA token

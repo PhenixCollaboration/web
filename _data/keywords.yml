@@ -7,7 +7,7 @@
   description: Two long-term proposals for the PHENIX research program
   category: general
 
-- name: rhic
+- name : rhic
   description: Relativistic Heavy Ion Collider (RHIC)
   category: general
 
@@ -195,7 +195,7 @@
   category: detector
 
 - name : muon arms
-  description: Combination of subsystems to measure muons
+  description: Combination of PHENIX subsystems for measuring muons
   category: detector
 
 - name : muon tracker
@@ -210,15 +210,15 @@
   description: Multiplicity and vertex detector
   category: detector
 
-- name: rich
+- name : rich
   description: Ring Imaging Cherenkov Detector
   category: detector
 
-- name: rxnp
+- name : rxnp
   description: Reaction Plane Detector
   category: detector
 
-- name: reaction plane detector
+- name : reaction plane detector
   description: Reaction Plane Detector
   category: detector
 
@@ -235,11 +235,11 @@
   category: detector
 
 - name : shower max detector
-  description: shower max detector
+  description: Shower max detector
   category: detector
 
 - name : smd
-  description: shower max detector
+  description: Shower max detector
   category: detector
 
 - name : tec
@@ -263,11 +263,11 @@
   category: detector
 
 - name : tofe
-  description: Time-of-Flight Detector (east)
+  description: Time-of-Flight Detector (East)
   category: detector
 
 - name : tofw
-  description: Time-of-Flight Detector (west)
+  description: Time-of-Flight Detector (West)
   category: detector
 
 - name : vtx
@@ -296,7 +296,7 @@
   category: physics
 
 - name : π0
-  description: neutral pion
+  description: Neutral pion
   category: physics
 
 - name : anisotropy
@@ -528,7 +528,7 @@
   category: physics
 
 - name : pion
-  description: pion
+  description: Pion
   category: physics
 
 - name : photon
@@ -556,7 +556,7 @@
   category: physics
   
 - name : p+au
-  description: proton-on-gold collisions
+  description: Proton-on-gold collisions
   category: physics
   
 - name : p+al
@@ -608,7 +608,7 @@
   category: physics
   
 - name : small-x
-  description: small-x physics
+  description: Small-x physics
   category: physics
 
 - name : shadowing
@@ -678,7 +678,7 @@
   category: software
 
 - name : docker
-  description: Docker virtualization technology
+  description: <em>Docker</em> -  virtualization technology
   category: software
 
 - name : container
