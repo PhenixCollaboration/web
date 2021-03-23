@@ -527,6 +527,10 @@
   description: Open charm
   category: physics
 
+- name : pion
+  description: pion
+  category: physics
+
 - name : photon
   description: Photon
   category: physics
