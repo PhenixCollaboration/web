@@ -59,9 +59,11 @@ git clone https://github.com/reanahub/reana-demo-root6-roofit
 cd reana-demo-root6-roofit
 reana-client run -w root6-roofit
 ```
-By default the client will look up the workflow definition from the file ```reana.yaml```.
-This is just a standard example but any properly formulated workflow can be run in
-a similar manner e.g.
+By default the client will look up the workflow definition from the file ```reana.yaml```
+found in the current folder.
+The ```-w``` option ("workflow") simply defines the handle/name by which this workflow will
+be know to the system. The name can be anything. To specify a different workflow definition
+file and a different name one might use something like
 ```bash
 reana-client run -f my_workflow_file.yaml -w my_custom_workflow_name
 ```
