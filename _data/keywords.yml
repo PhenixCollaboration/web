@@ -99,6 +99,13 @@
   description: 'Strangeness in Quark Matter 2019'
   category: conference
 
+- name : ghp19
+  description: '8th Workshop of the APS Topical Group on Hadronic Physics (2019)'
+  category: conference
+
+- name : moriond19
+  description: 'Rencontres de Moriond 2019'
+  category: conference
 
 # 2018
 - name : wpcf18
@@ -120,6 +127,10 @@
 
 - name : qm17
   description: Quark Matter 2017
+  category: conference
+
+- name : ghp17
+  description: '7th Workshop of the APS Topical Group on Hadronic Physics (2017)'
   category: conference
 
 # 2016

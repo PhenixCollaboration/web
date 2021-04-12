@@ -81,6 +81,16 @@
   url: 'https://indico.cern.ch/event/754973/'
   year: 2019
 
+- name: ghp19
+  title: '8th Workshop of the APS Topical Group on Hadronic Physics (2019)'
+  url: 'https://indico.jlab.org/event/282/'
+  year: 2019
+
+- name : moriond19
+  title: 'Rencontres de Moriond 2019'
+  url: 'http://moriond.in2p3.fr/2019/'
+  category: conference
+
 # 2018
 - name: wpcf18
   title: 'XIII Workshop on Particle Correlations and Femtoscopy'
@@ -106,6 +116,11 @@
 - name: qm17
   title: 'Quark Matter 2017'
   url: 'https://indico.cern.ch/event/433345/'
+  year: 2017
+
+- name: ghp17
+  title: '7th Workshop of the APS Topical Group on Hadronic Physics (2017)'
+  url: 'https://indico.jlab.org/event/160/'
   year: 2017
 
 # 2016
