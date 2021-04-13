@@ -30,7 +30,7 @@ Listed on this page are *recommended* keywords used for two purposes:
 * to enhance discoverability of the PHENIX materials committed to {% include navigation/pagelink.md folder=site.results name='zenodo' tag='Zenodo'%}
 
 Consistent use of the keywords is strongly recommended. Please note that
-{% include navigation/pagelink.md folder=site.results name='hepdata' tag='HEPData materials' %}
+{% include navigation/pagelink.md folder=site.results name='hepdata_instructions' tag='HEPData materials' %}
 follow a 
 {% include navigation/findlink.md name='hepdata_keywords' tag='different set of conventions' %}.
 
