@@ -1151,6 +1151,18 @@
   cached_badge: yes
   date:
     
+- name: 3833290 
+  title: 'The MONDO Chip - A CMOS Integrated Circuit for the PHENIX Electromagnetic Calorimeter'
+  tags: [emcal, mondo]
+  author: G.David
+  venue: 
+  resource: zenodo
+  type: writeup
+  category: detector
+  format: markdown_link
+  cached_badge: yes
+  date:
+    
 - name: 3893970
   title: PHENIX ZDC/SMD - detector basics
   tags: [zdc,smd]

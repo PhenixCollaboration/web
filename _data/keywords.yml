@@ -33,6 +33,14 @@
 
 # Conferences
 # 2021
+- name : moriond21
+  description: 'Rencontres de Moriond 2021'
+  category: conference
+
+- name : qat21
+  description: Quarkonia as Tools (2021)
+  category: conference
+
 - name : fwph21
   description: Workshop on forward physics and QCD (2021)
   category: conference

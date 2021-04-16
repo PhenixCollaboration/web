@@ -1,4 +1,14 @@
 # 2021
+- name: qat21
+  title: 'Quarkonia as Tools 2021'
+  url: 'https://indico.cern.ch/event/983750/'
+  year: 2021
+
+- name : moriond21
+  title: 'Rencontres de Moriond 2021'
+  url: 'http://moriond.in2p3.fr/2021/'
+  year: 2021
+
 - name: fwph21
   title: 'Workshop on forward physics and QCD 2021'
   url: 'https://indico.cern.ch/event/947406/'
@@ -89,7 +99,7 @@
 - name : moriond19
   title: 'Rencontres de Moriond 2019'
   url: 'http://moriond.in2p3.fr/2019/'
-  category: conference
+  year: 2019
 
 # 2018
 - name: wpcf18
