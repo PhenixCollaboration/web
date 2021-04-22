@@ -13,7 +13,7 @@ years:
 {% include layouts/find_title.md name=page.name %}
 
 {% for year in page.years %}
-{% assign c4y=site.data.conferences | where_exp: "item", "item.year==year" %}
+{% assign c4y=site.data.conferences | where_exp: "item", "item.year==year" | sort: "title" %}
 <h5>{{ year }}</h5>
 {% for conference in c4y %}
 {% capture link %}{%- include navigation/zenodo_query.md name=conference.name tag='PHENIX Presentations' -%}{% endcapture %}
