@@ -27,6 +27,14 @@
   description: ALICE - an experiment at CERN
   category: general
 
+- name : atlas
+  description: ATLAS - an experiment at CERN
+  category: general
+
+- name : cms
+  description: CMS - an experiment at CERN
+  category: general
+
 - name : wa98
   description: WA98 - an experiment at CERN
   category: general
@@ -47,6 +55,10 @@
 
 - name : is21
   description: Initial Stages (2021)
+  category: conference
+
+- name : dis21
+  description: Deep Inelastic Scattering (2021)
   category: conference
 
 # 2020
@@ -113,6 +125,18 @@
 
 - name : moriond19
   description: 'Rencontres de Moriond 2019'
+  category: conference
+
+- name : dis19
+  description: Deep Inelastic Scattering (2019)
+  category: conference
+
+- name : hptlhc19
+  description: High pT physics in the RHIC/LHC era (2019)
+  category: conference
+
+- name : wwnd19
+  description: The 35th Winter Workshop on Nuclear Dynamics (2019)
   category: conference
 
 # 2018

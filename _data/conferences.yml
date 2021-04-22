@@ -19,6 +19,11 @@
   url: 'https://indico.cern.ch/event/854124/'
   year: 2021
 
+- name : dis21
+  title: Deep Inelastic Scattering (2021)
+  url: 'https://indico.bnl.gov/event/9726/'
+  year: 2021
+
 # 2020
 - name: zs20
   title: 'Zimányi School 2020'
@@ -51,6 +56,16 @@
   year: 2020
   
 # 2019
+- name : hptlhc19
+  title: High pT physics in the RHIC/LHC era (2019)
+  url: 'https://indico.cern.ch/event/730616/'
+  year: 2019
+
+- name : dis19
+  title: Deep Inelastic Scattering (2019)
+  url: 'https://indico.cern.ch/event/749003/'
+  year: 2019
+
 - name: is19
   title: 'Initial Stages 2019'
   url: 'https://www.bnl.gov/is2019/'
@@ -99,6 +114,11 @@
 - name : moriond19
   title: 'Rencontres de Moriond 2019'
   url: 'http://moriond.in2p3.fr/2019/'
+  year: 2019
+
+- name: wwnd19
+  title: 'The 35th Winter Workshop on Nuclear Dynamics'
+  url: 'https://indico.cern.ch/event/766194/'
   year: 2019
 
 # 2018
