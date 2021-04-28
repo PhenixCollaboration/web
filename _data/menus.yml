@@ -217,7 +217,7 @@
 
     -
       name: docker
-      full: "Docker: technical notes"
+      full: "Docker: Technical Notes"
 
     -
       name: reana

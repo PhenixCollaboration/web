@@ -3,8 +3,11 @@ name: docker
 layout: newbase
 ---
 {% include layouts/find_title.md name=page.name %}
+* TOC
+{:toc}
 
 ##### About this page
+
 **This page is not meant to serve as a Docker tutorial or a reference**, in
 particular because of abundance of helpful documentation easily available on the Web.
 Presented here are select instructions and examples which will be hopefully helpful to
@@ -52,19 +55,31 @@ The following examples assume that Docker has been installed on the system.
 The docker daemon runs as *root* so all docker commands will need to be run via *sudo*.
 However, this can be avoided by adding users to a special *docker* group according
 to the instructions found on the Docker
-{% include_cached navigation/findlink.md name='docker_post_install' tag='"post installation steps"' %} page.
+{% include_cached navigation/findlink.md name='docker_post_install' tag='"post installation steps"' %}
+page.
+
+It is also possible to run Docker images using the 
+{% include_cached navigation/findlink.md name='singularity' tag='Singularity' %}
+containerization framework. Please see relevant Singularity documentation pages
+for details. Brief notes on how to do this on the interactive
+{% include_cached navigation/findlink.md name='sdcc' tag='SDCC' %}
+nodes at BNL
+can be found on the 
+{% include navigation/pagelink.md folder=site.analysis name='docker_root' tag='"Running ROOT in Containers"' %}
+page.
 
 {{ site.hr }}
 ##### Running the latest version of ROOT is a one-liner
 *The most current version of ROOT* can be run on a Docker-equipped machine
 with one command -- no additional installation(s) required.
-In this example, Docker will locate the required *ROOT image* in the remote
-repository (e.g. Docker Hub), download it automatically, add it to the local
-cache and then start a *container process*. That process then proceeds to invoke
-the "root" command as specified on the command line. In the following
-command, the *'-it'* option instructs Docker to run an interactive  shell
-connected to the container, and the *'--rm'* is a  cleanup option for your
-Docker environment (it is not critical for operation of the container itself).
+In this example, Docker will locate the required *ROOT image* in the
+registry (e.g. Docker Hub which is usually the default), download it automatically,
+add it to the local cache and then start a *container process*. That
+process then proceeds to invoke the "root" command as specified on
+the command line. In the following command, the *'-it'* option instructs
+Docker to run an interactive  shell connected to the container,
+and the *'--rm'* is a  cleanup option for your Docker environment
+(it is not critical for operation of the container itself).
 
 ```bash
 docker run -it --rm rootproject/root root  #  The user is presented wtih the usual ROOT prompt.
@@ -120,7 +135,7 @@ docker run -it --ipc=host --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-u
 docker run -it  --rm -e DISPLAY=$DISPLAY -e QT_X11_NO_MITSHM=1 -v /tmp/.X11-unix:/tmp/.X11-unix rootproject/root root
 ```
 {{ site.hr }}
-##### Windows
+##### Microsoft Windows
 There is an option *\-\-security-opt* which is currently meaningful in the
 Windows environment only and may be needed for proper operation.
 ```bash
