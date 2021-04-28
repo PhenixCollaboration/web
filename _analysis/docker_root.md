@@ -72,10 +72,15 @@ containerization framework. It has been deployed on SDCC nodes at BNL and is ava
 by any user. For example, to start the SL7/ROOT5 image created by the PHENIX Collaboration
 and get to the *bash* prompt the following command can be used:
 ```bash
-singularity exec --bind /phenix/u/mxmp:/user docker://phenixcollaboration/tools:sl7_root5 bash
+singularity exec --bind /phenix/u/phnxuser:/user docker://phenixcollaboration/tools:sl7_root5 bash
 ```
-Although ROOT can be done without invoking the shell first, this will be necessary to explicitly
-set the *DISPLAY* variable so that X11 tunneling properly works and X11 functionality is available.
+In this example, the home directory of the user "phnxuser" will be mapped to the folder '/user' which
+was defined in the image *sl7_root5*. For more detail please see the
+{% include navigation/pagelink.md folder=site.analysis name='docker' tag='"technical notes"'%} page.
+
+Although ROOT can be started without invoking the shell first as it is the default command in the image,
+in this case this will be necessary to explicitly set the *DISPLAY* variable so that X11 tunneling properly
+works and X11 functionality is available.
 First, one determines the setting on the interactive node in use, which may look like
 ```bash
 $ echo $DISPLAY
