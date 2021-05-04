@@ -25,6 +25,11 @@
   year: 2021
 
 # 2020
+- name: aum20
+  title: 'RHIC & AGS Annual Users Meeting (2020)'
+  url: 'https://indico.bnl.gov/event/9385/'
+  year: 2020
+
 - name: zs20
   title: 'Zimányi School 2020'
   url: 'https://indico.cern.ch/event/980953/'
@@ -122,6 +127,11 @@
   year: 2019
 
 # 2018
+- name: aum18
+  title: 'RHIC & AGS Annual Users Meeting (2018)'
+  url: 'https://www.bnl.gov/aum2018/index.php'
+  year: 2018
+
 - name: wpcf18
   title: 'XIII Workshop on Particle Correlations and Femtoscopy'
   url: 'https://indico.ifj.edu.pl/event/199/overview'
