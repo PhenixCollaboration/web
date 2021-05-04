@@ -32,26 +32,76 @@ full access to all REANA functions. The client also makes it possible to
 use an automated agent for interaction with the system by scripting various
 actions.
 
-##### Getting Started
-To be able to access a REANA cluster the user must be issued an *access token*
+##### The Token
+To be able to access a REANA cluster the user must first establish an account
+by choosing the "sign up" option in the Web interface. Each user must be approved
+by the system administrator, and in case of BNL having a valid SDCC account is
+a prerequisite for such approval. Once an account is created, it becomes possible
+to log in and the user can obtain their REANA *access token* in the profile section
+in the upper right corner of the REANA web page.
+
 by the administrators (this may be specific to each institution hosting its REANA
-facility and typically involves visiting the requisite Web page). REANA client
-must be installed on the user's machine. It is a Python-based tool so optimally
-this is done via the "virtual environment" mechanism:
+facility and typically involves visiting the requisite Web page). 
+
+##### REANA Client
+To user the REANA system, client software must be installed on the user's machine.
+It is Python-based and at the time of writing Python 3.6 and higher is recommended.
+This is often done via the Python "virtual environment" mechanism. If the "virtualenv"
+tools is available the following example will work:
 ```bash
-# create new virtual environment
-virtualenv ~/.virtualenvs/reana
-source ~/.virtualenvs/reana/bin/activate
-# install reana-client (may need sudo)
-pip install reana-client
+# Assuming the user runs "bash" on their personal machine:
+# Create new virtual environment
+cd
+mkdir .virtualenvs # the exact name is unimportant
+virtualenv ~/.virtualenvs/reana # "reana" folder can be named differently as well, as long as its use is consistent
+source ~/.virtualenvs/reana/bin/activate # a self-contained Python environment is now available
+# Install reana-client
+pip install reana-client # installation takes place within the virtual environment
 ```
-The "activate" step will be necessary if a new shell/window is created for interacting
-with REANA.
-A SSH tunnel is required to access the REANA cluster at BNL. Assuming a token has
-been obtained and a SSH tunnel established on port 30443
+Alternatively, if "virtualenv" is not available (such is the case on the interactive SDCC
+nodes) a slightly different method may be used:
+
+```bash
+# Typically tcsh is used on "rcas" nodes so this example is for tcsh
+# First, add custom SDCC location for Python 3 to PATH
+setenv PATH /u0b/software/jupyter/python/3.8.0/bin:$PATH
+cd
+mkdir .virtualenvs # the exact name is unimportant
+python3 -m venv .virtualenvs/reana
+source .virtualenvs/reana/bin/activate.csh
+pip install reana-client
+rehash
+```
+
+After the installation process is finished it is a good idea to check if
+the client is functional, for example
+```bash
+# Check if it's alive
+reana-client --help
+```
+
+The "activate" step will be necessary every time a new shell/window is created
+for interacting with REANA. If no longer necessary, the virtual environment can
+be deactivated. A full session will look something like:
+
+```bash
+# Enter the virtual environment
+source ~/.virtualenvs/reana/bin/activate
+# ... REANA commands here...
+# Leave the virtual environment
+deactivate
+```
+A SSH tunnel is required to access the REANA cluster at BNL from an outside location.
+```bash
+# Establish a SSH tunnel
+ssh -L 30443:kubmaster01.sdcc.bnl.gov:30443 ssh.sdcc.bnl.gov
+```
+
+Assuming a token has been obtained and a SSH tunnel established on port 30443
 a test session might look like this:
 ```bash
-# set REANA environment variables for the client
+# Assuming the user is running bash:
+# Set REANA environment variables for the client
 export REANA_SERVER_URL=https://localhost:30443
 export REANA_ACCESS_TOKEN=________ # user's REANA token
 # clone and run a simple analysis example
@@ -59,6 +109,16 @@ git clone https://github.com/reanahub/reana-demo-root6-roofit
 cd reana-demo-root6-roofit
 reana-client run -w root6-roofit
 ```
+
+Alternatively, when working within the BNL perimeter i.e. on the interactive nodes
+the server needs to be specified directly i.e. without the ssh redirection:
+```bash
+export REANA_SERVER_URL=https://kubmaster01.sdcc.bnl.gov:30443
+```
+
+The above example will need to be adjusted for tcsh if necessary.
+
+##### Workflow definition and custom name
 By default the client will look up the workflow definition from the file ```reana.yaml```
 found in the current folder.
 The ```-w``` option ("workflow") simply defines the handle/name by which this workflow will

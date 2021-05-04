@@ -181,26 +181,12 @@
       label: yes
 
     -
-      name: muon_arms_jpsi
-      full: Muon Arms Tutorial for J/ψ Analysis
-
-    -
-      name: taxi_embedding
-      full: Taxi Code and Embedding Tutorial
-
-    -
-      name: electron_identification
-      full: Electron Identification in PHENIX
+      name: writeups
+      full: Analysis tutorials
 
     -
       name: analysis_notes
       full: Analysis Notes
-      div: yes
-
-    -
-      name: analysis_chains
-      full: Sample Analysis Chains
-      label: yes
 
     -
       name: embeddingVtx
@@ -213,7 +199,7 @@
 
     -
       name: docker_root
-      full: Running ROOT in Containers
+      full: ROOT in Containers
 
     -
       name: docker
@@ -254,3 +240,22 @@
       full: The Team
       icon: /images/icons/group-32.png
       div: yes
+
+########################
+    # -
+    #   name: muon_arms_jpsi
+    #   full: Muon Arms Tutorial for J/ψ Analysis
+
+    # -
+    #   name: taxi_embedding
+    #   full: Taxi Code and Embedding Tutorial
+
+    # -
+    #   name: electron_identification
+    #   full: Electron Identification in PHENIX
+    # -
+    #   name: analysis_chains
+    #   full: Sample Analysis Chains
+    #   label: yes
+
+

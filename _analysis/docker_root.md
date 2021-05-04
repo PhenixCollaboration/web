@@ -64,34 +64,3 @@ docker run -it --ipc=host --rm  -v /tmp/.X11-unix:/tmp/.X11-unix -v myvolume:/us
 ```
 This will start the bash shell which will function normally. This may be necessary to check presence of requisite
 files, macros and other settings. Staring ROOT is still possible of course by using the "root" command from that shell.
-
-##### Singularity
-Docker images can also be used within the
-{% include_cached navigation/findlink.md name='singularity' tag='Singularity' %}
-containerization framework. It has been deployed on SDCC nodes at BNL and is available
-by any user. For example, to start the SL7/ROOT5 image created by the PHENIX Collaboration
-and get to the *bash* prompt the following command can be used:
-```bash
-singularity exec --bind /phenix/u/phnxuser:/user docker://phenixcollaboration/tools:sl7_root5 bash
-```
-In this example, the home directory of the user "phnxuser" will be mapped to the folder '/user' which
-was defined in the image *sl7_root5*. For more detail please see the
-{% include navigation/pagelink.md folder=site.analysis name='docker' tag='"technical notes"'%} page.
-
-Although ROOT can be started without invoking the shell first as it is the default command in the image,
-in this case this will be necessary to explicitly set the *DISPLAY* variable so that X11 tunneling properly
-works and X11 functionality is available.
-First, one determines the setting on the interactive node in use, which may look like
-```bash
-$ echo $DISPLAY
-localhost:15.0
-# actual value will vary
-```
-Then, after invoking the "singularity exec" command as presented above, the user needs to
-set the environment variable accordingly by using the shell within the container:
-```bash
-$ export DISPLAY=localhost:15.0
-```
-At that point, applications like xterm, emacs etc will properly function via X11.
-And, since this image also contains ROOT5, it can be invoked by typing "root"
-and will have the graphics capability.
