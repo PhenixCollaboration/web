@@ -6,7 +6,7 @@ layout: newbase
 
 ##### Overview
 {% include navigation/findlink.md name='reana' tag='REANA' %}
-is a reproducible research data analysis *platform* developed at CERN.
+is a reproducible research data analysis platform developed at CERN.
 It is considered for Analysis Preservation in PHENIX due to the following features:
 
 * Unambiguous description of workflows (encoded in YAML)
@@ -20,31 +20,39 @@ Each computational component of a workflow *may* require a separate and distinct
 although individual steps can be as simple as a shell command writing a comment to a log file,
 in which case containers would be redundant.
 
-Execution of workflows in REANA requires a properly configured **REANA cluster**.
+##### REANA Cluster
+Execution of workflows in REANA takes place on machines configured as a **REANA cluster**.
 One such cluster is available to CERN users, and there are instances at other
-institutions. There is also a test instance currently being evaluated at BNL
-and it is available on the internal BNL network only. *Access to REANA clusters
-is controlled by their administrators granting access tokens to qualified users*.
-The user interacts with a REANA cluster via its network
-interface (HTTPS), either via the Web GUI for a quick overview of workflows
-in various stages of execution, or the CLI client which affords the user
-full access to all REANA functions. The client also makes it possible to
-use an automated agent for interaction with the system by scripting various
-actions.
+institutions. There is also a REANA cluster being evaluated at BNL.
+It is available on the internal BNL network only.
+
+> The cluster is separate from the rest of the computing facility in the sense
+> that it does not share any file systems with the rest of the machines at BNL.
+> Interaction with the REANA cluster is only possible using its network
+> interface (HTTPS). A Web GUI if available for quick monitoring of the user's
+> workflows in various stages of execution.
+>
+> Full access to all REANA functions is possible with the CLI client. Importantly,
+> the client is used to stage in the input data, configuration and other necessary
+> data products if necessary. The client is also used to stage out the outputs
+> of the completed workflows i.e. bring these data to a desired location. As
+> stated above, REANA machines do not have direct access to shared file systems
+> like interactive or batch worker nodes at BNL. The client is reponsible for
+> bringing data to and from the REANA machines.
 
 ##### The Token
-To be able to access a REANA cluster the user must first establish an account
-by choosing the "sign up" option in the Web interface. Each user must be approved
-by the system administrator, and in case of BNL having a valid SDCC account is
-a prerequisite for such approval. Once an account is created, it becomes possible
-to log in and the user can obtain their REANA *access token* in the profile section
+*Access to the REANA cluster at BNL is controlled by the administrators. If approved,
+the user will be able to obtain an access token which will then be used by the client
+software (as a properly set environment variable) to authenticate to the cluster*.
+
+To initiate this process the user must first apply for an account
+by choosing the "sign up" option in the Web interface. In case of BNL having a valid SDCC
+account is a prerequisite for approval. Once an account is created, it becomes possible
+to log in and then the user can obtain their REANA *access token* in the profile section
 in the upper right corner of the REANA web page.
 
-by the administrators (this may be specific to each institution hosting its REANA
-facility and typically involves visiting the requisite Web page). 
-
 ##### REANA Client
-To user the REANA system, client software must be installed on the user's machine.
+Client software must be installed on the user's machine.
 It is Python-based and at the time of writing Python 3.6 and higher is recommended.
 This is often done via the Python "virtual environment" mechanism. If the "virtualenv"
 tools is available the following example will work:
@@ -52,7 +60,7 @@ tools is available the following example will work:
 # Assuming the user runs "bash" on their personal machine:
 # Create new virtual environment
 cd
-mkdir .virtualenvs # the exact name is unimportant
+mkdir .virtualenvs # the exact name of this folder is unimportant
 virtualenv ~/.virtualenvs/reana # "reana" folder can be named differently as well, as long as its use is consistent
 source ~/.virtualenvs/reana/bin/activate # a self-contained Python environment is now available
 # Install reana-client
@@ -76,8 +84,15 @@ rehash
 After the installation process is finished it is a good idea to check if
 the client is functional, for example
 ```bash
-# Check if it's alive
+# Check if it's alive - should print a help screen
 reana-client --help
+```
+The client is equipped with very helpful nested help screens i.e. each command
+will also accept the "--help" option which will cause it to print help
+information specific for that command. For example:
+```bash
+reana-client download --help
+# ...will output help information specific to the "download" command
 ```
 
 The "activate" step will be necessary every time a new shell/window is created
@@ -111,12 +126,13 @@ reana-client run -w root6-roofit
 ```
 
 Alternatively, when working within the BNL perimeter i.e. on the interactive nodes
-the server needs to be specified directly i.e. without the ssh redirection:
+such as "rcas" machines the server URL needs to be specified directly i.e. without the ssh tunnel:
 ```bash
+# If running bash:
 export REANA_SERVER_URL=https://kubmaster01.sdcc.bnl.gov:30443
+# If running tcsh:
+setenv REANA_SERVER_URL https://kubmaster01.sdcc.bnl.gov:30443
 ```
-
-The above example will need to be adjusted for tcsh if necessary.
 
 ##### Workflow definition and custom name
 By default the client will look up the workflow definition from the file ```reana.yaml```
@@ -142,10 +158,11 @@ useful ones are listed here (mostly overriding default values):
 -w name of the workflow
 -t access token
 -f file (default is "reana.yaml")
--o path to the directory where the files are to be downloaded
+-o path to the directory where the files are to be downloaded # for the "download" command
 ```
 
 ##### Caveats
+###### Directories
 One of the available options in the definition of a REANA workflow is ```directories```.
 This option is not mandatory and performs a helper function in cases when contents of
 a whole directory should be staged to the workspace of a running REANA process. This
@@ -155,3 +172,14 @@ in a lot of network traffic on the submitting host and the whole process taking
 an unreasonably long time. Issues with storage quotas on the REANA cluster are also
 possible.
 **Caution must be exercised**.
+
+###### Cleanup
+If the user decides to delete a workflow, the respective workspace (i.e. the sandbox
+storage where jobs were wun) won't be deleted by default, which may caused confusion.
+To perform the deletion of both the workflow and data associated with it, one
+must use correponding command line options, for example:
+```bash
+reana-client delete --include-workspace -w my_workflow.1
+```
+To remove a workflow from the system completely, including any traces in the Web interface,
+the "--include-records" option should be added.
