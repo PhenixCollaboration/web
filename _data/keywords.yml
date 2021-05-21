@@ -41,6 +41,10 @@
 
 # Conferences
 # 2021
+- name : sqm21
+  description: 'Strangeness in Quark Matter 2021'
+  category: conference
+
 - name : moriond21
   description: 'Rencontres de Moriond 2021'
   category: conference
