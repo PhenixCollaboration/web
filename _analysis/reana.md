@@ -37,8 +37,8 @@ It is available on the internal BNL network only.
 > data products if necessary. The client is also used to stage out the outputs
 > of the completed workflows i.e. bring these data to a desired location. As
 > stated above, REANA machines do not have direct access to shared file systems
-> like interactive or batch worker nodes at BNL. The client is reponsible for
-> bringing data to and from the REANA machines.
+> like interactive or batch worker nodes at BNL. The software client must be used
+> for bringing data to and from the REANA machines.
 
 ##### The Token
 *Access to the REANA cluster at BNL is controlled by the administrators. If approved,
@@ -160,6 +160,12 @@ useful ones are listed here (mostly overriding default values):
 -f file (default is "reana.yaml")
 -o path to the directory where the files are to be downloaded # for the "download" command
 ```
+
+##### Tutorials
+* For basic tutorials please see
+{% include navigation/findlink.md name='reana_tutorials' tag='the relevant section of the PHENIX GitHub repository' -%}.
+* For a demonstration of a real case of final analysis done reana please see
+{% include navigation/findlink.md name='reana_pi0' tag='pi0/gamma demo' %} on GitHub.
 
 ##### Caveats
 ###### Directories
