@@ -3,6 +3,8 @@ name: reana
 layout: newbase
 ---
 {% include layouts/find_title.md name=page.name %}
+* TOC
+{:toc}
 
 ##### Overview
 {% include navigation/findlink.md name='reana' tag='REANA' %}
@@ -181,7 +183,7 @@ possible.
 
 ###### Cleanup
 If the user decides to delete a workflow, the respective workspace (i.e. the sandbox
-storage where jobs were wun) won't be deleted by default, which may caused confusion.
+storage where jobs were wun) won't be deleted by default, which may cause confusion.
 To perform the deletion of both the workflow and data associated with it, one
 must use correponding command line options, for example:
 ```bash
