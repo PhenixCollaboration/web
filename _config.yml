@@ -8,8 +8,6 @@ highlighter: rouge
 
 markdown: kramdown
 future: true
-exclude: [vendor]
-
 
 ###############################################################
 # !!! Important as we are not serving from the top folder !!! #
@@ -52,7 +50,7 @@ dn_arrow_icon: /images/icons/arrow-216-32.png
 # Badges
 zenodo_badges: /images/badges/zenodo/
 
-# Used in site upgrades:
+# Used in site upgrades (to be deprecated)
 navbar: 'new'
 
 # Assets steering
@@ -63,7 +61,7 @@ ert_mask_folder: '/assets/trigger/ert/'
 zenodo_prefix: 'https://doi.org/10.5281/zenodo.'
 
 
-exclude: [_data/db, scripts, attic.txt, utils, Gemfile, LICENSE, ./test, README.md, ]
+exclude: [_data/db, scripts, attic.txt, utils, Gemfile, Gemfile.lock, LICENSE, ./test, README.md, ]
 
 lumi: 'no'
 
