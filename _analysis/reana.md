@@ -121,27 +121,43 @@ a test session might look like this:
 # Set REANA environment variables for the client
 export REANA_SERVER_URL=https://localhost:30443
 export REANA_ACCESS_TOKEN=________ # user's REANA token
-# clone and run a simple analysis example
+# If running tcsh replace the above lines with "setenv"
+#
+# Clone and run a standard simple analysis example
 git clone https://github.com/reanahub/reana-demo-root6-roofit
 cd reana-demo-root6-roofit
 reana-client run -w root6-roofit
 ```
+The status of the workflow can now be checked using the REANA Web UI. Assuming
+the user established a SSH tunnel as explained above, this is done by pointing
+the browser to ```https://localhost:30443```.
 
-Alternatively, when working within the BNL perimeter i.e. on the interactive nodes
-such as "rcas" machines the server URL needs to be specified directly i.e. without the ssh tunnel:
+When working within the BNL perimeter i.e. on the interactive nodes
+such as "rcas" machines the procedure of using the client is exactly the same
+however the server URL for the client needs to be specified directly as opposed to
+the ssh tunnel:
 ```bash
 # If running bash:
 export REANA_SERVER_URL=https://kubmaster01.sdcc.bnl.gov:30443
+#
+#
 # If running tcsh:
 setenv REANA_SERVER_URL https://kubmaster01.sdcc.bnl.gov:30443
+#
 ```
 
-##### Workflow definition and custom name
-By default the client will look up the workflow definition from the file ```reana.yaml```
+##### Custom Workflow Definition File and Custom Workflow Name
+REANA uses the following defaults when operating the ```reana-client```:
+* The client will look up the workflow definition from the file ```reana.yaml```
 found in the current folder.
-The ```-w``` option ("workflow") simply defines the handle/name by which this workflow will
-be know to the system. The name can be anything. To specify a different workflow definition
-file and a different name one might use something like
+* The workflow, when activated in the system, will be named simply "workflow"
+
+This defauls behaviors can be changed if needed by using options:
+* ```-f``` will inform the client that the workflow definition needs to be read
+from the user-specified file, not from the default ```reana.yaml```
+* ```-w``` allows the user to assign custom names to workflows.
+
+Example:
 ```bash
 reana-client run -f my_workflow_file.yaml -w my_custom_workflow_name
 ```
