@@ -41,6 +41,10 @@
 
 # Conferences
 # 2021
+- name : charm21
+  description: '10th International Workshop on CHARM Physics'
+  category: conference
+
 - name : sqm21
   description: 'Strangeness in Quark Matter 2021'
   category: conference
