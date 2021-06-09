@@ -41,6 +41,10 @@
 
 # Conferences
 # 2021
+- name : school21
+  description: 'PHENIX School 2021'
+  category: conference
+
 - name : charm21
   description: '10th International Workshop on CHARM Physics'
   category: conference
