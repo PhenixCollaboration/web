@@ -45,6 +45,10 @@
   description: 'PHENIX School 2021'
   category: conference
 
+- name : aum21
+  description: 'RHIC & AGS Annual Users Meeting (2021)'
+  category: conference
+
 - name : charm21
   description: '10th International Workshop on CHARM Physics'
   category: conference
@@ -732,6 +736,10 @@
   category: simulation
 
 # Misc software
+- name : reana
+  description: A platform for Reproducible Analysis
+  category: software
+
 - name : rivet
   description: <em>Robust Independent Validation of Experiment and Theory</em>
   category: software
