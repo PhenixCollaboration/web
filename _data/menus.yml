@@ -81,12 +81,18 @@
 
     -
       name: conferences
-      full: Select Conference Presentations
+      full: Conference Presentations
 
     -
       name: theses
-      full: Select theses
+      full: PhD theses
       link: 'https://zenodo.org/communities/phenixcollaboration/search?page=1&size=20&q=thesis'
+      icon: /images/icons/external-link-32.png
+
+    -
+      name: school21
+      full: PHENIX School 2021
+      link: 'https://zenodo.org/communities/phenixcollaboration/search?page=1&size=20&q=school21'
       icon: /images/icons/external-link-32.png
 
     -
@@ -102,9 +108,14 @@
       name: hepdata_instructions
       full: 'Instructions'
 
+#    - retiring the internal page in favor of the link below
+#      name: hepdata_uploads
+
     -
       name: hepdata_uploads
       full: 'PHENIX on HEPData'
+      link: 'https://www.hepdata.net/search/?collaboration=PHENIX'
+      icon: /images/icons/external-link-32.png
 
     -
       name: analysis_resources
@@ -113,7 +124,7 @@
 
     -
       name: keywords
-      full: Keywords
+      full: PHENIX Keywords
 
     -
       name: zenodo

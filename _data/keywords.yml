@@ -229,6 +229,10 @@
   description: Electromagnetic Calorimeter
   category: detector
 
+- name : ert
+  description: Type of trigger
+  category: detector
+
 - name : event characterization
   description: Event Characterization
   category: detector
@@ -758,6 +762,10 @@
 
 - name : root
   description: The <em>ROOT</em> analysis platform
+  category: software
+
+- name : database
+  description: Database components of the PHENIX computing framework
   category: software
 
 # Run

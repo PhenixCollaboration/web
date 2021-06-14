@@ -12,6 +12,7 @@ It features a rich set of [search capabilities](https://help.zenodo.org/guides/s
 and is backed up by a [robust infrastructure](https://about.zenodo.org/infrastructure/){:target="_blank"}.
 It is one of the principal components of the PHENIX
 {% include navigation/pagelink.md folder=site.about name='dap' tag='Data and Analysis Preservation (DAP) effort' %}.
+
 Please visit the
 {% include navigation/findlink.md name='PHENIX Community on Zenodo' %}
 to access the growing collection of PHENIX materials, which includes theses, conference presentations,
