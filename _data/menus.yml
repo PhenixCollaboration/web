@@ -90,12 +90,6 @@
       icon: /images/icons/external-link-32.png
 
     -
-      name: school21
-      full: PHENIX School 2021
-      link: 'https://zenodo.org/communities/phenixcollaboration/search?page=1&size=20&q=school21'
-      icon: /images/icons/external-link-32.png
-
-    -
       name: hepdata_label
       full: HEPData
       label: yes
@@ -118,17 +112,28 @@
       icon: /images/icons/external-link-32.png
 
     -
-      name: analysis_resources
-      full: Resources
+      name: opendata_label
+      full: OpenData
       label: yes
 
+    -
+      name: opendata
+      full: 'PHENIX on OpenData'
+      link: 'https://opendata-qa.cern.ch/search?page=1&size=20&experiment=PHENIX'
+      icon: /images/icons/external-link-32.png
+
+    -
+      name: zenodo_label
+      full: Zenodo
+      label: yes
+
+    -
+      name: zenodo
+      full: About Zenodo
     -
       name: keywords
       full: PHENIX Keywords
 
-    -
-      name: zenodo
-      full: Zenodo
 
 
 - name: detectors
@@ -198,6 +203,12 @@
     -
       name: analysis_notes
       full: Analysis Notes
+
+    -
+      name: school21
+      full: PHENIX School 2021
+      link: 'https://zenodo.org/communities/phenixcollaboration/search?page=1&size=20&q=school21'
+      icon: /images/icons/external-link-32.png
 
     -
       name: embeddingVtx

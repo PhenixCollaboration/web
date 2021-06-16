@@ -17,7 +17,7 @@ categories:
 - title: 'Simulation'
   category: 'simulation'
 
-- title: 'Misc Software'
+- title: 'Software and Computing'
   category: 'software'
 
 - title: 'PHENIX Runs'

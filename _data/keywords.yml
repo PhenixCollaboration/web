@@ -740,16 +740,8 @@
   category: simulation
 
 # Misc software
-- name : reana
-  description: A platform for Reproducible Analysis
-  category: software
-
-- name : rivet
-  description: <em>Robust Independent Validation of Experiment and Theory</em>
-  category: software
-
-- name : software
-  description: Misc software
+- name : database
+  description: Database components of the PHENIX computing framework
   category: software
 
 - name : docker
@@ -760,12 +752,28 @@
   description: A Docker container
   category: software
 
+- name : cvs
+  description: Version control system used in PHENIX
+  category: software
+
+- name : reana
+  description: A platform for Reproducible Analysis
+  category: software
+
+- name : rivet
+  description: <em>Robust Independent Validation of Experiment and Theory</em>
+  category: software
+
 - name : root
   description: The <em>ROOT</em> analysis platform
   category: software
 
-- name : database
-  description: Database components of the PHENIX computing framework
+- name : software
+  description: Misc software
+  category: software
+
+- name : taxi
+  description: Method of processing management used in PHENIX analyses
   category: software
 
 # Run
