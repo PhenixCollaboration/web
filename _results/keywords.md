@@ -20,6 +20,9 @@ categories:
 - title: 'Software and Computing'
   category: 'software'
 
+- title: 'Data and Analysis Preservation'
+  category: 'dap'
+
 - title: 'PHENIX Runs'
   category: 'run'
 ---

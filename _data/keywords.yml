@@ -744,25 +744,11 @@
   description: Database components of the PHENIX computing framework
   category: software
 
-- name : docker
-  description: <em>Docker</em> -  virtualization technology
-  category: software
-
-- name : container
-  description: A Docker container
-  category: software
 
 - name : cvs
   description: Version control system used in PHENIX
   category: software
 
-- name : reana
-  description: A platform for Reproducible Analysis
-  category: software
-
-- name : rivet
-  description: <em>Robust Independent Validation of Experiment and Theory</em>
-  category: software
 
 - name : root
   description: The <em>ROOT</em> analysis platform
@@ -775,6 +761,39 @@
 - name : taxi
   description: Method of processing management used in PHENIX analyses
   category: software
+
+# DAP
+- name : dap
+  description: Data and analyses Preservation
+  category: dap
+
+- name : docker
+  description: <em>Docker</em> -  virtualization technology
+  category: dap
+
+- name : container
+  description: A Docker container
+  category: dap
+
+- name : reana
+  description: A platform for Reproducible Analysis
+  category: dap
+
+- name : rivet
+  description: <em>Robust Independent Validation of Experiment and Theory</em>
+  category: dap
+  
+- name : opendata
+  description: The OpenData portal at CERN
+  category: dap
+
+- name : hepdata
+  description: The HEPData portal at CERN
+  category: dap
+
+- name : dphep
+  description: The DPHEP Collaboration
+  category: dap
 
 # Run
 - name : run01
