@@ -119,12 +119,20 @@
   description: International Symposium on Multiparticle Dynamics (2019)
   category: conference
 
+- name : iwmpi19
+  description:  International Workshop on Multiple Partonic Interactions at the LHC 2019
+  category: conference
+
 - name : dnp19
   description: DNP (2019)
   category: conference
 
 - name : qm19
   description: Quark Matter 2019
+  category: conference
+
+- name : pic19
+  description: International Symposium on Physics in Collision 2019
   category: conference
 
 - name : zs19
@@ -157,6 +165,10 @@
 
 - name : wwnd19
   description: The 35th Winter Workshop on Nuclear Dynamics (2019)
+  category: conference
+
+- name : qfthep19
+  description: International Workshop on High Energy Physics and Quantum Field Theory 2019
   category: conference
 
 # 2018
@@ -724,6 +736,14 @@
   
 - name : upc
   description: Ultra-Peripheral Collisions
+  category: physics
+
+- name : W
+  description: W-boson
+  category: physics
+
+- name : Z
+  description: Z-boson
   category: physics
 
 # Simulation software

@@ -54,6 +54,7 @@ to log in and then the user can obtain their REANA *access token* in the profile
 in the upper right corner of the REANA web page.
 
 ##### REANA Client
+###### Client installation using Python virtual environment
 Client software must be installed on the user's machine.
 It is Python-based and at the time of writing Python 3.6 and higher is recommended.
 This is often done via the Python "virtual environment" mechanism. If the "virtualenv"
@@ -67,6 +68,17 @@ virtualenv ~/.virtualenvs/reana # "reana" folder can be named differently as wel
 source ~/.virtualenvs/reana/bin/activate # a self-contained Python environment is now available
 # Install reana-client
 pip install reana-client # installation takes place within the virtual environment
+```
+The "activate" step will be necessary every time a new shell/window is created
+for interacting with REANA. If no longer necessary, the virtual environment can
+be deactivated. A full session will look something like:
+
+```bash
+# Enter the virtual environment
+source ~/.virtualenvs/reana/bin/activate
+# ... REANA commands here...
+# Leave the virtual environment
+deactivate
 ```
 Alternatively, if "virtualenv" is not available (such is the case on the interactive SDCC
 nodes) a slightly different method may be used:
@@ -96,18 +108,7 @@ information specific for that command. For example:
 reana-client download --help
 # ...will output help information specific to the "download" command
 ```
-
-The "activate" step will be necessary every time a new shell/window is created
-for interacting with REANA. If no longer necessary, the virtual environment can
-be deactivated. A full session will look something like:
-
-```bash
-# Enter the virtual environment
-source ~/.virtualenvs/reana/bin/activate
-# ... REANA commands here...
-# Leave the virtual environment
-deactivate
-```
+###### Connecting to the service from a outside location
 A SSH tunnel is required to access the REANA cluster at BNL from an outside location.
 ```bash
 # Establish a SSH tunnel
@@ -132,6 +133,7 @@ The status of the workflow can now be checked using the REANA Web UI. Assuming
 the user established a SSH tunnel as explained above, this is done by pointing
 the browser to ```https://localhost:30443```.
 
+###### Connecting to the service from BNL (SDCC)
 When working within the BNL perimeter i.e. on the interactive nodes
 such as "rcas" machines the procedure of using the client is exactly the same
 however the server URL for the client needs to be specified directly as opposed to

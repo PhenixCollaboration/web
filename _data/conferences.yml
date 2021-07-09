@@ -126,9 +126,19 @@
   url: 'https://indico.cern.ch/event/754973/'
   year: 2019
 
+- name: iwmpi19
+  title: 'International Workshop on Multiple Partonic Interactions at the LHC 2019'
+  url: 'https://indico.cern.ch/event/816226/'
+  year: 2019
+
 - name: ghp19
   title: '8th Workshop of the APS Topical Group on Hadronic Physics (2019)'
   url: 'https://indico.jlab.org/event/282/'
+  year: 2019
+
+- name: pic19
+  title: 'International Symposium on Physics in Collision 2019'
+  url: 'http://hep5.phys.ntu.edu.tw/indico/event/364/overview'
   year: 2019
 
 - name : moriond19
@@ -139,6 +149,11 @@
 - name: wwnd19
   title: 'The 35th Winter Workshop on Nuclear Dynamics'
   url: 'https://indico.cern.ch/event/766194/'
+  year: 2019
+
+- name: qfthep19
+  title: 'International Workshop on High Energy Physics and Quantum Field Theory 2019'
+  url: 'http://qfthep.sinp.msu.ru/'
   year: 2019
 
 # 2018
