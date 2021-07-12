@@ -95,7 +95,7 @@
   category: conference
 
 - name : sfjhf20
-  description: Santa Fe Jets and Heavy Flavor Workshop (2020)
+  description: Santa Fe Jets and Heavy Flavor Workshop 2020
   category: conference
 
 - name : dnp20
@@ -135,6 +135,10 @@
   description: International Symposium on Physics in Collision 2019
   category: conference
 
+- name : llwi19
+  description: Lake Louise Winter Institute 2019
+  category: conference
+
 - name : zs19
   description: Zimányi School 2019
   category: conference
@@ -145,6 +149,10 @@
 
 - name : sqm19
   description: 'Strangeness in Quark Matter 2019'
+  category: conference
+
+- name : sfjhf19
+  description: Sante Fe Jets and Heavy Flavor Workshop 2019
   category: conference
 
 - name : ghp19
@@ -165,6 +173,10 @@
 
 - name : wwnd19
   description: The 35th Winter Workshop on Nuclear Dynamics (2019)
+  category: conference
+
+- name : wpcf19
+  description: Workshop on Particle Correlations and Femtoscopy (WPCF) 2019
   category: conference
 
 - name : qfthep19

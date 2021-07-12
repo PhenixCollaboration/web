@@ -111,6 +111,11 @@
   url: 'https://indico.cern.ch/event/761800'
   year: 2019
 
+- name: llwi19
+  title: Lake Louise Winter Institute 2019
+  url: 'https://indico.cern.ch/event/760557/'
+  year: 2019
+
 - name: aum19
   title: 'RHIC & AGS Annual Users Meeting (2019)'
   url: 'https://www.bnl.gov/aum2019/'
@@ -141,6 +146,11 @@
   url: 'http://hep5.phys.ntu.edu.tw/indico/event/364/overview'
   year: 2019
 
+- name: sfjhf19
+  title: 'Sante Fe Jets and Heavy Flavor Workshop 2019'
+  url: 'https://conferences.pa.ucla.edu/jet19/'
+  year: 2019
+
 - name : moriond19
   title: 'Rencontres de Moriond 2019'
   url: 'http://moriond.in2p3.fr/2019/'
@@ -149,6 +159,11 @@
 - name: wwnd19
   title: 'The 35th Winter Workshop on Nuclear Dynamics'
   url: 'https://indico.cern.ch/event/766194/'
+  year: 2019
+
+- name: wpcf19
+  title: 'Workshop on Particle Correlations and Femtoscopy (WPCF) 2019'
+  url: 'http://theor.jinr.ru/~wpcf2019/'
   year: 2019
 
 - name: qfthep19
