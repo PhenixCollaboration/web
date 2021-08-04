@@ -12,7 +12,7 @@
   category: general
 
 - name : phenix
-  description: Pioneering High Energy Nuclear Interaction Experiment (PHENIX)
+  description: PHENIX - an experiment at RHIC
   category: general
 
 - name : phobos
@@ -37,6 +37,10 @@
 
 - name : wa98
   description: WA98 - an experiment at CERN
+  category: general
+
+- name : tutorial
+  description: a category of PHENIX documents on Zenodo
   category: general
 
 # Conferences

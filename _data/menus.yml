@@ -196,14 +196,18 @@
       full: Write-ups
       label: yes
 
-    -
-      name: writeups
-      full: Analysis tutorials
+#    -
+#      name: writeups
+#      full: Analysis tutorials
 
     -
       name: analysis_notes
       full: Analysis Notes
 
+      name: tutorials
+      full: Misc PHENIX Tutorials
+      link: 'https://zenodo.org/communities/phenixcollaboration/search?page=1&size=20&q=tutorial'
+      icon: /images/icons/external-link-32.png
     -
       name: school21
       full: PHENIX School 2021
