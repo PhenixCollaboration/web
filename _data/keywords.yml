@@ -15,6 +15,10 @@
   description: PHENIX - an experiment at RHIC
   category: general
 
+- name : sphenix
+  description: sPHENIX - an experiment at RHIC
+  category: general
+
 - name : phobos
   description: PHOBOS - an experiment at RHIC
   category: general
@@ -775,6 +779,10 @@
   description: <em>PYTHIA</em> - a type of Event Generator
   category: simulation
 
+- name : geant
+  description: <em>GEANT</em> - detector simulation framework
+  category: simulation
+
 # Misc software
 - name : database
   description: Database components of the PHENIX computing framework
@@ -789,6 +797,10 @@
 - name : root
   description: The <em>ROOT</em> analysis platform
   category: software
+
+- name : fun4all
+  description: analysis framework originated in PHENIX experiment
+  category: simulation
 
 - name : software
   description: Misc software
