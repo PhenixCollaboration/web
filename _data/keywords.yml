@@ -115,6 +115,10 @@
   category: conference
 
 # 2019
+- name : school19
+  description: 'PHENIX School 2019'
+  category: conference
+
 - name : is19
   description: Initial Stages (2019)
   category: conference
