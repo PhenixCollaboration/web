@@ -53,6 +53,10 @@
   description: 'PHENIX School 2021'
   category: conference
 
+- name : ismd21
+  description: 'International Symposium on Multiparticle Dynamics (2021)'
+  category: conference
+
 - name : aum21
   description: 'RHIC & AGS Annual Users Meeting (2021)'
   category: conference
