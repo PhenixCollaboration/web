@@ -196,6 +196,10 @@
   category: conference
 
 # 2018
+- name : school18
+  description: 'PHENIX School 2018'
+  category: conference
+
 - name : aum18
   description: 'RHIC & AGS Annual Users Meeting (2018)'
   category: conference
@@ -785,6 +789,10 @@
 
 - name : geant
   description: <em>GEANT</em> - detector simulation framework
+  category: simulation
+  
+- name : embedding
+  description: Overlaying real events over simulated data
   category: simulation
 
 # Misc software
