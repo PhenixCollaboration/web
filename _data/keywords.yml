@@ -57,6 +57,10 @@
   description: 'International Symposium on Multiparticle Dynamics (2021)'
   category: conference
 
+- name : qchs21
+  description: 'Quark Confinement and the Hadron Spectrum (2021)'
+  category: conference
+
 - name : aum21
   description: 'RHIC & AGS Annual Users Meeting (2021)'
   category: conference
