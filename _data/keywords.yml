@@ -49,6 +49,11 @@
 
 # Conferences
 # 2021
+
+- name: lomcon21
+  description: 'Lomonosov Conference 2021'
+  category: conference
+
 - name : school21
   description: 'PHENIX School 2021'
   category: conference
@@ -803,6 +808,11 @@
   description: Overlaying real events over simulated data
   category: simulation
 
+- name : ampt
+  description: A Multi-Phase Transport Model
+  category: simulation
+
+
 # Misc software
 - name : database
   description: Database components of the PHENIX computing framework
@@ -820,7 +830,7 @@
 
 - name : fun4all
   description: analysis framework originated in PHENIX experiment
-  category: simulation
+  category: software
 
 - name : software
   description: Misc software
