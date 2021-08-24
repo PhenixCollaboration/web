@@ -4,7 +4,7 @@ layout: newbase
 ---
 {% include layouts/find_title.md name=page.name %}
 
-{%- assign wwwURL="WWW/info/data" | relative_url -%}
+{%- assign wwwURL="WWW/info/data/ppg216_data.html" | relative_url -%}
 
 ##### Publication Data Archive
 
@@ -16,7 +16,9 @@ legacy data has become unavailable to users outside
 of RHIC facilities. To mitigate this situation, parts
 of these data are kept on this website in the original
 format, on a dedicated page conforming to the
-the original convention <a href="{{ wwwURL }}" target="_blank">/WWW/info/data</a>.
+the original convention, for example:
+ <a href="{{ wwwURL }}" target="_blank">/WWW/info/data/ppg216_data.html</a>.
 
 
+{{site.WWW.info.data }}
 
