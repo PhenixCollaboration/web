@@ -6,7 +6,8 @@ layout: newbase
 <div class="row">
   <div class="col-md-12">
 <p class="lead"><center><img src="{{ '/images/logos/phenix_logo.gif' | relative_url }}" height="74px" alt="PHENIX logo"></center></p>
-	<div class=row>
+<div class="container-fluid">
+<div class=row>
 	    <p class="lead announcement">
       PHENIX, the Pioneering High Energy Nuclear Interaction eXperiment, is the largest of
       the four experiments that have taken data at the Relativistic Heavy Ion Collider.
@@ -21,24 +22,33 @@ layout: newbase
 	    <p/>
 	</div>
 	
+  {% include layouts/carousel_vertical.html %}
+  {{ site.hr }}
+  <p style="text-align:center;font-size:x-small;">
+    <em>
+      Site built at {{ site.time }}
+      {% if site.url contains 'local' %}<br/>
+        <b>You are running Jekyll on your local machine</b>
+      {% endif %}
+      
+    </em>
+  </p>
+
+</div>
+
+
+
   </div>
 </div>
-	  {% include layouts/carousel_vertical.html %}
-{{ site.hr }}
+
 <p/>
-  <center>
+  
+<!-- center>
     PHENIX members: please examine 
     {% include navigation/pagelink.md folder=site.about name='site' tag='the list of work items' html='1' %}
     and  
     {% include navigation/pagelink.md folder=site.about name='dap_contact' tag='let us know' html='1' %}
     if you can help.
-  </center>
-<p style="text-align:center;">
-  <em>
-    Site built at {{ site.time }}
-    {% if site.url contains 'local' %}<br/>
-      <b>You are running Jekyll on your local machine</b>
-    {% endif %}
-    
-  </em>
-</p>
+  </center -->
+
+
