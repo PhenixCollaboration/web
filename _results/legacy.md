@@ -17,5 +17,6 @@ of RHIC facilities. To mitigate this situation, parts
 of these data are kept on this website in the original
 format, on dedicated pages conforming to the
 the original convention, for example:
- <a href="{{ wwwURL }}" target="_blank">/phenix/WWW/info/data/ppg216_data.html</a>.
 
+*  <a href="{{ wwwURL }}" target="_blank">/phenix/WWW/info/data/ppg216_data.html</a>
+*  <a href="{{ wwwURL }}" target="_blank">/phenix/WWW/info/data/ppg217_data.html</a>
