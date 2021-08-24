@@ -90,6 +90,10 @@
       icon: /images/icons/external-link-32.png
 
     -
+      name: legacy
+      full: Legacy Materials
+
+    -
       name: hepdata_label
       full: HEPData
       label: yes
