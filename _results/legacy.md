@@ -21,7 +21,8 @@ for select top cited PHENIX papers, with links to data packages published on the
 
 ##### Data Archive
 
-At the time of writing, [HEPData]({% link _results/hepdata_policy.md %})
+At the time of writing,
+{% include navigation/pagelink.md folder=site.results name='hepdata_policy' tag='HEPData' %}
 is the main tool for preserving data used in publications
 and its use is mandated by the Collaboration.
 Previously, the PHENIX Collaboration has kept publication-related
