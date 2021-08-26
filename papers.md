@@ -8,8 +8,8 @@ layout: newbase
 If you've come to this page this is likely because
 you used an older link pointing to legacy pages
 with numerical data. For access to certain parts
-of this content please visit this 
- ["Data Archive" page]({% link _results/legacy.md %}).
+of this content please visit the
+{% include navigation/pagelink.md folder=site.results name='legacy' tag='Data Archive page' %}.
 
 The PHENIX Collaboration is actively working to put
 most of its publication-related data on the 
