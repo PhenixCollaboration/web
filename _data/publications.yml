@@ -1,44 +1,58 @@
+# HEPData items:
 - title: 'Energy Loss and Flow of Heavy Quarks in Au+Au Collisions at ​​√s<sub>NN</sub>=200GeV'
   inspire: 731668
-  hepdata: yes
-  legacy: ''
+  data: hepdata
 
 - title: 'J/ψ Production vs Centrality, Transverse Momentum, and Rapidity in Au+Au Collisions at ​​√s<sub>NN</sub>=200GeV'
   inspire: 731670
   hepdata: yes
-  legacy: ''
-
+  data: hepdata
+ 
 - title: 'Dihadron azimuthal correlations in Au+Au collisions at ​​√s<sub>NN</sub>=200GeV'
   inspire: 778396
-  hepdata: yes
-  legacy: ''
+  data: hepdata
 
 - title: 'Mid-rapidity neutral pion production in proton proton collisions at ​​√s<sub>NN</sub>=200GeV'
   inspire: 617784
-  hepdata: yes
-  legacy: ''
+  data: hepdata
 
 - title: 'Nuclear modification of electron spectra and implications for heavy quark energy loss in Au+Au collisions at ​​√s<sub>NN</sub>=200GeV'
   inspire: 695305
-  hepdata: yes
-  legacy: ''
+  data: hepdata
 
 - title: 'Measurements of Higher-Order Flow Harmonics in Au+Au Collisions at ​​√s<sub>NN</sub>=200GeV'
   inspire: 900703
-  hepdata: yes
-  legacy: ''
+  data: hepdata
 
 - title: 'Centrality dependence of pi+/pi-, K+/K-, p and anti-p production from √s<sub>NN</sub>=130GeV Au+Au collisions at RHIC'
   inspire: 568437
-  hepdata: yes
-  legacy: ''
+  data: hepdata
 
 - title: 'Centrality dependence of charged particle multiplicity in Au - Au collisions at √s<sub>NN</sub>=130GeV'
   inspire: 539140
-  hepdata: yes
-  legacy: ''
+  data: hepdata
 
 - title: 'Measurement of high-p<sub>T</sub> single electrons from heavy-flavor decays in p+p collisions at ​​√s=200GeV'
   inspire: 725484
-  hepdata: yes
-  legacy: ''
+  data: hepdata
+
+# Legacy (locally hosted)
+- title: 'Creation of quark–gluon plasma droplets with three distinct geometries'
+  inspire: 1672133
+  data: legacy
+  legacyURL: ppg216_data.html
+
+- title: 'Nonperturbative transverse-momentum-dependent effects in dihadron and direct photon-hadron angular correlations in p+p collisions at s=√200 GeV'
+  inspire: 1672014
+  data: legacy
+  legacyURL: ppg217_data.html
+
+- title: 'Measurements of mass-dependent azimuthal anisotropy in central p+Au, d+Au, and <sup>3</sup>He+Au collisions at ​​√s<sub>NN</sub>=200 GeV'
+  inspire: 1632759
+  data: legacy
+  legacyURL: ppg207_data.html
+
+- title: 'Measurements of Multiparticle Correlations in d+Au Collisions at 200, 62.4, 39, and 19.6 GeV and p+Au Collisions at 200 GeV and Implications for Collective Behavior'
+  inspire: 1610655
+  data: legacy
+  legacyURL: ppg206_data.html
