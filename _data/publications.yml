@@ -37,6 +37,11 @@
   data: hepdata
 
 # Legacy (locally hosted)
+- title: 'Production of π0 and η mesons in U+U collisions at √s<sub>NN</sub>=192GeV'
+  inspire: 1798526
+  data: legacy
+  legacyURL: ppg229_data.html
+
 - title: 'Creation of quark–gluon plasma droplets with three distinct geometries'
   inspire: 1672133
   data: legacy
@@ -56,3 +61,14 @@
   inspire: 1610655
   data: legacy
   legacyURL: ppg206_data.html
+
+- title: 'Nonperturbative Transverse Momentum Evolution Effects in Dihadron and Direct Photon Hadron Angular Correlations at √s=510GeV'
+  inspire: 1486678
+  data: legacy
+  legacyURL: ppg195_data.html
+
+- title: 'Azimuthal-angle dependence of charged-pion-interferometry measurements with respect to second- and third-order event planes in Au+Au collisions t ​​√s<sub>NN</sub>=200GeV'
+  inspire: 1279634
+  data: legacy
+  legacyURL: ppg149_data.html
+
