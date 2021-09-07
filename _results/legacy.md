@@ -12,7 +12,7 @@ layout: newbase
 
 ##### Top Cited Papers with HEPData entries
 
-The following list contains links to InspireHEP records containing DOIs and other information
+The following list contains links to **InspireHEP** records containing DOIs and other information
 for select top cited PHENIX papers, with links to data packages published on the HEPData portal.
 
 {%- for pub in  hepdata_items %}

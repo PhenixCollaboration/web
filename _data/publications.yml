@@ -24,7 +24,7 @@
   inspire: 900703
   data: hepdata
 
-- title: 'Centrality dependence of pi+/pi-, K+/K-, p and anti-p production from √s<sub>NN</sub>=130GeV Au+Au collisions at RHIC'
+- title: 'Centrality dependence of π<sup>+</sup>/π<sup>-</sup>, K<sup>+</sup>/K<sup>-</sup>, p and anti-p production from √s<sub>NN</sub>=130GeV Au+Au collisions at RHIC'
   inspire: 568437
   data: hepdata
 
@@ -37,7 +37,7 @@
   data: hepdata
 
 # Legacy (locally hosted)
-- title: 'Production of π0 and η mesons in U+U collisions at √s<sub>NN</sub>=192GeV'
+- title: 'Production of π<sup>0</sup> and η mesons in U+U collisions at √s<sub>NN</sub>=192GeV'
   inspire: 1798526
   data: legacy
   legacyURL: ppg229_data.html
@@ -47,12 +47,12 @@
   data: legacy
   legacyURL: ppg216_data.html
 
-- title: 'Nonperturbative transverse-momentum-dependent effects in dihadron and direct photon-hadron angular correlations in p+p collisions at s=√200 GeV'
+- title: 'Nonperturbative transverse-momentum-dependent effects in dihadron and direct photon-hadron angular correlations in p+p collisions at s=√200GeV'
   inspire: 1672014
   data: legacy
   legacyURL: ppg217_data.html
 
-- title: 'Measurements of mass-dependent azimuthal anisotropy in central p+Au, d+Au, and <sup>3</sup>He+Au collisions at ​​√s<sub>NN</sub>=200 GeV'
+- title: 'Measurements of mass-dependent azimuthal anisotropy in central p+Au, d+Au, and <sup>3</sup>He+Au collisions at ​​√s<sub>NN</sub>=200GeV'
   inspire: 1632759
   data: legacy
   legacyURL: ppg207_data.html
@@ -72,3 +72,13 @@
   data: legacy
   legacyURL: ppg149_data.html
 
+
+- title: 'Evolution of π<sup>0</sup> suppression in Au+Au collisions from ​​√s<sub>NN</sub>=39 to 200GeV'
+  inspire: 1107625
+  data: legacy
+  legacyURL: ppg138_data.html
+
+- title: 'Transverse momentum dependence of meson suppression η suppression in Au+Au collisions at ​​√s<sub>NN</sub>=200GeV'
+  inspire: 856259
+  data: legacy
+  legacyURL: ppg115_data.html
