@@ -24,10 +24,14 @@ for select top cited PHENIX papers, with links to data packages published on the
 At the time of writing,
 {% include navigation/pagelink.md folder=site.results name='hepdata_policy' tag='HEPData' %}
 is the main platform for preserving data included in publications (such as in plots and tables)
-and its use is mandated by the Collaboration.
+and its use is mandated by the Collaboration. It is recommended that when trying to locate
+numerical data for a particular publicaiton that portal is consulted first, using the InspireHEP
+ID of the publication as the key.
+
 Previously, the PHENIX Collaboration has kept publication-related
 data in a custom-built file-based
-archive in various formats, most often as plain text files.
+archive in various formats, most often as plain text files. Creation
+of equivalent HEPData entries is underway, but is not complete.
 Since the migration of the PHENIX Web site to a new type of service
 in 2020 such legacy data has become unavailable to users outside
 of RHIC facilities. To mitigate this situation, portions
