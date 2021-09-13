@@ -147,7 +147,7 @@
   year: 2019
 
 - name: iwmpi19
-  title: 'International Workshop on Multiple Partonic Interactions at the LHC 2019'
+  title: 'Int. Workshop on Multiple Partonic Interactions at the LHC 2019'
   url: 'https://indico.cern.ch/event/816226/'
   year: 2019
 
@@ -182,11 +182,41 @@
   year: 2019
 
 - name: qfthep19
-  title: 'International Workshop on High Energy Physics and Quantum Field Theory 2019'
+  title: 'Int. Workshop on HEP and Quantum Field Theory 2019'
   url: 'http://qfthep.sinp.msu.ru/'
   year: 2019
 
 # 2018
+- name: dis18
+  title: 'Deep Inelastic Scattering (2018)'
+  url: 'https://indico.cern.ch/event/656250/'
+  year: 2018
+
+- name: cipanp18
+  title: 'Conf. on the Intersections of Particle And Nuclear Physics 2018'
+  url: 'https://cipanp18.berkeley.edu/'
+  year: 2018
+
+- name: ismd18
+  title: 'International Symposium on Multiparticle Dynamics 2018'
+  url: 'https://www.physics.nus.edu.sg/ismd2018/'
+  year: 2018
+
+- name: icnfp18
+  title: 'Int. Conference on New Frontiers in Physics 2018'
+  url: 'https://indico.cern.ch/event/663474/'
+  year: 2018
+
+- name: hq18
+  title: 'Hot Quarks 2018'
+  url: 'https://indico.cern.ch/event/703015/'
+  year: 2018
+
+- name: zs18
+  title: 'Zimányi School 2018'
+  url: 'http://zimanyischool.kfki.hu/18/'
+  year: 2018
+
 - name: aum18
   title: 'RHIC & AGS Annual Users Meeting (2018)'
   url: 'https://www.bnl.gov/aum2018/index.php'

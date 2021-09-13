@@ -145,7 +145,7 @@
   category: conference
 
 - name : iwmpi19
-  description:  International Workshop on Multiple Partonic Interactions at the LHC 2019
+  description:  Int. Workshop on Multiple Partonic Interactions at the LHC 2019
   category: conference
 
 - name : dnp19
@@ -209,6 +209,30 @@
   category: conference
 
 # 2018
+- name: dis18
+  description: 'Deep Inelastic Scattering (2018)'
+  category: conference
+
+- name : cipanp18
+  description: 'Conf. on the Intersections of Particle And Nuclear Physics 2018'
+  category: conference
+
+- name : ismd18
+  description: 'International Symposium on Multiparticle Dynamics (2018)'
+  category: conference
+  
+- name: icnfp18
+  description: International Conference on New Frontiers in Physics 2018
+  category: conference
+
+- name : zs18
+  description: Zimányi School (2018)
+  category: conference
+
+- name: hq18
+  description: 'Hot Quarks 2018'
+  category: conference
+
 - name : school18
   description: 'PHENIX School 2018'
   category: conference
