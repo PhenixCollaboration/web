@@ -187,6 +187,16 @@
   year: 2019
 
 # 2018
+- name: wwnd18
+  title: 'The 34th Winter Workshop on Nuclear Dynamics (2018)'
+  url: 'https://indico.cern.ch/event/664310/'
+  year: 2018
+
+- name: moriond18
+  title: 'Rencontres de Moriond 2018'
+  url: 'https://moriond.in2p3.fr/QCD/2018/index.html'
+  year: 2018
+
 - name: dis18
   title: 'Deep Inelastic Scattering (2018)'
   url: 'https://indico.cern.ch/event/656250/'

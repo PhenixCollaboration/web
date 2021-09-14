@@ -209,8 +209,16 @@
   category: conference
 
 # 2018
+- name : wwnd18
+  description: The 34th Winter Workshop on Nuclear Dynamics (2018)
+  category: conference
+
 - name: dis18
   description: 'Deep Inelastic Scattering (2018)'
+  category: conference
+
+- name: moriond18
+  description: 'Rencontres de Moriond 2018'
   category: conference
 
 - name : cipanp18
@@ -558,7 +566,11 @@
 - name : electron
   description: Electron
   category: physics
-  
+
+- name : energy loss
+  description: Energy Loss
+  category: physics
+
 - name : elliptic
   description: Elliptic (characteristic of certain distributions)
   category: physics
