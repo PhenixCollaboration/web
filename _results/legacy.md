@@ -11,7 +11,7 @@ layout: newbase
 {%- assign legacy_items=site.data.publications | where: "data","legacy" -%}
 {%- assign white_papers=site.data.publications | where: "data","whitepaper" -%}
 
-##### Top White Papers
+##### The PHENIX White Paper
 
 {%- for pub in  white_papers %}
 * <a href="{{ inspire }}{{ pub.inspire }}" target="_blank">"{{ pub. title }}"</a>
