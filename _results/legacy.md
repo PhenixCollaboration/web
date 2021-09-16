@@ -9,6 +9,14 @@ layout: newbase
 {%- assign hepdata="https://www.hepdata.net/record/ins" -%}
 {%- assign hepdata_items=site.data.publications | where: "data","hepdata" -%}
 {%- assign legacy_items=site.data.publications | where: "data","legacy" -%}
+{%- assign white_papers=site.data.publications | where: "data","whitepaper" -%}
+
+##### Top White Papers
+
+{%- for pub in  white_papers %}
+* <a href="{{ inspire }}{{ pub.inspire }}" target="_blank">"{{ pub. title }}"</a>
+{%- endfor %}
+
 
 ##### Top Cited Papers with HEPData entries
 

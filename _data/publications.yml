@@ -1,3 +1,9 @@
+# Top items with no HEPData record
+# HEPData items:
+- title: 'Formation of dense partonic matter in relativistic nucleus-nucleus collisions at RHIC: Experimental evaluation by the PHENIX collaboration'
+  inspire: 661031
+  data: whitepaper
+
 # HEPData items:
 - title: 'Energy Loss and Flow of Heavy Quarks in Au+Au Collisions at ​​√s<sub>NN</sub>=200GeV'
   inspire: 731668
