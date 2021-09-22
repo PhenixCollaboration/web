@@ -1,7 +1,12 @@
 # 2021
-- name: lomcon21
-  title: 'Lomonosov Conference (2021)'
-  url: 'https://lomcon.ru/'
+- name: icnfp21
+  title: 'International Conference on New Frontiers in Physics 2021'
+  url: 'https://indico.cern.ch/event/1025480/'
+  year: 2021
+
+- name: panic21
+  title: 'Particles and Nuclei International Conference 2021'
+  url: 'https://indico.lip.pt/event/592/'
   year: 2021
 
 - name: qchs21
@@ -248,6 +253,16 @@
   year: 2018
 
 # 2017
+- name: sfjhf17
+  title: 'Sante Fe Jets and Heavy Flavor Workshop 201'
+  url: 'https://indico.fnal.gov/event/12423/'
+  year: 2017
+
+- name: wwnd17
+  title: 'The 33th Winter Workshop on Nuclear Dynamics (2017)'
+  url: 'https://indico.cern.ch/event/555216/'
+  year: 2017
+
 - name: sqm17
   title: 'Strangeness in Quark Matter 2017'
   url: 'https://indico.cern.ch/event/576735/overview'

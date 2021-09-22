@@ -49,6 +49,13 @@
 
 # Conferences
 # 2021
+- name: icnfp21
+  description: 'International Conference on New Frontiers in Physics 2021'
+  category: conference
+
+- name: panic21
+  description: 'Particles and Nuclei International Conference 2021'
+  category: conference
 
 - name: lomcon21
   description: 'Lomonosov Conference 2021'
@@ -262,6 +269,14 @@
   category: conference
 
 # 2017
+- name : sfjhf17
+  description: Sante Fe Jets and Heavy Flavor Workshop 2017
+  category: conference
+
+- name : wwnd17
+  description: The 33th Winter Workshop on Nuclear Dynamics (2017)
+  category: conference
+
 - name : sqm17
   description: 'Strangeness in Quark Matter 2017'
   category: conference

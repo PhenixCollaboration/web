@@ -63,6 +63,6 @@ results of queries will open in a new tab/window.
 {% assign rows=rows | push: row %}
 {% endfor %}
 
-{% include layouts/table.md headers='Keyword, Description' widths='30%,70%' width='60%' rows=rows %}
+{% include layouts/table.md headers='Keyword, Description' widths='30%,70%' width='100%' rows=rows %}
 {% endif %}
 {% endfor %}
