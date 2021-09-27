@@ -6,7 +6,9 @@
 {% endif %}
 
 {% if include.title %}
+{% if include.title!='' %}
 #### {{ include.title }}
+{% endif %}
 {% endif %}
 
 <a href="{{ include.image | relative_url }}">
