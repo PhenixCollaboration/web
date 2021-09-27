@@ -253,6 +253,21 @@
   year: 2018
 
 # 2017
+- name : dis17
+  title: Deep Inelastic Scattering (2017)
+  url: 'https://indico.cern.ch/event/568360/'
+  year: 2017
+
+- name : moriond17
+  title: 'Rencontres de Moriond 2017'
+  url: 'https://moriond.in2p3.fr/QCD/2017/'
+  year: 2017
+
+- name: llwi17
+  title: Lake Louise Winter Institute 2019
+  url: 'https://indico.cern.ch/event/531113/'
+  year: 2017
+
 - name: sfjhf17
   title: 'Sante Fe Jets and Heavy Flavor Workshop 201'
   url: 'https://indico.fnal.gov/event/12423/'

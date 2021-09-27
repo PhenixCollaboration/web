@@ -269,6 +269,18 @@
   category: conference
 
 # 2017
+- name : dis17
+  description: Deep Inelastic Scattering (2017) TBD
+  category: conference
+
+- name : moriond17
+  description: 'Rencontres de Moriond 2017'
+  category: conference
+
+- name : llwi17
+  description: Lake Louise Winter Institute (2017)
+  category: conference
+
 - name : sfjhf17
   description: Sante Fe Jets and Heavy Flavor Workshop 2017
   category: conference
