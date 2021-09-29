@@ -253,6 +253,16 @@
   year: 2018
 
 # 2017
+- name: wpcf17
+  title: 'XII Workshop on Particle Correlations and Femtoscopy'
+  url: 'https://indico.cern.ch/event/539093/'
+  year: 2017
+
+- name : photon17
+  title: Photon 2017
+  url: 'https://indico.cern.ch/event/604619/'
+  year: 2017
+
 - name : dis17
   title: Deep Inelastic Scattering (2017)
   url: 'https://indico.cern.ch/event/568360/'

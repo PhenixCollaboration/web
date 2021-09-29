@@ -269,8 +269,16 @@
   category: conference
 
 # 2017
+- name : wpcf17
+  description: Workshop on Particle Correlations and Femtoscopy (2017)
+  category: conference
+
+- name : photon17
+  description: Photon 2017
+  category: conference
+
 - name : dis17
-  description: Deep Inelastic Scattering (2017) TBD
+  description: Deep Inelastic Scattering (2017)
   category: conference
 
 - name : moriond17
