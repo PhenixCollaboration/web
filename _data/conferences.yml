@@ -253,6 +253,21 @@
   year: 2018
 
 # 2017
+- name: cpod17
+  title: 'Workshop on Critical Point and Onset of Deconfinement 2017'
+  url: 'https://inspirehep.net/conferences/1516527'
+  year: 2017
+
+- name: epshep17
+  title: 'EPS HEP 2017'
+  url: 'https://indico.cern.ch/event/466934/'
+  year: 2017
+
+- name: aum17
+  title: 'RHIC & AGS Annual Users Meeting (2017)'
+  url: 'https://www.bnl.gov/aum2017/'
+  year: 2017
+
 - name: wpcf17
   title: 'XII Workshop on Particle Correlations and Femtoscopy'
   url: 'https://indico.cern.ch/event/539093/'

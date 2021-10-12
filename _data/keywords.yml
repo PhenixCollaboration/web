@@ -269,6 +269,18 @@
   category: conference
 
 # 2017
+- name : cpod17
+  description: 'Workshop on Critical Point and Onset of Deconfinement 2017'
+  category: conference
+
+- name : epshep17
+  description: 'EPS HEP 2017'
+  category: conference
+
+- name : aum17
+  description: 'RHIC & AGS Annual Users Meeting (2017)'
+  category: conference
+
 - name : wpcf17
   description: Workshop on Particle Correlations and Femtoscopy (2017)
   category: conference

@@ -10,8 +10,8 @@
 {% endfor %}
 
 {% if found_title %}
-#### {{ found_title }}
+### {{ found_title }}
 {% else %}
-#### {{ page.title }}
+### {{ page.title }}
 {% endif %}
 {{ site.hr }}
