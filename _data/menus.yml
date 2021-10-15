@@ -107,8 +107,6 @@
       name: hepdata_instructions
       full: 'Instructions'
 
-#    - retiring the internal page in favor of the link below
-#      name: hepdata_uploads
     -
       name: hepdata_uploads
       full: 'PHENIX on HEPData'
@@ -200,10 +198,6 @@
       full: Write-ups
       label: yes
 
-#    -
-#      name: writeups
-#      full: Analysis tutorials
-
     -
       name: analysis_notes
       full: Analysis Notes
@@ -222,7 +216,7 @@
       full: Embedding Example (VTX)
 
     - name: emcal
-      full: Electromagnetic Calorimeter
+      full: Direct &#611; in d+Au collisions
 
     - name: analysis_tools
       full: Tools

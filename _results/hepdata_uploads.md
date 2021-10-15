@@ -4,6 +4,9 @@ layout: newbase
 ---
 {% include layouts/find_title.md name=page.name %}
 
+NB. This page is kept for archival purposes and is no longer
+in active use.
+
 Below are some of the PHENIX HEPData items listed in a convenient format, roughly
 in the reverse order of processing. For the most up-to-date listing
 please use the 
