@@ -44,8 +44,10 @@ framework certain adjustments need to be made, such as removing dependencies
 on the local batch system and creating workflow definitions native to REANA.
 The code created for use in REANA is kept in this PHENIX repository on GitHub (Work in Progress):
 [https://github.com/PhenixCollaboration/reana/tree/main/pi0extraction](https://github.com/PhenixCollaboration/reana/tree/main/pi0extraction){:target="_blank"}.
-Additional changes include some code cleanup and a minimal amount of renaming of code units,functions and scripts
-for better readability. A few notes:
+Additional changes include some code cleanup and a minimal amount of renaming of code units, functions and scripts
+for better readability.
+
+##### Starting Point
 
 The analysis starts with files produced by the *Taxi* process. For example,
 the ROOT macro `pioExtraction.cc` takes the *Taxi* ROOT files as input and generates `MB` (min bias)
