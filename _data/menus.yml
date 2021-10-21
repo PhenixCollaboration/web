@@ -175,39 +175,35 @@
 - name: software
   full: Software
   submenus:
-    -
-      name: software_overview
+    - name: software_overview
       full: Software Overview
-    -
-      name: fun4all
+
+    - name: fun4all
       full: Fun4All
-    -
-      name: pisa
+
+    - name: pisa
       full: PISA
 
-    -
-      name: build_tools
+    - name: build_tools
       full: Build Tools
       div: yes
 
 - name: analysis
   full: Analysis
   submenus:
-    -
-      name: analysis_writeups
+    - name: analysis_writeups
       full: Write-ups
       label: yes
 
-    -
-      name: analysis_notes
+    - name: analysis_notes
       full: Analysis Notes
 
-      name: tutorials
+    - name: tutorials
       full: Misc PHENIX Tutorials
       link: 'https://zenodo.org/communities/phenixcollaboration/search?page=1&size=20&q=tutorial'
       icon: /images/icons/external-link-32.png
-    -
-      name: school21
+
+    - name: school21
       full: PHENIX School 2021
       link: 'https://zenodo.org/communities/phenixcollaboration/search?page=1&size=20&q=school21'
       icon: /images/icons/external-link-32.png
@@ -222,46 +218,40 @@
       full: Tools
       label: yes
 
-    -
-      name: docker_root
+    - name: docker_root
       full: ROOT in Containers
 
-    -
-      name: docker
+    - name: docker
       full: "Docker: Technical Notes"
 
-    -
-      name: reana
+    - name: reana
       full: REANA
       div: yes
 
-    -
-      name: rivet
+    - name: rivet
       full: Rivet
 
 - name: about
   full: About
   right: yes
   submenus:
-    -
-      name: dap
+    - name: dap
       full: Data and Analysis Preservation
       icon: /images/icons/gift-2-32.png
-    -
-      name: site
+
+    - name: site
       full: Help Needed!
       icon: /images/icons/lifebuoy-32.png
-    -
-      name: howto
+
+    - name: howto
       full: How to Contribute
       icon: /images/icons/test-tube-5-32.png
-    -
-      name: devs
+
+    - name: devs
       full: "Developer's notes"
       icon: /images/icons/wrench-32.png
 
-    -
-      name: dap_contact
+    - name: dap_contact
       full: The Team
       icon: /images/icons/group-32.png
       div: yes
