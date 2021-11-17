@@ -18,7 +18,7 @@ layout: newbase
 
 {% include images/image.md name='pi0_general' width=887 %}
 
-<br/>
+
 ---
 
 ##### Preservation of the Original Code and Input Data
