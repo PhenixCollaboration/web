@@ -2,7 +2,9 @@
 name: reana
 layout: newbase
 ---
-{% include layouts/find_title.md name=page.name %}
+
+<h3>REANA</h3>
+
 * TOC
 {:toc}
 

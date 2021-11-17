@@ -195,9 +195,6 @@
       full: Write-ups
       label: yes
 
-    - name: analysis_notes
-      full: Analysis Notes
-
     - name: tutorials
       full: Misc PHENIX Tutorials
       link: 'https://zenodo.org/communities/phenixcollaboration/search?page=1&size=20&q=tutorial'
@@ -214,22 +211,32 @@
     - name: emcal
       full: Direct &#611; in d+Au collisions
 
-    - name: analysis_tools
-      full: Tools
+    - name: docker
+      full: Docker and REANA
       label: yes
 
     - name: docker_root
       full: ROOT in Containers
 
     - name: docker
-      full: "Docker: Technical Notes"
+      full: Using Docker
 
     - name: reana
       full: REANA
       div: yes
 
+    - name: cwl
+      full: Common Workflow Language
+  
+    - name: misc
+      full: Misc
+      label: yes
+  
     - name: rivet
       full: Rivet
+
+    - name: analysis_notes
+      full: Analysis Notes
 
 - name: about
   full: About

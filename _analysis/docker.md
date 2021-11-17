@@ -2,7 +2,8 @@
 name: docker
 layout: newbase
 ---
-{% include layouts/find_title.md name=page.name %}
+
+<h3>Docker</h3>
 * TOC
 {:toc}
 
