@@ -18,7 +18,10 @@ layout: newbase
 
 {% include images/image.md name='pi0_general' width=887 %}
 
-##### Preservation of original code and input data
+<br/>
+---
+
+##### Preservation of the Original Code and Input Data
 
 This page is work in progress and is designed to capture the details of the analysis
 of direct photons in d+Au collisions, with focus on the Electromagnetic Calorimeter
