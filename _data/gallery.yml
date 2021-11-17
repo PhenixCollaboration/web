@@ -1,5 +1,14 @@
 # This data files contains metadata used to manage graphics on the PHENIX DAP website
 
+
+### Misc Analysis Diagrams
+- path: /images/analysis/pi0analysis_general.png
+  name: pi0_general
+  title: 'Direct gamma/pi0 analysis general diagram'
+  height: 400
+  gallery: main
+  type: analysis
+
 ### MAIN PHENIX PHOTO GALLERY
 - path: /images/photos/3177203852_d3d30ae925_k.jpg
   title:

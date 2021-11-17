@@ -12,7 +12,13 @@ layout: newbase
 
 ---
 
-#### Preservation of original code and input data
+#### Analysis Outline
+
+##### General Analysis Workflow Diagram
+
+{% include images/image.md name='pi0_general' width=887 %}
+
+##### Preservation of original code and input data
 
 This page is work in progress and is designed to capture the details of the analysis
 of direct photons in d+Au collisions, with focus on the Electromagnetic Calorimeter
@@ -26,6 +32,13 @@ This is its location in the GPFS filesystem of BNL SDCC:
 ```bash
 /gpfs/mnt/gpfs02/phenix/data_preservation/phnxreco/emcal
 ```
+
+##### Calibration Dependencies
+There are "DeadWarn" and "Timing" type of maps which are prerequisite of this analysis
+and they are considered as a separate "prior" component. In a condensed form, they
+are preserved in the folder
+[sim_Pi0Histogram/creatingHistogram_fromTTree](https://github.com/PhenixCollaboration/emcal/tree/master/sim_Pi0Histogram/creatingHistogram_fromTTree){:target="_blank"}
+in the repository specified above.
 
 ---
 
