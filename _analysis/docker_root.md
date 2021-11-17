@@ -2,7 +2,8 @@
 name: docker_root
 layout: newbase
 ---
-{% include layouts/find_title.md name=page.name %}
+<h3>Running ROOT in Containers</h3>
+
 * TOC
 {:toc}
 ##### Overview
@@ -17,7 +18,7 @@ The PHENIX Collaboraiton published a small selection of Docker images on
 reason, running both the most recent version of ROOT and the preserved/legacy version of ROOT via Docker
 containers is pretty much identical.
 
-##### Running ROOT Containers
+##### Accessing ROOT Images
 The following assumes that the user has installed Docker on their machine.
 ```bash
 # To run the current verion of ROOT - which is ROOT6 at the time of writing:
@@ -40,7 +41,7 @@ Creating shell functions and/or scripts is equally easy and will be a functional
 of commands like this one, while having more flexibility. For example, one can conveniently
 define *different* volumes to be mounted, as necessary - see the section below.
 
-##### Sharing files with the container
+##### Sharing files between the host and the container
 In order to share the filesystem between the host machine and the Docker container one
 needs to use the "-v" option as explained on the
 {% include navigation/pagelink.md folder=site.analysis name='docker' tag='"technical notes"'%} page.
@@ -56,11 +57,11 @@ in the image.
 If a command such as this one is used repeatedly it might be a good idea to create aliases similar to one descibed
 in the previous section.
 
-##### Shell access
+##### Shell access to a running container
 In order to gain shell access to the container instead of jumping into ROOT one
 needs to simply add "bash" to the end of the command line i.e.
 ```bash
 docker run -it --ipc=host --rm  -v /tmp/.X11-unix:/tmp/.X11-unix -v myvolume:/user phenixcollaboration/tools:sl7_root5 bash
 ```
 This will start the bash shell which will function normally. This may be necessary to check presence of requisite
-files, macros and other settings. Staring ROOT is still possible of course by using the "root" command from that shell.
+files, macros and other settings. Starting ROOT is still possible of course by using the "root" command from that shell.

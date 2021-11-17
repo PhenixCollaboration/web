@@ -85,6 +85,9 @@
 - name: cwl
   url: 'https://www.commonwl.org/'
 
+- name: cwl_user_guide
+  url: 'https://www.commonwl.org/user_guide/'
+
 # Cloud tools
 - name: github
   url: 'https://github.com/PhenixCollaboration'
