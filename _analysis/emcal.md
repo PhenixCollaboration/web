@@ -3,7 +3,7 @@ name: emcal
 layout: newbase
 ---
 
-### Direct &#611; in d+Au collisions
+<h3> Direct &#611; in d+Au collisions</h3>
 
 {{ site.hr }}
 
@@ -20,7 +20,7 @@ data. The original analysis was performed by  Niveditha Ramasubramanian.
 A PHENIX-managed repository has been created on GitHub in order to capture the original code:
 [https://github.com/PhenixCollaboration/emcal](https://github.com/PhenixCollaboration/emcal){:target="_blank"}
 
-This analysis uses data contained in the storage area intended for long-term preservation.
+Parts of this analysis use data samples kept in the storage area intended for long-term preservation.
 This is its location in the GPFS filesystem of BNL SDCC:
 
 ```bash
