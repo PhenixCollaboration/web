@@ -175,18 +175,29 @@
 - name: software
   full: Software
   submenus:
+    -
+      name: overview
+      full: Overview
+      label: yes
+
     - name: software_overview
-      full: Software Overview
+      full: Notes on PHENIX Software
 
     - name: fun4all
       full: Fun4All
 
     - name: pisa
       full: PISA
+      exclude: yes
+
+    - name: custom_components
+      full: Custom Components
+      div: yes
 
     - name: build_tools
       full: Build Tools
       div: yes
+      exclude: yes
 
 - name: analysis
   full: Analysis
