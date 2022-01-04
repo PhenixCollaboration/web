@@ -324,9 +324,29 @@
   url: 'https://indico.cern.ch/event/403913/overview'
   year: 2016
 
+- name: hp16
+  title: 'Hard Probes 2016'
+  url: 'https://indico.cern.ch/event/502239/'
+  year: 2016
+
+- name: spin16
+  title: 'Spin 2016'
+  url: 'https://indico.cern.ch/event/570680/'
+  year: 2016
+
+- name: zs16
+  title: 'Zimányi School 2016'
+  url: 'http://zimanyischool.kfki.hu/16/'
+  year: 2016
+
 # 2015
 - name: qm15
   title: 'Quark Matter 2015'
   url: 'https://indico.cern.ch/event/355454/'
   year: 2015
 
+# 2014
+- name: qm14
+  title: 'Quark Matter 2014'
+  url: 'https://indico.cern.ch/event/219436/'
+  year: 2014

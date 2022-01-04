@@ -9,6 +9,7 @@ years:
 - 2017
 - 2016
 - 2015
+- 2014
 ---
 {% include layouts/find_title.md name=page.name %}
 
@@ -17,7 +18,7 @@ years:
 <h5>{{ year }}</h5>
 {% for conference in c4y %}
 {% capture link %}{%- include navigation/zenodo_query.md name=conference.name tag='PHENIX Presentations' -%}{% endcapture %}
-<table width="85%">
+<table width="95%">
   <tr>
     <td width="65%"><nobr><a href="{{ conference.url }}" target="_blank">{{ conference.title }}</a></nobr></td>
     <td width="35%"><nobr>{{ link }}</nobr></td>

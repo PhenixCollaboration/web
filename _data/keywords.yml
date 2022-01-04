@@ -326,9 +326,26 @@
   description: 'Strangeness in Quark Matter 2016'
   category: conference
 
+- name : hp16
+  description: Hard Probes 2016
+  category: conference
+
+- name : spin16
+  description: 'Spin 2016'
+  category: conference
+
+- name : zs16
+  description: Zimányi School (2016)
+  category: conference
+
 # 2015
 - name : qm15
   description: Quark Matter 2015
+  category: conference
+
+# 2014
+- name : qm14
+  description: Quark Matter 2014
   category: conference
 
 ##########################################################################
