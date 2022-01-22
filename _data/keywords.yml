@@ -338,6 +338,26 @@
   description: Zimányi School (2016)
   category: conference
 
+- name : inpc16
+  description: INPC 2016
+  category: conference
+
+- name : ismd16
+  description: 'International Symposium on Multiparticle Dynamics (2016)'
+  category: conference
+
+- name : ichep16
+  description: 'International Conference on High Energy Physics (2016)'
+  category: conference
+
+- name : qcdn16
+  description: 'Workshop on the QCD Structure of the Nucleon (2016)'
+  category: conference
+
+- name: icnfp16
+  description: International Conference on New Frontiers in Physics 2016
+  category: conference
+
 # 2015
 - name : qm15
   description: Quark Matter 2015
