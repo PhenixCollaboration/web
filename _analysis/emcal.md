@@ -163,7 +163,7 @@ root -l -b <<EOF
    t.Loop()
    EOF
 ```
-Adaptation for REANA, in a separate file *pi0run.script*:
+Adaptation of the _ROOT_ macro for REANA, in a separate file *pi0run.script*:
 ```bash
 gSystem->Load("libTHmul.so");
 .L Pi0EmbedFiles.C
@@ -174,12 +174,45 @@ In the REANA script, this is used as follows: ```cat pi0run.script | root -b```.
 Note that a PHENIX-specific ROOT library ```libTHmul.so``` is loaded
 in the beginning, as this is necessary for proper operation of the macro.
 
-##### Block 3
+Please refer to the
+[relevant folder](https://github.com/PhenixCollaboration/reana/tree/main/pi0extraction/sim_Pi0Histogram){:target="_blank"}
+in the PHENIX GitHub repository for access to the actual material.
+
+This is a complete example of the driver script:
+```bash
+#!/bin/tcsh
+source ./setup_env.csh
+
+foreach i (`seq 0 1 $1`)
+    ln -s gpfs/mnt/gpfs02/phenix/data_preservation/phnxreco/emcal/Pi0/test/simPi0_$i.root pi0_dAuMB.root
+    echo File: $i
+    ls -l pi0_dAuMB.root
+    cat pi0run.script | root -b
+    mv EmbedPi0dAu.root EmbedPi0dAu_$i.root
+    rm pi0_dAuMB.root
+end
+tar -cf embedPi0dAu.tar EmbedPi0dAu_*
+```
+
+The results of all emedding runs are bundled together in a _tar_ archive to make downloading easier. Upon
+retrieval the files need to be merged using the utility ```haddPhenix```
 
 ```bash
-# Block 3
-root -l -b -q 'generationRM_Pi0.cc'
+haddPhenix EmbedPi0dAu.root EmbedPi0dAu_*
 ```
+
+The resulting file serves as the input for "Block 3" (below).
+
+---
+
+##### Block 3
+The original macro ```generationRM_Pi0.cc``` was cleaned up (including removal of interactive graphics) and renamed ```generationRM_Pi0.C```
+```bash
+# Block 3
+root -l -b -q 'generationRM_Pi0.C'
+```
+
+The macro reads the file ```EmbedPi0dAu.root``` and produces ```Pion_RM.root```.
 
 ##### Block 4
 
