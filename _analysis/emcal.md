@@ -79,7 +79,7 @@ Since every line in the REANA submission file (formatted in YAML) has its own en
 the setup needs to be performed for every step that needs PHENIX-specific environment
 variables. For this reasons the commands are often used with ```csh``` wrapper that
 is reponsible for the setup. In the following example, ROOT macros are run from within
-the script ```driver.csh```.
+the script ```pi0extraction.csh```.
 
 ```yaml
 version: 0.0.1
@@ -94,7 +94,7 @@ inputs:
     - ./VConvolution_Pi0.cc
     - ./universal.h
     - ./setup_env.csh
-    - ./driver.csh
+    - ./pi0extraction.csh
 workflow:
   type: serial
   specification:
@@ -102,9 +102,9 @@ workflow:
       - environment: 'registry.sdcc.bnl.gov/sdcc-fabric/rhic_sl7_ext:1.3'
         commands:
         - mkdir -p output_plots/pdf output_plots/txt output_plots/root
-        - chmod +x ./driver.csh
+        - chmod +x ./pi0extraction.csh
         - ls -l > output.txt
-        - ./driver.csh >> output.txt
+        - ./pi0extraction.csh >> output.txt
         - ls -l >> output.txt
 
 outputs:
@@ -140,20 +140,30 @@ and `ERT` (triggered) data as output. This macro is included in a driver script 
 ##### Components
 
 Below is an outline of the analysis sequence with references to "block numbers" in the
-[workflow diagram](https://github.com/PhenixCollaboration/reana/blob/main/pi0extraction/sampleCode_correctedPi0.pdf){:target="_blank"}
+[workflow diagram](https://github.com/PhenixCollaboration/reana/blob/main/pi0extraction/sampleCode_correctedPi0.pdf){:target="_blank"},
+along with pointers to relevant REANA components
 
 ##### Block 1
+
 ```bash
 # Block 1
-# condor_Pi0Extraction.cc reformatted and renamed "pi0extraction"
-root -l -b -q 'pi0extraction.cc("MB", "PbSc", 4,5)'
-root -l -b -q 'pi0extraction.cc("ERT", "PbSc", 4,5)'
-root -l -b -q 'WGRatio.cc' # Merging MV and ERT spectra of raw pi0 with normalization
+# condor_Pi0Extraction.cc reformatted and renamed "pi0extraction.C"
+root -l -b -q 'pi0extraction.C("MB", "PbSc", 4,5)'
+root -l -b -q 'pi0extraction.C("ERT", "PbSc", 4,5)'
+root -l -b -q 'WGRatio.C' # Merging MV and ERT spectra of raw pi0 with normalization
 
 # The outputs of this step are placed in the output_plots folder,
 # in three subfolders pdf, root, txt
 ```
+
+These commands are included in ```pi0extraction.yaml```.
+Currently a folder ```output_plots``` is created with subfolders ```txt,root,pdf```,
+and the folder ```txt``` contains the actual analsys data.
+
 ##### Block 2
+
+Presented below is the core of __Block 2__ which includes processing of multiple
+input files (60 in total):
 
 ```bash
 # Block 2, the original code found in the Condor submission part:
@@ -163,6 +173,7 @@ root -l -b <<EOF
    t.Loop()
    EOF
 ```
+
 Adaptation of the _ROOT_ macro for REANA, in a separate file *pi0run.script*:
 ```bash
 gSystem->Load("libTHmul.so");
@@ -170,6 +181,7 @@ gSystem->Load("libTHmul.so");
 Pi0EmbedFiles t
 t.Loop()
 ```
+
 In the REANA script, this is used as follows: ```cat pi0run.script | root -b```.
 Note that a PHENIX-specific ROOT library ```libTHmul.so``` is loaded
 in the beginning, as this is necessary for proper operation of the macro.
@@ -178,7 +190,8 @@ Please refer to the
 [relevant folder](https://github.com/PhenixCollaboration/reana/tree/main/pi0extraction/sim_Pi0Histogram){:target="_blank"}
 in the PHENIX GitHub repository for access to the actual material.
 
-This is a complete example of the driver script:
+This is the driver script ```Pi0EmbedFiles.csh```. Note that symbolic links are created
+to feed successive files from a holding folder, to the _ROOT_ macro.
 ```bash
 #!/bin/tcsh
 source ./setup_env.csh
@@ -194,29 +207,126 @@ end
 tar -cf embedPi0dAu.tar EmbedPi0dAu_*
 ```
 
+Processing of input files takes place sequentially and in this case takes a significant amount
+of time compared to other steps, i.e. a feew hours.
+
 The results of all emedding runs are bundled together in a _tar_ archive to make downloading easier. Upon
-retrieval the files need to be merged using the utility ```haddPhenix```
+retrieval the data need to be merged using the utility ```haddPhenix``` which is done in __Block 3__ (see below).
+Upon completion of this step the file ```embedPi0dAu.tar``` needs to be downloaded, and put
+in the folder from where the next step is launched. An example of the cownload command, assuming the workflow
+was named "embed":
 
 ```bash
-haddPhenix EmbedPi0dAu.root EmbedPi0dAu_*
+reana-client download -w embed embedPi0dAu.tar
 ```
-
-The resulting file serves as the input for "Block 3" (below).
 
 ---
 
 ##### Block 3
-The original macro ```generationRM_Pi0.cc``` was cleaned up (including removal of interactive graphics) and renamed ```generationRM_Pi0.C```
+The original macro ```generationRM_Pi0.cc``` was cleaned up (including removal of interactive graphics)
+and renamed ```generationRM_Pi0.C```.
+
+Tar file containing multiple ROOT files (see __Block 2__ description above) is uploaded as input for this step.
+Abbreviated contents of driver script look as follows:
+
 ```bash
-# Block 3
+#!/bin/tcsh
+source ./setup_env.csh
+haddPhenix EmbedPi0dAu.root EmbedPi0dAu_*
 root -l -b -q 'generationRM_Pi0.C'
 ```
 
-The macro reads the file ```EmbedPi0dAu.root``` and produces ```Pion_RM.root```.
+The macro generates the file ```EmbedPi0dAu.root``` by merging inputs via ```haddPhenix```
+and produces ```Pion_RM.root```. The complete description is in ```generationRM_Pi0.yaml```,
+which resides with all subsidiary scripts in the folder ```generationRM```.
+
+The workflow description is as follows:
+
+```yaml
+version: 0.0.1
+inputs:
+  files:
+    - ./setup_env.csh
+    - ./generationRM_Pi0.C
+    - ./generationRM_Pi0.csh
+    - ./embedPi0dAu.tar
+workflow:
+  type: serial
+  specification:
+    steps:
+      - environment: 'registry.sdcc.bnl.gov/sdcc-fabric/rhic_sl7_ext:1.3'
+        commands:
+        - tar xvf embedPi0dAu.tar
+        - chmod +x ./generationRM_Pi0.csh
+        - ./generationRM_Pi0.csh > output.txt
+        - ls -l >> output.txt
+
+outputs:
+  files:
+    - output.txt
+    - Pion_RM.root
+```
+
+The result will need to be downloaded as follows (assuming the worflow was assigned the name "gen" in REANA - can be anything):
+
+```bash
+reana-client download -w gen Pion_RM.root
+```
+
 
 ##### Block 4
 
+This REANA step (final in this analysis)
+is accomplished with scripts and macros named ```VConvolution_Pi0*```. The file ```Pion_RM.root```
+serves as input, along with text files residing in ```output_plots``` previosly produced by the macros
+```pi0extraction.C``` and ```WGRatio.C```:
+
+```bash
+scaledUEB_rawPi0_ERT_PbSc_0CC88_Chi2_3Sig.txt
+scaledUEB_rawPi0_MB_PbSc_0CC88_Chi2_3Sig.txt
+scaledUEB_rawPi0_BBCpERT_PbSc_0CC88_Chi2_3Sig.txt
+````
+
+The core of this step looks like this:
+
 ```bash
 # Block 4
-root -l -b -q 'VConvolution_Pi0.cc'
+root -l -b -q 'VConvolution_Pi0.C'
 ```
+
+The REANA submission file has this content:
+
+```yaml
+version: 0.0.1
+inputs:
+  directories:
+    - ./output_plots
+  files:
+    - ./inputTrialFunction_Pi0.txt
+    - ./setup_env.csh
+    - ./VConvolution_Pi0.C
+    - ./VConvolution_Pi0.csh
+    - ./Pion_RM.root
+workflow:
+  type: serial
+  specification:
+    steps:
+      - environment: 'registry.sdcc.bnl.gov/sdcc-fabric/rhic_sl7_ext:1.3'
+        commands:
+        - chmod +x ./VConvolution_Pi0.csh
+        - ls -l > output.txt
+        - ./VConvolution_Pi0.csh >> output.txt
+        - ls -l >> output.txt
+
+outputs:
+  files:
+    - output.txt0
+```
+
+Outputs are also written in ```output_plots/txt``` and contain
+```bash
+scaledEB_corrPi0_BBCpERT_PbSc_0CC88_Chi2_3Sig.txt
+scaledUEB_corrPi0_BBCpERT_PbSc_0CC88_Chi2_3Sig.txt
+```
+
+
