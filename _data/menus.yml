@@ -26,57 +26,57 @@
 - name: experiment
   full: Experiment
   submenus:
-    -
-      name: experiment_overview
+    - name: experiment_overview
       full: Overview
       label: yes
-    -
-      name: concept
+
+    - name: concept
       full: Concept and History
-    -
-      name: bup
+
+    - name: bup
       full: Plans and Proposals
-    -
-      name: links
+
+    - name: links
       full: Web Resources
-    -
-      name: collaboration_info
+
+    - name: collaboration_info
       full: Collaboration
       label: yes
-    -
-      name: contact
+
+    - name: contact
       full: Contact Info
-    -
-      name: members
+
+    - name: join
+      full: Join PHENIX
+
+    - name: members
       full: Current Members
-    -
-      name: run_info
+
+    - name: run_info
       full: PHENIX Run Info
       label: yes
-    -
-      name: runs
+
+    - name: runs
       full: Run Summary Table
-    -
-      name: aux
+
+    - name: aux
       full: Misc Run Info
-    -
-      name: trigger
+
+    - name: trigger
       full: Trigger Information
 
 - name: results
   full: Results
   submenus:
-    -
-      name: results_overview
+    - name: results_overview
       full: Results Overview
       exclude: yes
 
-    -
-      name: publications_label
+    - name: publications_label
       full: Publications
       label: yes
-    -
-      name: inspire
+
+    - name: inspire
       full: PHENIX papers (Inspire HEP)
 
     -
