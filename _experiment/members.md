@@ -4,12 +4,11 @@ name: members
 layout: newbase
 ---
 
-{% include layouts/find_title.md name=page.name %}
+{%- assign rows="" | split: "" -%}
 
-{% assign rows="" | split: "" %}
+### List of Active Members of the PHENIX Collabortion
+<br/>
 
-##### List of active members of the PHENIX Collabortion
-{{ site.hr }}
 {% assign coll=site.data.collaboration | sort: "family_name" %}
 
 {% for person in coll %}
@@ -18,4 +17,4 @@ layout: newbase
 {% endfor %}
 
 {% assign headers='Family Name,First Name,e-mail,Institution' | split:','%}
-{% include layouts/table_versa.md headers=headers rows=rows width='100%' %}
+{% include layouts/table_versa.md headers=headers rows=rows width='120%' %}

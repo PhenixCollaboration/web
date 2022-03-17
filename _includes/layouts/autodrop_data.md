@@ -27,7 +27,7 @@ that file to be accessible from the dropdown.
   {% assign the_icon='' %}
   {% if icon.size > 0 %}
   {% assign icon_url= icon | relative_url %}
-  {% assign the_icon='&nbsp;&nbsp;<img src="' | append: icon_url | append: '" height="24" width="24">' %}
+  {% assign the_icon='&nbsp;&nbsp;<img src="' | append: icon_url | append: '" height="16" width="16">' %}
   {% endif %}
   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #fff;">{{ the_menu.full }}{{ the_icon }}</a>
   
