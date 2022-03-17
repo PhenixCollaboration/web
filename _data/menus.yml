@@ -15,12 +15,10 @@
   full: Collaboration
   exclude: yes
   submenus:
-    -
-      name: contact
+    - name: contact
       full: Contact
 
-    -
-      name: members
+    - name: members
       full: Collaboration
 
 - name: experiment
