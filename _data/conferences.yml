@@ -1,3 +1,15 @@
+# 2022
+- name: wwnd22
+  title: 'The 37th Winter Workshop on Nuclear Dynamics'
+  url: 'https://indico.cern.ch/event/1039540/'
+  year: 2022
+
+- name: llwi22
+  title: 'Lake Louise Winter Institute (2022)'
+  url: 'https://indico.cern.ch/event/1075471/'
+  year: 2022
+
+
 # 2021
 - name: icnfp21
   title: 'International Conference on New Frontiers in Physics 2021'
@@ -362,6 +374,11 @@
 - name: icnfp16
   title: 'Int. Conference on New Frontiers in Physics 2016'
   url: 'https://indico.cern.ch/event/442094/'
+  year: 2016
+
+- name: aum16
+  title: 'RHIC & AGS Annual Users Meeting (2016)'
+  url: 'https://www.bnl.gov/aum2016/'
   year: 2016
 
 # 2015

@@ -48,6 +48,15 @@
   category: general
 
 # Conferences
+# 2022
+- name : wwnd22
+  description: The 37th Winter Workshop on Nuclear Dynamics (2022)
+  category: conference
+
+- name : llwi22
+  description: Lake Louise Winter Institute (2022)
+  category: conference
+
 # 2021
 - name: icnfp21
   description: 'International Conference on New Frontiers in Physics 2021'
@@ -356,6 +365,10 @@
 
 - name: icnfp16
   description: International Conference on New Frontiers in Physics 2016
+  category: conference
+
+- name : aum16
+  description: 'RHIC & AGS Annual Users Meeting (2016)'
   category: conference
 
 # 2015
