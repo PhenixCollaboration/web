@@ -111,6 +111,7 @@ to be set. The easiest (but not very secure) way of doing this is as follows:
 ```bash
 xhost +
 ```
+
 ###### Shared memory access
 Some versions of the X11 server software require shared memory access
 for optimal performance, which may get in the way of proper graphics
@@ -133,10 +134,16 @@ graphics tools.
 docker run -it --ipc=host --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix rootproject/root root
 #
 # 2. Shared memory functionality is disabled.
-docker run -it  --rm -e DISPLAY=$DISPLAY -e QT_X11_NO_MITSHM=1 -v /tmp/.X11-unix:/tmp/.X11-unix rootproject/root root
+# 3. NB. the "Xauthority" file
+#
+docker run -it  --rm -e DISPLAY=$DISPLAY -e QT_X11_NO_MITSHM=1 -v /tmp/.X11-unix:/tmp/.X11-unix  --volume="$HOME/.Xauthority:/root/.Xauthority:rw" rootproject/root root
 ```
-{{ site.hr }}
-##### Microsoft Windows
+
+Binding the ```.Xauthority``` may be necessary in the following examples as well,
+depending on specific configurtion of the system.
+
+
+###### Microsoft Windows
 There is an option *\-\-security-opt* which is currently meaningful in the
 Windows environment only and may be needed for proper operation.
 ```bash
@@ -153,9 +160,11 @@ the host and the container(s) running on the host. For detailed information, ple
 In the following, a basic example of utilizing volumes is presented, using just one method of several
 available. Let us assume that the image used to instantiate a container was created with a Dockerfile
 containing a directive similar to the following:
+
 ```dockerfile
 WORKDIR /user
 ```
+
 A container (i.e. a running process) instantiated from this image will then have a directory named
 "/user" which is entirely internal to that container i.e. inaccessible from the host system.
 Now, let us assume that the operator issues the following command:
@@ -219,17 +228,25 @@ and committed to local storage on the user's machine by ising the command
 docker pull phenixcollaboration/tools:sl7_root5
 ```
 
-##### Singularity
+##### Running Docker images with Singularity
+
 Docker images can also be used within the
 {% include_cached navigation/findlink.md name='singularity' tag='Singularity' %}
 containerization framework. It has been deployed on SDCC nodes at BNL and is available
 by any user. For example, to start the SL7/ROOT5 image created by the PHENIX Collaboration
 and get to the *bash* prompt the following command can be used:
+
 ```bash
 singularity exec --bind /phenix/u/phnxuser:/user docker://phenixcollaboration/tools:sl7_root5 bash
 ```
 In this example, the home directory of the user "phnxuser" will be mapped to the folder '/user' which
 was defined in the image *sl7_root5*. For more detail please see information on folders presented above.
+
+The option ```-B``` allows the user to conveniently mout entrire directory trees.
+
+```bash
+singularity exec -B /afs ...
+```
 
 Although ROOT can be started without invoking the shell first as it is the default command in the image,
 in this case this will be necessary to explicitly set the *DISPLAY* variable so that X11 tunneling properly
@@ -242,6 +259,7 @@ localhost:15.0
 ```
 Then, after invoking the "singularity exec" command as presented above, the user needs to
 set the environment variable accordingly by using the shell within the container:
+
 ```bash
 $ export DISPLAY=localhost:15.0
 ```
