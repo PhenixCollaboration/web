@@ -1,0 +1,368 @@
+- name: Acharya,Uttam
+  email: uacharya1@student.gsu.edu
+  inst: Georgia State University, Atlanta, Georgia 30303, USA
+- name: Aidala,Christine
+  email: caidala@bnl.gov
+  inst: Department of Physics, University of Michigan, Ann Arbor, Michigan 48109-1040,
+    USA
+- name: Akiba,Yasuyuki
+  email: akiba@bnl.gov
+  inst: RIKEN Nishina Center for Accelerator-Based Science, Wako, Saitama 351-0198,
+    Japan
+- name: Alfred,Marcus
+  email: maralfred@howard.edu
+  inst: Department of Physics and Astronomy, Howard University, Washington, DC 20059,
+    USA
+- name: Attia,Mohamed
+  email: attiamhmdattia@yahoo.com
+  inst: Debrecen University, H-4010 Debrecen, Egyetem ter 1, Hungary
+- name: Bazilevsky,Alexander
+  email: shura@bnl.gov
+  inst: Physics Department, Brookhaven National Laboratory, Upton, New York 11973-5000,
+    USA
+- name: Belmont,Ronald
+  email: belmonrj@gmail.com
+  inst: Physics and Astronomy Department, University of North Carolina at Greensboro,
+    Greensboro, North Carolina 27412, USA
+- name: Berdnikov,Alexandre
+  email: alexber@phmf.spbstu.ru
+  inst: Saint Petersburg State Polytechnic University, St.Petersburg, 195251 Russia
+- name: Berdnikov,Yaroslav
+  email: Berdnikov@spbstu.ru
+  inst: Saint Petersburg State Polytechnic University, St.Petersburg, 195251 Russia
+- name: Bichon,Luis
+  email: luis.bichon@vanderbilt.edu
+  inst: Vanderbilt University, Nashville, Tennessee 37235, USA
+- name: Blankenship,Brandon
+  email: brandon.t.blankenship@vanderbilt.edu
+  inst: Vanderbilt University, Nashville, Tennessee 37235, USA
+- name: Bok,Jeongsu
+  email: jsbok@nmsu.edu
+  inst: New Mexico State University, Las Cruces, New Mexico 88003, USA
+- name: Borisov,Vladislav
+  email: v1v1v2013vlad@gmail.com
+  inst: Saint Petersburg State Polytechnic University, St.Petersburg, 195251 Russia
+- name: Canoa Roman,Veronica
+  email: veronica.canoaroman@stonybrook.edu
+  inst: Department of Physics and Astronomy, Stony Brook University, SUNY, Stony Brook,
+    New York 11794-3800, USA
+- name: Chiu,Mickey
+  email: chiu@bnl.gov
+  inst: Physics Department, Brookhaven National Laboratory, Upton, New York 11973-5000,
+    USA
+- name: Connors,Megan
+  email: meganEconnors@gmail.com
+  inst: Georgia State University, Atlanta, Georgia 30303, USA
+- name: Corrales Morales,Yasser
+  email: ycmorales@rcf.rhic.bnl.gov
+  inst: Los Alamos National Laboratory, Los Alamos, New Mexico 87545, USA
+- name: Csanad,Mate
+  email: csanad@elte.hu
+  inst: ELTE, Eotvos Lorand University, H-1117 Budapest, Pazmany P.s.1A, Hungary
+- name: David,Gabor
+  email: david@bnl.gov
+  inst: Department of Physics and Astronomy, Stony Brook University, SUNY, Stony Brook,
+    New York 11794-3800, USA
+- name: Dean,Cameron
+  email: cdean@bnl.gov
+  inst: Los Alamos National Laboratory, Los Alamos, New Mexico 87545, USA
+- name: Doomra,Vassu
+  email: vassu.doomra@stonybrook.edu
+  inst: Department of Physics and Astronomy, Stony Brook University, SUNY, Stony Brook,
+    New York 11794-3800, USA
+- name: Drees,Axel
+  email: axel.drees@stonybrook.edu
+  inst: Department of Physics and Astronomy, Stony Brook University, SUNY, Stony Brook,
+    New York 11794-3800, USA
+- name: Esha,Roli
+  email: roli.esha@stonybrook.edu
+  inst: Department of Physics and Astronomy, Stony Brook University, SUNY, Stony Brook,
+    New York 11794-3800, USA
+- name: Fan,Wenqing
+  email: wenqing.fan@stonybrook.edu
+  inst: Department of Physics and Astronomy, Stony Brook University, SUNY, Stony Brook,
+    New York 11794-3800, USA
+- name: Firak,Daniel
+  email: daniel.firak@stonybrook.edu
+  inst: Department of Physics and Astronomy, Stony Brook University, SUNY, Stony Brook,
+    New York 11794-3800, USA
+- name: Fitzgerald,Dillon
+  email: dillfitz@umich.edu
+  inst: Department of Physics, University of Michigan, Ann Arbor, Michigan 48109-1040,
+    USA
+- name: Frantz,Justin
+  email: frantz@ohio.edu
+  inst: Department of Physics and Astronomy, Ohio University, Athens, Ohio 45701,
+    USA
+- name: Frawley,Anthony
+  email: afrawley@fsu.edu
+  inst: Florida State University, Tallahassee, Florida 32306, USA
+- name: Giles,Michael
+  email: michael.giles@stonybrook.edu
+  inst: Department of Physics and Astronomy, Stony Brook University, SUNY, Stony Brook,
+    New York 11794-3800, USA
+- name: Grau,Nathan
+  email: ngrau@augie.edu
+  inst: Department of Physics, Augustana University, Sioux Falls, South Dakota 57197,
+    USA
+- name: Guo,Tongzhou
+  email: tongzhou.guo@stonybrook.edu
+  inst: Department of Physics and Astronomy, Stony Brook University, SUNY, Stony Brook,
+    New York 11794-3800, USA
+- name: Hachiya,Takashi
+  email: hachiya@rcf.rhic.bnl.gov
+  inst: Nara Women's University, Kita-uoya Nishi-machi Nara 630-8506, Japan
+- name: Harvey,Mark
+  email: Mark.Harvey@tsu.edu
+  inst: Texas Southern University, Houston, TX 77004, USA
+- name: Hasegawa,Shoichi
+  email: shoichi.hasegawa@j-parc
+  inst: Advanced Science Research Center, Japan Atomic Energy Agency, 2-4 Shirakata
+    Shirane, Tokai-mura, Naka-gun, Ibaraki-ken 319-1195, Japan
+- name: Hemmick,Tom
+  email: Thomas.Hemmick@stonybrook.edu
+  inst: Department of Physics and Astronomy, Stony Brook University, SUNY, Stony Brook,
+    New York 11794-3800, USA
+- name: He,Xiaochun
+  email: xhe@gsu.edu
+  inst: Georgia State University, Atlanta, Georgia 30303, USA
+- name: Hodges,Anthony
+  email: ahodges21@student.gsu.edu
+  inst: Georgia State University, Atlanta, Georgia 30303, USA
+- name: Hong,Byungsik
+  email: bhong@korea.ac.kr
+  inst: Korea University, Seoul 02841, Korea
+- name: Huang,Jin
+  email: jhuang@bnl.gov
+  inst: Physics Department, Brookhaven National Laboratory, Upton, New York 11973-5000,
+    USA
+- name: Jalal,Nour
+  email: nmnm.2014829@gmail.com
+  inst: Debrecen University, H-4010 Debrecen, Egyetem ter 1, Hungary
+- name: Ji,Zhongli
+  email: zhongling.ji@stonybrook.edu
+  inst: Department of Physics and Astronomy, Stony Brook University, SUNY, Stony Brook,
+    New York 11794-3800, USA
+- name: Johnson,Brant
+  email: brant@bnl.gov
+  inst: Physics Department, Brookhaven National Laboratory, Upton, New York 11973-5000,
+    USA
+- name: Khachatryan,Vladimir
+  email: vladimir.khachatryan@stonybrook.edu
+  inst: Department of Physics and Astronomy, Stony Brook University, SUNY, Stony Brook,
+    New York 11794-3800, USA
+- name: Khatiwada,Ajeeta
+  email: ajeeta@lanl.gov
+  inst: Los Alamos National Laboratory, Los Alamos, New Mexico 87545, USA
+- name: Kim,Eun-Joo
+  email: ejkim@jbnu.ac.kr
+  inst: Jeonbuk National University, Jeonju, 54896, Korea
+- name: Kim,Taehee
+  email: taeheekim@ewhain.net
+  inst: Ewha Womans University, Seoul 120-750, Korea
+- name: Kincses,Daniel
+  email: kincses@ttk.elte.hu
+  inst: ELTE, Eotvos Lorand University, H-1117 Budapest, Pazmany P.s.1A, Hungary
+- name: Kingan,Arun
+  email: arun.kingan@stonybrook.edu
+  inst: Department of Physics and Astronomy, Stony Brook University, SUNY, Stony Brook,
+    New York 11794-3800, USA
+- name: Kotov,Dmitry
+  email: kotovdo@rcf.rhic.bnl.gov
+  inst: Saint Petersburg State Polytechnic University, St.Petersburg, 195251 Russia
+- name: Kovacs,Laszlo
+  email: kovacs.laszlo9201@gmail.com
+  inst: ELTE, Eotvos Lorand University, H-1117 Budapest, Pazmany P.s.1A, Hungary
+- name: Lajoie,John
+  email: lajoie@iastate.edu
+  inst: Iowa State University, Ames, Iowa 50011, USA
+- name: Larionova,Daria
+  email: dashalario@gmail.com
+  inst: Saint Petersburg State Polytechnic University, St.Petersburg, 195251 Russia
+- name: Lebedev,Alexandre
+  email: lebedev@iastate.edu
+  inst: Iowa State University, Ames, Iowa 50011, USA
+- name: Lee,SookHyun
+  email: sookhyun@umich.edu
+  inst: Department of Physics, University of Michigan, Ann Arbor, Michigan 48109-1040,
+    USA
+- name: Lewis,Nicole
+  email: nialewis@umich.edu
+  inst: Department of Physics, University of Michigan, Ann Arbor, Michigan 48109-1040,
+    USA
+- name: Lim,Sanghoon
+  email: shlim@pusan.ac.kr
+  inst: Pusan National University, Pusan 46241, Korea
+- name: Liu,Ming
+  email: ming@bnl.gov
+  inst: Los Alamos National Laboratory, Los Alamos, New Mexico 87545, USA
+- name: Li,Xuan
+  email: xuanlipx@rcf.rhic.bnl.gov
+  inst: Los Alamos National Laboratory, Los Alamos, New Mexico 87545, USA
+- name: Lokos,Sandor
+  email: lokos@caesar.elte.hu
+  inst: ELTE, Eotvos Lorand University, H-1117 Budapest, Pazmany P.s.1A, Hungary
+- name: Loomis,Devon
+  email: dloom@umich.edu
+  inst: Department of Physics, University of Michigan, Ann Arbor, Michigan 48109-1040,
+    USA
+- name: Majoros,Tamas
+  email: majoros.tamas91@gmail.com
+  inst: Debrecen University, H-4010 Debrecen, Egyetem ter 1, Hungary
+- name: Mitrankova,Mariia
+  email: mashalario@gmail.com
+  inst: Saint Petersburg State Polytechnic University, St.Petersburg, 195251 Russia
+- name: Mitrankov,Iurii
+  email: mitrankovy@gmail.com
+  inst: Saint Petersburg State Polytechnic University, St.Petersburg, 195251 Russia
+- name: Mondal,MrigankaMouli
+  email: smondal@rcf.rhic.bnl.gov
+  inst: Department of Physics and Astronomy, Stony Brook University, SUNY, Stony Brook,
+    New York 11794-3800, USA
+- name: Moon,TaeBong
+  email: tmoon@rcf.rhic.bnl.gov
+  inst: Korea University, Seoul 02841, Korea
+- name: Mulilo,Benard
+  email: benard.mulilo@gmail.com
+  inst: Department of Physics, School of Natural Sciences, University of Zambia, Great
+    East Road Campus, Box 32379, Lusaka, Zambia
+- name: Nagle,James
+  email: jamie.nagle@colorado.edu
+  inst: University of Colorado, Boulder, Colorado 80309, USA
+- name: Nakagawa,Itaru
+  email: itaru@bnl.gov
+  inst: RIKEN Nishina Center for Accelerator-Based Science, Wako, Saitama 351-0198,
+    Japan
+- name: Nelson,Stacyann
+  email: stacyann1.nelson@famu.edu
+  inst: Florida A\&M University, Tallahassee, FL 32307, USA
+- name: Nouicer,Rachid
+  email: rachid.nouicer@bnl.gov
+  inst: Physics Department, Brookhaven National Laboratory, Upton, New York 11973-5000,
+    USA
+- name: Nukazuka,Genki
+  email: genki.nukazuka@riken.jp
+  inst: RIKEN Nishina Center for Accelerator-Based Science, Wako, Saitama 351-0198,
+    Japan
+- name: Orosz,Melinda
+  email: oroszmeli@gmail.hu
+  inst: Debrecen University, H-4010 Debrecen, Egyetem ter 1, Hungary
+- name: Osborn,Joseph
+  email: jdosbo@umich.edu
+  inst: Oak Ridge National Laboratory, Oak Ridge, Tennessee 37831, USA
+- name: Park,Sanghwa
+  email: sanghwa@snu.ac.kr
+  inst: Department of Physics and Astronomy, Stony Brook University, SUNY, Stony Brook,
+    New York 11794-3800, USA
+- name: Patel,Milap
+  email: mrpind@iastate.edu
+  inst: Iowa State University, Ames, Iowa 50011, USA
+- name: Peng,Weizhuang
+  email: weizhuang.peng@vanderbilt.edu
+  inst: Vanderbilt University, Nashville, Tennessee 37235, USA
+- name: Perepelitsa,Dennis
+  email: dvp@bnl.gov
+  inst: University of Colorado, Boulder, Colorado 80309, USA
+- name: PerezLara,Carlos
+  email: carlosperezlara@gmail.com
+  inst: Department of Physics and Astronomy, Stony Brook University, SUNY, Stony Brook,
+    New York 11794-3800, USA
+- name: Pinkenburg,Chris
+  email: pinkenburg@bnl.gov
+  inst: Physics Department, Brookhaven National Laboratory, Upton, New York 11973-5000,
+    USA
+- name: Potekhin,Maxim
+  email: potekhin@bnl.gov
+  inst: Physics Department, Brookhaven National Laboratory, Upton, New York 11973-5000,
+    USA
+- name: Pun,Abinash
+  email: ap564413@ohio.edu
+  inst: Department of Physics and Astronomy, Ohio University, Athens, Ohio 45701,
+    USA
+- name: Purschke,Martin
+  email: purschke@bnl.gov
+  inst: Physics Department, Brookhaven National Laboratory, Upton, New York 11973-5000,
+    USA
+- name: Radzevich,Pavel
+  email: radzevichp@gmail.com
+  inst: Saint Petersburg State Polytechnic University, St.Petersburg, 195251 Russia
+- name: Ramasubramanian,Niveditha
+  email: niveditha.ramasubramanian@stonybrook.edu
+  inst: Department of Physics and Astronomy, Stony Brook University, SUNY, Stony Brook,
+    New York 11794-3800, USA
+- name: Runchey,Jonathan
+  email: jrunchey@iastate.edu
+  inst: Iowa State University, Ames, Iowa 50011, USA
+- name: Sakaguchi,Takao
+  email: takao@bnl.gov
+  inst: Physics Department, Brookhaven National Laboratory, Upton, New York 11973-5000,
+    USA
+- name: Sako,Hiroyuki
+  email: hiroyuki.sako@j-parc.jp
+  inst: Advanced Science Research Center, Japan Atomic Energy Agency, 2-4 Shirakata
+    Shirane, Tokai-mura, Naka-gun, Ibaraki-ken 319-1195, Japan
+- name: Sarsour,Murad
+  email: murad.sarsour@gmail.com
+  inst: Georgia State University, Atlanta, Georgia 30303, USA
+- name: Sato,Susumu
+  email: susumu.sato@j-parc.jp
+  inst: Advanced Science Research Center, Japan Atomic Energy Agency, 2-4 Shirakata
+    Shirane, Tokai-mura, Naka-gun, Ibaraki-ken 319-1195, Japan
+- name: Seidl,Ralf
+  email: rseidl@rcf.rhic.bnl.gov
+  inst: RIKEN Nishina Center for Accelerator-Based Science, Wako, Saitama 351-0198,
+    Japan
+- name: Seto,Richard
+  email: richard.seto@ucr.edu
+  inst: University of California-Riverside, Riverside, California 92521, USA
+- name: Sharma,Deepali
+  email: deepali@rcf.rhic.bnl.gov
+  inst: Department of Physics and Astronomy, Stony Brook University, SUNY, Stony Brook,
+    New York 11794-3800, USA
+- name: Shigaki,Kenta
+  email: shigaki@hiroshima-u.ac.jp
+  inst: Hiroshima University, Kagamiyama, Higashi-Hiroshima 739-8526, Japan
+- name: Shimomura,Maya
+  email: maya@cc.nara-wu.ac.jp
+  inst: Nara Women's University, Kita-uoya Nishi-machi Nara 630-8506, Japan
+- name: Silva,Cesar
+  email: slash@bnl.gov
+  inst: Los Alamos National Laboratory, Los Alamos, New Mexico 87545, USA
+- name: Smith,Krista
+  email: kls15k@my.fsu.edu
+  inst: Florida State University, Tallahassee, Florida 32306, USA
+- name: Sun,Zhandong
+  email: sunzdchina@gmail.com
+  inst: Debrecen University, H-4010 Debrecen, Egyetem ter 1, Hungary
+- name: Tannenbaum,Mike
+  email: mjt@bnl.gov
+  inst: Physics Department, Brookhaven National Laboratory, Upton, New York 11973-5000,
+    USA
+- name: Taranenko,Arkadij
+  email: arkadij@rcf.rhic.bnl.gov
+  inst: National Research Nuclear University, MEPhI, Moscow Engineering Physics Institute,
+    Moscow, 115409, Russia
+- name: Todoroki,Takahito
+  email: todoroki@rcf.rhic.bnl.gov
+  inst: Tomonaga Center for the History of the Universe, University of Tsukuba, Tsukuba,
+    Ibaraki 305, Japan
+- name: Ueda,Yosuke
+  email: ueda@hepl.hiroshima-u.ac.jp
+  inst: Hiroshima University, Kagamiyama, Higashi-Hiroshima 739-8526, Japan
+- name: Ujvari,Balazs
+  email: ujvarib@gmail.com
+  inst: Debrecen University, H-4010 Debrecen, Egyetem ter 1, Hungary
+- name: Velkovska,Julia
+  email: julia.velkovska@vanderbilt.edu
+  inst: Vanderbilt University, Nashville, Tennessee 37235, USA
+- name: Wong,Cheuk-Ping
+  email: cwong14@student.gsu.edu
+  inst: Los Alamos National Laboratory, Los Alamos, New Mexico 87545, USA
+- name: Zajc,William
+  email: zajc@nevis.columbia.edu
+  inst: Columbia University, New York, New York 10027 and Nevis Laboratories, Irvington,
+    New York 10533, USA
+- name: Zou,Liankun
+  email: lzou001@ucr.edu
+  inst: University of California-Riverside, Riverside, California 92521, USA
+
