@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
-import sys
+authors = open('authsmod.csv','r')
 
-lines = sys.stdin.readlines()
+lines = authors.readlines()
 
 for line in lines:
     content = line.strip()
