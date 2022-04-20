@@ -1,26 +1,55 @@
 #!/usr/bin/python3
 
+import yaml
+
+
 authors_file = open('authsmod.csv', 'r')
 primary_file = open('primary.csv',  'r')
+insts_file   = open('instpipenow',  'r')
 
 authors = authors_file.readlines()
 primary = primary_file.readlines()
+insts   = insts_file.readlines()
+
+inst_lookup = {}
+
+
+people = []
+
+for line in insts:
+    content = line.strip().split(' | ')
+    inst_lookup[content[0]] = content[1]
 
 primary_lookup = {}
+
 for line in primary:
-    content = line.strip()
-    elements = content.split(',')
+    elements = line.strip().split(',')
     primary_lookup[elements[0]+','+elements[1]] = elements[3]
 
 for line in authors:
-    content = line.strip()
-    elements = content.split(',')
+    person = {}
+    name = elements[0]+','+elements[1]
+
+    elements = line.strip().split(',')
     output_line = elements[:4]
+
+    inst = elements[3]
 
     if len(elements)>4:
         try:
-            output_line[3] = primary_lookup[elements[0]+','+elements[1]]
+            inst = primary_lookup[elements[0]+','+elements[1]]
         except:
             print('Primary Institution lookup ERROR')
 
-    print(','.join(output_line))
+    person['name']      = name
+    person['email']     = elements[2]
+    person['inst']      = inst
+
+    # output_line[3] = inst
+
+    people.append(person)
+
+    #print(','.join(output_line))
+
+print(yaml.dump(people, sort_keys=False))
+# print(people)
