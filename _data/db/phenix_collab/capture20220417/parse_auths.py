@@ -5,20 +5,11 @@ import yaml
 
 authors_file = open('authsmod.csv', 'r')
 primary_file = open('primary.csv',  'r')
-insts_file   = open('instpipenow',  'r')
 
 authors = authors_file.readlines()
 primary = primary_file.readlines()
-insts   = insts_file.readlines()
-
-inst_lookup = {}
-
 
 people = []
-
-for line in insts:
-    content = line.strip().split(' | ')
-    inst_lookup[content[0]] = content[1]
 
 primary_lookup = {}
 
