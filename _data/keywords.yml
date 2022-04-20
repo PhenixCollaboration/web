@@ -49,6 +49,15 @@
 
 # Conferences
 # 2022
+
+- name : qm22
+  description: Quark Matter 2022
+  category: conference
+
+- name : moriond22
+  description: 'Rencontres de Moriond 2022'
+  category: conference
+
 - name : wwnd22
   description: The 37th Winter Workshop on Nuclear Dynamics (2022)
   category: conference
