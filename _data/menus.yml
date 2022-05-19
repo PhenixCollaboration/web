@@ -50,6 +50,11 @@
     - name: members
       full: Current Members
 
+    - name: bylaws
+      full: PHENIX Bylaws
+      link: 'https://doi.org/10.5281/zenodo.6565092'
+      icon: /images/icons/external-link-32.png
+
     - name: run_info
       full: PHENIX Run Info
       label: yes
