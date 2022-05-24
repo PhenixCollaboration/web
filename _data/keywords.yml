@@ -50,6 +50,10 @@
 # Conferences
 # 2022
 
+- name : dis22
+  description: Deep Inelastic Scattering (2022)
+  category: conference
+
 - name : qm22
   description: Quark Matter 2022
   category: conference
