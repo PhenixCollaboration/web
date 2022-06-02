@@ -219,6 +219,11 @@
       link: 'https://zenodo.org/communities/phenixcollaboration/search?page=1&size=20&q=school21'
       icon: /images/icons/external-link-32.png
 
+    - name: school22
+      full: PHENIX School 2022
+      link: 'https://zenodo.org/communities/phenixcollaboration/search?page=1&size=20&q=school22'
+      icon: /images/icons/external-link-32.png
+
     - name: embeddingVtx
       full: Embedding Example (VTX)
 

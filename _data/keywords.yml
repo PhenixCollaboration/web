@@ -50,6 +50,10 @@
 # Conferences
 # 2022
 
+- name : school22
+  description: 'PHENIX School 2022'
+  category: conference
+
 - name : dis22
   description: Deep Inelastic Scattering (2022)
   category: conference
