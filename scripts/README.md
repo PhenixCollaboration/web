@@ -1,6 +1,8 @@
-# Service Scripts
+# DEPRECATED: Service Scripts
 
 Scripts to handle some pre-processing of data for the site.
+_These are kept for reference only, as we know turned back to manually maintained master
+file formatted in YAML_.
 
 ## Collaboration membership
 
