@@ -34,6 +34,7 @@
 - name: Berdnikov,Alexandre
   email: alexber@phmf.spbstu.ru
   inst: Saint Petersburg State Polytechnic University, St.Petersburg, 195251 Russia
+
 - name: Berdnikov,Yaroslav
   email: Berdnikov@spbstu.ru
   inst: Saint Petersburg State Polytechnic University, St.Petersburg, 195251 Russia
@@ -172,7 +173,7 @@
   email: jhuang@bnl.gov
   inst: Physics Department, Brookhaven National Laboratory, Upton, New York 11973-5000, USA
 
-- name: Jalal,Nour
+- name: Abdulameer,Nour
   email: nmnm.2014829@gmail.com
   inst: Debrecen University, H-4010 Debrecen, Egyetem ter 1, Hungary
 
@@ -343,6 +344,7 @@
 - name: PerezLara,Carlos
   email: carlosperezlara@gmail.com
   inst: Department of Physics and Astronomy, Stony Brook University, SUNY, Stony Brook, New York 11794-3800, USA
+
 - name: Pinkenburg,Chris
   email: pinkenburg@bnl.gov
   inst: Physics Department, Brookhaven National Laboratory, Upton, New York 11973-5000, USA
@@ -350,6 +352,7 @@
 - name: Potekhin,Maxim
   email: potekhin@bnl.gov
   inst: Physics Department, Brookhaven National Laboratory, Upton, New York 11973-5000, USA
+
 - name: Pun,Abinash
   email: ap564413@ohio.edu
   inst: Department of Physics and Astronomy, Ohio University, Athens, Ohio 45701, USA
