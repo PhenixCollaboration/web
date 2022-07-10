@@ -71,6 +71,11 @@
   email: meganEconnors@gmail.com
   inst: Georgia State University, Atlanta, Georgia 30303, USA
 
+
+- name: Corliss,Ross
+  email: ross.corliss@stonybrook.edu
+  inst: Department of Physics and Astronomy, Stony Brook University, SUNY, Stony Brook, New York 11794-3800, USA
+
 - name: Corrales Morales,Yasser
   email: ycmorales@rcf.rhic.bnl.gov
   inst: Los Alamos National Laboratory, Los Alamos, New Mexico 87545, USA
@@ -232,7 +237,7 @@
   inst: Department of Physics, University of Michigan, Ann Arbor, Michigan 48109-1040, USA
 
 - name: Lim,Sanghoon
-  email: shlim@pusan.ac.kr
+  email: shlim@bnl.gov
   inst: Pusan National University, Pusan 46241, Korea
 
 - name: Liu,Ming
@@ -302,6 +307,10 @@
 - name: Nukazuka,Genki
   email: genki.nukazuka@riken.jp
   inst: RIKEN Nishina Center for Accelerator-Based Science, Wako, Saitama 351-0198, Japan
+
+- name: Oh, Johngho
+  email: ojh7976@gmail.com
+  inst: Pusan National University, Pusan 46241, Korea
 
 - name: Orosz,Melinda
   email: oroszmeli@gmail.hu
@@ -377,7 +386,7 @@
   inst: Advanced Science Research Center, Japan Atomic Energy Agency, 2-4 Shirakata Shirane, Tokai-mura, Naka-gun, Ibaraki-ken 319-1195, Japan
 
 - name: Sarsour,Murad
-  email: murad.sarsour@gmail.com
+  email: msar@gsu.edu
   inst: Georgia State University, Atlanta, Georgia 30303, USA
 
 - name: Sato,Susumu
@@ -396,6 +405,10 @@
   email: deepali@rcf.rhic.bnl.gov
   inst: Department of Physics and Astronomy, Stony Brook University, SUNY, Stony Brook, New York 11794-3800, USA
 
+- name: Shi,Zhaozhong
+  email: zhaozhongshi@lanl.gov
+  inst: Los Alamos National Laboratory, Los Alamos, New Mexico 87545, USA
+
 - name: Shigaki,Kenta
   email: shigaki@hiroshima-u.ac.jp
   inst: Hiroshima University, Kagamiyama, Higashi-Hiroshima 739-8526, Japan
@@ -409,8 +422,8 @@
   inst: Los Alamos National Laboratory, Los Alamos, New Mexico 87545, USA
 
 - name: Smith,Krista
-  email: kls15k@my.fsu.edu
-  inst: Florida State University, Tallahassee, Florida 32306, USA
+  email: kristas@lanl.gov
+  inst: Los Alamos National Laboratory, Los Alamos, New Mexico 87545, USA
 
 - name: Sun,Zhandong
   email: sunzdchina@gmail.com
