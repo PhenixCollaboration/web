@@ -163,7 +163,7 @@
 
 - name: Hodges,Anthony
   email: ahodges4@illinois.edu
-  inst: University of Illinois Urbana-Champaign
+  inst: University of Illinois Urbana-Champaign, Urbana, Illinois, USA
 
 - name: Hong,Byungsik
   email: bhong@korea.ac.kr
@@ -292,6 +292,12 @@
 - name: Nagle,James
   email: jamie.nagle@colorado.edu
   inst: University of Colorado, Boulder, Colorado 80309, USA
+
+
+- name: Nagy,Marton
+  email: nmarci@elte.hu
+  inst: ELTE, Eotvos Lorand University, H-1117 Budapest, Pazmany P.s.1A, Hungary
+
 
 - name: Nakagawa,Itaru
   email: itaru@bnl.gov
