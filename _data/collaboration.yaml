@@ -14,7 +14,6 @@
   email: maralfred@howard.edu
   inst: Department of Physics and Astronomy, Howard University, Washington, DC 20059, USA
 
-
 - name: Bannikov,Egor
   email: bannikov.ev.21@gmail.com
   inst: Saint Petersburg State Polytechnic University, St.Petersburg, 195251 Russia
@@ -59,7 +58,6 @@
   email: veronica.canoaroman@stonybrook.edu
   inst: Department of Physics and Astronomy, Stony Brook University, SUNY, Stony Brook, New York 11794-3800, USA
 
-
 - name: Chauhan,Shyam
   email: sc941717@ohio.edu
   inst: Department of Physics and Astronomy, Ohio University, Athens, Ohio 45701, USA
@@ -71,7 +69,6 @@
 - name: Connors,Megan
   email: meganEconnors@gmail.com
   inst: Georgia State University, Atlanta, Georgia 30303, USA
-
 
 - name: Corliss,Ross
   email: ross.corliss@stonybrook.edu
@@ -293,11 +290,9 @@
   email: jamie.nagle@colorado.edu
   inst: University of Colorado, Boulder, Colorado 80309, USA
 
-
 - name: Nagy,Marton
   email: nmarci@elte.hu
   inst: ELTE, Eotvos Lorand University, H-1117 Budapest, Pazmany P.s.1A, Hungary
-
 
 - name: Nakagawa,Itaru
   email: itaru@bnl.gov
@@ -465,6 +460,10 @@
 - name: Velkovska,Julia
   email: julia.velkovska@vanderbilt.edu
   inst: Vanderbilt University, Nashville, Tennessee 37235, USA
+
+- name: Virius,Miroslav
+  email: miroslav.virius@fjfi.cvut.cz
+  inst: Czech Technical University, Prague, Czech Republic
 
 - name: Wang,Zhiyan
   email: zywang999@gmail.com
