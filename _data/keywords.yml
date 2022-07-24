@@ -50,6 +50,18 @@
 # Conferences
 # 2022
 
+- name : sqm22
+  description: 'Strangeness in Quark Matter 2022'
+  category: conference
+
+- name : aum22
+  description: 'RHIC & AGS Annual Users Meeting (2021)'
+  category: conference
+
+- name : tphp22
+  description: 'Transversity 2022'
+  category: conference
+
 - name : school22
   description: 'PHENIX School 2022'
   category: conference

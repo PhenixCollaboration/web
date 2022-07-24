@@ -1,5 +1,20 @@
 # 2022
 
+- name: sqm22
+  title: 'Strangeness in Quark Matter 2022'
+  url: 'https://indico.cern.ch/event/1037821/'
+  year: 2022
+
+- name: aum22
+  title: 'RHIC & AGS Annual Users Meeting (2022)'
+  url: 'https://indico.bnl.gov/event/15479/'
+  year: 2022
+
+- name : tphp22
+  title: Transversity (2022)
+  url: 'https://agenda.infn.it/event/19219/'
+  year: 2022
+
 - name : dis22
   title: Deep Inelastic Scattering (2022)
   url: 'https://indico.cern.ch/event/1072533/'
