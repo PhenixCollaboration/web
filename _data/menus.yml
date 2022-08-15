@@ -144,43 +144,58 @@
 - name: detectors
   full: Detectors
   submenus:
-    -
-      name: detector_overview
+    - name: detector_overview
       full: Overview
       label: yes
-    -
-      name: detectors_overview
+    
+    - name: detectors_overview
       full: Detectors Overview
-    -
-      name: phenix_photo_gallery
+    
+    - name: phenix_photo_gallery
       full: PHENIX Photo Gallery
-    -
-      name: run_configuration_gallery
+    
+    - name: run_configuration_gallery
       full: Run Configuration Gallery
-    -
-      name: subsystems
+    
+    - name: subsystems
       full: Subsystems
       label: yes
-    -
-      name: central_arm
+    
+    - name: central_arm
       full: Central Arm Detectors
-    -
-      name: muon_arm
+    - name: muon_arm
       full: Muon Arm Detectors
-    -
-      name:  event_characterization
+    
+    - name:  event_characterization
       full: Event Characterization Detectors
-    -
-      name: magnet
+    
+    - name: magnet
       full: Magnet
       div: yes
 
 - name: software
-  full: Software
+  full: Offline Software
   submenus:
-    -
-      name: overview
-      full: Overview
+
+    - name: docker
+      full: Docker and REANA
+      label: yes
+
+    - name: docker_root
+      full: ROOT in Containers
+
+    - name: docker
+      full: Using Docker
+
+    - name: reana
+      full: REANA
+      div: yes
+
+    - name: cwl
+      full: Common Workflow Language
+      
+    - name: Misc
+      full: Misc
       label: yes
 
     - name: software_overview
@@ -195,7 +210,6 @@
 
     - name: custom_components
       full: Custom Components
-      div: yes
 
     - name: build_tools
       full: Build Tools
@@ -205,6 +219,7 @@
 - name: analysis
   full: Analysis
   submenus:
+  
     - name: analysis_writeups
       full: Write-ups
       label: yes
@@ -230,23 +245,6 @@
     - name: emcal
       full: Direct &#611; in d+Au collisions
 
-    - name: docker
-      full: Docker and REANA
-      label: yes
-
-    - name: docker_root
-      full: ROOT in Containers
-
-    - name: docker
-      full: Using Docker
-
-    - name: reana
-      full: REANA
-      div: yes
-
-    - name: cwl
-      full: Common Workflow Language
-  
     - name: misc
       full: Misc
       label: yes

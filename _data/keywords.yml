@@ -50,6 +50,15 @@
 # Conferences
 # 2022
 
+- name : hfwinc22
+  description: 'Heavy Flavour Production in Nuclear Collisions (2022)'
+  category: conference
+
+
+- name : ismd22
+  description: 'International Symposium on Multiparticle Dynamics (2022)'
+  category: conference
+
 - name : sqm22
   description: 'Strangeness in Quark Matter 2022'
   category: conference

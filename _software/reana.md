@@ -11,24 +11,26 @@ layout: newbase
 ##### Overview
 {% include navigation/findlink.md name='reana' tag='REANA' %}
 is a reproducible research data analysis platform developed at CERN.
-It is considered for Analysis Preservation in PHENIX due to the following features:
+It is used for Analysis Preservation in PHENIX due to the following features:
 
 * Unambiguous description of workflows (encoded in YAML)
 * Capture and preservation of both the software and the software environment by using **containerization**
 
 REANA workflows can be represented as *Directed Acyclic Graphs* which is reflected in
 the YAML schema based on the 
-{% include navigation/findlink.md name='cwl' tag='Common Workflow Language (CWL)' -%}.
-Each computational component of a workflow *may* require a separate and distinct
-{% include navigation/pagelink.md folder=site.analysis name='docker' tag='Docker container' -%},
-although individual steps can be as simple as a shell command writing a comment to a log file,
-in which case containers would be redundant.
+{% include navigation/findlink.md name='cwl' tag='Common Workflow Language (CWL)' %}
+as one of the options. Simpler options are available. For example,
+current PHENIX analyses do not rely on CWL and are preserved as combinations of _linear_ workflows
+to reduce complexity. This approach does not require specialized syntax and
+logic (as in the Common Workflow Language) and the worrflows are formatted
+as simple YAML list structures.
 
 ##### REANA Cluster
 Execution of workflows in REANA takes place on machines configured as a **REANA cluster**.
-One such cluster is available to CERN users, and there are instances at other
-institutions. There is also a REANA cluster being evaluated at BNL.
-It is available on the internal BNL network only.
+CERN was the first site to deploy such cluster, however currently these
+installations are available at a number of institutions including BNL.
+It is available on the internal BNL network, with outside access possible using
+either SSH tunneling or VPN.
 
 > The cluster is separate from the rest of the computing facility in the sense
 > that it does not share any file systems with the rest of the machines at BNL.
@@ -59,31 +61,9 @@ in the upper right corner of the REANA web page.
 ###### Client installation using Python virtual environment
 Client software must be installed on the user's machine.
 It is Python-based and at the time of writing Python 3.6 and higher is recommended.
-This is often done via the Python "virtual environment" mechanism. If the "virtualenv"
-tools is available the following example will work:
-```bash
-# Assuming the user runs "bash" on their personal machine:
-# Create new virtual environment
-cd
-mkdir .virtualenvs # the exact name of this folder is unimportant
-virtualenv ~/.virtualenvs/reana # "reana" folder can be named differently as well, as long as its use is consistent
-source ~/.virtualenvs/reana/bin/activate # a self-contained Python environment is now available
-# Install reana-client
-pip install reana-client # installation takes place within the virtual environment
-```
-The "activate" step will be necessary every time a new shell/window is created
-for interacting with REANA. If no longer necessary, the virtual environment can
-be deactivated. A full session will look something like:
+Perhaps the most efficient way to do the installation is via the Python "virtual environment"
+mechanism, as illustrated below:
 
-```bash
-# Enter the virtual environment
-source ~/.virtualenvs/reana/bin/activate
-# ... REANA commands here...
-# Leave the virtual environment
-deactivate
-```
-Alternatively, if "virtualenv" is not available (such is the case on the interactive SDCC
-nodes) a slightly different method may be used:
 
 ```bash
 # Typically tcsh is used on "rcas" nodes so this example is for tcsh
@@ -96,6 +76,22 @@ source .virtualenvs/reana/bin/activate.csh
 pip install reana-client
 rehash
 ```
+
+The "activate" step included in the example above is necessary every time a new
+shell/window is created for interacting with REANA. If no longer necessary, the
+virtual environment can be deactivated. A full session will look something like:
+
+```bash
+# Logging on to a SDCC node...
+# Entering the virtual environment
+source ~/.virtualenvs/reana/bin/activate
+# ... REANA commands here...
+# ... Do something useful...
+# Leave the virtual environment
+deactivate
+```
+
+###### Getting help with/from the client
 
 After the installation process is finished it is a good idea to check if
 the client is functional, for example
