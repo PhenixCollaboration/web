@@ -67,8 +67,10 @@ mechanism, as illustrated below:
 
 ```bash
 # Typically tcsh is used on "rcas" nodes so this example is for tcsh
-# First, add custom SDCC location for Python 3 to PATH
-setenv PATH /u0b/software/jupyter/python/3.8.0/bin:$PATH
+#
+# The folder for the virtual environments can be located anywhere
+# and named in any way, here is just one example of the setup:
+
 cd
 mkdir .virtualenvs # the exact name is unimportant
 python3 -m venv .virtualenvs/reana
