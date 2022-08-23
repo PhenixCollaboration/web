@@ -155,6 +155,13 @@ as explained above, this is done by pointing the browser to ```https://localhost
 
 ###### Connecting to the service from BNL (SDCC)
 
+Working with REANA using interactive nodes of the SDCC cluster may be preferable
+when substantial amounts of data need to be staged in or our of REANA, especially
+if these data is more accessible at the SDCC facility. Remember that every
+REANA workflow needs to stage data, and if you are using your laptop (e.g. at home)
+that machine needs to have that data somehow available. So things may be
+easier in the cases if run at SDCC.
+
 When working within the BNL perimeter i.e. on the interactive nodes
 such as "rcas" machines the procedure of using the client is exactly the same
 however the server URL for the client needs to be specified directly as opposed to
@@ -175,8 +182,8 @@ Once again, it's a good idea to validate the connection to the server:
 reana-client ping
 ```
 
-
 ##### Custom Workflow Definition File and Custom Workflow Name
+
 REANA uses the following defaults when operating the ```reana-client```:
 * The client will look up the workflow definition from the file ```reana.yaml```
 found in the current folder.
