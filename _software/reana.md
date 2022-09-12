@@ -202,6 +202,7 @@ Then, start the browser of your choice with the option to use this proxy.
 For example, with Chrome the following command can be used
 
 ```bash
+# Use the URL: https://reana.apps.usatlas.bnl.gov/
 google-chrome-stable --proxy-server="socks5://localhost:8031"
 ```
 
