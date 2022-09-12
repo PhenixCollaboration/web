@@ -156,7 +156,7 @@ as explained above, this is done by pointing the browser to ```https://localhost
 ###### Connecting to the service from BNL (SDCC)
 
 Working with REANA using interactive nodes of the SDCC cluster may be preferable
-when substantial amounts of data need to be staged in or our of REANA, especially
+when substantial amounts of data need to be staged in or out of REANA, especially
 if these data is more accessible at the SDCC facility. Remember that every
 REANA workflow needs to stage data, and if you are using your laptop (e.g. at home)
 that machine needs to have that data somehow available. So things may be
@@ -180,6 +180,29 @@ Once again, it's a good idea to validate the connection to the server:
 
 ```bash
 reana-client ping
+```
+
+This command should complete without errors.
+
+
+###### Connecting to the new instance of the REANA cluster
+
+As of late 2022, there is a new instance of REANA being tested at BNL.
+While fully accessible within the BNL perimeter, the normal SSH tunnel
+won't work for users wishing to access this service from an external
+location. In this case, a `SOCKS` proxy will need to be set up. First,
+connect to a SDCC machine to use it as a proxy:
+
+```bash
+# specify the correct username
+ssh -D localhost:8031 -J user@ssh.sdcc.bnl.gov user@rcas2071.rcf.bnl.gov
+```
+
+Then, start the browser of your choice with the option to use this proxy.
+For example, with Chrome the following command can be used
+
+```bash
+google-chrome-stable --proxy-server="socks5://localhost:8031"
 ```
 
 ##### Custom Workflow Definition File and Custom Workflow Name
