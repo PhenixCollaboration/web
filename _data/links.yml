@@ -108,7 +108,7 @@
   url: 'https://github.com/PhenixCollaboration/reana/tree/main/tutorials'
 
 - name: reana_pi0
-  url: 'https://github.com/PhenixCollaboration/reana/tree/main/pi0_photon_analysis'
+  url: 'https://github.com/PhenixCollaboration/reana/tree/main/photon_analysis_proto'
 
 # Docker and Singularity
 - name: docker

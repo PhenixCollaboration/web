@@ -50,10 +50,27 @@
 # Conferences
 # 2022
 
+# 2021
+
+- name : inpc22
+  description: International Nuclear Physics Conference 2022
+  category: conference
+
+- name: icnfp22
+  description: 'International Conference on New Frontiers in Physics 2022'
+  category: conference
+
+- name : qnp22
+  description: 'Conf. on Quarks and Nuclear Physics (2022)'
+  category: conference
+
+- name : cipanp22
+  description: 'Conf. on the Intersections of Particle And Nuclear Physics (2022)'
+  category: conference
+
 - name : hfwinc22
   description: 'Heavy Flavour Production in Nuclear Collisions (2022)'
   category: conference
-
 
 - name : ismd22
   description: 'International Symposium on Multiparticle Dynamics (2022)'
@@ -263,6 +280,11 @@
   category: conference
 
 # 2018
+
+- name : cpod18
+  description: Critical point and onset of deconfinement (2018)
+  category: conference
+
 - name : wwnd18
   description: The 34th Winter Workshop on Nuclear Dynamics (2018)
   category: conference
@@ -276,7 +298,7 @@
   category: conference
 
 - name : cipanp18
-  description: 'Conf. on the Intersections of Particle And Nuclear Physics 2018'
+  description: 'Conf. on the Intersections of Particle And Nuclear Physics (2018)'
   category: conference
 
 - name : ismd18
@@ -317,7 +339,7 @@
 
 # 2017
 - name : cpod17
-  description: 'Workshop on Critical Point and Onset of Deconfinement 2017'
+  description: Critical Point and Onset of Deconfinement (2017)
   category: conference
 
 - name : epshep17

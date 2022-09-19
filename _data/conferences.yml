@@ -1,5 +1,25 @@
 # 2022
 
+- name: inpc22
+  title: 'International Nuclear Physics Conference 2022'
+  url: 'https://inpc2022.org/'
+  year: 2022
+
+- name: icnfp22
+  title: 'International Conference on New Frontiers in Physics 2022'
+  url: 'https://indico.cern.ch/event/1133591/'
+  year: 2022
+
+- name: qnp22
+  title: 'Conf. on Quarks and Nuclear Physics (2022)'
+  url: 'https://indico.jlab.org/event/344/'
+  year: 2022
+
+- name: cipanp22
+  title: 'Conf. on the Intersections of Particle And Nuclear Physics (2022)'
+  url: 'https://agenda.hep.wisc.edu/event/1644/'
+  year: 2022
+
 - name: hfwinc22
   title: 'Heavy Flavour Production in Nuclear Collisions (2022)'
   url: 'https://indico.cern.ch/event/883427//'
@@ -245,6 +265,12 @@
   year: 2019
 
 # 2018
+
+- name: cpod18
+  title: 'Critical Point and Onset of Deconfinement (2018)'
+  url: 'https://indico.cern.ch/event/760216/'
+  year: 2018
+
 - name: wwnd18
   title: 'The 34th Winter Workshop on Nuclear Dynamics (2018)'
   url: 'https://indico.cern.ch/event/664310/'
@@ -261,7 +287,7 @@
   year: 2018
 
 - name: cipanp18
-  title: 'Conf. on the Intersections of Particle And Nuclear Physics 2018'
+  title: 'Conf. on the Intersections of Particle And Nuclear Physics (2018)'
   url: 'https://cipanp18.berkeley.edu/'
   year: 2018
 
@@ -307,7 +333,7 @@
 
 # 2017
 - name: cpod17
-  title: 'Workshop on Critical Point and Onset of Deconfinement 2017'
+  title: 'Critical Point and Onset of Deconfinement (2017)'
   url: 'https://inspirehep.net/conferences/1516527'
   year: 2017
 
