@@ -1,37 +1,29 @@
 # The PHENIX Collaboration Data and Analysis Preservation Website
 
 This website is designed to further the goals of the long-term Data
-and Analysis Preservation (DAP) of the PHENIX Collaboration.
+and Analysis Preservation (DAP) of the PHENIX Collaboration. It
+leverages the following Web services, portals and frameworks:
 
-The site version hosted on GitHub Pages is the development version
-and is not officially in produciton.
-
-For the current production version see phenix.bnl.gov. There is no
-set schedule for releases, these are done "as required".
-
-Release archival on Zenodo:
-[![DOI](https://zenodo.org/badge/237520599.svg)](https://zenodo.org/badge/latestdoi/237520599)
-
-# SCOPE
-
-We use the Jekyll static site generator.
-
-The site is intended to preserve curated documentation for the PHENIX experiment,
-including technical write-ups on the PHENIX software and its infrastructure. It is not
-a document server although it does host a limited number of documents (primarily in
-PDF formats) and as well as some diagrams.
-
-Please note that the static nature of the site also implies lack of common database
-query functions at runtime, authentication and authorization etc. Where needed, such
-services will be hosted separately and links will be provided.
+* Zenodo -- state of the art digital repository at CERN
+* HEPData -- an archive of numerical data published in papers
+* REANA -- a platform for "reproducible analysis"
+* OpenData -- a CERN portal with the capability to host packages consisting
+of documentation, software and data, in order to capture and document
+substantial parts of interesting analyses
 
 
 # TECHNICAL
 
 ## For the Developer
 
+The `GitHub Pages` version is the development version.
+For the current production version of the site please
+see phenix.bnl.gov. There is no set schedule for releases,
+these are done "as required".
+
 Please see the "how-to" section in the "About" menu of the site for the
-information being constantly updated.
+information being constantly updated. We use the Jekyll static site generator
+and the `Liquid` template language.
 
 ## Gems
 Pay attention to the following dependencies (need to be installed and
@@ -45,8 +37,28 @@ gem 'jekyll-redirect-from', '~> 0.16.0'
 ```
 ...and a few others. The best source is likely https://rubygems.org/
 
+## The "Liquid" template language
+
+Documentation on the `Liquid` template language is plentiful
+and easy to locate on the Web.
+
+A useful trick for concatenation of arrays in Liquid:
+
+```{% assign all_hosts = "" | split: "" %}
+{% for host in site.data.shared_hosts %}
+  {% assign all_hosts = all_hosts | push: host %}
+{% endfor %}
+{% for host in site.data.paas_hosts %}
+  {% assign all_hosts = all_hosts | push: host %}
+{% endfor %}
+```
+
 ## Serving static content without Jekyll server
-Links will need to be converted:
+
+The site content can be captured using `wget` or a similar utility. Once it's
+done, it can be accessed statically on a local machine or copied to a different server.
+Note that links will need to be converted:
+
 ```
 wget --convert-links -r http://localhost:4000/web/
 ```
