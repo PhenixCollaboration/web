@@ -1,5 +1,16 @@
 # 2022
 
+- name: eunpc22
+  title: 'European Nuclear Physics Conference 2022'
+  url: 'https://indico.cern.ch/event/1104299/'
+  year: 2022
+
+- name: hq22
+  title: 'Hot Quarks 2022'
+  url: 'https://indico.bnl.gov/event/7770/'
+  year: 2022
+
+
 - name: inpc22
   title: 'International Nuclear Physics Conference 2022'
   url: 'https://inpc2022.org/'

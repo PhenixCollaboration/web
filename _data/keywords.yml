@@ -50,7 +50,14 @@
 # Conferences
 # 2022
 
-# 2021
+- name : eunpc22
+  description: European Nuclear Physics Conference 2022
+  category: conference
+
+
+- name : hq22
+  description: Hot Quarks 2022
+  category: conference
 
 - name : inpc22
   description: International Nuclear Physics Conference 2022
