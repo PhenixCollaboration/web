@@ -64,6 +64,7 @@
 - name: qm22
   title: 'Quark Matter 2022'
   url: 'https://indico.cern.ch/event/895086/'
+  authors: 'https://doi.org/10.5281/zenodo.7430208'
   year: 2022
 
 - name: moriond22
