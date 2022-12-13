@@ -29,13 +29,21 @@ and the `Liquid` template language.
 Pay attention to the following dependencies (need to be installed and
 also included in the Gemfile in this folder):
 
-```
+```bash
 gem "jekyll", "~> 4.0"
 gem 'jekyll-mentions', '~> 1.5', '>= 1.5.1'
 gem 'jekyll-sitemap', '~> 1.4'
 gem 'jekyll-redirect-from', '~> 0.16.0'
 ```
 ...and a few others. The best source is likely https://rubygems.org/
+
+NB. When running a freshly installed instance of _jekyll_, you'll get
+error messages concerning possibly missing gems. These are trivial to
+install, e.g. running commands like
+
+```bash
+gem install jekyll-mentions
+```
 
 ## The "Liquid" template language
 
