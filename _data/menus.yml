@@ -177,6 +177,14 @@
   full: Offline Software
   submenus:
 
+
+    - name: sim
+      full: Simulations
+      label: yes
+
+    - name: pisa
+      full: PISA
+
     - name: docker
       full: Docker and REANA
       label: yes
@@ -260,7 +268,7 @@
   right: yes
   submenus:
     - name: dap
-      full: Data and Analysis Preservation
+      full: DAP
       icon: /images/icons/gift-2-32.png
 
     - name: site
