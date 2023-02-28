@@ -48,12 +48,25 @@
   category: general
 
 # Conferences
+# 2023
+
+- name : hepch23
+  description: High Energy Physics in the LHC Era (HEPChile) 2023
+  category: conference
+
+- name : wwnd23
+  description: Winter Workshop on Nuclear Dynamics 2023
+  category: conference
+
+- name : wwli23
+  description: Lake Louise Winter Institute 2023
+  category: conference
+
 # 2022
 
 - name : zs22
   description: Zimanyi School 2022
   category: conference
-
 
 - name : icppa22
   description: Int. Conference of Particle Physics and Astrophysics 2022
