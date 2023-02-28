@@ -1,5 +1,20 @@
 # 2022
 
+- name: cpod22
+  title: 'Critical Point and Onset of Deconfinement 2022'
+  url: 'https://indico.cern.ch/event/1186000/'
+  year: 2022
+
+- name: icppa22
+  title: 'Int. Conference of Particle Physics and Astrophysics 2022'
+  url: 'https://indico.particle.mephi.ru/event/275/'
+  year: 2022
+
+- name: zs22
+  title: 'Zimanyi School 2022'
+  url: 'http://zimanyischool.kfki.hu/22/'
+  year: 2022
+
 - name: eunpc22
   title: 'European Nuclear Physics Conference 2022'
   url: 'https://indico.cern.ch/event/1104299/'
