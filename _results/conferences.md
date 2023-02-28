@@ -2,6 +2,7 @@
 name: conferences
 layout: newbase
 years:
+- 2023
 - 2022
 - 2021
 - 2020
@@ -28,7 +29,7 @@ The tables below contain three columns:
 {% for conference in c4y %}
 {% capture link %}{%- include navigation/zenodo_query.md name=conference.name tag='Presentations' -%}{% endcapture %}
 
-<table width="95%">
+<table width="100%">
   <tr>
     <td width="60%"><nobr><a href="{{ conference.url }}" target="_blank">{{ conference.title }}</a></nobr></td>
     <td width="30%"><nobr>{{ link }}</nobr></td>
