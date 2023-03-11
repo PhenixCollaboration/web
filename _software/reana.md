@@ -79,8 +79,26 @@ pip install reana-client
 rehash
 ```
 
-At the time of writing, the server instance running at BNL is at version 0.7,
-so to ensure compatibility you may need to enforce same version for the client:
+It is a good idea to instal the `wheel` package before installing `reana-client`
+since it will make the installation faster. This is done, as expected, as follows:
+```bash
+pip install wheel
+```
+
+Depending on the system, additional softare may need to be installed
+for this installation procss to work, for example `gcc` compiler. On Debian-based
+Linux distros, this can be accomplished by
+```bash
+sudo apt install build-essential
+# make sure the link expected by the wheel package does exist:
+ls -l /usr/bin/x86_64-linux-gnu-gcc
+# at the time of writing, it often points to gcc-10
+```
+
+
+At the time of writing, the server instance running at BNL, used for PHENIX work,
+is at version 0.7.1, so to ensure compatibility you will likely need to force same
+version for the installed client:
 ```
 pip3 install --upgrade reana-client==0.7.1
 ```
@@ -148,10 +166,10 @@ reana-client run -w root6-roofit
 ```
 
 The status of the workflow can now be checked using either the client, or the REANA Web UI.
-In the latter case, assuming
-the user is doing that on their workstation outside of the BNL perimeter (e.g. at home),
-and established a SSH tunnel
-as explained above, this is done by pointing the browser to ```https://localhost:30443```.
+In the latter case, assuming the user is doing that on their workstation outside of the BNL
+perimeter (e.g. at home), and established a SSH tunnel
+as explained above, this is done by pointing the browser to `https://localhost:30443`.
+On the internal BNL network the correct URL will be `https://kubmaster01.sdcc.bnl.gov:30443`.
 
 ###### Connecting to the service from BNL (SDCC)
 
