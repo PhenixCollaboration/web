@@ -1,4 +1,36 @@
+# 2023
+
+- name: hepch23
+  title: 'High Energy Physics in the LHC Era (HEPChile) 2023'
+  url: 'https://indico.cern.ch/event/1158681'
+  year: 2023
+
+- name: wwnd23
+  title: 'Winter Workshop on Nuclear Dynamics 2023'
+  url: 'https://indico.cern.ch/event/1196342'
+  year: 2023
+
+- name: llwi23
+  title: 'Lake Louise Winter Institute 2023'
+  url: 'https://uofa.ualberta.ca/physics/research/lake-louise-winter-institute'
+  year: 2023
+
 # 2022
+
+- name: cpod22
+  title: 'Critical Point and Onset of Deconfinement 2022'
+  url: 'https://indico.cern.ch/event/1186000/'
+  year: 2022
+
+- name: icppa22
+  title: 'Int. Conference of Particle Physics and Astrophysics 2022'
+  url: 'https://indico.particle.mephi.ru/event/275/'
+  year: 2022
+
+- name: zs22
+  title: 'Zimanyi School 2022'
+  url: 'http://zimanyischool.kfki.hu/22/'
+  year: 2022
 
 - name: eunpc22
   title: 'European Nuclear Physics Conference 2022'
@@ -64,6 +96,7 @@
 - name: qm22
   title: 'Quark Matter 2022'
   url: 'https://indico.cern.ch/event/895086/'
+  authors: 'https://doi.org/10.5281/zenodo.7430208'
   year: 2022
 
 - name: moriond22

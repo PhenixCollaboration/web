@@ -88,12 +88,12 @@
 
     -
       name: conferences
-      full: Conference Presentations
+      full: Conference Presentations by PHENIX Members
 
     -
       name: theses
       full: PhD theses
-      link: 'https://zenodo.org/communities/phenixcollaboration/search?page=1&size=20&q=thesis'
+      link: 'https://zenodo.org/communities/phenixcollaboration/search?page=1&size=20&q=thesis&type=publication&sort=-publication_date&subtype=thesis'
       icon: /images/icons/external-link-32.png
 
 
@@ -176,6 +176,14 @@
 - name: software
   full: Offline Software
   submenus:
+
+
+    - name: sim
+      full: Simulations
+      label: yes
+
+    - name: pisa
+      full: PISA
 
     - name: docker
       full: Docker and REANA
@@ -260,7 +268,7 @@
   right: yes
   submenus:
     - name: dap
-      full: Data and Analysis Preservation
+      full: DAP
       icon: /images/icons/gift-2-32.png
 
     - name: site
