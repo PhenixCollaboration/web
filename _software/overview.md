@@ -23,7 +23,7 @@ For produciton, PHENIX relies on containerization to maintain a stable computing
 ##### Standard Login Scripts and Software Directories
 Assuming that the content of the user's `.cshrc` and `.login` is trivial and does not interfere with the rest of the setup on needs to run the following to initialize the PHENIX computing environment:
 ```bash
-/opt/phenix/core/bin/phenix_setup.csh -n
+source /opt/phenix/core/bin/phenix_setup.csh -n
 ```
 The parameter -n wipes the existing PHENIX setup. In the PHENIX software environment, the /opt/phenix directory contains 3rd party libraries (like ROOT and GEANT4) needed to develop and run our code. The `phenix_setup.csh` script sets an environment variable OFFLINE_MAIN which points to the installation area for our libraries. 
 

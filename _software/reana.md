@@ -62,19 +62,22 @@ in the upper right corner of the REANA web page.
 Client software must be installed on the user's machine.
 It is Python-based and at the time of writing Python 3.6 and higher is recommended.
 Perhaps the most efficient way to do the installation is via the Python "virtual environment"
-mechanism, as illustrated below:
+mechanism, as illustrated below. Compatibility among the many components which are
+part of this installation is not a trivial issue, so after some testing
+the following Python version and instance is recommended at the SDCC:
+```bash
+/direct/u0b/software/jupyter/python/3.8.0/bin/python3.8
+```
 
+In the following, references to `python3` should be expanded to the above.
+Setting up virtual environment:
 
 ```bash
-# Typically tcsh is used on "rcas" nodes so this example is for tcsh
-#
-# The folder for the virtual environments can be located anywhere
-# and named in any way, here is just one example of the setup:
-
+# Let's use bash in this example
 cd
 mkdir .virtualenvs # the exact name is unimportant
 python3 -m venv .virtualenvs/reana
-source .virtualenvs/reana/bin/activate.csh
+source .virtualenvs/reana/bin/activate
 pip install reana-client
 rehash
 ```
@@ -109,13 +112,10 @@ virtual environment can be deactivated. A full session will look something like:
 
 
 ```bash
-# Logging on to a SDCC node...
-# PLEASE NOTE WE ARE USING TCSH IN THIS EXAMPLE,
-# and also that tcsh is commonly used in PHENIX
-#
+# Using bash here
 # Entering the virtual environment
 #
-source ~/.virtualenvs/reana/bin/activate.csh
+source ~/.virtualenvs/reana/bin/activate
 # ... REANA commands here...
 # ... Do something useful...
 # Leave the virtual environment
@@ -147,9 +147,10 @@ ssh -L 30443:kubmaster01.sdcc.bnl.gov:30443 ssh.sdcc.bnl.gov
 Assuming a token has been obtained and a SSH tunnel established on port 30443
 a test session might look like this:
 ```bash
+# Using bash
 # Set REANA environment variables for the client
-setenv REANA_SERVER_URL https://localhost:30443
-setenv REANA_ACCESS_TOKEN ________ # user's REANA token
+export REANA_SERVER_URL=https://localhost:30443
+export REANA_ACCESS_TOKEN=________ # user's REANA token
 reana-client ping
 ```
 
@@ -189,7 +190,7 @@ the ssh tunnel:
 export REANA_SERVER_URL=https://kubmaster01.sdcc.bnl.gov:30443
 #
 #
-# If running tcsh (recommended):
+# If running tcsh:
 setenv REANA_SERVER_URL https://kubmaster01.sdcc.bnl.gov:30443
 #
 ```
