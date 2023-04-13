@@ -1,5 +1,20 @@
 # 2023
 
+- name: hp23
+  title: 'Hard Probes 2023'
+  url: 'https://wwuindico.uni-muenster.de/event/1409/'
+  year: 2023
+
+- name : dis23
+  title: Deep Inelastic Scattering (2023)
+  url: 'https://indico.cern.ch/event/1199314/'
+  year: 2023
+
+- name: moriond23
+  title: 'Rencontres de Moriond 2023'
+  url: 'https://moriond.in2p3.fr/2023/QCD/'
+  year: 2023
+
 - name: hepch23
   title: 'High Energy Physics in the LHC Era (HEPChile) 2023'
   url: 'https://indico.cern.ch/event/1158681'
@@ -41,7 +56,6 @@
   title: 'Hot Quarks 2022'
   url: 'https://indico.bnl.gov/event/7770/'
   year: 2022
-
 
 - name: inpc22
   title: 'International Nuclear Physics Conference 2022'

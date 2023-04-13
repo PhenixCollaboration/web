@@ -50,6 +50,18 @@
 # Conferences
 # 2023
 
+- name : hp23
+  description: Hard Probes 2023
+  category: conference
+
+- name : dis23
+  description: Deep Inelastic Scattering (2023)
+  category: conference
+
+- name : moriond23
+  description: 'Rencontres de Moriond 2023'
+  category: conference
+
 - name : hepch23
   description: High Energy Physics in the LHC Era (HEPChile) 2023
   category: conference
