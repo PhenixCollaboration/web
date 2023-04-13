@@ -143,7 +143,7 @@ Below is an outline of the analysis sequence with references to "block numbers" 
 [workflow diagram](https://github.com/PhenixCollaboration/reana/blob/main/pi0extraction/sampleCode_correctedPi0.pdf){:target="_blank"},
 along with pointers to relevant REANA components
 
-##### Block 1
+##### Raw Pion Spectrum (MB + ERT) (Block 1)
 
 ```bash
 # Block 1
@@ -160,7 +160,7 @@ These commands are included in ```pi0extraction.yaml```.
 Currently a folder ```output_plots``` is created with subfolders ```txt,root,pdf```,
 and the folder ```txt``` contains the actual analsys data.
 
-##### Block 2
+##### Pion Simulation (Block 2)
 
 Presented below is the core of __Block 2__ which includes processing of multiple
 input files (60 in total):
@@ -222,7 +222,8 @@ reana-client download -w embed embedPi0dAu.tar
 
 ---
 
-##### Block 3
+##### 2D Response Matrix of Pion Momentum Reconstruction (Block 3)
+
 The original macro ```generationRM_Pi0.cc``` was cleaned up (including removal of interactive graphics)
 and renamed ```generationRM_Pi0.C```.
 
@@ -274,7 +275,7 @@ reana-client download -w gen Pion_RM.root
 ```
 
 
-##### Block 4
+##### Corrected Pion Spectrum (Block 4)
 
 This REANA step (final in this analysis)
 is accomplished with scripts and macros named ```VConvolution_Pi0*```. The file ```Pion_RM.root```
