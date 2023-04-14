@@ -78,6 +78,12 @@
   data: legacy
   legacyURL: ppg194_data.html
 
+- title: 'Centrality dependence of low-momentum direct-photon production in Au+Au collisions at ​​√s<sub>NN</sub>=200GeV'
+  inspire: 1296308
+  data: legacy
+  legacyURL: ppg162_data.html
+
+
 - title: 'Azimuthal-angle dependence of charged-pion-interferometry measurements with respect to second- and third-order event planes in Au+Au collisions t ​​√s<sub>NN</sub>=200GeV'
   inspire: 1279634
   data: legacy
