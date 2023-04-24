@@ -331,3 +331,46 @@ scaledUEB_corrPi0_BBCpERT_PbSc_0CC88_Chi2_3Sig.txt
 ```
 
 
+##### Corrected Eta Spectrum (Box 5)
+
+This step of the analysis can be executed by running the following reana workflow:
+
+```console
+cd reana/pi0extraction
+reana-client run -f 05_reana.yaml
+```
+
+
+##### Decay Gamma Spectrum from Eta (Box 6)
+
+This step of the analysis can be executed by running the following reana workflow:
+
+```console
+cd reana/pi0extraction
+reana-client run -f 06_reana.yaml
+```
+
+
+##### Decay Gamma Spectrum from Pions (Box 7)
+
+This step of the analysis can be executed by running the following reana workflow:
+
+```console
+cd reana/pi0extraction
+reana-client run -f 07_reana.yaml
+```
+
+
+##### Total Decay Gamma from Pi0 and Eta (Box 8)
+
+
+##### Raw Inclusive Gamma Spectrum (MB+ERT) (Box 9)
+
+
+##### Mofified Inclusive Gamma Spectrum (Box 10)
+
+
+##### Raw Direct Photon Spectrum (Box 11)
+
+
+##### Corrected Direct Photon Spectrum (Box 12)
