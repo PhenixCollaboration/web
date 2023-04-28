@@ -37,14 +37,16 @@ A PHENIX-managed repository has been created on GitHub in order to capture the *
 [https://github.com/PhenixCollaboration/emcal](https://github.com/PhenixCollaboration/emcal){:target="_blank"}
 
 ##### Input Data
+
 Parts of this analysis use data samples kept in the storage area intended for long-term preservation.
 This is its location in the GPFS filesystem of BNL SDCC:
 
-```bash
+```console
 /gpfs/mnt/gpfs02/phenix/data_preservation/phnxreco/emcal
 ```
 
 ##### Calibration Dependencies
+
 There are "DeadWarn" and "Timing" type of maps which are prerequisite of this analysis
 and they are considered as a separate "prior" component. In a condensed form, they
 are preserved in the folder
@@ -57,12 +59,12 @@ in the repository specified above.
 
 ##### Setting up the Environment
 
-REANA operates using containers. For the analyses presented here,
+REANA operates using containers. For the analysis presented here,
 Docker images created by the PHENIX Collaboration are used. They are
-hosted in a private registry maintained the BNL SDCC. For the container
+hosted in a private registry maintained by the BNL SDCC. For the container
 to work properly, a number of setup step are required, as listed below:
 
-```bash
+```csh
 setenv OFFLINE_MAIN /cvmfs/phenix.sdcc.bnl.gov/x8664_sl7/release/release_new/new
 setenv ONLINE_MAIN /cvmfs/phenix.sdcc.bnl.gov/x8664_sl7/release/release_new/new
 setenv ROOTSYS /cvmfs/phenix.sdcc.bnl.gov/x8664_sl7/opt/phenix/core/root-5.34.36
@@ -75,6 +77,7 @@ setenv LD_LIBRARY_PATH .:$LD_LIBRARY_PATH
 setenv  ODBCINI ${PWD}/afs/rhic.bnl.gov/phenix/etc/odbc.ini
 setenv PG_PHENIX_DBNAME Phenix_phnxdbrcf2_C
 ```
+
 Since every line in the REANA submission file (formatted in YAML) has its own environment
 the setup needs to be performed for every step that needs PHENIX-specific environment
 variables. For this reasons the commands are often used with ```csh``` wrapper that
@@ -113,7 +116,6 @@ outputs:
 ```
 
 
-
 ##### The Code
 
 {% include navigation/pagelink.md folder=site.analysis name='reana' tag='REANA' %}
@@ -134,7 +136,7 @@ The resulting code prepared for REANA is kept in this PHENIX repository on GitHu
 ##### Starting Point
 
 The analysis starts with files produced by the *Taxi* process. For example,
-the ROOT macro `pioExtraction.cc` takes the *Taxi* ROOT files as input and generates `MB` (min bias)
+the ROOT macro `pi0Extraction.cc` takes the *Taxi* ROOT files as input and generates `MB` (min bias)
 and `ERT` (triggered) data as output. This macro is included in a driver script `corrPi0Chain.csh`.
 
 ##### Components
@@ -145,7 +147,7 @@ along with pointers to relevant REANA components
 
 ##### Raw Pion Spectrum (MB + ERT) (Block 1)
 
-```bash
+```console
 # Block 1
 # condor_Pi0Extraction.cc reformatted and renamed "pi0extraction.C"
 root -l -b -q 'pi0extraction.C("MB", "PbSc", 4,5)'
@@ -165,7 +167,7 @@ and the folder ```txt``` contains the actual analsys data.
 Presented below is the core of __Block 2__ which includes processing of multiple
 input files (60 in total):
 
-```bash
+```console
 # Block 2, the original code found in the Condor submission part:
 root -l -b <<EOF
   .L Pi0EmbedFiles.C
@@ -175,7 +177,8 @@ root -l -b <<EOF
 ```
 
 Adaptation of the _ROOT_ macro for REANA, in a separate file *pi0run.script*:
-```bash
+
+```console
 gSystem->Load("libTHmul.so");
 .L Pi0EmbedFiles.C
 Pi0EmbedFiles t
@@ -192,7 +195,8 @@ in the PHENIX GitHub repository for access to the actual material.
 
 This is the driver script ```Pi0EmbedFiles.csh```. Note that symbolic links are created
 to feed successive files from a holding folder, to the _ROOT_ macro.
-```bash
+
+```csh
 #!/bin/tcsh
 source ./setup_env.csh
 
@@ -216,7 +220,7 @@ Upon completion of this step the file ```embedPi0dAu.tar``` needs to be download
 in the folder from where the next step is launched. An example of the cownload command, assuming the workflow
 was named "embed":
 
-```bash
+```console
 reana-client download -w embed embedPi0dAu.tar
 ```
 
@@ -230,7 +234,7 @@ and renamed ```generationRM_Pi0.C```.
 Tar file containing multiple ROOT files (see __Block 2__ description above) is uploaded as input for this step.
 Abbreviated contents of driver script look as follows:
 
-```bash
+```csh
 #!/bin/tcsh
 source ./setup_env.csh
 haddPhenix EmbedPi0dAu.root EmbedPi0dAu_*
@@ -270,7 +274,7 @@ outputs:
 
 The result will need to be downloaded as follows (assuming the worflow was assigned the name "gen" in REANA - can be anything):
 
-```bash
+```console
 reana-client download -w gen Pion_RM.root
 ```
 
@@ -282,7 +286,7 @@ is accomplished with scripts and macros named ```VConvolution_Pi0*```. The file 
 serves as input, along with text files residing in ```output_plots``` previosly produced by the macros
 ```pi0extraction.C``` and ```WGRatio.C```:
 
-```bash
+```console
 scaledUEB_rawPi0_ERT_PbSc_0CC88_Chi2_3Sig.txt
 scaledUEB_rawPi0_MB_PbSc_0CC88_Chi2_3Sig.txt
 scaledUEB_rawPi0_BBCpERT_PbSc_0CC88_Chi2_3Sig.txt
@@ -290,7 +294,7 @@ scaledUEB_rawPi0_BBCpERT_PbSc_0CC88_Chi2_3Sig.txt
 
 The core of this step looks like this:
 
-```bash
+```console
 # Block 4
 root -l -b -q 'VConvolution_Pi0.C'
 ```
@@ -325,7 +329,7 @@ outputs:
 ```
 
 Outputs are also written in ```output_plots/txt``` and contain
-```bash
+```console
 scaledEB_corrPi0_BBCpERT_PbSc_0CC88_Chi2_3Sig.txt
 scaledUEB_corrPi0_BBCpERT_PbSc_0CC88_Chi2_3Sig.txt
 ```
