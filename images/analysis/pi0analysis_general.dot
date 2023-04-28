@@ -1,0 +1,64 @@
+digraph G {
+
+    graph [splines=ortho ratio=0.5 nodesep=0.2 compound=true]
+    node [shape=record style="filled"]
+
+    block_01a   [label=<<b>1a</b> <br align="left"/> Raw Pion spectrum <br/> (MB + ERT)>, fillcolor="lightblue"]
+    block_01b   [label=<<b>1b</b> <br align="left"/> Raw inclusive gamma spectrum <br/> (MB + ERT)>, fillcolor="lightblue"]
+
+    block_02a   [label=<<b>2a</b> <br align="left"/> Pion simulation>, fillcolor="pink"]
+    block_02b   [label=<<b>2b</b> <br align="left"/> Eta simulation>, fillcolor="pink"]
+    block_02c   [label=<<b>2c</b> <br align="left"/> Single photon simulation>, fillcolor="pink"]
+
+    block_03a   [label=<<b>3a</b> <br align="left"/> 2D response matrix <br/> of decay gamma from Pions>, fillcolor="pink"]
+    block_03b   [label=<<b>3b</b> <br align="left"/> 2D response matrix <br/> of Pion momentum reconstruction>, fillcolor="pink"]
+    block_03c   [label=<<b>3c</b> <br align="left"/> 2D response matrix <br/> of decay gamma from Etas>, fillcolor="pink"]
+    block_03d   [label=<<b>3d</b> <br align="left"/> 2D response matrix <br/> of single photon momentum reconstruction>, fillcolor="pink"]
+
+    block_04a   [label=<<b>4a</b> <br align="left"/> Estimation <br/> of decay gamma <br/> from Etas and Omegas <br/> (Fast simulation)>, fillcolor="pink"]
+    block_04b   [label=<<b>4b</b> <br align="left"/> Estimation <br/> of hadron contamination <br/> (PYTHIA)>, fillcolor="pink"]
+
+    block_05    [label=<<b>5</b> <br align="left"/> Corrected <br/> Pion spectrum>, fillcolor="lightgreen"]
+    block_06    [label=<<b>6</b> <br align="left"/> Corrected <br/> Eta spectrum>, fillcolor="lightgreen"]
+    block_07    [label=<<b>7</b> <br align="left"/> Decay gamma spectrum <br/> from Etas>, fillcolor="lightgreen"]
+    block_08    [label=<<b>8</b> <br align="left"/> Decay gamma spectrum <br/> from Pions>, fillcolor="lightgreen"]
+    block_09    [label=<<b>9</b> <br align="left"/> Total decay gamma <br/> from Pions and Etas>, fillcolor="lightgreen"]
+    block_10    [label=<<b>10</b> <br align="left"/> Modified inclusive gamma spectrum>, fillcolor="lightgreen"]
+    block_11    [label=<<b>11</b> <br align="left"/> Raw direct photon spectrum>, fillcolor="lightgreen"]
+    block_12    [label=<<b>12</b> <br align="left"/> Corrected direct photon spectrum>, fillcolor="lightgreen"]
+
+    block_13    [label=<<b>13</b> <br align="left"/> Invariant yield <br/> after applying <br/> centrality bias factors>, fillcolor="lightgreen"]
+
+    block_01a -> block_05:ne -> block_06 -> block_07:nw
+    block_01b -> block_10 -> block_11:ne
+    block_02a -> block_03b -> block_05 -> block_08
+    block_02a -> block_03a -> block_08 -> block_09 -> block_11 -> block_12 -> block_13
+    block_02b -> block_03c -> block_07 -> block_09
+    block_02c -> block_03d -> block_12
+    block_04a -> block_07:ne
+    block_04b -> block_10
+
+
+
+    { rank=same; block_01a; block_01b; block_02a; block_02b; block_02c; }
+    { rank=same; block_03a; block_03b; block_03c; block_03d; }
+    { rank=same; block_04a; block_04b; }
+    { rank=same; block_05; block_06; }
+
+    // Legend entries
+    subgraph cluster_legend {
+      label=<<b>Legend</b>>
+
+      legend1 [label=<From Run 16 dAu collision data> fillcolor="lightblue"]
+      legend2 [label=<PISA simulations> fillcolor="pink"]
+      legend3 [label=<Derived corrected spectra <br/> from data using simulations> fillcolor="lightgreen"]
+
+      legend1 -> legend2 -> legend3 [style=invis];
+    }
+
+    invis_sink [width=10 height=0 fixedsize=true style=invis]
+    { rank=sink; invis_sink }
+    legend3 -> invis_sink:w [style=invis]
+    block_13 -> invis_sink:e [style=invis]
+
+}
