@@ -3,47 +3,47 @@ digraph G {
     graph [splines=ortho ratio=0.5 nodesep=0.2 compound=true]
     node [shape=record style="filled"]
 
-    block_01a   [label=<<b>1a</b> <br align="left"/> Raw Pion spectrum <br/> (MB + ERT)>, fillcolor="lightblue"]
-    block_01b   [label=<<b>1b</b> <br align="left"/> Raw inclusive gamma spectrum <br/> (MB + ERT)>, fillcolor="lightblue"]
+    block_01a   [label=<<b>1a</b> <br align="left"/> Raw &pi;<sup>0</sup> spectrum <br/> (MB + ERT)>, fillcolor="lightblue"]
+    block_01b   [label=<<b>1b</b> <br align="left"/> Raw inclusive &gamma; spectrum <br/> (MB + ERT)>, fillcolor="lightblue"]
 
-    block_02a   [label=<<b>2a</b> <br align="left"/> Pion simulation>, fillcolor="pink"]
-    block_02b   [label=<<b>2b</b> <br align="left"/> Eta simulation>, fillcolor="pink"]
-    block_02c   [label=<<b>2c</b> <br align="left"/> Single photon simulation>, fillcolor="pink"]
+    block_02a   [label=<<b>2a</b> <br align="left"/> &pi;<sup>0</sup> simulation>, fillcolor="pink"]
+    block_02b   [label=<<b>2b</b> <br align="left"/> &eta; simulation>, fillcolor="pink"]
+    block_02c   [label=<<b>2c</b> <br align="left"/> Single &gamma; simulation>, fillcolor="pink"]
 
-    block_03a   [label=<<b>3a</b> <br align="left"/> 2D response matrix <br/> of decay gamma from &pi;<sup>0</sup>>, fillcolor="pink"]
-    block_03b   [label=<<b>3b</b> <br align="left"/> 2D response matrix <br/> of Pion momentum reconstruction>, fillcolor="pink"]
-    block_03c   [label=<<b>3c</b> <br align="left"/> 2D response matrix <br/> of decay gamma from Etas>, fillcolor="pink"]
-    block_03d   [label=<<b>3d</b> <br align="left"/> 2D response matrix <br/> of single photon momentum reconstruction>, fillcolor="pink"]
+    block_03a   [label=<<b>3a</b> <br align="left"/> 2D response matrix <br/> of decay &gamma; from &pi;<sup>0</sup>>, fillcolor="pink"]
+    block_03b   [label=<<b>3b</b> <br align="left"/> 2D response matrix <br/> of &pi;<sup>0</sup> momentum reconstruction>, fillcolor="pink"]
+    block_03c   [label=<<b>3c</b> <br align="left"/> 2D response matrix <br/> of decay &gamma; from &eta;>, fillcolor="pink"]
+    block_03d   [label=<<b>3d</b> <br align="left"/> 2D response matrix <br/> of single &gamma; momentum reconstruction>, fillcolor="pink"]
 
-    block_04a   [label=<<b>4a</b> <br align="left"/> Estimation <br/> of decay gamma <br/> from Eta prime and Omega <br/> (Fast simulation)>, fillcolor="pink"]
+    block_04a   [label=<<b>4a</b> <br align="left"/> Estimation <br/> of decay &gamma; <br/> from &eta;' and &Omega; <br/> (Fast simulation)>, fillcolor="pink"]
     block_04b   [label=<<b>4b</b> <br align="left"/> Estimation <br/> of hadron contamination <br/> (PYTHIA)>, fillcolor="pink"]
     block_04c   [label=<<b>4c</b> <br align="left"/> Centrality bias factors>, fillcolor="pink"]
 
-    block_05    [label=<<b>5</b> <br align="left"/> Corrected <br/> Pion spectrum>, fillcolor="lightgreen"]
-    block_06    [label=<<b>6</b> <br align="left"/> Corrected <br/> Eta spectrum>, fillcolor="lightgreen"]
-    block_07    [label=<<b>7</b> <br align="left"/> Decay gamma spectrum <br/> from &eta;, &eta;', and &Omega;>, fillcolor="lightgreen"]
-    block_08    [label=<<b>8</b> <br align="left"/> Decay gamma spectrum <br/> from Pi0>, fillcolor="lightgreen"]
-    block_09    [label=<<b>9</b> <br align="left"/> Total decay gamma <br/> from Pi0 and other hadrons>, fillcolor="lightgreen"]
-    block_10    [label=<<b>10</b> <br align="left"/> Modified inclusive gamma spectrum>, fillcolor="lightgreen"]
-    block_11    [label=<<b>11</b> <br align="left"/> Raw direct photon spectrum>, fillcolor="lightgreen"]
-    block_12    [label=<<b>12</b> <br align="left"/> Corrected direct photon spectrum>, fillcolor="lightgreen"]
+    block_05    [label=<<b>5</b> <br align="left"/> Corrected &pi;<sup>0</sup> spectrum>, fillcolor="lightgreen"]
+    block_06    [label=<<b>6</b> <br align="left"/> Corrected &eta; spectrum>, fillcolor="lightgreen"]
+    block_07    [label=<<b>7</b> <br align="left"/> Decay &gamma; spectrum <br/> from &eta;, &eta;', and &Omega;>, fillcolor="lightgreen"]
+    block_08    [label=<<b>8</b> <br align="left"/> Decay &gamma; spectrum <br/> from &pi;<sup>0</sup>>, fillcolor="lightgreen"]
+    block_09    [label=<<b>9</b> <br align="left"/> Total decay &gamma; spectrum <br/> from &pi;<sup>0</sup>, &eta;, &eta;', and &Omega;>, fillcolor="lightgreen"]
+    block_10    [label=<<b>10</b> <br align="left"/> Modified inclusive &gamma; spectrum>, fillcolor="lightgreen"]
+    block_11    [label=<<b>11</b> <br align="left"/> Raw direct &gamma; spectrum>, fillcolor="lightgreen"]
+    block_12    [label=<<b>12</b> <br align="left"/> Corrected direct &gamma; spectrum>, fillcolor="lightgreen"]
 
-    block_13    [label=<<b>13</b> <br align="left"/> Direct photon invariant yield>, fillcolor="lightgreen"]
-    block_14    [label=<<b>14</b> <br align="left"/> Pi0 invariant yield>, fillcolor="lightgreen"]
+    block_13    [label=<<b>13</b> <br align="left"/> Direct &gamma; invariant yield>, fillcolor="lightgreen"]
+    block_14    [label=<<b>14</b> <br align="left"/> &pi;<sup>0</sup> invariant yield>, fillcolor="lightgreen"]
 
-    block_01a -> block_05:ne -> block_06 -> block_07:nw
-    block_01b -> block_10 -> block_11:ne
+    block_01a -> block_05 -> block_06 -> block_07
+    block_01b -> block_10
+    block_10:se -> block_11:ne
     block_02a -> block_03b -> block_05 -> block_08
     block_02a -> block_03a -> block_08 -> block_09 -> block_11 -> block_12 -> block_13
-    block_02b -> block_03c -> block_07 -> block_09
+    block_02b -> block_03c -> block_07:ne
+    block_07 -> block_09
     block_02c -> block_03d -> block_12:ne
     block_04a -> block_07:ne
     block_04b -> block_10
     block_05 -> block_14
     block_04c -> block_13
     block_04c -> block_14
-
-
 
     { rank=same; block_01a; block_01b; block_02a; block_02b; block_02c; }
     { rank=same; block_03a; block_03b; block_03c; block_03d; }
@@ -62,7 +62,7 @@ digraph G {
       legend1 -> legend2 -> legend3 [style=invis];
     }
 
-    invis_sink [width=3 height=0 fixedsize=true style=invis]
+    invis_sink [width=2 height=0 fixedsize=true style=invis]
     { rank=sink; invis_sink }
     legend3 -> invis_sink:w [style=invis]
     block_14 -> invis_sink:e [style=invis]
