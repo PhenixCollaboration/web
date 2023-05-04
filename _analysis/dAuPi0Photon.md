@@ -1,5 +1,5 @@
 ---
-name: emcal
+name: dAuPi0Photon
 layout: newbase
 ---
 

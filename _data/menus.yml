@@ -250,7 +250,7 @@
     - name: embeddingVtx
       full: Embedding Example (VTX)
 
-    - name: emcal
+    - name: dAuPi0Photon
       full: Direct &#611; in d+Au collisions
 
     - name: misc
