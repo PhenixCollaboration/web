@@ -15,15 +15,15 @@ digraph G {
     block_03c   [label=<<b>3c</b> <br align="left"/> 2D response matrix <br/> of decay &gamma; from &eta;>, fillcolor="pink"]
     block_03d   [label=<<b>3d</b> <br align="left"/> 2D response matrix <br/> of single &gamma; momentum reconstruction>, fillcolor="pink"]
 
-    block_04a   [label=<<b>4a</b> <br align="left"/> Estimation <br/> of decay &gamma; <br/> from &eta;' and &Omega; <br/> (Fast simulation)>, fillcolor="pink"]
+    block_04a   [label=<<b>4a</b> <br align="left"/> Estimation <br/> of decay &gamma; <br/> from &eta;' and &omega; <br/> (Fast simulation)>, fillcolor="pink"]
     block_04b   [label=<<b>4b</b> <br align="left"/> Estimation <br/> of hadron contamination <br/> (PYTHIA)>, fillcolor="pink"]
     block_04c   [label=<<b>4c</b> <br align="left"/> Centrality bias factors>, fillcolor="pink"]
 
     block_05    [label=<<b>5</b> <br align="left"/> Corrected &pi;<sup>0</sup> spectrum>, fillcolor="lightgreen"]
     block_06    [label=<<b>6</b> <br align="left"/> Corrected &eta; spectrum>, fillcolor="lightgreen"]
     block_07    [label=<<b>7</b> <br align="left"/> Decay &gamma; spectrum <br/> from &pi;<sup>0</sup>>, fillcolor="lightgreen"]
-    block_08    [label=<<b>8</b> <br align="left"/> Decay &gamma; spectrum <br/> from &eta;, &eta;', and &Omega;>, fillcolor="lightgreen"]
-    block_09    [label=<<b>9</b> <br align="left"/> Total decay &gamma; spectrum <br/> from &pi;<sup>0</sup>, &eta;, &eta;', and &Omega;>, fillcolor="lightgreen"]
+    block_08    [label=<<b>8</b> <br align="left"/> Decay &gamma; spectrum <br/> from &eta;, &eta;', and &omega;>, fillcolor="lightgreen"]
+    block_09    [label=<<b>9</b> <br align="left"/> Total decay &gamma; spectrum <br/> from &pi;<sup>0</sup>, &eta;, &eta;', and &omega;>, fillcolor="lightgreen"]
     block_10    [label=<<b>10</b> <br align="left"/> Modified inclusive &gamma; spectrum>, fillcolor="lightgreen"]
     block_11    [label=<<b>11</b> <br align="left"/> Raw direct &gamma; spectrum>, fillcolor="lightgreen"]
     block_12    [label=<<b>12</b> <br align="left"/> Corrected direct &gamma; spectrum>, fillcolor="lightgreen"]
