@@ -334,47 +334,40 @@ scaledEB_corrPi0_BBCpERT_PbSc_0CC88_Chi2_3Sig.txt
 scaledUEB_corrPi0_BBCpERT_PbSc_0CC88_Chi2_3Sig.txt
 ```
 
-
-##### Corrected Eta Spectrum (Box 5)
-
-This step of the analysis can be executed by running the following reana workflow:
-
-```console
-cd reana/pi0extraction
-reana-client run -f 05_reana.yaml
-```
-
-
-##### Decay Gamma Spectrum from Eta (Box 6)
-
-This step of the analysis can be executed by running the following reana workflow:
+Each of the following analysis steps can be performed using a dedicated REANA
+workflow. For example, the user should be able to reproduce the results for step
+X by creating and executing a workflow X_reana through the following commands:
 
 ```console
 cd reana/pi0extraction
-reana-client run -f 06_reana.yaml
+reana-client run -w X_reana -f X_reana.yaml
 ```
 
-
-##### Decay Gamma Spectrum from Pions (Box 7)
-
-This step of the analysis can be executed by running the following reana workflow:
-
-```console
-cd reana/pi0extraction
-reana-client run -f 07_reana.yaml
-```
+##### 5. Corrected &pi;<sup>0</sup> spectrum
 
 
-##### Total Decay Gamma from Pi0 and Eta (Box 8)
+##### 6. Corrected &eta; spectrum
 
 
-##### Raw Inclusive Gamma Spectrum (MB+ERT) (Box 9)
+##### 7. Decay &gamma; spectrum from &pi;<sup>0</sup>
 
 
-##### Mofified Inclusive Gamma Spectrum (Box 10)
+##### 8. Decay &gamma; spectrum from &eta;, &eta;', and &Omega;
 
 
-##### Raw Direct Photon Spectrum (Box 11)
+##### 9. Total decay &gamma; spectrum from &pi;<sup>0</sup>, &eta;, &eta;', and &Omega;
 
 
-##### Corrected Direct Photon Spectrum (Box 12)
+##### 10. Modified inclusive &gamma; spectrum
+
+
+##### 11. Raw direct &gamma; spectrum
+
+
+##### 12. Corrected direct &gamma; spectrum
+
+
+##### 13. Direct &gamma; invariant yield
+
+
+##### 14. &pi;<sup>0</sup> invariant yield
