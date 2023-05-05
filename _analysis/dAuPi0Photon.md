@@ -145,10 +145,9 @@ Below is an outline of the analysis sequence with references to "block numbers" 
 [workflow diagram](https://github.com/PhenixCollaboration/reana/blob/main/pi0extraction/sampleCode_correctedPi0.pdf){:target="_blank"},
 along with pointers to relevant REANA components
 
-##### Raw Pion Spectrum (MB + ERT) (Block 1)
+##### 1a. Raw &pi;<sup>0</sup> spectrum (MB + ERT)
 
 ```console
-# Block 1
 # condor_Pi0Extraction.cc reformatted and renamed "pi0extraction.C"
 root -l -b -q 'pi0extraction.C("MB", "PbSc", 4,5)'
 root -l -b -q 'pi0extraction.C("ERT", "PbSc", 4,5)'
@@ -162,13 +161,13 @@ These commands are included in ```pi0extraction.yaml```.
 Currently a folder ```output_plots``` is created with subfolders ```txt,root,pdf```,
 and the folder ```txt``` contains the actual analsys data.
 
-##### Pion Simulation (Block 2)
+##### 2a. &pi;<sup>0</sup> simulation
 
-Presented below is the core of __Block 2__ which includes processing of multiple
-input files (60 in total):
+Presented below is the core of this workflow which includes processing of
+multiple input files (60 in total):
 
 ```console
-# Block 2, the original code found in the Condor submission part:
+# the original code found in the Condor submission part:
 root -l -b <<EOF
   .L Pi0EmbedFiles.C
    Pi0EmbedFiles t
@@ -215,7 +214,7 @@ Processing of input files takes place sequentially and in this case takes a sign
 of time compared to other steps, i.e. a feew hours.
 
 The results of all emedding runs are bundled together in a _tar_ archive to make downloading easier. Upon
-retrieval the data need to be merged using the utility ```haddPhenix``` which is done in __Block 3__ (see below).
+retrieval the data need to be merged using the utility ```haddPhenix``` which is done in block `3a` (see below).
 Upon completion of this step the file ```embedPi0dAu.tar``` needs to be downloaded, and put
 in the folder from where the next step is launched. An example of the cownload command, assuming the workflow
 was named "embed":
@@ -224,14 +223,12 @@ was named "embed":
 reana-client download -w embed embedPi0dAu.tar
 ```
 
----
-
-##### 2D Response Matrix of Pion Momentum Reconstruction (Block 3)
+##### 3a. 2D response matrix of &pi;<sup>0</sup> momentum reconstruction
 
 The original macro ```generationRM_Pi0.cc``` was cleaned up (including removal of interactive graphics)
 and renamed ```generationRM_Pi0.C```.
 
-Tar file containing multiple ROOT files (see __Block 2__ description above) is uploaded as input for this step.
+Tar file containing multiple ROOT files (see previous step `2a`) is uploaded as input for this step.
 Abbreviated contents of driver script look as follows:
 
 ```csh
@@ -278,8 +275,7 @@ The result will need to be downloaded as follows (assuming the worflow was assig
 reana-client download -w gen Pion_RM.root
 ```
 
-
-##### Corrected Pion Spectrum (Block 4)
+##### 5. Corrected &pi;<sup>0</sup> spectrum
 
 This REANA step (final in this analysis)
 is accomplished with scripts and macros named ```VConvolution_Pi0*```. The file ```Pion_RM.root```
@@ -295,7 +291,6 @@ scaledUEB_rawPi0_BBCpERT_PbSc_0CC88_Chi2_3Sig.txt
 The core of this step looks like this:
 
 ```console
-# Block 4
 root -l -b -q 'VConvolution_Pi0.C'
 ```
 
@@ -342,8 +337,6 @@ X by creating and executing a workflow X_reana through the following commands:
 cd reana/pi0extraction
 reana-client run -w X_reana -f X_reana.yaml
 ```
-
-##### 5. Corrected &pi;<sup>0</sup> spectrum
 
 
 ##### 6. Corrected &eta; spectrum
