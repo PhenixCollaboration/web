@@ -34,7 +34,7 @@ to make reproduction of this analysis possible.
 
 A PHENIX-managed repository has been created on GitHub in order to capture the **original code**
 (i.e. before adjustments were made to make it suitable for long-term preservation):
-[https://github.com/PhenixCollaboration/emcal](https://github.com/PhenixCollaboration/emcal){:target="_blank"}
+[https://github.com/PhenixCollaboration/emcal](https://github.com/PhenixCollaboration/emcal)
 
 ##### Input Data
 
@@ -50,7 +50,7 @@ This is its location in the GPFS filesystem of BNL SDCC:
 There are "DeadWarn" and "Timing" type of maps which are prerequisite of this analysis
 and they are considered as a separate "prior" component. In a condensed form, they
 are preserved in the folder
-[sim_Pi0Histogram/creatingHistogram_fromTTree](https://github.com/PhenixCollaboration/emcal/tree/master/sim_Pi0Histogram/creatingHistogram_fromTTree){:target="_blank"}
+[sim_Pi0Histogram/creatingHistogram_fromTTree](https://github.com/PhenixCollaboration/emcal/tree/master/sim_Pi0Histogram/creatingHistogram_fromTTree)
 in the repository specified above.
 
 ---
