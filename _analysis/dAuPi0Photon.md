@@ -12,7 +12,7 @@ layout: newbase
 
 ---
 
-#### About This Page
+### About This Page
 
 * This page is work in progress
 * It is designed to capture the details of the analysis
@@ -22,21 +22,21 @@ data.
 * The goal of this page is to consolidate information in a way that is sufficient
 to make reproduction of this analysis possible.
 
-#### The Analysis Outline
+### The Analysis Outline
 
-##### General Analysis Workflow Diagram
+#### General Analysis Workflow Diagram
 
 {% include images/image.md name='pi0_general' width=887 %}
 
 ---
 
-##### The Original Code
+#### The Original Code
 
 A PHENIX-managed repository has been created on GitHub in order to capture the **original code**
 (i.e. before adjustments were made to make it suitable for long-term preservation):
 [https://github.com/PhenixCollaboration/emcal](https://github.com/PhenixCollaboration/emcal)
 
-##### Input Data
+#### Input Data
 
 Parts of this analysis use data samples kept in the storage area intended for long-term preservation.
 This is its location in the GPFS filesystem of BNL SDCC:
@@ -45,7 +45,7 @@ This is its location in the GPFS filesystem of BNL SDCC:
 /gpfs/mnt/gpfs02/phenix/data_preservation/phnxreco/emcal
 ```
 
-##### Calibration Dependencies
+#### Calibration Dependencies
 
 There are "DeadWarn" and "Timing" type of maps which are prerequisite of this analysis
 and they are considered as a separate "prior" component. In a condensed form, they
@@ -55,9 +55,9 @@ in the repository specified above.
 
 ---
 
-#### REANA
+### REANA
 
-##### Setting up the Environment
+#### Setting up the Environment
 
 REANA operates using containers. For the analysis presented here,
 Docker images created by the PHENIX Collaboration are used. They are
@@ -116,36 +116,60 @@ outputs:
 ```
 
 
-##### The Code
+#### Running the Analysis with REANA
 
-{% include navigation/pagelink.md folder=site.analysis name='reana' tag='REANA' %}
-implementation of this analysis is based on the workflow illustrated in
-[this partial diagram](https://github.com/PhenixCollaboration/reana/blob/main/pi0extraction/sampleCode_correctedPi0.pdf){:target="_blank"}.
+The REANA implementation of this analysis is based on the workflow diagram shown
+above. To run this analysis within the REANA framework, certain adjustments had
+to be made to the original code. The adjustments involve removing dependencies
+on the batch system and creating workflow definitions that are native to REANA,
+including staging the input data. We also made additional changes to improve the
+code's readability, including renaming code units, functions, and scripts. You
+can find the resulting code prepared for REANA in the `dAuPi0Photon` directory
+of the PHENIX repository, available at
+[https://github.com/PhenixCollaboration/reana](https://github.com/PhenixCollaboration/reana).
 
-In order for this analysis to run within the 
-{% include navigation/pagelink.md folder=site.analysis name='reana' tag='REANA' %}
-framework certain adjustments need to be made, such as
-* Removing dependencies on the batch system
-* Creating workflow definitions native to REANA including staging of the input data
+Each step of the analysis can be executed by using the corresponding workflow
+defined in the YAML file. For example, to run the code in block `N`, issue the
+following command in the terminal:
 
-Additional changes include some code cleanup and a minimal amount of renaming of code units, functions and scripts
-for better readability.
-The resulting code prepared for REANA is kept in this PHENIX repository on GitHub (Work in Progress):
-[https://github.com/PhenixCollaboration/reana/tree/main/pi0extraction](https://github.com/PhenixCollaboration/reana/tree/main/pi0extraction){:target="_blank"}.
+```console
+reana-client run -f N_reana.yaml -w N_reana
+```
 
-##### Starting Point
+The input files will start uploading to the server, and you can check the job
+status by pointing your browser to `$REANA_SERVER_URL`. Once the job is
+complete, you can use the `reana-client` commands to list the files in the
+workspace's working directory on the server and download the output results to
+your local machine.
 
-The analysis starts with files produced by the *Taxi* process. For example,
-the ROOT macro `pi0Extraction.cc` takes the *Taxi* ROOT files as input and generates `MB` (min bias)
-and `ERT` (triggered) data as output. This macro is included in a driver script `corrPi0Chain.csh`.
+To list the files in the workspace's working directory on the server, use the
+following command:
 
-##### Components
+```console
+reana-client ls -w N_reana
+```
 
-Below is an outline of the analysis sequence with references to "block numbers" in the
-[workflow diagram](https://github.com/PhenixCollaboration/reana/blob/main/pi0extraction/sampleCode_correctedPi0.pdf){:target="_blank"},
-along with pointers to relevant REANA components
+To download the output results to your local machine, use the following command:
+
+```console
+reana-client download -w N_reana path/to/output/file.dat
+```
+
+To select a specific set of files, you can combine the above commands using
+Linux piping, for instance:
+
+```console
+reana-client ls -w N_reana | grep output_plots/txt/ | cut -d' ' -f1 | xargs reana-client download -w N_reana
+```
+
+Finally, we provide further details below for each of the analysis steps
+referenced by their "block numbers" defined in the analysis workflow diagram.
+
 
 ##### 1a. Raw &pi;<sup>0</sup> spectrum (MB + ERT)
+
+The analysis starts with files produced by the *Taxi* process. The ROOT macro `pi0Extraction.cc` takes the *Taxi* ROOT files as input and generates `MB` (min bias)
+and `ERT` (triggered) data as output. This macro is included in a driver script `corrPi0Chain.csh`.
 
 ```console
 # condor_Pi0Extraction.cc reformatted and renamed "pi0extraction.C"
