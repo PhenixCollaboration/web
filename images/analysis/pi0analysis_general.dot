@@ -10,8 +10,8 @@ digraph G {
     block_02b   [label=<<b>2b</b> <br align="left"/> &eta; simulation>, fillcolor="pink"]
     block_02c   [label=<<b>2c</b> <br align="left"/> Single &gamma; simulation>, fillcolor="pink"]
 
-    block_03a   [label=<<b>3a</b> <br align="left"/> 2D response matrix <br/> of decay &gamma; from &pi;<sup>0</sup>>, fillcolor="pink"]
-    block_03b   [label=<<b>3b</b> <br align="left"/> 2D response matrix <br/> of &pi;<sup>0</sup> momentum reconstruction>, fillcolor="pink"]
+    block_03b   [label=<<b>3b</b> <br align="left"/> 2D response matrix <br/> of decay &gamma; from &pi;<sup>0</sup>>, fillcolor="pink"]
+    block_03a   [label=<<b>3a</b> <br align="left"/> 2D response matrix <br/> of &pi;<sup>0</sup> momentum reconstruction>, fillcolor="pink"]
     block_03c   [label=<<b>3c</b> <br align="left"/> 2D response matrix <br/> of decay &gamma; from &eta;>, fillcolor="pink"]
     block_03d   [label=<<b>3d</b> <br align="left"/> 2D response matrix <br/> of single &gamma; momentum reconstruction>, fillcolor="pink"]
 
@@ -34,8 +34,8 @@ digraph G {
     block_01a -> block_05 -> block_06 -> block_08
     block_01b -> block_10
     block_10:se -> block_11:ne
-    block_02a -> block_03b -> block_05 -> block_07
-    block_02a -> block_03a -> block_07 -> block_09 -> block_11 -> block_12 -> block_13
+    block_02a -> block_03a -> block_05 -> block_07
+    block_02a -> block_03b -> block_07 -> block_09 -> block_11 -> block_12 -> block_13
     block_02b -> block_03c -> block_08:ne
     block_08 -> block_09
     block_02c -> block_03d -> block_12:ne
@@ -46,7 +46,7 @@ digraph G {
     block_04c -> block_14
 
     { rank=same; block_01a; block_01b; block_02a; block_02b; block_02c; }
-    { rank=same; block_03a; block_03b; block_03c; block_03d; }
+    { rank=same; block_03b; block_03a; block_03c; block_03d; }
     { rank=same; block_04a; block_04b; }
     { rank=same; block_05; block_06; }
     { rank=same; block_13; block_14; }
