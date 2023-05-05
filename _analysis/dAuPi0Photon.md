@@ -5,6 +5,20 @@ layout: newbase
 
 <h3> Direct &#611; in d+Au collisions</h3>
 
+The measurement of &gamma; and &pi;<sup>0</sup> yields in d+Au interactions is
+important for studying the formation of quark-gluon plasma (QGP) in heavy ion
+collisions. One way to measure QGP formation is by observing jet suppression
+using the nuclear modification factor $R_{AB}$, which compares the yield of
+a particle (in this case, the &pi;<sup>0</sup>) in AB collisions to that in p+p
+collisions. $R_{AB}$ is calculated by dividing the invariant yield measured in
+AB collisions by $N_\text{coll}$ times the invariant yield measured in p+p
+collisions. If $R_{AB}$ is equal to one, then the yield observed in AB is the
+same as that observed in p+p. If $R_{AB}$ is less than one, then the yield in AB
+is suppressed, and if it is greater than one, then it is enhanced.
+
+For a more detailed explanation that includes the motivation and physics
+background, please refer to this [write-up]({{ '/assets/documents/dAuPi0Photon_intro.pdf' | relative_url }}).
+
 {{ site.hr }}
 
 * TOC
