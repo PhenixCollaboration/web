@@ -1,9 +1,23 @@
 ---
-name: emcal
+name: dAuPi0Photon
 layout: newbase
 ---
 
 <h3> Direct &#611; in d+Au collisions</h3>
+
+The measurement of &gamma; and &pi;<sup>0</sup> yields in d+Au interactions is
+important for studying the formation of quark-gluon plasma (QGP) in heavy ion
+collisions. One way to measure QGP formation is by observing jet suppression
+using the nuclear modification factor $R_{AB}$, which compares the yield of
+a particle (in this case, the &pi;<sup>0</sup>) in AB collisions to that in p+p
+collisions. $R_{AB}$ is calculated by dividing the invariant yield measured in
+AB collisions by $N_\text{coll}$ times the invariant yield measured in p+p
+collisions. If $R_{AB}$ is equal to one, then the yield observed in AB is the
+same as that observed in p+p. If $R_{AB}$ is less than one, then the yield in AB
+is suppressed, and if it is greater than one, then it is enhanced.
+
+For a more detailed explanation that includes the motivation and physics
+background, please refer to this [write-up]({{ '/assets/documents/dAuPi0Photon_intro.pdf' | relative_url }}).
 
 {{ site.hr }}
 
@@ -12,7 +26,7 @@ layout: newbase
 
 ---
 
-#### About This Page
+### About This Page
 
 * This page is work in progress
 * It is designed to capture the details of the analysis
@@ -22,47 +36,49 @@ data.
 * The goal of this page is to consolidate information in a way that is sufficient
 to make reproduction of this analysis possible.
 
-#### The Analysis Outline
+### The Analysis Outline
 
-##### General Analysis Workflow Diagram
+#### General Analysis Workflow Diagram
 
 {% include images/image.md name='pi0_general' width=887 %}
 
 ---
 
-##### The Original Code
+#### The Original Code
 
 A PHENIX-managed repository has been created on GitHub in order to capture the **original code**
 (i.e. before adjustments were made to make it suitable for long-term preservation):
-[https://github.com/PhenixCollaboration/emcal](https://github.com/PhenixCollaboration/emcal){:target="_blank"}
+[https://github.com/PhenixCollaboration/emcal](https://github.com/PhenixCollaboration/emcal)
 
-##### Input Data
+#### Input Data
+
 Parts of this analysis use data samples kept in the storage area intended for long-term preservation.
 This is its location in the GPFS filesystem of BNL SDCC:
 
-```bash
+```console
 /gpfs/mnt/gpfs02/phenix/data_preservation/phnxreco/emcal
 ```
 
-##### Calibration Dependencies
+#### Calibration Dependencies
+
 There are "DeadWarn" and "Timing" type of maps which are prerequisite of this analysis
 and they are considered as a separate "prior" component. In a condensed form, they
 are preserved in the folder
-[sim_Pi0Histogram/creatingHistogram_fromTTree](https://github.com/PhenixCollaboration/emcal/tree/master/sim_Pi0Histogram/creatingHistogram_fromTTree){:target="_blank"}
+[sim_Pi0Histogram/creatingHistogram_fromTTree](https://github.com/PhenixCollaboration/emcal/tree/master/sim_Pi0Histogram/creatingHistogram_fromTTree)
 in the repository specified above.
 
 ---
 
-#### REANA
+### REANA
 
-##### Setting up the Environment
+#### Setting up the Environment
 
-REANA operates using containers. For the analyses presented here,
+REANA operates using containers. For the analysis presented here,
 Docker images created by the PHENIX Collaboration are used. They are
-hosted in a private registry maintained the BNL SDCC. For the container
+hosted in a private registry maintained by the BNL SDCC. For the container
 to work properly, a number of setup step are required, as listed below:
 
-```bash
+```csh
 setenv OFFLINE_MAIN /cvmfs/phenix.sdcc.bnl.gov/x8664_sl7/release/release_new/new
 setenv ONLINE_MAIN /cvmfs/phenix.sdcc.bnl.gov/x8664_sl7/release/release_new/new
 setenv ROOTSYS /cvmfs/phenix.sdcc.bnl.gov/x8664_sl7/opt/phenix/core/root-5.34.36
@@ -75,6 +91,7 @@ setenv LD_LIBRARY_PATH .:$LD_LIBRARY_PATH
 setenv  ODBCINI ${PWD}/afs/rhic.bnl.gov/phenix/etc/odbc.ini
 setenv PG_PHENIX_DBNAME Phenix_phnxdbrcf2_C
 ```
+
 Since every line in the REANA submission file (formatted in YAML) has its own environment
 the setup needs to be performed for every step that needs PHENIX-specific environment
 variables. For this reasons the commands are often used with ```csh``` wrapper that
@@ -113,40 +130,62 @@ outputs:
 ```
 
 
+#### Running the Analysis with REANA
 
-##### The Code
+The REANA implementation of this analysis is based on the workflow diagram shown
+above. To run this analysis within the REANA framework, certain adjustments had
+to be made to the original code. The adjustments involve removing dependencies
+on the batch system and creating workflow definitions that are native to REANA,
+including staging the input data. We also made additional changes to improve the
+code's readability, including renaming code units, functions, and scripts. You
+can find the resulting code prepared for REANA in the `dAuPi0Photon` directory
+of the PHENIX repository, available at
+[https://github.com/PhenixCollaboration/reana](https://github.com/PhenixCollaboration/reana).
 
-{% include navigation/pagelink.md folder=site.analysis name='reana' tag='REANA' %}
-implementation of this analysis is based on the workflow illustrated in
-[this partial diagram](https://github.com/PhenixCollaboration/reana/blob/main/pi0extraction/sampleCode_correctedPi0.pdf){:target="_blank"}.
+Each step of the analysis can be executed by using the corresponding workflow
+defined in the YAML file. For example, to run the code in block `N`, issue the
+following command in the terminal:
 
-In order for this analysis to run within the 
-{% include navigation/pagelink.md folder=site.analysis name='reana' tag='REANA' %}
-framework certain adjustments need to be made, such as
-* Removing dependencies on the batch system
-* Creating workflow definitions native to REANA including staging of the input data
+```console
+reana-client run -f N_reana.yaml -w N_reana
+```
 
-Additional changes include some code cleanup and a minimal amount of renaming of code units, functions and scripts
-for better readability.
-The resulting code prepared for REANA is kept in this PHENIX repository on GitHub (Work in Progress):
-[https://github.com/PhenixCollaboration/reana/tree/main/pi0extraction](https://github.com/PhenixCollaboration/reana/tree/main/pi0extraction){:target="_blank"}.
+The input files will start uploading to the server, and you can check the job
+status by pointing your browser to `$REANA_SERVER_URL`. Once the job is
+complete, you can use the `reana-client` commands to list the files in the
+workspace's working directory on the server and download the output results to
+your local machine.
 
-##### Starting Point
+To list the files in the workspace's working directory on the server, use the
+following command:
 
-The analysis starts with files produced by the *Taxi* process. For example,
-the ROOT macro `pioExtraction.cc` takes the *Taxi* ROOT files as input and generates `MB` (min bias)
+```console
+reana-client ls -w N_reana
+```
+
+To download the output results to your local machine, use the following command:
+
+```console
+reana-client download -w N_reana path/to/output/file.dat
+```
+
+To select a specific set of files, you can combine the above commands using
+Linux piping, for instance:
+
+```console
+reana-client ls -w N_reana | grep output_plots/txt/ | cut -d' ' -f1 | xargs reana-client download -w N_reana
+```
+
+Finally, we provide further details below for each of the analysis steps
+referenced by their "block numbers" defined in the analysis workflow diagram.
+
+
+##### 1a. Raw &pi;<sup>0</sup> spectrum (MB + ERT)
+
+The analysis starts with files produced by the *Taxi* process. The ROOT macro `pi0Extraction.cc` takes the *Taxi* ROOT files as input and generates `MB` (min bias)
 and `ERT` (triggered) data as output. This macro is included in a driver script `corrPi0Chain.csh`.
 
-##### Components
-
-Below is an outline of the analysis sequence with references to "block numbers" in the
-[workflow diagram](https://github.com/PhenixCollaboration/reana/blob/main/pi0extraction/sampleCode_correctedPi0.pdf){:target="_blank"},
-along with pointers to relevant REANA components
-
-##### Raw Pion Spectrum (MB + ERT) (Block 1)
-
-```bash
-# Block 1
+```console
 # condor_Pi0Extraction.cc reformatted and renamed "pi0extraction.C"
 root -l -b -q 'pi0extraction.C("MB", "PbSc", 4,5)'
 root -l -b -q 'pi0extraction.C("ERT", "PbSc", 4,5)'
@@ -160,13 +199,13 @@ These commands are included in ```pi0extraction.yaml```.
 Currently a folder ```output_plots``` is created with subfolders ```txt,root,pdf```,
 and the folder ```txt``` contains the actual analsys data.
 
-##### Pion Simulation (Block 2)
+##### 2a. &pi;<sup>0</sup> simulation
 
-Presented below is the core of __Block 2__ which includes processing of multiple
-input files (60 in total):
+Presented below is the core of this workflow which includes processing of
+multiple input files (60 in total):
 
-```bash
-# Block 2, the original code found in the Condor submission part:
+```console
+# the original code found in the Condor submission part:
 root -l -b <<EOF
   .L Pi0EmbedFiles.C
    Pi0EmbedFiles t
@@ -175,7 +214,8 @@ root -l -b <<EOF
 ```
 
 Adaptation of the _ROOT_ macro for REANA, in a separate file *pi0run.script*:
-```bash
+
+```console
 gSystem->Load("libTHmul.so");
 .L Pi0EmbedFiles.C
 Pi0EmbedFiles t
@@ -192,7 +232,8 @@ in the PHENIX GitHub repository for access to the actual material.
 
 This is the driver script ```Pi0EmbedFiles.csh```. Note that symbolic links are created
 to feed successive files from a holding folder, to the _ROOT_ macro.
-```bash
+
+```csh
 #!/bin/tcsh
 source ./setup_env.csh
 
@@ -211,26 +252,24 @@ Processing of input files takes place sequentially and in this case takes a sign
 of time compared to other steps, i.e. a feew hours.
 
 The results of all emedding runs are bundled together in a _tar_ archive to make downloading easier. Upon
-retrieval the data need to be merged using the utility ```haddPhenix``` which is done in __Block 3__ (see below).
+retrieval the data need to be merged using the utility ```haddPhenix``` which is done in block `3a` (see below).
 Upon completion of this step the file ```embedPi0dAu.tar``` needs to be downloaded, and put
 in the folder from where the next step is launched. An example of the cownload command, assuming the workflow
 was named "embed":
 
-```bash
+```console
 reana-client download -w embed embedPi0dAu.tar
 ```
 
----
-
-##### 2D Response Matrix of Pion Momentum Reconstruction (Block 3)
+##### 3a. 2D response matrix of &pi;<sup>0</sup> momentum reconstruction
 
 The original macro ```generationRM_Pi0.cc``` was cleaned up (including removal of interactive graphics)
 and renamed ```generationRM_Pi0.C```.
 
-Tar file containing multiple ROOT files (see __Block 2__ description above) is uploaded as input for this step.
+Tar file containing multiple ROOT files (see previous step `2a`) is uploaded as input for this step.
 Abbreviated contents of driver script look as follows:
 
-```bash
+```csh
 #!/bin/tcsh
 source ./setup_env.csh
 haddPhenix EmbedPi0dAu.root EmbedPi0dAu_*
@@ -270,19 +309,18 @@ outputs:
 
 The result will need to be downloaded as follows (assuming the worflow was assigned the name "gen" in REANA - can be anything):
 
-```bash
+```console
 reana-client download -w gen Pion_RM.root
 ```
 
-
-##### Corrected Pion Spectrum (Block 4)
+##### 5. Corrected &pi;<sup>0</sup> spectrum
 
 This REANA step (final in this analysis)
 is accomplished with scripts and macros named ```VConvolution_Pi0*```. The file ```Pion_RM.root```
 serves as input, along with text files residing in ```output_plots``` previosly produced by the macros
 ```pi0extraction.C``` and ```WGRatio.C```:
 
-```bash
+```console
 scaledUEB_rawPi0_ERT_PbSc_0CC88_Chi2_3Sig.txt
 scaledUEB_rawPi0_MB_PbSc_0CC88_Chi2_3Sig.txt
 scaledUEB_rawPi0_BBCpERT_PbSc_0CC88_Chi2_3Sig.txt
@@ -290,8 +328,7 @@ scaledUEB_rawPi0_BBCpERT_PbSc_0CC88_Chi2_3Sig.txt
 
 The core of this step looks like this:
 
-```bash
-# Block 4
+```console
 root -l -b -q 'VConvolution_Pi0.C'
 ```
 
@@ -325,9 +362,43 @@ outputs:
 ```
 
 Outputs are also written in ```output_plots/txt``` and contain
-```bash
+```console
 scaledEB_corrPi0_BBCpERT_PbSc_0CC88_Chi2_3Sig.txt
 scaledUEB_corrPi0_BBCpERT_PbSc_0CC88_Chi2_3Sig.txt
 ```
 
+Each of the following analysis steps can be performed using a dedicated REANA
+workflow. For example, the user should be able to reproduce the results for step
+X by creating and executing a workflow X_reana through the following commands:
 
+```console
+cd reana/pi0extraction
+reana-client run -w X_reana -f X_reana.yaml
+```
+
+
+##### 6. Corrected &eta; spectrum
+
+
+##### 7. Decay &gamma; spectrum from &pi;<sup>0</sup>
+
+
+##### 8. Decay &gamma; spectrum from &eta;, &eta;', and &Omega;
+
+
+##### 9. Total decay &gamma; spectrum from &pi;<sup>0</sup>, &eta;, &eta;', and &Omega;
+
+
+##### 10. Modified inclusive &gamma; spectrum
+
+
+##### 11. Raw direct &gamma; spectrum
+
+
+##### 12. Corrected direct &gamma; spectrum
+
+
+##### 13. Direct &gamma; invariant yield
+
+
+##### 14. &pi;<sup>0</sup> invariant yield
