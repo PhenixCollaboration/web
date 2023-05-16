@@ -263,8 +263,14 @@ reana-client download -w embed embedPi0dAu.tar
 
 ##### 3a. 2D response matrix of &pi;<sup>0</sup> momentum reconstruction
 
-The original macro ```generationRM_Pi0.cc``` was cleaned up (including removal of interactive graphics)
-and renamed ```generationRM_Pi0.C```.
+In this step we call a function in ROOT macro ``generationRM_Pi0.C`` that creates a set of ROOT
+histograms. The histograms represent the response matrix (RM) for the &pi;<sup>0</sup> meson
+production in heavy-ion collisions. The function reads an input ROOT file named ``EmbedPi0dAu.root``
+and creates a new output ROOT file named ``Pion_RM.root``. The function calculates the RM by
+dividing the Pt response (pTecore vs. generated Pt) for different centrality bins, particle
+identification (PID), and detector sectors. The RM is stored in a 2D histogram (TH2D) with Pt bins.
+The output response matrix represents the probability for a &pi;<sup>0</sup> particle with a given
+generated momentum to be measured with a different momentum due to detector effects.
 
 Tar file containing multiple ROOT files (see previous step `2a`) is uploaded as input for this step.
 Abbreviated contents of driver script look as follows:
