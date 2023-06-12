@@ -49,6 +49,6 @@ the original convention, such that the links like posted below
 are still functional.
 
 {%- for pub in  legacy_items %}
-* <a href="{{ inspire }}{{ pub.inspire }}" target="_blank">"{{ pub. title }}"</a>:&nbsp;<a href="{{ wwwURL }}/{{ pub.legacyURL }}" target="_blank">{{ pub.legacyURL }}</a>
+* <em>InspireHEP {{ pub.inspire }}:</em>&nbsp;<a href="{{ inspire }}{{ pub.inspire }}" target="_blank">"{{ pub. title }}"</a>: <a href="{{ wwwURL }}/{{ pub.legacyURL }}" target="_blank">{{ pub.legacyURL }}</a>
 {%- endfor -%}
 
