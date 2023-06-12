@@ -55,7 +55,7 @@ A PHENIX-managed repository has been created on GitHub in order to capture the *
 Parts of this analysis use data samples kept in the storage area intended for long-term preservation.
 This is its location in the GPFS filesystem of BNL SDCC:
 
-```console
+```bash
 /gpfs/mnt/gpfs02/phenix/data_preservation/phnxreco/emcal
 ```
 
@@ -159,20 +159,20 @@ your local machine.
 To list the files in the workspace's working directory on the server, use the
 following command:
 
-```console
+```bash
 reana-client ls -w N_reana
 ```
 
 To download the output results to your local machine, use the following command:
 
-```console
+```bash
 reana-client download -w N_reana path/to/output/file.dat
 ```
 
 To select a specific set of files, you can combine the above commands using
 Linux piping, for instance:
 
-```console
+```bash
 reana-client ls -w N_reana | grep output_plots/txt/ | cut -d' ' -f1 | xargs reana-client download -w N_reana
 ```
 
@@ -204,7 +204,7 @@ and the folder ```txt``` contains the actual analsys data.
 Presented below is the core of this workflow which includes processing of
 multiple input files (60 in total):
 
-```console
+```bash
 # the original code found in the Condor submission part:
 root -l -b <<EOF
   .L Pi0EmbedFiles.C
@@ -215,7 +215,7 @@ root -l -b <<EOF
 
 Adaptation of the _ROOT_ macro for REANA, in a separate file *pi0run.script*:
 
-```console
+```bash
 gSystem->Load("libTHmul.so");
 .L Pi0EmbedFiles.C
 Pi0EmbedFiles t
@@ -257,7 +257,7 @@ Upon completion of this step the file ```embedPi0dAu.tar``` needs to be download
 in the folder from where the next step is launched. An example of the cownload command, assuming the workflow
 was named "embed":
 
-```console
+```bash
 reana-client download -w embed embedPi0dAu.tar
 ```
 
@@ -315,7 +315,7 @@ outputs:
 
 The result will need to be downloaded as follows (assuming the worflow was assigned the name "gen" in REANA - can be anything):
 
-```console
+```bash
 reana-client download -w gen Pion_RM.root
 ```
 
@@ -326,7 +326,7 @@ is accomplished with scripts and macros named ```VConvolution_Pi0*```. The file 
 serves as input, along with text files residing in ```output_plots``` previosly produced by the macros
 ```pi0extraction.C``` and ```WGRatio.C```:
 
-```console
+```bash
 scaledUEB_rawPi0_ERT_PbSc_0CC88_Chi2_3Sig.txt
 scaledUEB_rawPi0_MB_PbSc_0CC88_Chi2_3Sig.txt
 scaledUEB_rawPi0_BBCpERT_PbSc_0CC88_Chi2_3Sig.txt
@@ -334,7 +334,7 @@ scaledUEB_rawPi0_BBCpERT_PbSc_0CC88_Chi2_3Sig.txt
 
 The core of this step looks like this:
 
-```console
+```bash
 root -l -b -q 'VConvolution_Pi0.C'
 ```
 
@@ -368,7 +368,7 @@ outputs:
 ```
 
 Outputs are also written in ```output_plots/txt``` and contain
-```console
+```bash
 scaledEB_corrPi0_BBCpERT_PbSc_0CC88_Chi2_3Sig.txt
 scaledUEB_corrPi0_BBCpERT_PbSc_0CC88_Chi2_3Sig.txt
 ```
@@ -377,7 +377,7 @@ Each of the following analysis steps can be performed using a dedicated REANA
 workflow. For example, the user should be able to reproduce the results for step
 X by creating and executing a workflow X_reana through the following commands:
 
-```console
+```bash
 cd reana/pi0extraction
 reana-client run -w X_reana -f X_reana.yaml
 ```
