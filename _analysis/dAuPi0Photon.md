@@ -146,7 +146,7 @@ Each step of the analysis can be executed by using the corresponding workflow
 defined in the YAML file. For example, to run the code in block `N`, issue the
 following command in the terminal:
 
-```console
+```bash
 reana-client run -f N_reana.yaml -w N_reana
 ```
 
@@ -185,7 +185,7 @@ referenced by their "block numbers" defined in the analysis workflow diagram.
 The analysis starts with files produced by the *Taxi* process. The ROOT macro `pi0Extraction.cc` takes the *Taxi* ROOT files as input and generates `MB` (min bias)
 and `ERT` (triggered) data as output. This macro is included in a driver script `corrPi0Chain.csh`.
 
-```console
+```bash
 # condor_Pi0Extraction.cc reformatted and renamed "pi0extraction.C"
 root -l -b -q 'pi0extraction.C("MB", "PbSc", 4,5)'
 root -l -b -q 'pi0extraction.C("ERT", "PbSc", 4,5)'

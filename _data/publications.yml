@@ -78,6 +78,11 @@
   data: legacy
   legacyURL: ppg194_data.html
 
+- title: 'Measurements of directed, elliptic, and triangular flow in Cu+Au collisions at ​​√s<sub>NN</sub>=200GeV'
+  inspire: 1394897
+  data: legacy
+  legacyURL: ppg183_data.html
+
 - title: 'Centrality dependence of low-momentum direct-photon production in Au+Au collisions at ​​√s<sub>NN</sub>=200GeV'
   inspire: 1296308
   data: legacy
@@ -94,6 +99,11 @@
   inspire: 1107625
   data: legacy
   legacyURL: ppg138_data.html
+
+- title: 'Systematic study of azimuthal anisotropy in Cu+Cu and Au+Au collisions at √s<sub>NN</sub>=62.4 and 200 GeV'
+  inspire: 1332240
+  data: legacy
+  legacyURL: ppg124_data.html
 
 - title: 'Transverse momentum dependence of meson suppression η suppression in Au+Au collisions at ​​√s<sub>NN</sub>=200GeV'
   inspire: 856259
