@@ -78,7 +78,7 @@ Docker images created by the PHENIX Collaboration are used. They are
 hosted in a private registry maintained by the BNL SDCC. For the container
 to work properly, a number of setup step are required, as listed below:
 
-```csh
+```bash
 setenv OFFLINE_MAIN /cvmfs/phenix.sdcc.bnl.gov/x8664_sl7/release/release_new/new
 setenv ONLINE_MAIN /cvmfs/phenix.sdcc.bnl.gov/x8664_sl7/release/release_new/new
 setenv ROOTSYS /cvmfs/phenix.sdcc.bnl.gov/x8664_sl7/opt/phenix/core/root-5.34.36
@@ -233,7 +233,7 @@ in the PHENIX GitHub repository for access to the actual material.
 This is the driver script ```Pi0EmbedFiles.csh```. Note that symbolic links are created
 to feed successive files from a holding folder, to the _ROOT_ macro.
 
-```csh
+```bash
 #!/bin/tcsh
 source ./setup_env.csh
 
@@ -275,7 +275,7 @@ generated momentum to be measured with a different momentum due to detector effe
 Tar file containing multiple ROOT files (see previous step `2a`) is uploaded as input for this step.
 Abbreviated contents of driver script look as follows:
 
-```csh
+```bash
 #!/bin/tcsh
 source ./setup_env.csh
 haddPhenix EmbedPi0dAu.root EmbedPi0dAu_*
