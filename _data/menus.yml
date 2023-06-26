@@ -177,7 +177,6 @@
   full: Offline Software
   submenus:
 
-
     - name: sim
       full: Simulations
       label: yes
@@ -252,6 +251,9 @@
 
     - name: dAuPi0Photon
       full: Direct &#611; in d+Au collisions
+
+    - name: dimuon
+      full: J/ψ in small systems (dimuon analysis)
 
     - name: misc
       full: Misc
