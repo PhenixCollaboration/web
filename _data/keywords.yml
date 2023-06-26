@@ -50,6 +50,14 @@
 # Conferences
 # 2023
 
+- name : is23
+  description: Initial Stages (2023)
+  category: conference
+
+- name : pv23
+  description: Adding Value (to) and Preserving Scientific and Technical Data (2023)
+  category: conference
+
 - name : hp23
   description: Hard Probes 2023
   category: conference

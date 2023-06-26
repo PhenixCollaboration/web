@@ -1,5 +1,15 @@
 # 2023
 
+- name: is23
+  title: 'Initial Stages 2023'
+  url: 'https://indico.cern.ch/event/1043736/'
+  year: 2023
+
+- name: pv23
+  title: 'Adding Value (to) and Preserving Scientific and Technical Data (2023)'
+  url: 'https://indico.cern.ch/event/1188041/'
+  year: 2023
+
 - name: hp23
   title: 'Hard Probes 2023'
   url: 'https://wwuindico.uni-muenster.de/event/1409/'
@@ -127,7 +137,6 @@
   title: 'Lake Louise Winter Institute (2022)'
   url: 'https://indico.cern.ch/event/1075471/'
   year: 2022
-
 
 # 2021
 - name: icnfp21
