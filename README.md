@@ -18,8 +18,8 @@ substantial parts of interesting analyses
 
 The `GitHub Pages` version is the development version.
 For the current production version of the site please
-see phenix.bnl.gov. There is no set schedule for releases,
-these are done "as required".
+see <a href="https://www.phenix.bnl.gov/" target="_blank">phenix.bnl.gov</a>
+There is no set schedule for releases, these are done "as required".
 
 Please see the "how-to" section in the "About" menu of the site for the
 information being constantly updated. We use the Jekyll static site generator
@@ -61,12 +61,22 @@ A useful trick for concatenation of arrays in Liquid:
 {% endfor %}
 ```
 
-## Serving static content without Jekyll server
+## Serving static content without a Jekyll server
 
 The site content can be captured using `wget` or a similar utility. Once it's
 done, it can be accessed statically on a local machine or copied to a different server.
-Note that links will need to be converted:
+Note that links will need to be converted hence there must be a corresponding CLI option:
 
-```
+```bash
 wget --convert-links -r http://localhost:4000/web/
+```
+
+## Running Jekyll under WSL2
+
+In certain situations the default port that Jekyll uses may be blocked (e.g. in WSL2),
+or it may be otherwise desirable to use a different port number. In this cases it can
+be run with an alternative port set by the user, as shown in the following example:
+
+```bash
+bundle exec jekyll serve --port 8000
 ```

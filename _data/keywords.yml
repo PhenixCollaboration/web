@@ -50,6 +50,10 @@
 # Conferences
 # 2023
 
+- name : iwhss23
+  description: 19th International Workshop on Hadron Structure and Spectroscopy
+  category: conference
+
 - name : is23
   description: Initial Stages (2023)
   category: conference
