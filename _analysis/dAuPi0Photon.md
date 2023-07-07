@@ -44,9 +44,7 @@ to make reproduction of this analysis possible.
 
 #### General Analysis Workflow Diagram
 
-&nbsp;
-
-{% include images/image.md name='pi0_general' width=887 %}
+[![pi0analysis flow chart](../images/analysis/pi0analysis_general.png)](../images/analysis/pi0analysis_general.png)
 
 ---
 
