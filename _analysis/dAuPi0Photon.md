@@ -44,7 +44,9 @@ to make reproduction of this analysis possible.
 
 #### General Analysis Workflow Diagram
 
-[![pi0analysis flow chart](../images/analysis/pi0analysis_general.png)](../images/analysis/pi0analysis_general.png)
+<a href="../images/analysis/pi0analysis_general.png">
+<img src="../images/analysis/pi0analysis_general.png" alt="dAuPi0Photon flow chart" width="90%"/>
+</a>
 
 ---
 
