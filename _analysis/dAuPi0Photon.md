@@ -144,9 +144,9 @@ to be made to the original code. The adjustments involve removing dependencies
 on the batch system and creating workflow definitions that are native to REANA,
 including staging the input data. We also made additional changes to improve the
 code's readability, including renaming code units, functions, and scripts. You
-can find the resulting code prepared for REANA in the `dAuPi0Photon` directory
-of the PHENIX repository, available at
-[https://github.com/PhenixCollaboration/reana](https://github.com/PhenixCollaboration/reana).
+can find the resulting code prepared for REANA in the `ana-dAuPi0Photon`
+repository, available at
+[https://github.com/PhenixCollaboration/ana-dAuPi0Photon](https://github.com/PhenixCollaboration/ana-dAuPi0Photon).
 
 Each step of the analysis can be executed by using the corresponding workflow
 defined in the YAML file. For example, to run the code in block `N`, issue the
@@ -233,7 +233,7 @@ Note that a PHENIX-specific ROOT library ```libTHmul.so``` is loaded
 in the beginning, as this is necessary for proper operation of the macro.
 
 Please refer to the
-[relevant folder](https://github.com/PhenixCollaboration/reana/tree/main/pi0extraction/sim_Pi0Histogram){:target="_blank"}
+[relevant folder](https://github.com/PhenixCollaboration/ana-dAuPi0Photon/tree/main/sim_Pi0Histogram)
 in the PHENIX GitHub repository for access to the actual material.
 
 This is the driver script ```Pi0EmbedFiles.csh```. Note that symbolic links are created
