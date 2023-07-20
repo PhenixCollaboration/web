@@ -19,7 +19,8 @@ same as that observed in p+p. If R<sub>AB</sub> is less than one, then the yield
 is suppressed, and if it is greater than one, then it is enhanced.
 
 For a more detailed explanation that includes the motivation and physics
-background, please refer to this [write-up]({{ '/assets/documents/dAuPi0Photon_intro.pdf' | relative_url }}).
+background, please refer to this [write-up](https://doi.org/10.5281/zenodo.8169171){:target="_blank"}
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8169171.svg)](https://doi.org/10.5281/zenodo.8169171).
 
 {{ site.hr }}
 
@@ -54,7 +55,7 @@ to make reproduction of this analysis possible.
 
 A PHENIX-managed repository has been created on GitHub in order to capture the **original code**
 (i.e. before adjustments were made to make it suitable for long-term preservation):
-[https://github.com/PhenixCollaboration/emcal](https://github.com/PhenixCollaboration/emcal)
+[https://github.com/PhenixCollaboration/emcal](https://github.com/PhenixCollaboration/emcal){:target="_blank"}
 
 #### Input Data
 
@@ -64,6 +65,13 @@ This is its location in the GPFS filesystem of BNL SDCC:
 ```bash
 /gpfs/mnt/gpfs02/phenix/data_preservation/phnxreco/emcal
 ```
+
+A more complete set of the input data is stored in the
+[Zenodo repository](https://doi.org/10.5281/zenodo.8117401)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8117401.svg)](https://doi.org/10.5281/zenodo.8117401){:target="_blank"}
+
+
+The UI on the Zenodo site provides an easy way to download the desired data.
 
 #### Calibration Dependencies
 
