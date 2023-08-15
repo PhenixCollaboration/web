@@ -50,6 +50,14 @@
 # Conferences
 # 2023
 
+- name : aum23
+  description: 'RHIC & AGS Annual Users Meeting (2023)'
+  category: conference
+
+- name : icnfp23 
+  description: International Conference on New Frontiers in Physics 2023
+  category: conference
+
 - name : iwhss23
   description: 19th International Workshop on Hadron Structure and Spectroscopy
   category: conference
@@ -137,7 +145,7 @@
   category: conference
 
 - name : aum22
-  description: 'RHIC & AGS Annual Users Meeting (2021)'
+  description: 'RHIC & AGS Annual Users Meeting (2022)'
   category: conference
 
 - name : tphp22

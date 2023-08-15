@@ -1,5 +1,14 @@
 # 2023
 
+- name: aum23
+  title: 'RHIC & AGS Annual Users Meeting (2023)'
+  url: 'https://indico.bnl.gov/event/18938/'
+  year: 2023
+
+- name: icnfp23
+  title: 'International Conference on New Frontiers in Physics 2023'
+  url: 'https://indico.cern.ch/event/1199102/'
+  year: 2023
 
 - name: iwhss23
   title: '19th International Workshop on Hadron Structure and Spectroscopy'
