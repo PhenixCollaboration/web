@@ -1,5 +1,20 @@
 # 2023
 
+- name: qm23
+  title: 'Quark Matter 2023'
+  url: 'https://indico.cern.ch/event/1139644/'
+  year: 2023
+
+- name: lomcon23
+  title: 'Lomonosov Conference (2023)'
+  url: 'https://lomcon.ru/'
+  year: 2023
+
+- name: ismd23
+  title: 'International Symposium on Multiparticle Dynamics (2023)'
+  url: 'https://indico.cern.ch/event/1258038/'
+  year: 2023
+
 - name: aum23
   title: 'RHIC & AGS Annual Users Meeting (2023)'
   url: 'https://indico.bnl.gov/event/18938/'

@@ -50,6 +50,18 @@
 # Conferences
 # 2023
 
+- name : qm23
+  description: Quark Matter 2023
+  category: conference
+
+- name : lomcon23
+  description: 'Lomonosov Conference (2023)'
+  category: conference
+
+- name : ismd23
+  description: 'International Symposium on Multiparticle Dynamics (2023)'
+  category: conference
+
 - name : aum23
   description: 'RHIC & AGS Annual Users Meeting (2023)'
   category: conference
