@@ -1,5 +1,10 @@
 # 2023
 
+- name: spin23
+  title: 'Spin 2023'
+  url: 'https://indico.jlab.org/event/663/'
+  year: 2023
+
 - name: qm23
   title: 'Quark Matter 2023'
   url: 'https://indico.cern.ch/event/1139644/'
