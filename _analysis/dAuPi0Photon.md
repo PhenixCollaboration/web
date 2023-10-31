@@ -43,10 +43,12 @@ reproduction of the analysis possible.
 </a>
 
 
-### The Source Code
+### Source Code
 
-The code prepared for preservation can be found in the `ana-dAuPi0Photon` repository available at
-[https://github.com/PhenixCollaboration/ana-dAuPi0Photon](https://github.com/PhenixCollaboration/ana-dAuPi0Photon).
+The code prepared for preservation can be found in the __ana-dAuPi0Photon__ repository
+on the `gitea` server maintained by the BNL SDCC, accessible to PHENIX members with BNL
+credentials:
+[https://git.racf.bnl.gov/gitea/PHENIX/ana-dAuPi0Photon](https://git.racf.bnl.gov/gitea/PHENIX/ana-dAuPi0Photon){:target="_blank"}
 
 The original location of the analisys code and supplementary files is in
 `/gpfs/mnt/gpfs02/phenix/plhf/plhf1/nivram/` accessible from the BNL SDCC's
@@ -67,16 +69,14 @@ Additional input files are stored in the [Zenodo repository](https://doi.org/10.
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8117401.svg)](https://doi.org/10.5281/zenodo.8117401)
 
 
-#### Calibration Dependencies
+### Calibration Dependencies
 
 There are "DeadWarn" and "Timing" type of maps which are prerequisite of this
 analysis and they are considered as a separate "prior" component. In a condensed
-form, they are preserved in the folder
-[https://github.com/PhenixCollaboration/ana-dAuPi0Photon/tree/main/sim_Pi0Histogram](https://github.com/PhenixCollaboration/ana-dAuPi0Photon/tree/main/sim_Pi0Histogram)
-in the GitHub repository specified above.
+form, they are preserved in the folder __sim_Pi0Histogram__ in the `gitea` repository mentioned above.
 
 
-### Running the Analysis in Container
+### Running the Analysis in Containers
 
 In order to run the analysis steps preserved in this implementation, i.e. the
 blue and green boxes shown on this
