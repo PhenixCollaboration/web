@@ -50,6 +50,10 @@
 # Conferences
 # 2023
 
+- name : pic23
+  description: International Symposium on Physics in Collision 2023
+  category: conference
+
 - name : spin23
   description: 'Spin 2023'
   category: conference
