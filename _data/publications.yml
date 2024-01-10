@@ -5,8 +5,24 @@
   data: whitepaper
 
 # HEPData items:
+- title: 'Suppression of hadrons with large transverse momentum in central Au+Au collisions at ​​√s<sub>NN</sub>=130GeV'
+  inspire: 562409
+  data: hepdata
+
+- title: 'Identified charged particle spectra and yields in Au+Au collisions at ​​√s<sub>NN</sub>=200GeV'
+  inspire: 624474
+  data: hepdata
+
+- title: 'Elliptic flow of identified hadrons in Au+Au collisions at ​​√s<sub>NN</sub>=200GeV'
+  inspire: 619061
+  data: hepdata
+
 - title: 'Energy Loss and Flow of Heavy Quarks in Au+Au Collisions at ​​√s<sub>NN</sub>=200GeV'
   inspire: 731668
+  data: hepdata
+
+- title: 'Suppressed π<sup>0</sup> production at large transverse momentum in central Au+ Au collisions at at ​​√s<sub>NN</sub>=200GeV'
+  inspire: 617814
   data: hepdata
 
 - title: 'J/ψ Production vs Centrality, Transverse Momentum, and Rapidity in Au+Au Collisions at ​​√s<sub>NN</sub>=200GeV'
@@ -45,22 +61,22 @@
 # Legacy (locally hosted)
 - title: 'Production of π<sup>0</sup> and η mesons in U+U collisions at √s<sub>NN</sub>=192GeV'
   inspire: 1798526
-  data: legacy
+  data: legacy_migrated # to HEPData
   legacyURL: ppg229_data.html
 
 - title: 'Creation of quark–gluon plasma droplets with three distinct geometries'
   inspire: 1672133
-  data: legacy
+  data: legacy_migrated # to HEPData
   legacyURL: ppg216_data.html
 
 - title: 'Nonperturbative transverse-momentum-dependent effects in dihadron and direct photon-hadron angular correlations in p+p collisions at s=√200GeV'
   inspire: 1672014
-  data: legacy
+  data: legacy_migrated # to HEPData
   legacyURL: ppg217_data.html
 
 - title: 'Measurements of mass-dependent azimuthal anisotropy in central p+Au, d+Au, and <sup>3</sup>He+Au collisions at ​​√s<sub>NN</sub>=200GeV'
   inspire: 1632759
-  data: legacy
+  data: legacy_migrated # to HEPData
   legacyURL: ppg207_data.html
 
 - title: 'Measurements of Multiparticle Correlations in d+Au Collisions at 200, 62.4, 39, and 19.6 GeV and p+Au Collisions at 200 GeV and Implications for Collective Behavior'
@@ -70,12 +86,12 @@
 
 - title: 'Nonperturbative Transverse Momentum Evolution Effects in Dihadron and Direct Photon Hadron Angular Correlations at √s=510GeV'
   inspire: 1486678
-  data: legacy
+  data: legacy_migrated # to HEPData
   legacyURL: ppg195_data.html
 
 - title: 'Systematic study of charged-pion and kaon femtoscopy in Au+Au collisions at ​​√s<sub>NN</sub>=200GeV'
   inspire: 1362210
-  data: legacy
+  data: legacy_migrated # to HEPData
   legacyURL: ppg194_data.html
 
 - title: 'Measurements of directed, elliptic, and triangular flow in Cu+Au collisions at ​​√s<sub>NN</sub>=200GeV'
@@ -85,7 +101,7 @@
 
 - title: 'Centrality dependence of low-momentum direct-photon production in Au+Au collisions at ​​√s<sub>NN</sub>=200GeV'
   inspire: 1296308
-  data: legacy
+  data: legacy_migrated # to HEPData
   legacyURL: ppg162_data.html
 
 
@@ -97,7 +113,7 @@
 
 - title: 'Evolution of π<sup>0</sup> suppression in Au+Au collisions from ​​√s<sub>NN</sub>=39 to 200GeV'
   inspire: 1107625
-  data: legacy
+  data: legacy_migrated # to HEPData
   legacyURL: ppg138_data.html
 
 - title: 'Systematic study of azimuthal anisotropy in Cu+Cu and Au+Au collisions at √s<sub>NN</sub>=62.4 and 200 GeV'
