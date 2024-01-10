@@ -31,6 +31,10 @@
   email: stefan.bathe@baruch.cuny.edu
   inst: Baruch College, CUNY, USA 
 
+- name: Rehman,Bayal
+  email: mrehman2@gsu.edu
+  inst: Georgia State University, Atlanta, Georgia 30303, USA
+
 - name: Bazilevsky,Alexander
   email: shura@bnl.gov
   inst: Physics Department, Brookhaven National Laboratory, Upton, New York 11973-5000, USA
@@ -327,6 +331,10 @@
   email: rachid.nouicer@bnl.gov
   inst: Physics Department, Brookhaven National Laboratory, Upton, New York 11973-5000, USA
 
+- name: Novák,Tamás 
+  email: novakt1616@gmail.com
+  inst: MATE, Karoly Robert Campus, Gyöngyös, Hungary
+
 - name: Nukazuka,Genki
   email: genki.nukazuka@riken.jp
   inst: RIKEN Nishina Center for Accelerator-Based Science, Wako, Saitama 351-0198, Japan
@@ -398,7 +406,6 @@
   email: marziarosati@gmail.com
   inst: Iowa State University, Ames, Iowa 50011, USA
 
-
 - name: Rowan,Zachary
   email: zfxrowan@gmail.com
   inst: Baruch College, CUNY, USA
@@ -426,6 +433,10 @@
 - name: Seidl,Ralf
   email: rseidl@rcf.rhic.bnl.gov
   inst: RIKEN Nishina Center for Accelerator-Based Science, Wako, Saitama 351-0198, Japan
+
+- name: Selezenev,Artem
+  email: adselezenev@gmail.com
+  inst: Saint Petersburg State Polytechnic University, St.Petersburg, 195251
 
 - name: Seto,Richard
   email: richard.seto@ucr.edu
