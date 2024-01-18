@@ -107,7 +107,7 @@
 
 - title: 'Azimuthal-angle dependence of charged-pion-interferometry measurements with respect to second- and third-order event planes in Au+Au collisions at ​​√s<sub>NN</sub>=200GeV'
   inspire: 1279634
-  data: legacy
+  data: legacy_migrated # to HEPData
   legacyURL: ppg149_data.html
 
 
@@ -123,5 +123,5 @@
 
 - title: 'Transverse momentum dependence of meson suppression η suppression in Au+Au collisions at ​​√s<sub>NN</sub>=200GeV'
   inspire: 856259
-  data: legacy
+  data: legacy_migrated # to HEPData
   legacyURL: ppg115_data.html
