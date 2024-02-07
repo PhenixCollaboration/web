@@ -1756,13 +1756,23 @@
     
 ### Analysis notes
 - name: ananote_template_final.pdf
-  title: The Analysis Note Template
+  title: The Analysis Note Template (PDF)
   tags: [ananote_template,]
   author: G.David
   venue: 
   type: document
   category: physics
   format: pdf
+  date: 
+
+- name: ananote_template_final.tex
+  title: The Analysis Note Template (TeX)
+  tags: [ananote_template,]
+  author: G.David
+  venue: 
+  type: document
+  category: physics
+  format: tex
   date: 
 
 
