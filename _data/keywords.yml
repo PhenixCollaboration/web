@@ -73,7 +73,7 @@
   category: conference
 
 - name : lomcon23
-  description: 'Lomonosov Conference (2023)'
+  description: 'Lomonosov Conference 2023'
   category: conference
 
 - name : ismd23
@@ -203,7 +203,7 @@
   category: conference
 
 - name : llwi22
-  description: Lake Louise Winter Institute (2022)
+  description: Lake Louise Winter Institute 2022
   category: conference
 
 # 2021
@@ -326,7 +326,7 @@
   category: conference
 
 - name : llwi19
-  description: Lake Louise Winter Institute (2019)
+  description: Lake Louise Winter Institute 2019
   category: conference
 
 - name : zs19
@@ -376,7 +376,7 @@
 # 2018
 
 - name : cpod18
-  description: Critical point and onset of deconfinement (2018)
+  description: Critical point and Onset of Deconfinement (2018)
   category: conference
 
 - name : wwnd18
@@ -461,7 +461,7 @@
   category: conference
 
 - name : llwi17
-  description: Lake Louise Winter Institute (2017)
+  description: Lake Louise Winter Institute 2017
   category: conference
 
 - name : sfjhf17
