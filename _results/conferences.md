@@ -2,6 +2,7 @@
 name: conferences
 layout: newbase
 years:
+- 2024
 - 2023
 - 2022
 - 2021

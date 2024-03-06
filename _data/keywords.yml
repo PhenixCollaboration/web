@@ -48,6 +48,12 @@
   category: general
 
 # Conferences
+# 2024
+- name : wwnd24
+  description: The 39th Winter Workshop on Nuclear Dynamics (2024)
+  category: conference
+
+
 # 2023
 
 - name : zs23
@@ -111,7 +117,7 @@
   category: conference
 
 - name : wwnd23
-  description: Winter Workshop on Nuclear Dynamics 2023
+  description: The 38th Winter Workshop on Nuclear Dynamics (2023)
   category: conference
 
 - name : llwi23
@@ -263,7 +269,7 @@
   category: conference
 
 - name : zs20
-  description: Zimányi School (2020)
+  description: Zimányi School 2020
   category: conference
 
 - name : iwhss20
@@ -324,7 +330,7 @@
   category: conference
 
 - name : zs19
-  description: Zimányi School (2019)
+  description: Zimányi School 2019
   category: conference
 
 - name : aum19
@@ -398,7 +404,7 @@
   category: conference
 
 - name : zs18
-  description: Zimányi School (2018)
+  description: Zimányi School 2018
   category: conference
 
 - name: hq18
@@ -492,7 +498,7 @@
   category: conference
 
 - name : zs16
-  description: Zimányi School (2016)
+  description: Zimányi School 2016
   category: conference
 
 - name : inpc16
