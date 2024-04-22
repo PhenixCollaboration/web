@@ -49,6 +49,11 @@
 
 # Conferences
 # 2024
+
+- name : moriond24
+  description: 'Rencontres de Moriond 2024'
+  category: conference
+
 - name : wwnd24
   description: The 39th Winter Workshop on Nuclear Dynamics (2024)
   category: conference

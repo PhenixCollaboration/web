@@ -1,5 +1,11 @@
 # 2024
 
+- name: moriond24
+  title: 'Rencontres de Moriond 2024'
+  url: 'https://moriond.in2p3.fr/2024/QCD/'
+  year: 2024
+
+
 - name: wwnd24
   title: 'The 39th Winter Workshop on Nuclear Dynamics (2024)'
   url: 'https://indico.cern.ch/event/1345629/'
