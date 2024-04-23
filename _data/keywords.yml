@@ -50,6 +50,10 @@
 # Conferences
 # 2024
 
+- name : dis24
+  description: Deep Inelastic Scattering (2024)
+  category: conference
+
 - name : moriond24
   description: 'Rencontres de Moriond 2024'
   category: conference

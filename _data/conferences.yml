@@ -1,10 +1,14 @@
 # 2024
 
+- name : dis24
+  title: Deep Inelastic Scattering (2024)
+  url: 'https://lpsc-indico.in2p3.fr/event/3268/'
+  year: 2024
+
 - name: moriond24
   title: 'Rencontres de Moriond 2024'
   url: 'https://moriond.in2p3.fr/2024/QCD/'
   year: 2024
-
 
 - name: wwnd24
   title: 'The 39th Winter Workshop on Nuclear Dynamics (2024)'
