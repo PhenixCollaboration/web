@@ -50,6 +50,15 @@
 # Conferences
 # 2024
 
+- name : acat24
+  description: ACAT 2024
+  category: conference
+
+
+- name : qwg24
+  description: 16th International Workshop on Heavy Quarkonium (2024)
+  category: conference
+
 - name : dis24
   description: Deep Inelastic Scattering (2024)
   category: conference

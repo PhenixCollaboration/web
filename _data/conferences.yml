@@ -1,5 +1,16 @@
 # 2024
 
+
+- name : acat24
+  title: ACAT2024
+  url: 'https://indico.cern.ch/event/1330797/'
+  year: 2024
+
+- name : qwg24
+  title: 16th International Workshop on Heavy Quarkonium (2024)
+  url: 'https://indico.cern.ch/event/1226860/'
+  year: 2024
+
 - name : dis24
   title: Deep Inelastic Scattering (2024)
   url: 'https://lpsc-indico.in2p3.fr/event/3268/'
