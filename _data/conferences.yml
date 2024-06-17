@@ -1,5 +1,19 @@
 # 2024
 
+- name: aum24
+  title: 'RHIC & AGS Annual Users Meeting (2024)'
+  url: 'https://indico.bnl.gov/event/22687/'
+  year: 2024
+
+- name : trans24
+  title: Transversity (2024)
+  url: 'https://agenda.infn.it/event/38132/'
+  year: 2024
+
+- name: sqm24
+  title: 'Strangeness in Quark Matter 2024'
+  url: 'https://indico.in2p3.fr/event/29792/'
+  year: 2024
 
 - name : acat24
   title: ACAT2024
@@ -180,7 +194,7 @@
   url: 'https://indico.bnl.gov/event/15479/'
   year: 2022
 
-- name : tphp22
+- name : trans22
   title: Transversity (2022)
   url: 'https://agenda.infn.it/event/19219/'
   year: 2022

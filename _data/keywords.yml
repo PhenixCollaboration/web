@@ -50,10 +50,21 @@
 # Conferences
 # 2024
 
+- name : aum24
+  description: 'RHIC & AGS Annual Users Meeting (2024)'
+  category: conference
+
+- name : trans24
+  description: 'Transversity 2024'
+  category: conference
+
+- name : sqm24 
+  description: Strangeness in Quark Matter 2022
+  category: conference
+
 - name : acat24
   description: ACAT 2024
   category: conference
-
 
 - name : qwg24
   description: 16th International Workshop on Heavy Quarkonium (2024)
@@ -196,7 +207,7 @@
   description: 'RHIC & AGS Annual Users Meeting (2022)'
   category: conference
 
-- name : tphp22
+- name : trans22
   description: 'Transversity 2022'
   category: conference
 
