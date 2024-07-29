@@ -1,5 +1,20 @@
 # 2024
 
+- name: ichep4
+  title: 'International Conference on High Energy Physics 2024'
+  url: 'https://indico.cern.ch/event/1291157/'
+  year: 2024
+
+- name: nucleus24
+  title: 'Nucleus (2024)'
+  url: 'https://indico.jinr.ru/event/4304/'
+  year: 2024
+
+- name: qnp24
+  title: 'Conf. on Quarks and Nuclear Physics (2024)'
+  url: 'https://indico.icc.ub.edu/event/180/overview'
+  year: 2024
+
 - name: aum24
   title: 'RHIC & AGS Annual Users Meeting (2024)'
   url: 'https://indico.bnl.gov/event/22687/'
@@ -583,7 +598,7 @@
   year: 2016
 
 - name: ichep16
-  title: 'International Symposium on Multiparticle Dynamics 2016'
+  title: 'International Conference on High Energy Physics 2016'
   url: 'https://inspirehep.net/conferences/1402552'
   year: 2016
 

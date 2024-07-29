@@ -50,6 +50,18 @@
 # Conferences
 # 2024
 
+- name : ichep24
+  description: 'International Conference on High Energy Physics (2024)'
+  category: conference
+
+- name : nucleus24
+  description: 'Nucleus (2024)'
+  category: conference
+
+- name : qnp24
+  description: 'Conf. on Quarks and Nuclear Physics (2024)'
+  category: conference
+
 - name : aum24
   description: 'RHIC & AGS Annual Users Meeting (2024)'
   category: conference
