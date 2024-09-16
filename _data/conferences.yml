@@ -1,6 +1,26 @@
 # 2024
 
-- name: ichep4
+- name: hp24
+  title: 'Hard Probes 2024'
+  url: 'https://indico.cern.ch/event/1339555/'
+  year: 2024
+
+- name: newtrends24
+  title: 'New Trends in High Energy and Low-x Physics (2024)'
+  url: 'https://indico.cern.ch/event/1353482/'
+  year: 2024
+
+- name: icnfp24
+  title: 'International Conference on New Frontiers in Physics (2024)'
+  url: 'https://indico.cern.ch/event/1307446/'
+  year: 2024
+
+- name: int24
+  title: 'INT Heavy Ion Physics in the EIC Era (2024)'
+  url: 'https://www.int.washington.edu/programs-and-workshops/24-2b'
+  year: 2024
+
+- name: ichep24
   title: 'International Conference on High Energy Physics 2024'
   url: 'https://indico.cern.ch/event/1291157/'
   year: 2024
@@ -93,7 +113,7 @@
   year: 2023
 
 - name: icnfp23
-  title: 'International Conference on New Frontiers in Physics 2023'
+  title: 'International Conference on New Frontiers in Physics (2023)'
   url: 'https://indico.cern.ch/event/1199102/'
   year: 2023
 
@@ -175,7 +195,7 @@
   year: 2022
 
 - name: icnfp22
-  title: 'International Conference on New Frontiers in Physics 2022'
+  title: 'International Conference on New Frontiers in Physics (2022)'
   url: 'https://indico.cern.ch/event/1133591/'
   year: 2022
 
@@ -242,7 +262,7 @@
 
 # 2021
 - name: icnfp21
-  title: 'International Conference on New Frontiers in Physics 2021'
+  title: 'International Conference on New Frontiers in Physics (2021)'
   url: 'https://indico.cern.ch/event/1025480/'
   year: 2021
 
@@ -389,7 +409,7 @@
   year: 2019
 
 - name: icnfp19
-  title: 'International Conference on New Frontiers in Physics 2019'
+  title: 'International Conference on New Frontiers in Physics (2019)'
   url: 'https://indico.cern.ch/event/754973/'
   year: 2019
 
@@ -466,7 +486,7 @@
   year: 2018
 
 - name: icnfp18
-  title: 'Int. Conference on New Frontiers in Physics 2018'
+  title: 'Int. Conference on New Frontiers in Physics (2018)'
   url: 'https://indico.cern.ch/event/663474/'
   year: 2018
 
@@ -608,7 +628,7 @@
   year: 2016
 
 - name: icnfp16
-  title: 'Int. Conference on New Frontiers in Physics 2016'
+  title: 'Int. Conference on New Frontiers in Physics (2016)'
   url: 'https://indico.cern.ch/event/442094/'
   year: 2016
 

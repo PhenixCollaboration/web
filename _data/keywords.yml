@@ -50,6 +50,22 @@
 # Conferences
 # 2024
 
+- name : hp24
+  description: Hard Probes 2024
+  category: conference
+
+- name : newtrends24
+  description: New Trends in High Energy and Low-x Physics (2024)
+  category: conference
+
+- name : icnfp24
+  description: International Conference on New Frontiers in Physics (2024)
+  category: conference
+
+- name : int24
+  description: 'INT Heavy Ion Physics in the EIC Era (2024)'
+  category: conference
+
 - name : ichep24
   description: 'International Conference on High Energy Physics (2024)'
   category: conference
@@ -126,7 +142,7 @@
   category: conference
 
 - name : icnfp23 
-  description: International Conference on New Frontiers in Physics 2023
+  description: International Conference on New Frontiers in Physics (2023)
   category: conference
 
 - name : iwhss23
@@ -192,7 +208,7 @@
   category: conference
 
 - name: icnfp22
-  description: 'International Conference on New Frontiers in Physics 2022'
+  description: 'International Conference on New Frontiers in Physics (2022)'
   category: conference
 
 - name : qnp22
@@ -249,7 +265,7 @@
 
 # 2021
 - name: icnfp21
-  description: 'International Conference on New Frontiers in Physics 2021'
+  description: 'International Conference on New Frontiers in Physics (2021)'
   category: conference
 
 - name: panic21
@@ -343,7 +359,7 @@
   category: conference
 
 - name : icnfp19
-  description: International Conference on New Frontiers in Physics 2019
+  description: International Conference on New Frontiers in Physics (2019)
   category: conference
 
 - name : ismd19
@@ -441,7 +457,7 @@
   category: conference
   
 - name: icnfp18
-  description: International Conference on New Frontiers in Physics 2018
+  description: International Conference on New Frontiers in Physics (2018)
   category: conference
 
 - name : zs18
@@ -559,7 +575,7 @@
   category: conference
 
 - name: icnfp16
-  description: International Conference on New Frontiers in Physics 2016
+  description: International Conference on New Frontiers in Physics (2016)
   category: conference
 
 - name : aum16
