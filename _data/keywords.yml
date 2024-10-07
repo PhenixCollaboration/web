@@ -50,8 +50,28 @@
 # Conferences
 # 2024
 
+- name : tdhep24
+  description: 'Triggering Discoveries in High Energy Physics (2024)'
+  category: conference
+
+- name : hfwinc24
+  description: 'Heavy Flavour Production in Nuclear Collisions (2024)'
+  category: conference
+
+- name : zs24
+  description: Zimanyi School 2024
+  category: conference
+
+- name : pic24
+  description: International Symposium on Physics in Collision 2024
+  category: conference
+
+- name : dphep24
+  description: DPHEP Collaboration Meeting (2024)
+  category: conference
+
 - name : hp24
-  description: Hard Probes 2024
+  description: Hard Probes (2024)
   category: conference
 
 - name : newtrends24
@@ -158,7 +178,7 @@
   category: conference
 
 - name : hp23
-  description: Hard Probes 2023
+  description: Hard Probes (2023)
   category: conference
 
 - name : dis23
@@ -346,7 +366,7 @@
   category: conference
 
 - name : hp20
-  description: Hard Probes 2020
+  description: Hard Probes (2020)
   category: conference
 
 # 2019
@@ -481,7 +501,7 @@
   category: conference
 
 - name : hp18
-  description: Hard Probes 2018
+  description: Hard Probes (2018)
   category: conference
 
 - name : qm18
@@ -547,7 +567,7 @@
   category: conference
 
 - name : hp16
-  description: Hard Probes 2016
+  description: Hard Probes (2016)
   category: conference
 
 - name : spin16

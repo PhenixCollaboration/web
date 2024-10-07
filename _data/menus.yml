@@ -84,7 +84,8 @@
 
     -
       name: legacy
-      full: Top Cited Publications and the Data Archive
+      full: Top Cited Publications
+#and the Data Archive
 
     -
       name: conferences

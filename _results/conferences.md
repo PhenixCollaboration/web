@@ -22,6 +22,9 @@ The tables below contain three columns:
 * PHENIX presentations committed to Zenodo (as a link to the relevant Zenodo query page)
 * The official list of PHENIX authors approved for this specific conference (optional)
 
+If a presentation link does not produce a result this is an indication that the upload
+of the materials is pending. Thank you for your patience!
+
 {{ site.hr }}
 
 {% for year in page.years %}
