@@ -20,11 +20,21 @@ layout: newbase
 
 ##### Top Cited Papers with HEPData entries
 
-The following list contains links to **InspireHEP** records containing DOIs and other information
-for select top cited PHENIX papers, with links to data packages published on the HEPData portal.
+The following table contains links to **InspireHEP** and **HEPData** records
+for select top cited PHENIX papers.
+<table width="80%">
+{%- for pub in  hepdata_items %}
+<tr>
+<td><b>{{ pub. title }}</b></td>
+<td><a href="{{ inspire }}{{ pub.inspire }}" target="_blank">InspireHEP</a></td>
+<td><a href="{{ hepdata }}{{ pub.inspire }}" target="_blank">HEPData</a></td>
+</tr>
+{%- endfor %}
+</table>
 
+
+{% comment %}
 {%- for pub in  hepdata_items %}
 * <a href="{{ inspire }}{{ pub.inspire }}" target="_blank">"{{ pub. title }}"</a>:&nbsp;<a href="{{ hepdata }}{{ pub.inspire }}" target="_blank">HEPData</a>
 {%- endfor %}
-
-
+{% endcomment %}
