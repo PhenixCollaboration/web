@@ -1,3 +1,97 @@
+#2025
+
+- name: athic25
+  title: '10th Asian Triangle Heavy-Ion Conference (2025)'
+  url: 'https://indico.cern.ch/event/1424442/'
+  year: 2025
+
+- name: aum25
+  title: 'RHIC & AGS Annual Users Meeting (2025)'
+  url: 'https://www.bnl.gov/rhicagsaum/'
+  year: 2025
+
+- name: baldin25
+  title: 'International Baldin Seminar on High-Energy Physics Problems (2025)'
+  url: 'https://indico.jinr.ru/event/5429/'
+  year: 2025
+
+- name: dis25
+  title: 'Deep-Inelastic Scattering (2025)'
+  url: 'https://indico.cern.ch/event/1436959/'
+  year: 2025
+
+- name: ghp25
+  title: 'APS Topical Group on Hadronic Physics (2025)'
+  url: 'https://indico.jlab.org/event/868/'
+  year: 2025
+
+- name: hepch25
+  title: 'High Energy Particle and Nuclear Physics in the LHC Era (2025)'
+  url: 'https://indico.global/event/8670/'
+  year: 2025
+
+- name: hotjets25
+  title: 'Hot Jets: High Temperature QCD with Jets (2025)'
+  url: 'https://indico.global/event/1374/'
+  year: 2025
+
+- name: hq25
+  title: 'Hot Quarks (2025)'
+  url: 'https://indico.cern.ch/event/1467925/'
+  year: 2025
+
+- name: icnfp25
+  title: 'International Conference on New Frontiers in Physics (2025)'
+  url: 'https://indico.cern.ch/event/1457095/'
+  year: 2025
+
+- name: inpc25
+  title: 'International Nuclear Physics Conference (2025)'
+  url: 'https://indico.ibs.re.kr/event/701/'
+  year: 2025
+
+- name: is25
+  title: 'Initial Stages (2025)'
+  url: 'https://indico.cern.ch/event/1479384/'
+  year: 2025
+
+- name: ismd25
+  title: 'International Symposium on Multiparticle Dynamics (2025)'
+  url: 'https://indico.cern.ch/event/1371434/'
+  year: 2025
+
+- name: moriond25
+  title: 'Rencontres de Moriond 2025: QCD and High Energy Interactions'
+  url: 'https://indico.cern.ch/event/1480248/'
+  year: 2025
+
+- name: newtrends25
+  title: 'New Trends in High-Energy Physics (2025)'
+  url: 'https://indico.cern.ch/event/1501140/'
+  year: 2025
+
+- name: qm25
+  title: 'Quark Matter (2025)'
+  url: 'https://indico.cern.ch/event/1334113/'
+  year: 2025
+
+- name: qwg25
+  title: 'Quarkonium Working Group Workshop (2025)'
+  url: 'https://indico.cern.ch/event/1539475/'
+  year: 2025
+
+- name: spin25
+  title: 'International Symposium on Spin Physics'
+  url: 'https://indico.ihep.ac.cn/event/22189/'
+  year: 2025
+
+- name: zs25
+  title: 'Zimanyi School 2025'
+  url: 'https://zimanyischool.kfki.hu/25/'
+  year: 2025
+
+
+
 # 2024
 
 - name: tdhep24
